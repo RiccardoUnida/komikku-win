@@ -1,0 +1,5482 @@
+# Sandor Odor <sandor@codingclouds.de>, 2020.
+# Liliana Prikler <liliana.prikler@gmail.com>, 2020-2023.
+# gregorni <gregorniehl@web.de>, 2023.
+# Liliana Marie Prikler <liliana.prikler@gmail.com>, 2023, 2026.
+# Tim <RC2225@users.noreply.github.com>, 2024.
+# Tim <rc2225@ghueder-schrott.com>, 2024, 2025, 2026.
+# Sear Gasor <tefffd@proton.me>, 2024.
+# Vortex Acherontic <vortex@z-ray.de>, 2024.
+# Dlurak <dlurak@proton.me>, 2025.
+# Valéry Febvre <vfebvre@easter-eggs.com>, 2025.
+# "Mirko P." <michoo@outlook.de>, 2025, 2026.
+# Simon Barth <simon.pe.barth@gmail.com>, 2025.
+# anon <anon0000000000@users.noreply.hosted.weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Komikku 0.19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 14:36+0100\n"
+"PO-Revision-Date: 2026-07-12 15:01+0000\n"
+"Last-Translator: \"Mirko P.\" <michoo@outlook.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/komikku/main/de/"
+">\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
+
+#: ../data/info.febvre.Komikku.desktop.in:2
+msgid "@prettyname@"
+msgstr "@prettyname@"
+
+#: ../data/info.febvre.Komikku.desktop.in:3
+msgid "@description@"
+msgstr "@description"
+
+#: ../data/info.febvre.Komikku.desktop.in:15
+msgid "manga;reader;viewer;comic;manhwa;manhua;webtoon;webcomic;scanlation;book;ebook;offline;GTK;GNOME;"
+msgstr "manga;leser;comic;manhwa;manhua;webtoon;webcomic;scanlation;übersetzung;buch;ebook;offline;GTK;GNOME;"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:11
+msgid "Discover and read manga & comics"
+msgstr "Entdecke und lese Manga und Comics"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:13
+msgid ""
+"With its simple, elegant and adaptive interface, this reader lets you "
+"search, sort and read your series with ease."
+msgstr ""
+"Mit seinem einfachen, eleganten und adaptiven Interface lässt dieser Reader "
+"sie ihre Serien einfach suchen, sortieren und lesen."
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:15
+msgid "Why you will love Komikku?"
+msgstr "Warum werden Sie Komikku lieben?"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:17
+msgid "Online and offline reading from dozens of servers"
+msgstr ""
+"Lesen von Manga aus dutzenden Quellen (mit und ohne Netzwerkverbindung durch "
+"lokale Zwischenspeicherung)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:18
+msgid ""
+"Support for locally stored series (in CBZ/CBR/CBT, EPUB and PDF formats)"
+msgstr ""
+"Unterstützung für lokal gespeicherte Comicserien (in den Formaten CBZ/CBR/"
+"CBT, EPUB und PDF)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:19
+msgid "RTL, LTR, Vertical and Webtoon reading modes"
+msgstr "Lesemodi: Rechts-nach-links, Links-nach-rechts, vertikal und Webtoon"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:20
+msgid "Double page view"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:21
+msgid ""
+"Support several types of navigation: keyboard arrow keys, right and left "
+"navigation layout via mouse click or tapping (touchpad/touch screen), mouse "
+"wheel, 2-fingers swipe gesture (touchpad), swipe gesture (touch screen)"
+msgstr ""
+"Verschiedene Navigationsmöglichkeiten mittels Pfeiltasten, Mausklicks oder "
+"Gesten"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:22
+msgid "Categories to organize your library"
+msgstr "Kategorien zur Bibliothekorganisation"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:24
+msgid "Automatic tracking of series with AniList, MangaUpdates and MyAnimeList"
+msgstr ""
+"Automatische Verfolgung von Serien mit AniList, MangaUpdates und MyAnimeList"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:25
+msgid "Automatic update of series"
+msgstr "Automatische Aktualisierung von Serien"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:26
+msgid "Automatic download of new chapters"
+msgstr "Automatisches Herunterladen neuer Kapitel"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:27
+msgid "Reading history"
+msgstr "Zuletzt gelesen"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:28
+msgid "Light and dark themes"
+msgstr "Helle und dunkle Farbschemen"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:33
+msgid "reader"
+msgstr "Leser"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:34
+msgid "viewer"
+msgstr "Leser"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:35
+#, fuzzy
+msgid "scanlation"
+msgstr "Scanlation"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:36
+msgid "comic"
+msgstr "Comic"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:37
+msgid "manga"
+msgstr "Manga"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:38
+msgid "manhwa"
+msgstr "Manhwa"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:39
+msgid "manhua"
+msgstr "Manhua"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:40
+msgid "webtoon"
+msgstr "Webtoon"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:41
+msgid "webcomic"
+msgstr "Webcomic"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:42
+msgid "book"
+msgstr "Buch"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:43
+msgid "ebook"
+msgstr "E-Book"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:44
+msgid "offline"
+msgstr "offline"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:64
+msgid "The Library page"
+msgstr "Die Bibliotheksseite"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:68
+msgid "The Library page with the category sidebar open"
+msgstr "Bibliothek mit offener Kategorieseitenleiste"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:72
+msgid "The Preferences page (General settings)"
+msgstr "Die Einstellungen-Seite (Allgemeine Einstellungen)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:76
+msgid "The Explorer page in mobile format (Servers list)"
+msgstr "Erkundungsseite im mobilen Format (Server Liste)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:80
+msgid "The Details page"
+msgstr "Die Detailseite"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:84
+msgid "The Details page (chapters list)"
+msgstr "Die Detailseite (Kapitelliste)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:88
+msgid "The Reader page"
+msgstr "Die Leseseite"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:92
+msgid "The Reader page in mobile format"
+msgstr "Die Leseseite im Mobilformat"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:96
+msgid "The Reader page with the OCR Translator in use"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:100
+msgid "The Category editor page in mobile format"
+msgstr "Kategorieeditor im mobilen Format"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:104
+msgid "The Reading history page in mobile format"
+msgstr "Lesehistorie im mobilen Format"
+
+#: ../data/ui/application_window.blp:56 ../data/ui/preferences.blp:450
+msgid "Got it!"
+msgstr "Verstanden!"
+
+#: ../data/ui/card.blp:47 ../data/ui/card.blp:418
+#: ../data/ui/card_chapters_list_row.blp:48 ../data/ui/download_manager.blp:26
+#: ../data/ui/library.blp:148 ../data/ui/reader.blp:41
+msgid "Menu"
+msgstr "Menü"
+
+#: ../data/ui/card.blp:68
+msgid "Info"
+msgstr "Info"
+
+#: ../data/ui/card.blp:148
+msgid "Add to Library"
+msgstr "Zur Bibliothek hinzufügen"
+
+#: ../data/ui/card.blp:252
+msgid "Scanlators"
+msgstr "Übersetzer"
+
+#: ../data/ui/card.blp:308
+msgid "Last Update"
+msgstr "Letzte Aktualisierung"
+
+#: ../data/ui/card.blp:336
+msgid "Size on Disk"
+msgstr "Speicherverbrauch"
+
+#: ../data/ui/card.blp:455 ../data/ui/categories_editor.blp:67
+#: ../data/ui/library.blp:251
+msgid "No Categories"
+msgstr "Keine Kategorien"
+
+#: ../data/ui/card_tracking.blp:9 ../data/ui/preferences.blp:110
+msgid "Tracking"
+msgstr "Tracking"
+
+#: ../data/ui/card_tracking_search.blp:10 ../data/ui/explorer_search.blp:10
+#: ../data/ui/explorer_search.blp:43 ../data/ui/history.blp:22
+#: ../data/ui/library.blp:45
+msgid "Search"
+msgstr "Suche"
+
+#: ../data/ui/card_tracking_search.blp:75
+msgid "Search for Tracking"
+msgstr "Suche nach Fortschrittsspeicherung"
+
+#: ../data/ui/categories_editor.blp:36
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: ../data/ui/download_manager.blp:10 ../data/ui/download_manager.blp:20
+msgid "Download Manager"
+msgstr "Download Manager"
+
+#: ../data/ui/download_manager.blp:32
+msgid "Start/Stop Download"
+msgstr "Download starten/anhalten"
+
+#: ../data/ui/download_manager.blp:67
+msgid "No Downloads"
+msgstr "Keine Downloads"
+
+#: ../data/ui/explorer_search.blp:28
+msgid "Search Filters"
+msgstr "Suchfilter"
+
+#: ../data/ui/explorer_search.blp:34
+msgid "Open in Browser"
+msgstr "Im Browser öffnen"
+
+#: ../data/ui/explorer_search.blp:147
+msgid "Most Popular"
+msgstr "Beliebteste"
+
+#: ../data/ui/explorer_search.blp:214
+msgid "Latest Updates"
+msgstr "Zuletzt aktualisiert"
+
+#: ../data/ui/explorer_servers.blp:10 ../data/ui/preferences.blp:221
+#: ../data/ui/preferences.blp:498
+msgid "Servers"
+msgstr "Servers"
+
+#: ../data/ui/explorer_servers.blp:17
+msgid "Search Comics Across All Servers"
+msgstr "Suche Comics über alle Server"
+
+#: ../data/ui/explorer_servers.blp:23
+msgid "Search Servers"
+msgstr "Suche Server"
+
+#: ../data/ui/explorer_servers.blp:37
+msgid "Search for servers by name or language"
+msgstr "Suche Server basierend auf Name/Sprache"
+
+# Both "history" and "story" translate to the German "Geschichte", so the reverse would be unclear.
+#: ../data/ui/history.blp:10 ../data/ui/history.blp:16
+msgid "History"
+msgstr "Zuletzt gelesen"
+
+#: ../data/ui/history.blp:71
+msgid "No History"
+msgstr "Keine Historie"
+
+#: ../data/ui/library.blp:10 ../data/ui/preferences.blp:120
+msgid "Library"
+msgstr "Bibliothek"
+
+#: ../data/ui/library.blp:23
+msgid "Toggle Categories Sidebar"
+msgstr "Kategorieseitenleiste wechseln"
+
+#: ../data/ui/library.blp:39
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: ../data/ui/library.blp:79
+msgid "Search by name, server or genre"
+msgstr "Suche basierend auf Name, Server oder Genre"
+
+#: ../data/ui/library.blp:113
+msgctxt "Library: verb"
+msgid "Update"
+msgstr ""
+
+#: ../data/ui/library.blp:202
+msgid "Discover Comics"
+msgstr "Comics entdecken"
+
+#: ../data/ui/library.blp:273
+msgid "OK"
+msgstr "Okay"
+
+#: ../data/ui/menu/card.xml:16
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: ../data/ui/menu/card.xml:34
+msgid "Order of Chapters"
+msgstr "Kapitelsortierung"
+
+#: ../data/ui/menu/card.xml:39
+msgid "⬆ By Source"
+msgstr "Nach Quelle ⬆"
+
+#: ../data/ui/menu/card.xml:44
+msgid "⬇ By Source"
+msgstr "Nach Quelle ⬇"
+
+#: ../data/ui/menu/card.xml:50
+msgid "⬆ By Date"
+msgstr "Nach Datum ⬆"
+
+#: ../data/ui/menu/card.xml:55
+msgid "⬇ By Date"
+msgstr "Nach Datum ⬇"
+
+#: ../data/ui/menu/card.xml:61
+msgid "⬆ By Title"
+msgstr "Nach Titel ⬆"
+
+#: ../data/ui/menu/card.xml:66
+msgid "⬇ By Title"
+msgstr "Nach Titel ⬇"
+
+#: ../data/ui/menu/card_selection_mode.xml:23
+#: ../data/ui/menu/library_selection_mode.xml:30
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: ../data/ui/menu/download_manager.xml:12
+msgid "Delete All"
+msgstr "Alle löschen"
+
+#: ../data/ui/menu/explorer_search_global_search.xml:12
+msgid "Pinned Servers Only"
+msgstr "Nur angepinnte Server"
+
+#: ../data/ui/menu/library_selection_mode.xml:12
+msgid "Edit Categories"
+msgstr "Kategorien bearbeiten"
+
+#: ../data/ui/menu/main.xml:12
+msgid "Update Library"
+msgstr "Bibliothek aktualisieren"
+
+#: ../data/ui/menu/main.xml:16
+msgid "Sort"
+msgstr "Sortieren"
+
+#: ../data/ui/menu/main.xml:21
+msgid "Alphabetical"
+msgstr "Alphabetisch"
+
+#: ../data/ui/menu/main.xml:26
+msgid "Latest Read First"
+msgstr "Zuletzt gelesene zu erst"
+
+#: ../data/ui/menu/main.xml:31
+msgid "Latest Updated First"
+msgstr "Zuletzt aktualisierte zu erst"
+
+#: ../data/ui/menu/main.xml:60
+msgid "Keyboard Shortcuts"
+msgstr "Tastenkürzel"
+
+#: ../data/ui/menu/main.xml:68
+msgid "About Komikku"
+msgstr "Über Komikku"
+
+#: ../data/ui/menu/reader.xml:54
+msgid "Save Page"
+msgstr "Seite speichern"
+
+#: ../data/ui/preferences.blp:9 ../data/ui/preferences_servers_languages.blp:16
+#: ../data/ui/preferences_servers_settings.blp:16
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: ../data/ui/preferences.blp:14 ../data/ui/reader_settings.blp:64
+msgid "General"
+msgstr "Allgemein"
+
+#: ../data/ui/preferences.blp:24
+msgid "Support Komikku"
+msgstr "Unterstütze Komikku"
+
+#: ../data/ui/preferences.blp:30
+msgid ""
+"Komikku is a free and open-source, and always will be. If you like it, "
+"backing me through donating would be great. This will not only help me "
+"maintain it, but also continue my work as a free software developer in "
+"general."
+msgstr ""
+"Komikku ist frei – sowohl gratis als auch quelloffen – und wird auch immer "
+"frei bleiben. Wenn es dir gefällt, würde ich mich über eine Spende sehr "
+"freuen. Diese wird mir nicht nur bei der Pflege des Projekts helfen, sondern "
+"ermöglicht mir auch, meine Arbeit als Entwickler freier Software insgesamt "
+"fortzusetzen."
+
+#: ../data/ui/preferences.blp:59
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: ../data/ui/preferences.blp:62
+msgid "Theme"
+msgstr "Thema"
+
+#: ../data/ui/preferences.blp:65
+msgid "Light"
+msgstr "Hell"
+
+#: ../data/ui/preferences.blp:66
+msgid "Dark"
+msgstr "Dunkel"
+
+#: ../data/ui/preferences.blp:67
+msgid "Follow System"
+msgstr "Systemeinstellung folgen"
+
+#: ../data/ui/preferences.blp:73
+msgid "Night Light"
+msgstr "Nachtlicht"
+
+#: ../data/ui/preferences.blp:74
+msgid "Automatically enable dark theme at night"
+msgstr "Aktiviert nachts automatisch das dunkle Farbschema"
+
+#: ../data/ui/preferences.blp:79
+msgid "Use system accent colors"
+msgstr "System Akzentfarbe verwenden"
+
+#: ../data/ui/preferences.blp:83
+msgid "Progress Bars Theme"
+msgstr "Fortschrittsbalken Design"
+
+#: ../data/ui/preferences.blp:84
+msgid "Theme to use for progress bars"
+msgstr "Design für Fortschrittsbalken nutzen"
+
+#: ../data/ui/preferences.blp:88
+msgid "Backdrop in Details Page"
+msgstr "Hintergrund in der Detailseite"
+
+#: ../data/ui/preferences.blp:89
+msgid "Method used to recolor background to match cover"
+msgstr "Methode zur Anpassung der Hintergrundfarbe an das Cover"
+
+#: ../data/ui/preferences.blp:93
+msgid "Linear gradient"
+msgstr "Linearer Farbverlauf"
+
+#: ../data/ui/preferences.blp:94
+msgid "Blurred cover"
+msgstr "Unscharfes Cover"
+
+#: ../data/ui/preferences.blp:104
+msgid "Desktop Notifications"
+msgstr "Desktop-Benachrichtigungen"
+
+#: ../data/ui/preferences.blp:105
+msgid "Use desktop notifications for downloads and library updates"
+msgstr "Nutzt Desktop-Benachrichtigungen für Downloads und Bibliothekupdates"
+
+#: ../data/ui/preferences.blp:113
+msgid "Synchronize reading progress"
+msgstr "Lesefortschritt synchronisieren"
+
+#: ../data/ui/preferences.blp:124
+msgid "Display"
+msgstr "Anzeige"
+
+#: ../data/ui/preferences.blp:127
+msgid "Display Mode"
+msgstr "Anzeigemodus"
+
+#: ../data/ui/preferences.blp:130
+msgid "Grid"
+msgstr "Gitter"
+
+#: ../data/ui/preferences.blp:131
+msgid "Compact Grid"
+msgstr "Kompaktes Gitter"
+
+#: ../data/ui/preferences.blp:137
+msgid "Servers Logo"
+msgstr "Server-Logo"
+
+#: ../data/ui/preferences.blp:138
+msgid "Display servers logo"
+msgstr "Zeige das Logo des Servers"
+
+#: ../data/ui/preferences.blp:142
+msgid "Badges"
+msgstr "Embleme"
+
+#: ../data/ui/preferences.blp:145
+msgid "Number of Unread Chapters"
+msgstr "Anzahl ungelesener Kapitel"
+
+#: ../data/ui/preferences.blp:165
+msgid "Number of Downloaded Chapters"
+msgstr "Anzahl heruntergeladener Kapitel"
+
+#: ../data/ui/preferences.blp:185
+msgid "Number of Recent and Unread Chapters"
+msgstr "Anzahl neuer und ungelesener Kapitel"
+
+#: ../data/ui/preferences.blp:207
+msgctxt "Settings: noun"
+msgid "Update"
+msgstr ""
+
+#: ../data/ui/preferences.blp:210
+msgid "Update at Startup"
+msgstr "Beim Start aktualisieren"
+
+#: ../data/ui/preferences.blp:211
+msgid "Automatically update library at startup"
+msgstr "Aktualisiert die Bibliothek bei Programmstart"
+
+#: ../data/ui/preferences.blp:215
+msgid "Auto Download of New Chapters"
+msgstr "Automatischer Download von neuen Kapiteln"
+
+#: ../data/ui/preferences.blp:216
+msgid "Automatically download new chapters"
+msgstr "Lädt neue Kapitel automatisch herunter"
+
+#: ../data/ui/preferences.blp:224
+msgid "Languages"
+msgstr "Sprachen"
+
+#: ../data/ui/preferences.blp:225
+msgid "Restrict servers to selected languages"
+msgstr "Schränkt die verfügbaren Server nach Sprachen ein"
+
+#: ../data/ui/preferences.blp:233
+msgid "Settings"
+msgstr "Einstellung"
+
+#: ../data/ui/preferences.blp:234
+msgid "Enable/disable and configure servers"
+msgstr "Server auswählen/abwählen und konfigurieren"
+
+#: ../data/ui/preferences.blp:242
+msgid "Long Strip Detection"
+msgstr "Long-Strip-Erkennung"
+
+#: ../data/ui/preferences.blp:243
+msgid "Automatically detect long vertical strip when possible"
+msgstr "Erkennt lange, vertikale Strips automatisch"
+
+#: ../data/ui/preferences.blp:249
+msgid "NSFW Content (18+)"
+msgstr "Unpassende Inhalte (18+)"
+
+#: ../data/ui/preferences.blp:250
+msgid "Whether to enable servers with NSFW content"
+msgstr ""
+"Ob Server, die möglicherweise unpassenden Inhalten enthalten können, "
+"aktiviert werden sollen"
+
+#: ../data/ui/preferences.blp:254
+msgid "NSFW Only Content (18+)"
+msgstr "Fokus auf unpassende Inhalte (18+)"
+
+#: ../data/ui/preferences.blp:255
+msgid "Whether to enable servers with NSFW only content"
+msgstr ""
+"Ob Server mit speziellem Fokus auf möglicherweise unpassende (z.B. "
+"pornographische) Inhalte aktiviert werden sollen"
+
+#: ../data/ui/preferences.blp:259
+msgid ""
+"These settings do not prevent potentially incorrectly flagged servers from "
+"surfacing NSFW content."
+msgstr ""
+"Diese Einstellungen verhindern nicht, dass möglicherweise falsch markierte "
+"Server unpassende Inhalte ausspielen."
+
+#: ../data/ui/preferences.blp:274 ../data/ui/reader.blp:10
+msgid "Reader"
+msgstr "Leser"
+
+#: ../data/ui/preferences.blp:279
+msgid "Reading Mode"
+msgstr "Lesemodus"
+
+#: ../data/ui/preferences.blp:282
+msgid "⬅ Right to Left"
+msgstr "Rechts nach Links ⬅"
+
+#: ../data/ui/preferences.blp:283
+msgid "➡ Left to Right"
+msgstr "Links nach Rechts ➡"
+
+#: ../data/ui/preferences.blp:284
+msgid "⬇ Vertical"
+msgstr "Vertikal ⬇"
+
+#: ../data/ui/preferences.blp:285
+msgid "⬇ Webtoon"
+msgstr "Webtoon ⬇"
+
+#: ../data/ui/preferences.blp:291
+msgid "Double Page"
+msgstr ""
+
+#: ../data/ui/preferences.blp:292
+msgid "Use two pages side by side view"
+msgstr ""
+
+#: ../data/ui/preferences.blp:296 ../data/ui/reader_settings.blp:25
+msgid "Scaling Filter"
+msgstr "Skalierungsfilter"
+
+#: ../data/ui/preferences.blp:297
+msgid "Interpolation method used when scaling images"
+msgstr "Inerpolationsmodus zum skalieren von Bildern"
+
+#: ../data/ui/preferences.blp:307 ../data/ui/reader_settings.blp:29
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: ../data/ui/preferences.blp:319
+msgid "Page Numbering"
+msgstr "Seitennummerierung"
+
+#: ../data/ui/preferences.blp:320 ../data/ui/reader_settings.blp:49
+msgid "Hide the page numbering at the bottom of the screen while reading"
+msgstr "Verstecke die Nummerierung von Seiten während des Lesens"
+
+#: ../data/ui/preferences.blp:324
+msgid "Fullscreen"
+msgstr "Vollbild"
+
+#: ../data/ui/preferences.blp:325
+msgid "Automatically enter fullscreen mode"
+msgstr "Wechselt automatisch in den Vollbildmodus"
+
+#: ../data/ui/preferences.blp:330 ../data/ui/shortcuts.blp:80
+#: ../data/ui/shortcuts.blp:86 ../data/ui/shortcuts.blp:92
+msgid "Paged Reading Modes"
+msgstr "Seitenweise Lesemodi"
+
+#: ../data/ui/preferences.blp:331
+msgid "Right to Left / Left to Right / Vertical"
+msgstr "Von rechts nach links / Von links nach rechts / Vertikal"
+
+#: ../data/ui/preferences.blp:334 ../data/ui/reader_settings.blp:21
+msgid "Scaling"
+msgstr "Skalierung"
+
+#: ../data/ui/preferences.blp:335
+msgid "Type of scaling to adapt image"
+msgstr "Art der Skalierung, um das Bild anzupassen"
+
+#: ../data/ui/preferences.blp:347
+msgid "Landscape Pages Zoom"
+msgstr "Breite Seiten vergrößern"
+
+#: ../data/ui/preferences.blp:348 ../data/ui/reader_settings.blp:34
+msgid ""
+"Zoom page to fit height when page is landscape (Adapt to Screen scaling only)"
+msgstr "Bei adaptiver Skalierung breite Seiten an die Höhe anpassen"
+
+#: ../data/ui/preferences.blp:352
+msgid "Borders Crop"
+msgstr "Ränder entfernen"
+
+#: ../data/ui/preferences.blp:353
+msgid ""
+"Crop white borders of images\n"
+"\n"
+"NOTE: Requires more CPU usage and can cause rendering and animation "
+"slowdowns, especially on mobile devices."
+msgstr ""
+"Weiße Ränder entfernen\n"
+"\n"
+"Achtung: Diese Option erhöht die Nutzung der CPU und kann zu langsamen "
+"Animationen, insbesondere bei mobilen Geräten, führen."
+
+#: ../data/ui/preferences.blp:357 ../data/ui/reader_settings.blp:43
+msgid "Borders Cropping Threshold"
+msgstr ""
+
+#: ../data/ui/preferences.blp:358 ../data/ui/reader_settings.blp:44
+msgid "Control which pixels are classified as 'white' during borders detection"
+msgstr ""
+
+#: ../data/ui/preferences.blp:363 ../data/ui/shortcuts.blp:98
+#: ../data/ui/shortcuts.blp:104
+msgid "Webtoon Reading Mode"
+msgstr "Webtoon-Lesemodus"
+
+#: ../data/ui/preferences.blp:364
+msgid "Long Strip aka Infinite Vertical Canvas"
+msgstr "Langer Streifen, auch bekannt als \"Infinite Vertical Canvas\""
+
+#: ../data/ui/preferences.blp:369
+msgid "Reset to Default"
+msgstr "Auf Standard zurücksetzen"
+
+#: ../data/ui/preferences.blp:377
+msgid "Maximum Width"
+msgstr "Maximale Breite"
+
+#: ../data/ui/preferences.blp:378
+msgid "Constrain reader's width to a given maximum size"
+msgstr "Die Breite des Readers auf eine bestimmte maximale Größe beschränken"
+
+#: ../data/ui/preferences.blp:388
+msgid "Scroll Distance"
+msgstr "Bildlaufstrecke"
+
+#: ../data/ui/preferences.blp:389
+msgid "Percentage of page height to scroll on click or Page Up/Down"
+msgstr ""
+"Prozentualer Anteil der Seitenhöhe, der beim Klicken oder bei Verwendung der "
+"Tasten „Bild auf“/„Bild ab“ gescrollt wird"
+
+#: ../data/ui/preferences.blp:400
+msgid "Drag Sensitivity"
+msgstr "Ziehempfindlichkeit"
+
+#: ../data/ui/preferences.blp:401
+msgid "Multiplier for drag scrolling sensitivity"
+msgstr "Multiplikator für die Empfindlichkeit beim Scrollen durch Ziehen"
+
+#: ../data/ui/preferences.blp:413 ../data/ui/reader_settings.blp:54
+msgid "OCR Translator"
+msgstr ""
+
+#: ../data/ui/preferences.blp:416 ../data/ui/reader_settings.blp:57
+msgid "OCR Language"
+msgstr ""
+
+#: ../data/ui/preferences.blp:417
+msgid "Default language to use for OCR text recognitions"
+msgstr ""
+
+#: ../data/ui/preferences.blp:421
+msgid "Translator"
+msgstr ""
+
+#: ../data/ui/preferences.blp:422
+msgid "Service to use for translations"
+msgstr ""
+
+#: ../data/ui/preferences.blp:433
+msgid "Edit Translator Settings"
+msgstr ""
+
+#: ../data/ui/preferences.blp:445
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: ../data/ui/preferences.blp:449
+msgid "A setting has changed that requires a restart to take effect"
+msgstr ""
+"Eine Einstellung wurde geändert, die einen Neustart erfordert, um wirksam zu "
+"werden"
+
+#: ../data/ui/preferences.blp:455
+msgid "Data"
+msgstr "Daten"
+
+#: ../data/ui/preferences.blp:456
+msgid "Data not saved in the library"
+msgstr "Daten nicht in der Bibliothek gespeichert"
+
+#: ../data/ui/preferences.blp:459
+msgid "Clear Chapters Cache and Database"
+msgstr "Kapitelzwischenspeicher und Datenbank leeren"
+
+#: ../data/ui/preferences.blp:474
+msgid "Clear Chapters Cache and Database on Exit"
+msgstr "Kapitelzwischenspeicher und Datenbank beim beenden leeren"
+
+#: ../data/ui/preferences.blp:479 ../data/ui/webview.blp:10
+msgid "WebView"
+msgstr "Webansicht"
+
+#: ../data/ui/preferences.blp:482
+msgid "Clear Data"
+msgstr "Daten löschen"
+
+#: ../data/ui/preferences.blp:501
+msgid "Use Up-to-date Servers Modules"
+msgstr "Aktuelle Servermodule verwenden"
+
+#: ../data/ui/preferences.blp:502
+msgid ""
+"An alternative version of the servers modules, installed from the source "
+"code repository and updated at each startup, is used instead of the one "
+"delivered with the application."
+msgstr ""
+"Eine alternative Version des Servermoduls, anstelle des von der Anwendung "
+"bereit gestellten, wird verwendet. Dieses wurde vom Quelldepot installiert "
+"und wird bei jedem Programmstart automatisch aktualisiert."
+
+#: ../data/ui/preferences.blp:506
+msgid "Suggest Submitting a Bug Report in Case of Error"
+msgstr "Im Falle eines Fehlers empfehlen wir, einen Fehlerbericht einzureichen"
+
+#: ../data/ui/preferences.blp:507
+msgid ""
+"If an error occurs with a server (it has been updated or an unexpected case "
+"has arisen), you will be prompted to create a bug report using a pre-"
+"formatted text to copy/paste."
+msgstr ""
+"Sollte bei einem Server ein Fehler auftreten (er wurde aktualisiert oder es "
+"ist ein unerwarteter Fall eingetreten), werden Sie aufgefordert, einen "
+"Fehlerbericht zu erstellen, wobei Ihnen ein vorformatierter Text zum "
+"Kopieren und Einfügen zur Verfügung steht."
+
+#: ../data/ui/preferences.blp:512
+msgid "Credentials Storage"
+msgstr "Zugansdatenspeicher"
+
+#: ../data/ui/preferences.blp:515
+msgid "Allow Plaintext Storage as Fallback"
+msgstr "Klartextspeicherung als Rückfalloption erlauben"
+
+#: ../data/ui/preferences.blp:516
+msgid "Used when no keyring backends are found"
+msgstr "Wird genutzt, falls kein Schlüsselbund gefunden werden kann"
+
+#: ../data/ui/preferences.blp:521
+msgid "Tweaks"
+msgstr "Anpassungen"
+
+#: ../data/ui/preferences.blp:524
+msgid "Disable Animations"
+msgstr "Animationen unterbinden"
+
+#: ../data/ui/preferences.blp:525
+msgid ""
+"Useful with E Ink e-readers to avoid very choppy and unpleasant animations "
+"(due to the low refresh rate of the screen)"
+msgstr ""
+"Nützlich bei Bildschirmen mit niedriger Aktualisierungsfrequenz z.B. auf "
+"elektronischem Papier"
+
+#: ../data/ui/preferences.blp:529
+msgid ""
+"This tweak is only intended for users who do not use the GNOME desktop "
+"environment and therefore cannot toggle reduced motion animations globally "
+"via GNOME Settings (Accessibility ⇨ Seeing ⇨ Reduced Motion)."
+msgstr ""
+"Diese Anpassung ist ausschließlich für Benutzer gedacht, die die GNOME-"
+"Desktopumgebung nicht verwenden und daher die Animationen mit reduzierter "
+"Bewegung nicht global über die GNOME-Einstellungen (Barrierefreiheit ⇨ Sehen "
+"⇨ Reduzierte Bewegung) umschalten können."
+
+#: ../data/ui/preferences_server_params.blp:10
+#: ../data/ui/preferences_server_params.blp:16
+#: ../data/ui/preferences_servers_settings.blp:10
+#: ../data/ui/preferences_servers_settings.blp:17
+msgid "Servers Settings"
+msgstr "Servereinstellungen"
+
+#: ../data/ui/preferences_servers_languages.blp:10
+#: ../data/ui/preferences_servers_languages.blp:17
+msgid "Servers Languages"
+msgstr "Serversprachen"
+
+#: ../data/ui/preferences_translator_params.blp:10
+#: ../data/ui/preferences_translator_params.blp:16
+msgid "Translator Settings"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:22
+msgid "Service"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:27
+msgid "Instance URL"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:36
+msgid "API Key"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:56
+msgid "Validate"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:69
+msgid "Behavior"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:72
+msgid "Translator Language"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:73
+msgid "Default language to use as target language for translations"
+msgstr ""
+
+#: ../data/ui/reader.blp:27
+msgid "Back"
+msgstr "Zurück"
+
+#: ../data/ui/reader.blp:35
+msgid "Toggle Fullscreen Mode"
+msgstr "Vollbildmodus umschalten"
+
+#: ../data/ui/reader.blp:47
+msgid "Toggle OCR Translator"
+msgstr ""
+
+#: ../data/ui/reader.blp:104 ../data/ui/reader.blp:158
+msgid "Copy"
+msgstr ""
+
+#: ../data/ui/reader.blp:122
+msgid "Translate"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:9
+msgid "Reader Settings"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:14
+msgid "Custom"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:18
+msgid "Pages"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:33
+msgid "Zoom Landscape Pages"
+msgstr "Seiten im Querformat vergrößern"
+
+#: ../data/ui/reader_settings.blp:38
+msgid "Crop Borders"
+msgstr "Ränder entfernen"
+
+#: ../data/ui/reader_settings.blp:39
+msgid "Crop white borders of pages"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:48
+msgid "Hide Page Numbering"
+msgstr "Seitennummerierung verstecken"
+
+#: ../data/ui/shortcuts.blp:10
+msgctxt "Shortcut window description"
+msgid "Application"
+msgstr "Anwendung"
+
+#: ../data/ui/shortcuts.blp:13
+msgctxt "Shortcut window description"
+msgid "Open Preferences"
+msgstr "Einstellungen öffnen"
+
+#: ../data/ui/shortcuts.blp:18
+msgctxt "Shortcut window description"
+msgid "Open Keyboard Shortcuts"
+msgstr "Tastaturkurzbefehle öffnen"
+
+#: ../data/ui/shortcuts.blp:23
+msgctxt "Shortcut window description"
+msgid "Quit"
+msgstr "Beenden"
+
+#: ../data/ui/shortcuts.blp:29
+msgctxt "Shortcut window description"
+msgid "Explorer"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:32
+msgctxt "Shortcut window description"
+msgid "Search For Servers"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:38
+msgctxt "Shortcut window description"
+msgid "Library"
+msgstr "Bibliothek"
+
+#: ../data/ui/shortcuts.blp:41
+msgctxt "Shortcut window description"
+msgid "Add Manga"
+msgstr "Manga hinzufügen"
+
+#: ../data/ui/shortcuts.blp:46
+msgctxt "Shortcut window description"
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: ../data/ui/shortcuts.blp:51 ../data/ui/shortcuts.blp:160
+msgctxt "Shortcut window description"
+msgid "Search"
+msgstr "Suche"
+
+#: ../data/ui/shortcuts.blp:56
+msgctxt "Shortcut window description"
+msgid "Toggle Categories Pane"
+msgstr "Kategorienbereich ein-/ausblenden"
+
+#: ../data/ui/shortcuts.blp:61
+msgctxt "Shortcut window description"
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: ../data/ui/shortcuts.blp:67
+msgctxt "Shortcut window description"
+msgid "Manga Card"
+msgstr "Manga-Karte"
+
+#: ../data/ui/shortcuts.blp:70
+msgctxt "Shortcut window description"
+msgid "Select All Chapters"
+msgstr "Alle Kapitel auswählen"
+
+#: ../data/ui/shortcuts.blp:76
+msgctxt "Shortcut window description"
+msgid "Reader"
+msgstr "Leser"
+
+#: ../data/ui/shortcuts.blp:79
+msgctxt "Shortcut window description"
+msgid "Go to Next Page"
+msgstr "Zur nächsten Seite"
+
+#: ../data/ui/shortcuts.blp:85
+msgctxt "Shortcut window description"
+msgid "Go to Right Page"
+msgstr "Zur rechten Seite"
+
+#: ../data/ui/shortcuts.blp:91
+msgctxt "Shortcut window description"
+msgid "Go to Left Page"
+msgstr "Zur linken Seite"
+
+#: ../data/ui/shortcuts.blp:97
+msgctxt "Shortcut window description"
+msgid "Scroll Down"
+msgstr "Nach unten scrollen"
+
+#: ../data/ui/shortcuts.blp:103
+msgctxt "Shortcut window description"
+msgid "Scroll Up"
+msgstr "Nach oben scrollen"
+
+#: ../data/ui/shortcuts.blp:111
+msgctxt "Shortcut window description"
+msgid "Zoom In"
+msgstr "Vergrößern"
+
+#: ../data/ui/shortcuts.blp:116
+msgctxt "Shortcut window description"
+msgid "Zoom Out"
+msgstr "Verkleinern"
+
+#: ../data/ui/shortcuts.blp:121
+msgctxt "Shortcut window description"
+msgid "Zoom Reset"
+msgstr "Zoom zurücksetzen"
+
+#: ../data/ui/shortcuts.blp:128
+msgctxt "Shortcut window description"
+msgid "Toggle OCR Translator"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:135
+msgctxt "Shortcut window description"
+msgid "Toggle Fullscreen Mode"
+msgstr "Vollbildmodus umschalten"
+
+#: ../data/ui/shortcuts.blp:142
+msgctxt "Shortcut window description"
+msgid "Save Page"
+msgstr "Seite speichern"
+
+#: ../data/ui/shortcuts.blp:148
+msgctxt "Shortcut window description"
+msgid "Download Manager"
+msgstr "Download-Manager"
+
+#: ../data/ui/shortcuts.blp:151
+msgctxt "Shortcut window description"
+msgid "Select All Downloads"
+msgstr "Alle Downloads auswählen"
+
+#: ../data/ui/shortcuts.blp:157
+msgctxt "Shortcut window description"
+msgid "History"
+msgstr ""
+
+#: ../data/ui/support.blp:10 ../data/ui/support.blp:16
+msgid "Support Development"
+msgstr "Entwicklung unterstützen"
+
+#: ../data/ui/support.blp:48
+msgid "How can you support?"
+msgstr "Wie können Sie helfen?"
+
+#: ../data/ui/support.blp:56
+msgid ""
+"Developing and maintaining Komikku is a challenging task that takes up most "
+"of my free time."
+msgstr ""
+"Komikku entwickeln und pflegen ist eine schwierige Aufgabe, die am meisten "
+"meiner Freizeit in Anspruch nimmt."
+
+#: ../data/ui/support.blp:63
+msgid "Komikku will always be free and open-source and will never contain ads."
+msgstr ""
+"Komikku wird immer freie und Open-Source Software sein und nie Werbung "
+"enthalten."
+
+#: ../data/ui/support.blp:70
+msgid ""
+"So if you like it, and you are able, please consider a one-time or recurring "
+"donation to support me, it will be hugely appreciated."
+msgstr ""
+"Wenn Sie mögen und in der Lage sind, denken Sie bitte über eine einmalige "
+"oder wiederkehrende Spende nach um mich zu unterstützen. Dies würde mich "
+"sehr freuen."
+
+#: ../data/ui/support.blp:84
+msgid "Weekly, monthly or yearly donation"
+msgstr "Wöchentlich, monatlich oder jährliche Spende"
+
+#: ../data/ui/support.blp:90 ../data/ui/support.blp:106
+#: ../data/ui/support.blp:122 ../data/ui/support.blp:136
+msgid "Donate and Support"
+msgstr "Spenden und Unterstützen"
+
+#: ../data/ui/support.blp:100 ../data/ui/support.blp:132
+msgid "One-time donation"
+msgstr "Einmalige Spende"
+
+#: ../data/ui/support.blp:116
+msgid "One-time or monthly donation"
+msgstr "Einmalige oder monatliche Spende"
+
+#: ../data/ui/support.blp:144
+msgid "Copy to Clipboard"
+msgstr "In Zwischenablage kopieren"
+
+#: ../komikku/application.py:117
+msgid "Multiple URLs not supported"
+msgstr "Mehrere URLs nicht unterstützt"
+
+#: ../komikku/application.py:133
+#, python-brace-format
+msgid "Invalid URL {}, not handled by any server."
+msgstr "Ungültige URL {}, von keinem Server behandelt."
+
+#: ../komikku/application.py:441
+msgid "Servers modules have been updated"
+msgstr "Servermodule wurden aktualisiert"
+
+#: ../komikku/application.py:448
+msgid "External Servers Modules Update"
+msgstr "Externe Servermodule aktualisieren"
+
+#: ../komikku/application.py:449
+msgid ""
+"Updating of external server modules is temporarily suspended, as changes are "
+"currently making them incompatible with the current version of the "
+"application. Please update it if a more recent version exists."
+msgstr ""
+"Die Aktualisierung von externen Servermodulen ist derzeit deaktiviert. Durch "
+"neuste Änderungen in der aktuellen Version dieser Anwendung wurden diese "
+"inkompatibel. Bitte aktualisieren Sie die Anwendung falls eine neuere "
+"Version zur Verfügung steht."
+
+#: ../komikku/application.py:450 ../komikku/application.py:700
+#: ../komikku/explorer/common.py:322
+msgid "Close"
+msgstr "Schliessen"
+
+#: ../komikku/application.py:465
+msgid ""
+"A manga, webtoons and comics reader\n"
+"\n"
+"👉 Never forget, you can support the authors\n"
+"by buying the official comics when they are\n"
+"available in your region/language."
+msgstr ""
+"Ein Manga-, Webtoon- und Comic-Reader\n"
+"\n"
+"👉 Vergessen Sie nicht, dass Sie die Autoren unterstützen können,\n"
+"indem Sie die offiziellen Comics kaufen, sobald sie\n"
+"in Ihrer Region/Sprache erhältlich sind."
+
+#: ../komikku/application.py:474
+msgid "Supporters"
+msgstr "Unterstützer"
+
+#: ../komikku/application.py:476
+msgid "Join Chat"
+msgstr "Unterhaltung beitreten"
+
+#: ../komikku/application.py:569 ../komikku/card/__init__.py:163
+#: ../komikku/card/__init__.py:164 ../komikku/categories_editor.py:188
+#: ../komikku/downloader.py:388 ../komikku/downloader.py:389
+#: ../komikku/library/__init__.py:844 ../komikku/library/__init__.py:845
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../komikku/application.py:618
+msgid "Copy Text"
+msgstr "Text kopieren"
+
+#: ../komikku/application.py:626
+msgid "Context"
+msgstr "Kontext"
+
+#: ../komikku/application.py:646
+msgid "Stack Trace"
+msgstr "Stacktrace"
+
+#: ../komikku/application.py:675
+msgid "Debug Information"
+msgstr "Informationen zur Fehlerbehebung"
+
+#: ../komikku/application.py:695
+msgid "Server Error"
+msgstr "Server-Fehler"
+
+#: ../komikku/application.py:696
+msgid ""
+"You have encountered a problem with a server (it has been updated or an "
+"unexpected case has arisen). Here is a pre-formatted text that you can copy "
+"and paste when filling out the issue."
+msgstr ""
+"Es ist ein Problem mit einem Server aufgetreten (er wurde aktualisiert oder "
+"es ist ein unerwarteter Fall eingetreten). Hier finden Sie einen "
+"vorformatierten Text, den Sie beim Ausfüllen des Tickets kopieren und "
+"einfügen können."
+
+#: ../komikku/application.py:701
+msgid "Create an Issue"
+msgstr "Ticket erstellen"
+
+#: ../komikku/application.py:735
+msgid "Are you sure you want to quit?"
+msgstr "Wollen Sie wirklich beenden?"
+
+#: ../komikku/application.py:738
+msgid "Some chapters are currently being downloaded."
+msgstr "Einige Kapitel werden gerade heruntergeladen."
+
+#: ../komikku/application.py:740
+msgid "Some mangas are currently being updated."
+msgstr "Einige Manga werden gerade aktualisiert."
+
+#: ../komikku/application.py:744
+msgid "Quit?"
+msgstr "Beenden?"
+
+#: ../komikku/application.py:746
+msgid "Quit"
+msgstr "Beenden"
+
+#: ../komikku/application.py:761
+msgid "Restart?"
+msgstr "Neustart?"
+
+#: ../komikku/application.py:763
+msgid "Restart"
+msgstr "Neustart"
+
+#: ../komikku/card/__init__.py:110 ../komikku/card/__init__.py:258
+#: ../komikku/explorer/search/__init__.py:75
+#: ../komikku/explorer/search/__init__.py:220
+#: ../komikku/library/__init__.py:105 ../komikku/library/__init__.py:450
+msgid "Filters"
+msgstr "Filter"
+
+#: ../komikku/card/__init__.py:221 ../komikku/library/__init__.py:339
+#: ../komikku/preferences/__init__.py:170
+#: ../komikku/preferences/__init__.py:193
+msgid "Clear?"
+msgstr "Leeren?"
+
+#: ../komikku/card/__init__.py:222
+msgid "Are you sure you want to clear all chapters?"
+msgstr "Möchtest du wirklich alle Kapitel löschen?"
+
+#: ../komikku/card/__init__.py:223 ../komikku/card/chapters_list.py:724
+#: ../komikku/library/__init__.py:341 ../komikku/preferences/__init__.py:172
+#: ../komikku/preferences/__init__.py:195
+msgid "Clear"
+msgstr "Leeren"
+
+#: ../komikku/card/__init__.py:267
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: ../komikku/card/__init__.py:369
+msgid "Read progress synchronization with server completed successfully"
+msgstr "Lesefortschritt erfolgreich synchronisiert"
+
+#: ../komikku/card/__init__.py:375
+msgid "Failed to get manga URL"
+msgstr "Konnte Manga-URL nicht feststellen"
+
+#: ../komikku/card/__init__.py:399
+#, python-brace-format
+msgid ""
+"NOTICE\n"
+"{0} is no longer supported.\n"
+"Please switch to another server."
+msgstr ""
+"Hinweis\n"
+"{0} ist nicht länger unterstützt.\n"
+"Bitte wechseln Sie zu einem anderen Server."
+
+#: ../komikku/card/__init__.py:492 ../komikku/card/chapters_list.py:728
+msgid "Clear and Reset"
+msgstr "Zurücksetzen"
+
+#: ../komikku/card/__init__.py:492 ../komikku/card/chapters_list.py:728
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: ../komikku/card/chapters_list.py:336 ../komikku/downloader.py:533
+#: ../komikku/library/__init__.py:872
+#, python-brace-format
+msgid "{0} selected"
+msgid_plural "{0} selected"
+msgstr[0] "{0} ausgewählt"
+msgstr[1] "{0} ausgewählt"
+
+#: ../komikku/card/chapters_list.py:355
+msgid "No chapters found"
+msgstr "Es wurden keine Kapitel gefunden"
+
+#: ../komikku/card/chapters_list.py:418 ../komikku/card/chapters_list.py:517
+msgid "Failed to update chapters reading status"
+msgstr "Konnte Lesestatus der Kapitel nicht aktualisieren"
+
+#: ../komikku/card/chapters_list.py:656
+msgid "%m/%d/%Y"
+msgstr "%d.%m.%Y"
+
+#: ../komikku/card/chapters_list.py:714 ../komikku/library/__init__.py:432
+msgid "Download"
+msgstr "Download"
+
+#: ../komikku/card/chapters_list.py:738
+msgid "Mark as Read"
+msgstr "Als gelesen markieren"
+
+#: ../komikku/card/chapters_list.py:742
+msgid "Mark as Unread"
+msgstr "Als ungelesen markieren"
+
+#: ../komikku/card/chapters_list.py:746
+msgid "Mark Previous Chapters as Read"
+msgstr "Vorhergehende Kapitel als gelesen markiere"
+
+#: ../komikku/card/info_box.py:80
+msgid "Show Less"
+msgstr "Weniger anzeigen"
+
+#: ../komikku/card/info_box.py:80 ../komikku/card/info_box.py:178
+msgid "Show More"
+msgstr "Mehr anzeigen"
+
+#: ../komikku/card/info_box.py:110
+msgid "Unknown author"
+msgstr "Unbekannter Autor"
+
+#: ../komikku/card/info_box.py:117 ../komikku/card/info_box.py:124
+#: ../komikku/card/tracking.py:162
+msgid "Unknown status"
+msgstr "Unbekannter Status"
+
+#: ../komikku/card/info_box.py:124
+msgid "Local"
+msgstr "Lokal"
+
+#: ../komikku/card/info_box.py:165
+msgid "%m/%d/%Y %H:%M"
+msgstr "%d.%m.%Y %H:%M"
+
+#: ../komikku/card/info_box.py:183
+msgid "Donate"
+msgstr "Spenden"
+
+#: ../komikku/card/tracking.py:72
+msgid "Failed to get data from tracker"
+msgstr "Es konnten keine Daten vom Tracker abgerufen werden"
+
+#: ../komikku/card/tracking.py:100
+msgid "No tracking services available"
+msgstr "Keine Trackingdienste verfügbar"
+
+#: ../komikku/card/tracking.py:105
+msgid ""
+"The chapter numbers are unknown. Automatic synchronization of reading "
+"progress is not possible."
+msgstr ""
+
+#: ../komikku/card/tracking.py:195
+msgid "Track"
+msgstr "Track"
+
+#: ../komikku/card/tracking.py:221
+msgid "Use"
+msgstr "Benutzen"
+
+#: ../komikku/card/tracking.py:229
+msgid "Cancel Tracking"
+msgstr "Tracking abbrechen"
+
+#: ../komikku/card/tracking.py:235 ../komikku/servers/comick/__init__.py:77
+#: ../komikku/servers/comix/__init__.py:322
+#: ../komikku/servers/jmanga/__init__.py:46
+#: ../komikku/servers/mangaball/__init__.py:84
+#: ../komikku/servers/mangadex/__init__.py:72
+#: ../komikku/servers/mangak/__init__.py:91
+#: ../komikku/servers/mangakawaii/__init__.py:47
+#: ../komikku/servers/mangalivreblog/__init__.py:37
+#: ../komikku/servers/mangamana/__init__.py:62
+#: ../komikku/servers/mangamana/__init__.py:63
+#: ../komikku/servers/mangasorigines/__init__.py:44
+#: ../komikku/servers/mangatown/__init__.py:65
+#: ../komikku/servers/mangaworld/__init__.py:74
+#: ../komikku/servers/multi/madtheme/__init__.py:44
+#: ../komikku/servers/raijinscan/__init__.py:41
+#: ../komikku/servers/readcomicsonline/__init__.py:33
+#: ../komikku/servers/rncalation/__init__.py:52
+#: ../komikku/servers/skymangas/__init__.py:41
+#: ../komikku/servers/weebdex/__init__.py:61
+#: ../komikku/servers/zenko/__init__.py:57
+msgid "Status"
+msgstr "Status"
+
+#: ../komikku/card/tracking.py:244
+msgid "Score"
+msgstr "Punktzahl"
+
+#: ../komikku/card/tracking.py:249
+msgid "Chapter"
+msgstr "Kapitel"
+
+#: ../komikku/card/tracking.py:261 ../komikku/categories_editor.py:78
+#: ../komikku/library/__init__.py:406
+msgid "Delete?"
+msgstr "Löschen?"
+
+#: ../komikku/card/tracking.py:262
+msgid "Are you sure you want to cancel tracking?"
+msgstr "Wollen Sie das Tracking wirklich abbrechen?"
+
+#: ../komikku/card/tracking.py:263 ../komikku/categories_editor.py:80
+#: ../komikku/categories_editor.py:176 ../komikku/library/__init__.py:408
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../komikku/card/tracking.py:378 ../komikku/preferences/trackers.py:42
+msgid "Connection is expired"
+msgstr "Verbindung ist abgelaufen"
+
+#: ../komikku/card/tracking.py:466 ../komikku/explorer/search/__init__.py:378
+#, python-brace-format
+msgid "Search {}"
+msgstr "Suche in {}"
+
+#: ../komikku/card/tracking.py:528 ../komikku/explorer/search/search.py:83
+#: ../komikku/explorer/search/search_global.py:166
+msgid "Oops, search failed. Please try again."
+msgstr "Ups, Suche fehlgeschlagen. Bitte erneut versuchen."
+
+#: ../komikku/card/tracking.py:532 ../komikku/explorer/search/search.py:87
+msgid "No Results Found"
+msgstr "Keine Treffer"
+
+#: ../komikku/card/tracking.py:533 ../komikku/explorer/search/search.py:88
+msgid "Try a different search"
+msgstr "Probieren Sie einen anderen Suchbefehl"
+
+#: ../komikku/categories_editor.py:79
+#, python-brace-format
+msgid ""
+"Are you sure you want to delete\n"
+"\"{0}\" category?"
+msgstr ""
+"Sind Sie sicher, dass Sie die Kategorie\n"
+"\"{0}\" entfernen möchten?"
+
+#: ../komikku/categories_editor.py:182
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../komikku/categories_editor.py:195
+msgid "Save"
+msgstr "Speichern"
+
+#: ../komikku/consts.py:22
+msgid "Accent Color"
+msgstr "Akzentfarbe"
+
+#: ../komikku/consts.py:27
+msgid "Pride Colors"
+msgstr "Pride-Farben"
+
+#: ../komikku/consts.py:31
+msgid "Lesbian Pride Colors"
+msgstr "Lesbische Pride-Farben"
+
+#: ../komikku/consts.py:35
+msgid "Male Homosexual Pride Colors"
+msgstr "Schwule Pride-Farben"
+
+#: ../komikku/consts.py:39
+msgid "Transgender Pride Colors"
+msgstr "Transgender-Pride-Farben"
+
+#: ../komikku/consts.py:43
+msgid "Nonbinary Pride Colors"
+msgstr "Nichtbinäre Pride-Farben"
+
+#: ../komikku/consts.py:47
+msgid "Bisexual Pride Colors"
+msgstr "Bisexuelle Pride-Farbem"
+
+#: ../komikku/consts.py:51
+msgid "Asexual Pride Colors"
+msgstr "Asexuelle Pride-Farben"
+
+#: ../komikku/consts.py:55
+msgid "Pansexual Pride Colors"
+msgstr "Pansexuelle Pride-Farben"
+
+#: ../komikku/consts.py:59
+msgid "Aromantic Pride Colors"
+msgstr "Aromantische Pride-Farben"
+
+#: ../komikku/consts.py:63
+msgid "Genderfluid Pride Colors"
+msgstr "Genderfluide Pride-Farben"
+
+#: ../komikku/consts.py:67
+msgid "Polysexual Pride Colors"
+msgstr "Polysexuelle Pride-Farben"
+
+#: ../komikku/consts.py:71
+msgid "Omnisexual Pride Colors"
+msgstr "Omnisexuelle Pride-Farben"
+
+#: ../komikku/consts.py:75
+msgid "Aroace Pride Colors"
+msgstr "Aromantisch-asexuelle Pride-Farben"
+
+#: ../komikku/consts.py:79
+msgid "Agender Pride Colors"
+msgstr "Agender-Pride-Farben"
+
+#: ../komikku/consts.py:83
+msgid "Genderqueer Pride Colors"
+msgstr "Genderqueere Pride-Farben"
+
+#: ../komikku/consts.py:87
+msgid "Intersex Pride Colors"
+msgstr "Intersex-Pride-Farben"
+
+#: ../komikku/consts.py:91
+msgid "Demigender Pride Colors"
+msgstr "Demigender-Pride-Farben"
+
+#: ../komikku/consts.py:95
+msgid "Biromantic Pride Colors"
+msgstr "Biromantische Pride-Farben"
+
+#: ../komikku/consts.py:99
+#, fuzzy
+msgid "Disability Pride Colors"
+msgstr "Disability-Pride-Farben"
+
+#: ../komikku/consts.py:103
+msgid "Femboy Pride Colors"
+msgstr "Femboy-Pride-Farben"
+
+#: ../komikku/consts.py:107
+msgid "Neutrois Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:111
+msgid "Random Colors"
+msgstr "Zufällige Farben"
+
+#: ../komikku/downloader.py:274
+#, python-brace-format
+msgid "[{0}] Chapters download ended"
+msgstr "Download von [{0}] Kapiteln beendet"
+
+#: ../komikku/explorer/common.py:123
+#, python-brace-format
+msgid "{0} chapter"
+msgid_plural "{0} chapters"
+msgstr[0] "{0} Kapitel"
+msgstr[1] "{0} Kapitel"
+
+#: ../komikku/explorer/common.py:125
+#, python-brace-format
+msgid "Last Chapter: {}"
+msgstr "Letztes Kapitel: {}"
+
+#: ../komikku/explorer/common.py:127
+#, python-brace-format
+msgid "Last Volume: {}"
+msgstr "Letzte Ausgabe: {}"
+
+#: ../komikku/explorer/common.py:245 ../komikku/preferences/servers.py:396
+#: ../komikku/preferences/servers.py:450
+#: ../komikku/servers/mangatube/__init__.py:150
+msgid "18+"
+msgstr "Ü18"
+
+#: ../komikku/explorer/common.py:268
+msgid "Help"
+msgstr "Hilfe"
+
+#: ../komikku/explorer/common.py:269
+msgid "Local Folder"
+msgstr "Lokaler Ordner"
+
+#: ../komikku/explorer/common.py:271
+msgid ""
+"A specific folder structure is required for local comics to be properly "
+"processed."
+msgstr ""
+"Damit lokale Comics ordnungsgemäß verarbeitet werden können, ist eine "
+"bestimmte Ordnerstruktur erforderlich."
+
+#: ../komikku/explorer/common.py:272
+msgid ""
+"Each comic must have its own folder which must contain the chapters/volumes "
+"as archive files in CBZ, CBR, CBT, EPUB or PDF formats."
+msgstr ""
+"Jeder Comic muss einen eigenen Ordner haben, der die Kapitel/Bände als "
+"Archivdateien in den Formaten CBZ, CBR, CBT, EPUB oder PDF enthalten muss."
+
+#: ../komikku/explorer/common.py:273
+msgid "The folder's name will be used as name for the comic."
+msgstr "Der Name des Ordners wird als Titel für den Comic verwendet."
+
+#: ../komikku/explorer/common.py:274
+msgid ""
+"NOTE: The 'unrar' or 'unar' command-line tool is required for CBR archives."
+msgstr ""
+"HINWEIS: Für CBR-Archive ist das Befehlszeilentool „unrar“ oder „unar“ "
+"erforderlich."
+
+#: ../komikku/explorer/common.py:280
+msgid "Open local folder"
+msgstr "Lokalen Ordner öffnen"
+
+#: ../komikku/explorer/common.py:286 ../komikku/explorer/common.py:288
+#: ../komikku/explorer/common.py:304 ../komikku/explorer/common.py:307
+msgid "Content Information"
+msgstr "Informationen zum Inhalt"
+
+#: ../komikku/explorer/common.py:293
+#, python-brace-format
+msgid "Type: {0}"
+msgstr "Typ: {0}"
+
+#: ../komikku/explorer/common.py:296
+#, python-brace-format
+msgid ""
+"Copyrighted: Reproduction and distribution authorized under certain "
+"conditions ({0} license)"
+msgstr ""
+"Urheberrechtlich geschützt: Vervielfältigung und Verbreitung unter "
+"bestimmten Bedingungen gestattet ({0}-Lizenz)"
+
+#: ../komikku/explorer/common.py:299
+msgid "Royalty-free, Public domain"
+msgstr "Lizenzfrei, gemeinfrei"
+
+#: ../komikku/explorer/common.py:301 ../komikku/explorer/common.py:312
+msgid "Copyrighted works"
+msgstr "Urheberrechtlich geschützte Werke"
+
+#: ../komikku/explorer/common.py:311
+msgid "Use with caution!"
+msgstr "Mit Vorsicht verwenden!"
+
+#: ../komikku/explorer/common.py:314
+msgid "Licensed/Published and/or Unlicensed works"
+msgstr "Lizenzierte/veröffentlichte und/oder nicht lizenzierte Werke"
+
+#: ../komikku/explorer/common.py:315
+msgid "It may be partially or totally illegal"
+msgstr "Es kann teilweise oder vollständig rechtswidrig sein"
+
+#: ../komikku/explorer/common.py:330
+msgid "Toggle pinned status"
+msgstr "Anheften/abheften"
+
+#: ../komikku/explorer/search/__init__.py:283
+msgid "Search was cancelled"
+msgstr "Suche wurde abgebrochen"
+
+#: ../komikku/explorer/search/__init__.py:290
+msgid "Oops, server website URL is unknown."
+msgstr "Ups, die URL des Servers ist unbekannt."
+
+#: ../komikku/explorer/search/__init__.py:380
+msgid "Search for Reading"
+msgstr "Suche zum Lesen"
+
+#: ../komikku/explorer/search/__init__.py:382
+msgid "Empty search is allowed."
+msgstr "Ein leerer Suchbegriff ist erlaubt."
+
+#: ../komikku/explorer/search/__init__.py:384
+msgid ""
+"Alternatively, you can look up specific comics using the syntax:\n"
+"\n"
+"<b>id:ID from comic URL</b>"
+msgstr ""
+"Alternativ können Sie bestimmte Comics auch mittels folgender Syntax "
+"nachschlagen:\n"
+"\n"
+"<b>id:ID von Comic-URL</b>"
+
+#: ../komikku/explorer/search/__init__.py:412
+msgid "Global Search"
+msgstr "Globale Suche"
+
+#: ../komikku/explorer/search/__init__.py:414
+msgid "Search globally by name"
+msgstr "Global nach Name suchen"
+
+#: ../komikku/explorer/search/__init__.py:416
+msgid "Search for Comics"
+msgstr "Suche nach Comics"
+
+#: ../komikku/explorer/search/__init__.py:488
+msgid "Oops, failed to retrieve manga's information."
+msgstr "Ups, Information zum Manga konnten nicht geholt werden."
+
+#: ../komikku/explorer/search/latest_updates.py:71
+msgid "Oops, failed to retrieve latest updates."
+msgstr "Ups, neueste Aktualisierungen konnten nicht geladen werden."
+
+#: ../komikku/explorer/search/latest_updates.py:75
+msgid "No Latest Updates Found"
+msgstr "Zuletzt aktualisierte Manga nicht gefunden"
+
+#: ../komikku/explorer/search/latest_updates.py:83
+#: ../komikku/explorer/search/most_popular.py:83
+#: ../komikku/explorer/search/search.py:97
+#: ../komikku/explorer/search/search_global.py:94
+msgid "A request is already in progress."
+msgstr "Eine Nachfrage wird zur Zeit bearbeitet."
+
+#: ../komikku/explorer/search/most_popular.py:71
+msgid "Oops, failed to retrieve most popular."
+msgstr "Ups, konnte Beliebteste nicht laden."
+
+#: ../komikku/explorer/search/most_popular.py:75
+msgid "No Most Popular Found"
+msgstr "Beliebteste nicht gefunden"
+
+#: ../komikku/explorer/search/search_global.py:163
+msgid "Search cancelled"
+msgstr "Suche abgebrochen"
+
+#: ../komikku/explorer/search/search_global.py:171
+msgid "No results"
+msgstr "Keine Ergebnisse"
+
+#: ../komikku/explorer/servers.py:109 ../komikku/explorer/servers.py:186
+#: ../komikku/servers/comix/__init__.py:342
+#: ../komikku/servers/mangafire/__init__.py:140
+#: ../komikku/servers/readcomicsonline/__init__.py:54
+#: ../komikku/servers/rncalation/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:67
+#: ../komikku/servers/skymangas/__init__.py:84
+#: ../komikku/servers/zenko/__init__.py:80
+msgid "Other"
+msgstr "Andere"
+
+#: ../komikku/explorer/servers.py:150
+msgid ""
+"It appears that you have not yet defined any server languages in Preferences."
+msgstr ""
+"Es scheint, dass Sie in den Einstellungen noch keine Serversprachen "
+"definiert haben."
+
+#: ../komikku/explorer/servers.py:223
+msgid "Pinned"
+msgstr "Favoriten"
+
+#: ../komikku/history.py:36
+msgid "Today"
+msgstr "Heute"
+
+#: ../komikku/history.py:38
+msgid "Yesterday"
+msgstr "Gestern"
+
+#: ../komikku/history.py:40
+msgid "%A, %B %e"
+msgstr "%A, %e. %B"
+
+#: ../komikku/history.py:94
+msgid "Resume"
+msgstr "Fortfahren"
+
+#: ../komikku/library/__init__.py:340
+msgid "Are you sure you want to clear selected mangas?"
+msgstr "Möchtest du die ausgewählten Mangas wirklich löschen?"
+
+#: ../komikku/library/__init__.py:402
+msgid "Are you sure you want to delete this manga?"
+msgstr "Sind Sie sicher, dass Sie diesen Manga löschen wollen?"
+
+#: ../komikku/library/__init__.py:404
+msgid "Are you sure you want to delete selected mangas?"
+msgstr "Sind Sie sicher, dass Sie die gewählten Manga löschen wollen?"
+
+#: ../komikku/library/__init__.py:428
+msgid "Are you sure you want to download all chapters of selected mangas?"
+msgstr ""
+"Sind Sie sicher, dass Sie alle Kapitel der gewählten Manga herunterladen "
+"wollen?"
+
+#: ../komikku/library/__init__.py:430
+msgid "Download?"
+msgstr "Herunterladen?"
+
+#: ../komikku/library/__init__.py:457
+msgid "Unread"
+msgstr "Ungelesen"
+
+#: ../komikku/library/__init__.py:458
+msgid "Series with unread chapters"
+msgstr "Serien mit ungelesenen Kapiteln"
+
+#: ../komikku/library/__init__.py:461
+#: ../komikku/models/database/downloads.py:20
+msgid "Downloaded"
+msgstr "Heruntergeladen"
+
+#: ../komikku/library/__init__.py:462
+msgid "Series with downloaded chapters"
+msgstr "Serien mit heruntergeladenen Kapiteln"
+
+#: ../komikku/library/__init__.py:465
+msgid "Recents"
+msgstr "Neu"
+
+#: ../komikku/library/__init__.py:466
+msgid "Series with new chapters"
+msgstr "Serien mit neuen Folgen"
+
+#: ../komikku/library/__init__.py:685
+msgid "Welcome to Komikku"
+msgstr "Willkommen"
+
+#: ../komikku/library/__init__.py:697
+msgid "Loading…"
+msgstr "Lade…"
+
+#: ../komikku/library/__init__.py:821
+msgid "Failed to update reading status"
+msgstr "Konnte Lesestatus nicht aktualisieren"
+
+#: ../komikku/library/__init__.py:849
+msgid "Add New Comic"
+msgstr "Neuen Comic hinzufügen"
+
+#: ../komikku/library/__init__.py:876 ../komikku/library/categories_list.py:146
+msgid "Uncategorized"
+msgstr "Nicht kategorisiert"
+
+#: ../komikku/library/categories_list.py:140
+#: ../komikku/servers/asurascans/__init__.py:38
+#: ../komikku/servers/bilibili/__init__.py:43
+#: ../komikku/servers/coloredcouncil/__init__.py:42
+#: ../komikku/servers/coloredcouncil/__init__.py:55
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:42
+#: ../komikku/servers/jmanga/__init__.py:51
+#: ../komikku/servers/mangapill/__init__.py:39
+#: ../komikku/servers/mangasorigines/__init__.py:49
+#: ../komikku/servers/mangatown/__init__.py:51
+#: ../komikku/servers/mangatown/__init__.py:70
+#: ../komikku/servers/mangatown/__init__.py:84
+#: ../komikku/servers/mangatube/__init__.py:130
+#: ../komikku/servers/multi/madtheme/__init__.py:49
+#: ../komikku/servers/multi/manga_stream/__init__.py:81
+#: ../komikku/servers/phenixscans/__init__.py:40
+#: ../komikku/servers/readcomicsonline/__init__.py:38
+#: ../komikku/servers/readcomicsonline/__init__.py:51
+#: ../komikku/servers/skymangas/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:61
+#: ../komikku/servers/skymangas/__init__.py:78
+#: ../komikku/servers/webtoon/__init__.py:60
+msgid "All"
+msgstr "Alle"
+
+#: ../komikku/models/database/downloads.py:19
+msgid "Download pending"
+msgstr "Download ausstehend"
+
+#: ../komikku/models/database/downloads.py:21
+msgid "Downloading"
+msgstr "Wird heruntergeladen"
+
+#: ../komikku/models/database/downloads.py:22
+msgid "Download canceled"
+msgstr "Download abgebrochen"
+
+#: ../komikku/models/database/downloads.py:23
+msgid "Download error"
+msgstr "Download Fehler"
+
+#: ../komikku/models/database/mangas.py:45
+#: ../komikku/servers/jmanga/__init__.py:53
+#: ../komikku/servers/mangakawaii/__init__.py:54
+#: ../komikku/servers/mangamana/__init__.py:68
+#: ../komikku/servers/mangasorigines/__init__.py:51
+#: ../komikku/servers/mangaworld/__init__.py:79
+#: ../komikku/servers/readcomicsonline/__init__.py:40
+#: ../komikku/servers/skymangas/__init__.py:48
+#: ../komikku/servers/weebcentral/__init__.py:66
+msgid "Complete"
+msgstr "Abgeschlossen"
+
+#: ../komikku/models/database/mangas.py:46
+#: ../komikku/servers/comick/__init__.py:81
+#: ../komikku/servers/comix/__init__.py:326
+#: ../komikku/servers/flamescans/__init__.py:53
+#: ../komikku/servers/jmanga/__init__.py:52
+#: ../komikku/servers/mangaball/__init__.py:90
+#: ../komikku/servers/mangadex/__init__.py:76
+#: ../komikku/servers/mangafire/__init__.py:163
+#: ../komikku/servers/mangak/__init__.py:97
+#: ../komikku/servers/mangakawaii/__init__.py:52
+#: ../komikku/servers/mangamana/__init__.py:67
+#: ../komikku/servers/mangasorigines/__init__.py:50
+#: ../komikku/servers/mangatown/__init__.py:72
+#: ../komikku/servers/mangaworld/__init__.py:78
+#: ../komikku/servers/multi/madtheme/__init__.py:50
+#: ../komikku/servers/raijinscan/__init__.py:45
+#: ../komikku/servers/readcomicsonline/__init__.py:39
+#: ../komikku/servers/rncalation/__init__.py:58
+#: ../komikku/servers/skymangas/__init__.py:47
+#: ../komikku/servers/weebcentral/__init__.py:65
+#: ../komikku/servers/weebdex/__init__.py:65
+#: ../komikku/servers/zenko/__init__.py:61
+msgid "Ongoing"
+msgstr "Fortlaufend"
+
+#: ../komikku/models/database/mangas.py:47
+#: ../komikku/servers/mangakawaii/__init__.py:51
+#: ../komikku/servers/mangamana/__init__.py:69
+#: ../komikku/servers/mangaworld/__init__.py:80
+#: ../komikku/servers/skymangas/__init__.py:50
+msgid "Suspended"
+msgstr "Unterbrochen"
+
+#: ../komikku/models/database/mangas.py:48
+#: ../komikku/servers/comix/__init__.py:328
+#: ../komikku/servers/flamescans/__init__.py:55
+#: ../komikku/servers/mangaball/__init__.py:92
+#: ../komikku/servers/mangadex/__init__.py:78
+#: ../komikku/servers/mangafire/__init__.py:165
+#: ../komikku/servers/mangak/__init__.py:99
+#: ../komikku/servers/mangakawaii/__init__.py:53
+#: ../komikku/servers/mangaworld/__init__.py:81
+#: ../komikku/servers/rncalation/__init__.py:60
+#: ../komikku/servers/skymangas/__init__.py:49
+#: ../komikku/servers/weebcentral/__init__.py:67
+#: ../komikku/servers/weebdex/__init__.py:67
+#: ../komikku/servers/zenko/__init__.py:63
+msgid "Hiatus"
+msgstr "Pausiert"
+
+#: ../komikku/preferences/__init__.py:171
+msgid "Are you sure you want to clear chapters cache and database?"
+msgstr ""
+"Sind Sie sicher, dass Sie bereits heruntergeladene Kapitel und die "
+"dazugehörigen Datenbank-Einträge löschen wollen?"
+
+#: ../komikku/preferences/__init__.py:190
+msgid "Failed to clear WebView data"
+msgstr "Webansicht-Daten konnten nicht gelöscht werden"
+
+#: ../komikku/preferences/__init__.py:194
+msgid "Are you sure you want to clear WebView data (cache, storage, cookies)?"
+msgstr ""
+"Möchten Sie die Daten der Webansicht (Cache, Speicher, Cookies) wirklich "
+"löschen?"
+
+#: ../komikku/preferences/__init__.py:219
+msgid "Disable animations?"
+msgstr "Animationen abschalten?"
+
+#: ../komikku/preferences/__init__.py:220
+msgid ""
+"Are you sure you want to disable animations?\n"
+"\n"
+"The gesture navigation in the reader will not work properly anymore."
+msgstr ""
+"Wollen Sie Animationen wirklich abschalten?\n"
+"\n"
+"Die Gestensteuerung wird nicht mehr wie erwartet funktionieren."
+
+#: ../komikku/preferences/__init__.py:221
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: ../komikku/preferences/__init__.py:705 ../komikku/preferences/servers.py:72
+msgid "System keyring service is disabled. Credential cannot be saved."
+msgstr ""
+"Der Schlüsselbund des Systems ist deaktiviert. Zugangsdaten konnten nicht "
+"gespeichert werden."
+
+#: ../komikku/preferences/__init__.py:710 ../komikku/preferences/servers.py:77
+msgid ""
+"No keyring backends were found to store credential. Use plaintext storage as "
+"fallback."
+msgstr ""
+"Es wurde kein Schlüsselbund gefunden, um die Zugangsdaten zu speichern. "
+"Nutze die Klartext-Speicherung als Alternative."
+
+#: ../komikku/preferences/__init__.py:716 ../komikku/preferences/servers.py:83
+msgid ""
+"No keyring backends were found to store credential. Plaintext storage will "
+"be used as fallback."
+msgstr ""
+"Es wurde kein Schlüsselbund gefunden, um die Zugangsdaten zu speichern. "
+"Klartext-Speicherung wird stattdessen genutzt."
+
+#: ../komikku/preferences/__init__.py:746
+msgid "Invalid instance URL"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:748
+#: ../komikku/preferences/__init__.py:762
+msgid "Unavailable service"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:760
+msgid "Invalid API key"
+msgstr ""
+
+#: ../komikku/preferences/servers.py:44
+msgid "User Account"
+msgstr "Benutzerkonto"
+
+#: ../komikku/preferences/servers.py:49
+msgid "Address"
+msgstr "Adresse"
+
+#: ../komikku/preferences/servers.py:55 ../komikku/preferences/trackers.py:60
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../komikku/preferences/servers.py:59 ../komikku/preferences/trackers.py:64
+msgid "Password"
+msgstr "Passwort"
+
+#: ../komikku/preferences/servers.py:92
+msgid "Test"
+msgstr "Test"
+
+#: ../komikku/preferences/servers.py:419 ../komikku/preferences/servers.py:456
+msgid "Edit Server Settings"
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:36 ../komikku/preferences/trackers.py:88
+#: ../komikku/preferences/trackers.py:118
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: ../komikku/preferences/trackers.py:43
+msgid "Reconnect"
+msgstr "Wiederverbinden"
+
+#: ../komikku/preferences/trackers.py:46 ../komikku/preferences/trackers.py:71
+#: ../komikku/preferences/trackers.py:104
+msgid "Connect"
+msgstr "Verbinden"
+
+#: ../komikku/preferences/trackers.py:92
+msgid "Failed to request client access"
+msgstr "Client-Zugriff konnte nicht angefordert werden"
+
+#: ../komikku/preferences/trackers.py:95
+msgid "Webview is currently in used. Please retry later."
+msgstr "Webview wird derzeit verwendet. Bitte versuchen Sie es später erneut."
+
+#: ../komikku/preferences/trackers.py:117
+#, python-brace-format
+msgid "Disconnect from {}"
+msgstr "Getrennt von {}"
+
+#: ../komikku/reader/__init__.py:364
+msgid "Page successfully saved"
+msgstr "Seite erfolgreich gespeichert"
+
+#: ../komikku/reader/ocr_translator.py:149
+#: ../komikku/reader/ocr_translator.py:154
+msgid "Copied to clipboard"
+msgstr ""
+
+#: ../komikku/reader/pagers/__init__.py:179
+msgid "Failed to sync read progress with server"
+msgstr "Lesefortschritt konnte nicht mit Server synchronisiert werden"
+
+#: ../komikku/reader/pagers/longstrip_pager.py:102
+#: ../komikku/reader/pagers/paged_pager.py:310
+msgid "It was the last chapter."
+msgstr "Das war das letzte Kapitel."
+
+#: ../komikku/reader/pagers/longstrip_pager.py:104
+#: ../komikku/reader/pagers/paged_pager.py:308
+msgid "There is no previous chapter."
+msgstr "Kein vorheriges Kapitel vorhanden."
+
+#: ../komikku/reader/pagers/longstrip_pager.py:180
+#: ../komikku/reader/pagers/paged_pager.py:481
+msgid "This chapter is inaccessible."
+msgstr "Dieses Kapitel ist nicht verfügbar."
+
+#: ../komikku/reader/pagers/page.py:393
+msgid "Failed to load image"
+msgstr "Fehler beim Laden des Bildes"
+
+#: ../komikku/reader/pagers/page.py:395
+#, python-brace-format
+msgid "Corrupted file or unsupported image format ({0})"
+msgstr "Datei ist beschädigt oder das Bildformat wird nicht unterstützt ({0})"
+
+#: ../komikku/reader/pagers/page.py:516
+msgid "Retry"
+msgstr "Wiederholen"
+
+#: ../komikku/reader/settings.py:18
+msgid "Brightness"
+msgstr "Helligkeit"
+
+#: ../komikku/reader/settings.py:19
+msgid "Make pages brighter or darker"
+msgstr "Seiten heller oder dunkler stellen"
+
+#: ../komikku/reader/settings.py:26
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: ../komikku/reader/settings.py:27
+msgid "Increase or decrease the contrast of pages"
+msgstr "Kontrast der Seiten erhöhen oder verringern"
+
+#: ../komikku/reader/settings.py:34
+msgid "Grayscale"
+msgstr "Graustufen"
+
+#: ../komikku/reader/settings.py:35
+msgid "Convert pages to grayscale"
+msgstr "Seiten grau einfärben"
+
+#: ../komikku/reader/settings.py:42
+msgid "Inversion"
+msgstr ""
+
+#: ../komikku/reader/settings.py:43
+msgid "Convert pages to grayscale and invert black and white"
+msgstr ""
+
+#: ../komikku/reader/settings.py:50
+msgid "Sepia"
+msgstr "Sepia"
+
+#: ../komikku/reader/settings.py:51
+msgid "Give a more yellow/brown appearance to pages"
+msgstr "Seiten gelblich-bräunlich einfärben"
+
+#: ../komikku/reader/settings.py:58
+msgid "Saturation"
+msgstr "Sättigung"
+
+#: ../komikku/reader/settings.py:59
+msgid "Super-saturate or desaturate pages"
+msgstr "Seiten übersättigen oder entsättigen"
+
+#: ../komikku/reader/settings.py:105
+msgid "Adapt to Screen"
+msgstr "An Bildschirm anpassen"
+
+#: ../komikku/reader/settings.py:106
+msgid "Adapt to Width"
+msgstr "An Breite anpassen"
+
+#: ../komikku/reader/settings.py:107
+msgid "Adapt to Height"
+msgstr "An Höhe anpassen"
+
+#: ../komikku/reader/settings.py:108
+msgid "Original Size"
+msgstr "Originalgröße"
+
+#: ../komikku/reader/settings.py:119
+msgid "Linear"
+msgstr "Linear"
+
+#: ../komikku/reader/settings.py:120
+msgid "Trilinear"
+msgstr "Trilinear"
+
+#: ../komikku/reader/settings.py:131
+msgid "White"
+msgstr "Weiß"
+
+#: ../komikku/reader/settings.py:132
+msgid "Gray"
+msgstr "Grau"
+
+#: ../komikku/reader/settings.py:133
+msgid "Black"
+msgstr "Schwarz"
+
+#: ../komikku/reader/settings.py:134
+msgid "System Style"
+msgstr "Systemstil"
+
+#: ../komikku/servers/annyo/__init__.py:22
+#: ../komikku/servers/existentialcomics/__init__.py:23
+#: ../komikku/servers/fosscomics/__init__.py:29
+#: ../komikku/servers/grisebouille/__init__.py:24
+#: ../komikku/servers/jensorensen/__init__.py:25
+#: ../komikku/servers/monkeyuser/__init__.py:23
+#: ../komikku/servers/nixofnothing/__init__.py:19
+#: ../komikku/servers/peppercarrot/__init__.py:54
+#: ../komikku/servers/smbc/__init__.py:19
+#: ../komikku/servers/threepanelsoul/__init__.py:18
+#: ../komikku/servers/wildlife/__init__.py:16
+#: ../komikku/servers/xkcd/__init__.py:24
+msgid "Self-publishing"
+msgstr "Selbstveröffentlichung"
+
+#: ../komikku/servers/annyo/__init__.py:22
+#: ../komikku/servers/comick/__init__.py:149
+#: ../komikku/servers/existentialcomics/__init__.py:23
+#: ../komikku/servers/fosscomics/__init__.py:29
+#: ../komikku/servers/grisebouille/__init__.py:24
+#: ../komikku/servers/jensorensen/__init__.py:25
+#: ../komikku/servers/mangadex/__init__.py:113
+#: ../komikku/servers/monkeyuser/__init__.py:23
+#: ../komikku/servers/nixofnothing/__init__.py:19
+#: ../komikku/servers/peppercarrot/__init__.py:54
+#: ../komikku/servers/smbc/__init__.py:19
+#: ../komikku/servers/threepanelsoul/__init__.py:18
+#: ../komikku/servers/wildlife/__init__.py:16
+#: ../komikku/servers/xkcd/__init__.py:24
+msgid "Webcomic"
+msgstr "Webcomic"
+
+#: ../komikku/servers/aralosbd/__init__.py:21
+msgid "Self-publishing platform"
+msgstr "Selbstveröffentlichungsplattform"
+
+#: ../komikku/servers/asurascans/__init__.py:33
+#: ../komikku/servers/comix/__init__.py:335
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:37
+#: ../komikku/servers/jmanga/__init__.py:27
+#: ../komikku/servers/mangaball/__init__.py:99
+#: ../komikku/servers/mangak/__init__.py:60
+#: ../komikku/servers/mangakawaii/__init__.py:60
+#: ../komikku/servers/mangapill/__init__.py:34
+#: ../komikku/servers/mangasorigines/__init__.py:32
+#: ../komikku/servers/mangatown/__init__.py:79
+#: ../komikku/servers/mangatube/__init__.py:125
+#: ../komikku/servers/mangaworld/__init__.py:59
+#: ../komikku/servers/multi/manga_stream/__init__.py:76
+#: ../komikku/servers/phenixscans/__init__.py:35
+#: ../komikku/servers/raijinscan/__init__.py:52
+#: ../komikku/servers/readcomicsonline/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:36
+#: ../komikku/servers/skymangas/__init__.py:56
+#: ../komikku/servers/webtoon/__init__.py:55
+#: ../komikku/servers/zenko/__init__.py:69
+msgid "Type"
+msgstr "Art"
+
+#: ../komikku/servers/asurascans/__init__.py:34
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:38
+#: ../komikku/servers/jmanga/__init__.py:28
+#: ../komikku/servers/mangaball/__init__.py:100
+#: ../komikku/servers/mangak/__init__.py:61
+#: ../komikku/servers/mangapill/__init__.py:35
+#: ../komikku/servers/mangatown/__init__.py:80
+#: ../komikku/servers/multi/manga_stream/__init__.py:77
+#: ../komikku/servers/phenixscans/__init__.py:36
+#: ../komikku/servers/rawkuma/__init__.py:41
+#: ../komikku/servers/readcomicsonline/__init__.py:47
+#: ../komikku/servers/rncalation/__init__.py:37
+#: ../komikku/servers/skymangas/__init__.py:57
+#: ../komikku/servers/webtoon/__init__.py:56
+msgid "Filter by Type"
+msgstr "Filtern nach Typ"
+
+#: ../komikku/servers/asurascans/__init__.py:39
+#: ../komikku/servers/coloredcouncil/__init__.py:44
+#: ../komikku/servers/comick/__init__.py:94
+#: ../komikku/servers/comix/__init__.py:339
+#: ../komikku/servers/flamescans/__init__.py:41
+#: ../komikku/servers/mangaball/__init__.py:105
+#: ../komikku/servers/mangafire/__init__.py:137
+#: ../komikku/servers/mangak/__init__.py:66
+#: ../komikku/servers/mangakawaii/__init__.py:66
+#: ../komikku/servers/mangapill/__init__.py:40
+#: ../komikku/servers/mangasorigines/__init__.py:38
+#: ../komikku/servers/mangatown/__init__.py:85
+#: ../komikku/servers/mangatube/__init__.py:131
+#: ../komikku/servers/mangaworld/__init__.py:63
+#: ../komikku/servers/multi/manga_stream/__init__.py:82
+#: ../komikku/servers/phenixscans/__init__.py:41
+#: ../komikku/servers/raijinscan/__init__.py:56
+#: ../komikku/servers/rawkuma/__init__.py:44
+#: ../komikku/servers/rncalation/__init__.py:42
+#: ../komikku/servers/skymangas/__init__.py:64
+#: ../komikku/servers/weebcentral/__init__.py:52
+#: ../komikku/servers/zenko/__init__.py:74
+msgid "Manga"
+msgstr "Manga"
+
+#: ../komikku/servers/asurascans/__init__.py:40
+#: ../komikku/servers/coloredcouncil/__init__.py:43
+#: ../komikku/servers/comick/__init__.py:95
+#: ../komikku/servers/comix/__init__.py:340
+#: ../komikku/servers/flamescans/__init__.py:42
+#: ../komikku/servers/mangaball/__init__.py:106
+#: ../komikku/servers/mangafire/__init__.py:138
+#: ../komikku/servers/mangak/__init__.py:67
+#: ../komikku/servers/mangakawaii/__init__.py:68
+#: ../komikku/servers/mangapill/__init__.py:44
+#: ../komikku/servers/mangasorigines/__init__.py:36
+#: ../komikku/servers/mangatown/__init__.py:87
+#: ../komikku/servers/mangatube/__init__.py:132
+#: ../komikku/servers/mangaworld/__init__.py:65
+#: ../komikku/servers/multi/manga_stream/__init__.py:83
+#: ../komikku/servers/phenixscans/__init__.py:42
+#: ../komikku/servers/raijinscan/__init__.py:57
+#: ../komikku/servers/rawkuma/__init__.py:45
+#: ../komikku/servers/rncalation/__init__.py:43
+#: ../komikku/servers/skymangas/__init__.py:63
+#: ../komikku/servers/weebcentral/__init__.py:53
+#: ../komikku/servers/zenko/__init__.py:75
+msgid "Manhwa"
+msgstr "Manhwa"
+
+#: ../komikku/servers/asurascans/__init__.py:41
+#: ../komikku/servers/comick/__init__.py:96
+#: ../komikku/servers/comix/__init__.py:341
+#: ../komikku/servers/flamescans/__init__.py:43
+#: ../komikku/servers/mangaball/__init__.py:107
+#: ../komikku/servers/mangafire/__init__.py:139
+#: ../komikku/servers/mangak/__init__.py:68
+#: ../komikku/servers/mangakawaii/__init__.py:67
+#: ../komikku/servers/mangapill/__init__.py:45
+#: ../komikku/servers/mangasorigines/__init__.py:37
+#: ../komikku/servers/mangatown/__init__.py:86
+#: ../komikku/servers/mangatube/__init__.py:133
+#: ../komikku/servers/mangaworld/__init__.py:64
+#: ../komikku/servers/multi/manga_stream/__init__.py:84
+#: ../komikku/servers/phenixscans/__init__.py:43
+#: ../komikku/servers/raijinscan/__init__.py:58
+#: ../komikku/servers/rawkuma/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:44
+#: ../komikku/servers/skymangas/__init__.py:62
+#: ../komikku/servers/weebcentral/__init__.py:54
+#: ../komikku/servers/zenko/__init__.py:76
+msgid "Manhua"
+msgstr "Manhua"
+
+#: ../komikku/servers/bdplus/__init__.py:58
+msgid "Genre"
+msgstr ""
+
+#: ../komikku/servers/bdplus/__init__.py:59
+msgid "Filter by Genre"
+msgstr ""
+
+#: ../komikku/servers/bilibili/__init__.py:38
+msgid "Price"
+msgstr "Preis"
+
+#: ../komikku/servers/bilibili/__init__.py:39
+msgid "Filter by price"
+msgstr "Nach Preis filtern"
+
+#: ../komikku/servers/bilibili/__init__.py:44
+msgid "Free"
+msgstr "Kostenlos"
+
+#: ../komikku/servers/bilibili/__init__.py:45
+msgid "Paid"
+msgstr "Kostenpflichtig"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:37
+msgid "Format"
+msgstr "Format"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:38
+msgid "Filter by format"
+msgstr "Filtern nach Format"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:50
+msgid "Version"
+msgstr "Version"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:51
+msgid "Filter by version"
+msgstr "Filtern nach Version"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:56
+msgid "Color"
+msgstr "Farbe"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:57
+msgid "B/W"
+msgstr "S/W"
+
+#: ../komikku/servers/comick/__init__.py:65
+#: ../komikku/servers/mangadex/__init__.py:58
+#: ../komikku/servers/weebdex/__init__.py:48
+msgid "Rating"
+msgstr "Einstufung"
+
+#: ../komikku/servers/comick/__init__.py:66
+#: ../komikku/servers/mangadex/__init__.py:59
+#: ../komikku/servers/weebdex/__init__.py:49
+msgid "Filter by Content Ratings"
+msgstr "Nach Inhaltsbewertungen filtern"
+
+#: ../komikku/servers/comick/__init__.py:69
+#: ../komikku/servers/mangadex/__init__.py:62
+#: ../komikku/servers/mangafire/__init__.py:124
+#: ../komikku/servers/mangak/__init__.py:51
+#: ../komikku/servers/weebdex/__init__.py:52
+msgid "Safe"
+msgstr "Sicher"
+
+#: ../komikku/servers/comick/__init__.py:70
+#: ../komikku/servers/mangadex/__init__.py:63
+#: ../komikku/servers/mangafire/__init__.py:125
+#: ../komikku/servers/mangak/__init__.py:52
+#: ../komikku/servers/weebdex/__init__.py:53
+msgid "Suggestive"
+msgstr "Suggestiv"
+
+#: ../komikku/servers/comick/__init__.py:71
+#: ../komikku/servers/mangadex/__init__.py:64
+#: ../komikku/servers/mangafire/__init__.py:126
+#: ../komikku/servers/mangak/__init__.py:53
+#: ../komikku/servers/weebdex/__init__.py:54
+msgid "Erotica"
+msgstr "Erotisch"
+
+#: ../komikku/servers/comick/__init__.py:78
+#: ../komikku/servers/comix/__init__.py:323
+#: ../komikku/servers/flamescans/__init__.py:50
+#: ../komikku/servers/mangadex/__init__.py:73
+#: ../komikku/servers/mangafire/__init__.py:160
+#: ../komikku/servers/mangakawaii/__init__.py:48
+#: ../komikku/servers/mangaworld/__init__.py:75
+#: ../komikku/servers/raijinscan/__init__.py:42
+#: ../komikku/servers/weebcentral/__init__.py:62
+#: ../komikku/servers/weebdex/__init__.py:62
+#: ../komikku/servers/zenko/__init__.py:58
+msgid "Filter by Statuses"
+msgstr "Filtern nach Status"
+
+#: ../komikku/servers/comick/__init__.py:82
+#: ../komikku/servers/comix/__init__.py:327
+#: ../komikku/servers/flamescans/__init__.py:54
+#: ../komikku/servers/mangaball/__init__.py:91
+#: ../komikku/servers/mangadex/__init__.py:77
+#: ../komikku/servers/mangafire/__init__.py:164
+#: ../komikku/servers/mangak/__init__.py:98
+#: ../komikku/servers/mangatown/__init__.py:73
+#: ../komikku/servers/multi/madtheme/__init__.py:51
+#: ../komikku/servers/raijinscan/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:59
+#: ../komikku/servers/weebdex/__init__.py:66
+#: ../komikku/servers/zenko/__init__.py:62 ../komikku/trackers/__init__.py:68
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: ../komikku/servers/comick/__init__.py:83
+#: ../komikku/servers/comix/__init__.py:329
+#: ../komikku/servers/flamescans/__init__.py:57
+#: ../komikku/servers/mangaball/__init__.py:93
+#: ../komikku/servers/mangadex/__init__.py:79
+#: ../komikku/servers/mangafire/__init__.py:166
+#: ../komikku/servers/mangak/__init__.py:100
+#: ../komikku/servers/mangaworld/__init__.py:82
+#: ../komikku/servers/rncalation/__init__.py:61
+#: ../komikku/servers/weebcentral/__init__.py:68
+#: ../komikku/servers/weebdex/__init__.py:68
+msgid "Canceled"
+msgstr "Abgebrochen"
+
+#: ../komikku/servers/comick/__init__.py:84
+msgid "Paused"
+msgstr "Pausiert"
+
+#: ../komikku/servers/comick/__init__.py:90
+msgid "Origination"
+msgstr "Ursprung"
+
+#: ../komikku/servers/comick/__init__.py:91
+msgid "[Latest Updates only] Filter by Origination"
+msgstr "[Nur neueste Updates] Nach Herkunft filtern"
+
+#: ../komikku/servers/comick/__init__.py:102
+msgid "Countries"
+msgstr "Länder"
+
+#: ../komikku/servers/comick/__init__.py:104
+msgid "[Search and Most Popular only] Filter by Country (origination)"
+msgstr "[Nur „Suche“ und „Beliebteste“] Nach Land (Herkunft) filtern"
+
+#: ../komikku/servers/comick/__init__.py:108
+msgid "Japan (Manga)"
+msgstr "Japan (Manga)"
+
+#: ../komikku/servers/comick/__init__.py:109
+msgid "Korea (Manhwa)"
+msgstr "Korea (Manhwa)"
+
+#: ../komikku/servers/comick/__init__.py:110
+msgid "China (Manhua)"
+msgstr "China (Manhua)"
+
+#: ../komikku/servers/comick/__init__.py:116
+#: ../komikku/servers/comix/__init__.py:348
+#: ../komikku/servers/mangadex/__init__.py:85
+msgid "Publication Demographic"
+msgstr "Veröffentlichung Demografie"
+
+#: ../komikku/servers/comick/__init__.py:117
+#: ../komikku/servers/comix/__init__.py:349
+#: ../komikku/servers/mangadex/__init__.py:86
+#: ../komikku/servers/mangafire/__init__.py:147
+#: ../komikku/servers/weebdex/__init__.py:75
+msgid "Filter by Publication Demographics"
+msgstr "Nach demografischen Merkmalen der Publikation filtern"
+
+#: ../komikku/servers/comick/__init__.py:120
+#: ../komikku/servers/comix/__init__.py:355
+#: ../komikku/servers/mangaball/__init__.py:73
+#: ../komikku/servers/mangadex/__init__.py:89
+#: ../komikku/servers/mangafire/__init__.py:153
+#: ../komikku/servers/mangak/__init__.py:82
+#: ../komikku/servers/mangatown/__init__.py:52
+#: ../komikku/servers/skymangas/__init__.py:79
+#: ../komikku/servers/weebdex/__init__.py:78
+msgid "Shounen"
+msgstr "Jungs"
+
+#: ../komikku/servers/comick/__init__.py:121
+#: ../komikku/servers/comix/__init__.py:354
+#: ../komikku/servers/mangaball/__init__.py:74
+#: ../komikku/servers/mangadex/__init__.py:90
+#: ../komikku/servers/mangafire/__init__.py:152
+#: ../komikku/servers/mangak/__init__.py:83
+#: ../komikku/servers/mangatown/__init__.py:54
+#: ../komikku/servers/skymangas/__init__.py:80
+#: ../komikku/servers/weebdex/__init__.py:79
+msgid "Shoujo"
+msgstr "Mädchen"
+
+#: ../komikku/servers/comick/__init__.py:122
+#: ../komikku/servers/comix/__init__.py:353
+#: ../komikku/servers/mangaball/__init__.py:75
+#: ../komikku/servers/mangadex/__init__.py:92
+#: ../komikku/servers/mangafire/__init__.py:151
+#: ../komikku/servers/mangak/__init__.py:84
+#: ../komikku/servers/mangatown/__init__.py:53
+#: ../komikku/servers/skymangas/__init__.py:81
+#: ../komikku/servers/weebdex/__init__.py:81
+msgid "Seinen"
+msgstr "Männer"
+
+#: ../komikku/servers/comick/__init__.py:123
+#: ../komikku/servers/comix/__init__.py:352
+#: ../komikku/servers/mangaball/__init__.py:76
+#: ../komikku/servers/mangadex/__init__.py:91
+#: ../komikku/servers/mangafire/__init__.py:150
+#: ../komikku/servers/mangak/__init__.py:85
+#: ../komikku/servers/mangatown/__init__.py:57
+#: ../komikku/servers/skymangas/__init__.py:82
+#: ../komikku/servers/weebdex/__init__.py:80
+msgid "Josei"
+msgstr "Frauen"
+
+#: ../komikku/servers/comick/__init__.py:124
+msgid "None"
+msgstr "Keine Auswahl"
+
+#: ../komikku/servers/comick/__init__.py:130
+#: ../komikku/servers/mangadex/__init__.py:98
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: ../komikku/servers/comick/__init__.py:131
+#: ../komikku/servers/mangadex/__init__.py:99
+msgid "Filter by Formats"
+msgstr "Nach Formaten filtern"
+
+#: ../komikku/servers/comick/__init__.py:134
+#: ../komikku/servers/mangadex/__init__.py:102
+msgid "4-Koma"
+msgstr "4-Panel"
+
+#: ../komikku/servers/comick/__init__.py:135
+#: ../komikku/servers/mangadex/__init__.py:103
+msgid "Adaptation"
+msgstr "Anpassung"
+
+#: ../komikku/servers/comick/__init__.py:136
+#: ../komikku/servers/mangadex/__init__.py:104
+msgid "Anthology"
+msgstr "Sammlungen"
+
+#: ../komikku/servers/comick/__init__.py:137
+#: ../komikku/servers/mangadex/__init__.py:105
+msgid "Award Winning"
+msgstr "Preisgekrönt"
+
+#: ../komikku/servers/comick/__init__.py:138
+#: ../komikku/servers/dbmultiverse/__init__.py:58
+#: ../komikku/servers/dbnewhope/__init__.py:30
+#: ../komikku/servers/mangadex/__init__.py:106
+#: ../komikku/servers/mangakawaii/__init__.py:65
+#: ../komikku/servers/mangapill/__init__.py:43
+#: ../komikku/servers/rncalation/__init__.py:45
+msgid "Doujinshi"
+msgstr "Dōjinshi"
+
+#: ../komikku/servers/comick/__init__.py:139
+#: ../komikku/servers/mangadex/__init__.py:107
+msgid "Fan Colored"
+msgstr "Fächerfarben"
+
+#: ../komikku/servers/comick/__init__.py:140
+#: ../komikku/servers/mangadex/__init__.py:108
+msgid "Full Color"
+msgstr "Farbig"
+
+#: ../komikku/servers/comick/__init__.py:141
+#: ../komikku/servers/mangadex/__init__.py:109
+msgid "Long Strip"
+msgstr "Langer Streifen"
+
+#: ../komikku/servers/comick/__init__.py:144
+#: ../komikku/servers/mangadex/__init__.py:110
+msgid "Official Colored"
+msgstr "Offiziell gefärbt"
+
+#: ../komikku/servers/comick/__init__.py:147
+#: ../komikku/servers/mangadex/__init__.py:111
+#: ../komikku/servers/mangakawaii/__init__.py:69
+#: ../komikku/servers/mangapill/__init__.py:42
+#: ../komikku/servers/mangatube/__init__.py:136
+#: ../komikku/servers/mangaworld/__init__.py:66
+#: ../komikku/servers/weebdex/__init__.py:251
+msgid "Oneshot"
+msgstr "Einmalige Aktion"
+
+#: ../komikku/servers/comick/__init__.py:148
+msgid "User Created"
+msgstr "Benutzer erstellt"
+
+#: ../komikku/servers/comick/__init__.py:155
+#: ../komikku/servers/mangadex/__init__.py:119
+msgid "Genres"
+msgstr "Genres"
+
+#: ../komikku/servers/comick/__init__.py:156
+#: ../komikku/servers/mangadex/__init__.py:120
+msgid "Filter by Genres"
+msgstr "Nach Genres filtern"
+
+#: ../komikku/servers/comick/__init__.py:159
+#: ../komikku/servers/mangadex/__init__.py:123
+msgid "Action"
+msgstr "Aktion"
+
+#: ../komikku/servers/comick/__init__.py:160
+msgid "Adult"
+msgstr "Erwachsen"
+
+#: ../komikku/servers/comick/__init__.py:161
+#: ../komikku/servers/mangadex/__init__.py:124
+msgid "Adventure"
+msgstr "Abenteuer"
+
+#: ../komikku/servers/comick/__init__.py:162
+#: ../komikku/servers/mangadex/__init__.py:126
+msgid "Comedy"
+msgstr "Komödie"
+
+#: ../komikku/servers/comick/__init__.py:163
+#: ../komikku/servers/mangadex/__init__.py:127
+msgid "Crime"
+msgstr "Krimi"
+
+#: ../komikku/servers/comick/__init__.py:164
+#: ../komikku/servers/mangadex/__init__.py:128
+msgid "Drama"
+msgstr "Drama"
+
+#: ../komikku/servers/comick/__init__.py:165
+msgid "Ecchi"
+msgstr "Anstößig"
+
+#: ../komikku/servers/comick/__init__.py:166
+#: ../komikku/servers/mangadex/__init__.py:129
+msgid "Fantasy"
+msgstr "Fantasie"
+
+#: ../komikku/servers/comick/__init__.py:167
+msgid "Gender Bender"
+msgstr "Geschlechterwechsel"
+
+#: ../komikku/servers/comick/__init__.py:168
+#: ../komikku/servers/mangadex/__init__.py:131
+msgid "Historical"
+msgstr "Historisch"
+
+#: ../komikku/servers/comick/__init__.py:169
+#: ../komikku/servers/mangadex/__init__.py:132
+msgid "Horror"
+msgstr "Horror"
+
+#: ../komikku/servers/comick/__init__.py:170
+#: ../komikku/servers/mangadex/__init__.py:133
+msgid "Isekai"
+msgstr "Andere Welt (Isekai)"
+
+#: ../komikku/servers/comick/__init__.py:171
+#: ../komikku/servers/mangadex/__init__.py:134
+msgid "Magical Girls"
+msgstr "Magische Mädchen"
+
+#: ../komikku/servers/comick/__init__.py:172
+msgid "Mature"
+msgstr "„Erwachsen“"
+
+#: ../komikku/servers/comick/__init__.py:173
+#: ../komikku/servers/mangadex/__init__.py:135
+msgid "Mecha"
+msgstr "Mecha"
+
+#: ../komikku/servers/comick/__init__.py:174
+#: ../komikku/servers/mangadex/__init__.py:136
+msgid "Medical"
+msgstr "Medizinisch"
+
+#: ../komikku/servers/comick/__init__.py:175
+#: ../komikku/servers/mangadex/__init__.py:137
+#, fuzzy
+msgid "Mystery"
+msgstr "Mysteriös"
+
+#: ../komikku/servers/comick/__init__.py:176
+#: ../komikku/servers/mangadex/__init__.py:138
+msgid "Philosophical"
+msgstr "Philosophisch"
+
+#: ../komikku/servers/comick/__init__.py:177
+msgid "Psychological"
+msgstr "Psychologisch"
+
+#: ../komikku/servers/comick/__init__.py:178
+#: ../komikku/servers/mangadex/__init__.py:139
+msgid "Romance"
+msgstr "Romantik"
+
+#: ../komikku/servers/comick/__init__.py:179
+#: ../komikku/servers/mangadex/__init__.py:140
+msgid "Sci-Fi"
+msgstr "Sci-Fi"
+
+#: ../komikku/servers/comick/__init__.py:180
+#: ../komikku/servers/mangatown/__init__.py:56
+msgid "Shoujo Ai"
+msgstr "Liebe zwischen Frauen"
+
+#: ../komikku/servers/comick/__init__.py:181
+#: ../komikku/servers/mangadex/__init__.py:141
+msgid "Slice of Life"
+msgstr "Alltagsleben"
+
+#: ../komikku/servers/comick/__init__.py:182
+#: ../komikku/servers/mangadex/__init__.py:142
+msgid "Sports"
+msgstr "Sport"
+
+#: ../komikku/servers/comick/__init__.py:183
+#: ../komikku/servers/mangadex/__init__.py:143
+msgid "Superhero"
+msgstr "Superhelden"
+
+#: ../komikku/servers/comick/__init__.py:184
+#: ../komikku/servers/mangadex/__init__.py:144
+msgid "Thriller"
+msgstr "Thriller"
+
+#: ../komikku/servers/comick/__init__.py:185
+#: ../komikku/servers/mangadex/__init__.py:145
+msgid "Tragedy"
+msgstr "Tragödie"
+
+#: ../komikku/servers/comick/__init__.py:186
+#: ../komikku/servers/mangadex/__init__.py:146
+msgid "Wuxia"
+msgstr "Wuxia"
+
+#: ../komikku/servers/comick/__init__.py:187
+#: ../komikku/servers/mangaball/__init__.py:78
+#: ../komikku/servers/mangatown/__init__.py:55
+msgid "Yaoi"
+msgstr "Yaoi"
+
+#: ../komikku/servers/comick/__init__.py:188
+#: ../komikku/servers/mangaball/__init__.py:77
+#: ../komikku/servers/mangatown/__init__.py:59
+msgid "Yuri"
+msgstr "Yuri"
+
+#: ../komikku/servers/comix/__init__.py:336
+#: ../komikku/servers/dynasty/__init__.py:41
+#: ../komikku/servers/flamescans/__init__.py:38
+#: ../komikku/servers/mangafire/__init__.py:134
+#: ../komikku/servers/mangakawaii/__init__.py:61
+#: ../komikku/servers/mangasorigines/__init__.py:33
+#: ../komikku/servers/mangaworld/__init__.py:60
+#: ../komikku/servers/raijinscan/__init__.py:53
+#: ../komikku/servers/weebcentral/__init__.py:49
+#: ../komikku/servers/zenko/__init__.py:70
+msgid "Filter by Types"
+msgstr "Filtern nach Typen"
+
+#: ../komikku/servers/comix/__init__.py:366
+msgid "Hide NSFW Content"
+msgstr "NSFW Inhalte verbergen"
+
+#: ../komikku/servers/comix/__init__.py:367
+msgid "Hide NSFW content from popular, latest, and search lists"
+msgstr "NSFW Inhalte von beliebt, letzte und Suchliste verbergen"
+
+#: ../komikku/servers/dbmultiverse/__init__.py:58
+#: ../komikku/servers/dbnewhope/__init__.py:30
+msgid "Fan Webcomic"
+msgstr "Fan-Webcomic"
+
+#: ../komikku/servers/dynasty/__init__.py:40
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../komikku/servers/dynasty/__init__.py:44
+msgid "Anthologies"
+msgstr "Anthologien"
+
+#: ../komikku/servers/dynasty/__init__.py:45
+msgid "Doujins"
+msgstr "Doujinshi"
+
+#: ../komikku/servers/dynasty/__init__.py:46
+msgid "Issues"
+msgstr "Ausgaben"
+
+#: ../komikku/servers/dynasty/__init__.py:47
+msgid "Series"
+msgstr "Serien"
+
+#: ../komikku/servers/dynasty/__init__.py:48
+msgid "Chapters"
+msgstr "Kapitel"
+
+#: ../komikku/servers/dynasty/__init__.py:54
+msgid "With Tags"
+msgstr "Mit Tags"
+
+#: ../komikku/servers/dynasty/__init__.py:55
+msgid "Comma separated list of tags to search for"
+msgstr "Durch Kommas getrennte Liste der zu suchenden Schlagwörter"
+
+#: ../komikku/servers/dynasty/__init__.py:61
+msgid "Without Tags"
+msgstr "Ohne Tags"
+
+#: ../komikku/servers/dynasty/__init__.py:62
+msgid "Comma separated list of tags to exclude from search"
+msgstr ""
+"Durch Kommas getrennte Liste von Schlagwörtern, die von der Suche "
+"ausgeschlossen werden sollen"
+
+#: ../komikku/servers/exceptions.py:10
+#, python-brace-format
+msgid "Error: {}"
+msgstr "Fehler: {}"
+
+#: ../komikku/servers/exceptions.py:16
+msgid "Local archive is corrupt."
+msgstr "Lokales Archiv ist beschädigt."
+
+#: ../komikku/servers/exceptions.py:21
+msgid "Unable to extract page. Maybe the 'unrar' tool is missing?"
+msgstr "Konnte Seite nicht extrahieren. Fehlt das 'unrar'-Werkzeug?"
+
+#: ../komikku/servers/exceptions.py:26
+msgid "Failed to complete browser challenge. Please try again."
+msgstr ""
+"Die Browser-Prüfung konnte nicht abgeschlossen werden. Bitte versuchen Sie "
+"es erneut."
+
+#: ../komikku/servers/exceptions.py:31
+msgid "No longer exists."
+msgstr "Existiert nicht mehr."
+
+#: ../komikku/servers/flamescans/__init__.py:37
+#: ../komikku/servers/mangafire/__init__.py:133
+#: ../komikku/servers/rawkuma/__init__.py:40
+#: ../komikku/servers/weebcentral/__init__.py:48
+msgid "Types"
+msgstr "Typen"
+
+#: ../komikku/servers/flamescans/__init__.py:49
+#: ../komikku/servers/mangafire/__init__.py:159
+#: ../komikku/servers/weebcentral/__init__.py:61
+msgid "Statuses"
+msgstr "Status"
+
+#: ../komikku/servers/flamescans/__init__.py:56
+#: ../komikku/trackers/__init__.py:70
+msgid "Dropped"
+msgstr "Abgebrochen"
+
+#: ../komikku/servers/jmanga/__init__.py:47
+#: ../komikku/servers/mangaball/__init__.py:85
+#: ../komikku/servers/mangak/__init__.py:92
+#: ../komikku/servers/mangalivreblog/__init__.py:38
+#: ../komikku/servers/mangasorigines/__init__.py:45
+#: ../komikku/servers/mangatown/__init__.py:66
+#: ../komikku/servers/multi/madtheme/__init__.py:45
+#: ../komikku/servers/readcomicsonline/__init__.py:34
+#: ../komikku/servers/rncalation/__init__.py:53
+#: ../komikku/servers/skymangas/__init__.py:42
+msgid "Filter by Status"
+msgstr "Nach Status filtern"
+
+#: ../komikku/servers/kavita/__init__.py:32
+#: ../komikku/servers/komga/__init__.py:26
+msgid "Self-hosted digital library"
+msgstr "Selbst gehostete digitale Bibliothek"
+
+#: ../komikku/servers/local/__init__.py:351
+msgid "Comics stored locally as archives in CBZ/CBR/CBT or PDF formats"
+msgstr ""
+"Comics, die lokal als Archive im CBZ-, CBR-, CBT- oder PDF-Format "
+"gespeichert sind"
+
+#: ../komikku/servers/mangaball/__init__.py:67
+#: ../komikku/servers/mangak/__init__.py:74
+#: ../komikku/servers/mangatown/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:73
+#: ../komikku/servers/weebdex/__init__.py:74
+msgid "Demographic"
+msgstr "Demografisch"
+
+#: ../komikku/servers/mangaball/__init__.py:68
+#: ../komikku/servers/mangak/__init__.py:75
+#: ../komikku/servers/mangatown/__init__.py:47
+#: ../komikku/servers/skymangas/__init__.py:74
+msgid "Filter by Publication Demographic"
+msgstr "Nach der Zielgruppe der Publikation filtern"
+
+#: ../komikku/servers/mangaball/__init__.py:72
+#: ../komikku/servers/mangaball/__init__.py:89
+#: ../komikku/servers/mangaball/__init__.py:104
+#: ../komikku/servers/mangak/__init__.py:50
+#: ../komikku/servers/mangak/__init__.py:65
+#: ../komikku/servers/mangak/__init__.py:79
+#: ../komikku/servers/mangak/__init__.py:96
+#: ../komikku/servers/mangalivreblog/__init__.py:42
+#: ../komikku/servers/rncalation/__init__.py:41
+#: ../komikku/servers/rncalation/__init__.py:57
+#: ../komikku/servers/weebcentral/__init__.py:40
+msgid "Any"
+msgstr "Beliebig"
+
+#: ../komikku/servers/mangaball/__init__.py:108
+#: ../komikku/servers/mangakawaii/__init__.py:64
+#: ../komikku/servers/mangatube/__init__.py:135
+#: ../komikku/servers/multi/manga_stream/__init__.py:85
+#: ../komikku/servers/zenko/__init__.py:78
+msgid "Comic"
+msgstr "Comic"
+
+#: ../komikku/servers/mangaball/__init__.py:114
+#: ../komikku/servers/multi/madara/__init__.py:434
+#: ../komikku/servers/shadowmanga/__init__.py:39
+#: ../komikku/servers/weebcentral/__init__.py:35
+msgid "Adult Content"
+msgstr "Nicht jugendfreie Inhalte"
+
+#: ../komikku/servers/mangaball/__init__.py:115
+#: ../komikku/servers/multi/madara/__init__.py:435
+#: ../komikku/servers/shadowmanga/__init__.py:40
+msgid "Whether to show series containing adult content"
+msgstr ""
+
+#: ../komikku/servers/mangadex/__init__.py:65
+#: ../komikku/servers/mangafire/__init__.py:127
+#: ../komikku/servers/mangak/__init__.py:54
+#: ../komikku/servers/weebdex/__init__.py:55
+msgid "Pornographic"
+msgstr "Pornographisch"
+
+#: ../komikku/servers/mangadex/__init__.py:112
+msgid "Self-Published"
+msgstr "Selbstveröffentlicht"
+
+#: ../komikku/servers/mangadex/__init__.py:125
+msgid "Boys Love"
+msgstr "Boys Love (BL)"
+
+#: ../komikku/servers/mangadex/__init__.py:130
+msgid "Girls Love"
+msgstr "Girls Love (GL)"
+
+#: ../komikku/servers/mangadex/__init__.py:152
+msgid "Tags Inclusion Mode"
+msgstr "Schlagwörter Inklusionsmodus"
+
+#: ../komikku/servers/mangadex/__init__.py:153
+msgid "Include manga that match <b>all</b> tags (AND) or <b>any</b> tag (OR)"
+msgstr ""
+"Fügen Sie Manga ein, die mit <b>allen</b> Schlagwörtern (UND) oder "
+"<b>irgendeinem</b> Schlagwort (ODER) übereinstimmen"
+
+#: ../komikku/servers/mangadex/__init__.py:157
+msgid "AND"
+msgstr "UND"
+
+#: ../komikku/servers/mangadex/__init__.py:158
+msgid "OR"
+msgstr "ODER"
+
+#: ../komikku/servers/mangadex/__init__.py:167
+#: ../komikku/servers/weebdex/__init__.py:98
+msgid "Data Saver Mode"
+msgstr "Datensparmodus"
+
+#: ../komikku/servers/mangadex/__init__.py:168
+#: ../komikku/servers/weebdex/__init__.py:99
+msgid "Fetch lower quality images to save bandwidth"
+msgstr "Lade Bilder in niedriger Auflösung herunter, um Bandbreite zu sparen"
+
+#: ../komikku/servers/mangafire/__init__.py:120
+#: ../komikku/servers/mangak/__init__.py:45
+msgid "Content Rating"
+msgstr "Altersfreigabe"
+
+#: ../komikku/servers/mangafire/__init__.py:121
+#: ../komikku/servers/mangak/__init__.py:46
+msgid "Filter by Content Rating"
+msgstr "Nach Altersfreigabe filtern"
+
+#: ../komikku/servers/mangafire/__init__.py:146
+msgid "Demographics"
+msgstr ""
+
+#: ../komikku/servers/mangak/__init__.py:80
+msgid "Boy (Shounen + Seinen)"
+msgstr ""
+
+#: ../komikku/servers/mangak/__init__.py:81
+msgid "Girl (Shoujo + Josei)"
+msgstr ""
+
+#: ../komikku/servers/mangakawaii/__init__.py:70
+#: ../komikku/servers/mangatube/__init__.py:134
+msgid "Webtoon"
+msgstr "Webtoon"
+
+#: ../komikku/servers/mangapill/__init__.py:41
+#: ../komikku/servers/rawkuma/__init__.py:47
+msgid "Novel"
+msgstr "Romane"
+
+#: ../komikku/servers/mangapill/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:66
+#: ../komikku/servers/weebcentral/__init__.py:55
+msgid "OEL"
+msgstr "Original englischsprachige Manga"
+
+#: ../komikku/servers/mangatown/__init__.py:58
+msgid "Shounen Ai"
+msgstr "Liebe zwischen Männern"
+
+#: ../komikku/servers/mangatown/__init__.py:71
+msgid "New"
+msgstr "Neu"
+
+#: ../komikku/servers/mangatube/__init__.py:126
+msgid "Type of Serie"
+msgstr "Serienart"
+
+#: ../komikku/servers/mangatube/__init__.py:137
+#: ../komikku/servers/zenko/__init__.py:79
+msgid "Light Novel"
+msgstr "Light Novel"
+
+#: ../komikku/servers/mangatube/__init__.py:143
+msgid "Age Rating"
+msgstr "Alterseinschränkug"
+
+#: ../komikku/servers/mangatube/__init__.py:144
+msgid "Maturity"
+msgstr "Reife"
+
+#: ../komikku/servers/mangatube/__init__.py:148
+msgid "Without"
+msgstr "Ohne"
+
+#: ../komikku/servers/mangatube/__init__.py:149
+msgid "16+"
+msgstr "Ü16"
+
+#: ../komikku/servers/multi/mangareader/__init__.py:119
+#, python-brace-format
+msgid "Not available in {0} language"
+msgstr "Nicht in der Sprache {0} verfügbar"
+
+#: ../komikku/servers/readmanhwa/__init__.py:45
+msgid "NSFW Content"
+msgstr "Unpassende Inhalte"
+
+#: ../komikku/servers/readmanhwa/__init__.py:46
+msgid "Whether to show manga containing NSFW content"
+msgstr "Ob Manga mit unpassendem Inhalt angezeigt werden sollen"
+
+#: ../komikku/servers/skymangas/__init__.py:65
+msgid "Manfra"
+msgstr ""
+
+#: ../komikku/servers/skymangas/__init__.py:83
+msgid "Kodomo"
+msgstr ""
+
+#: ../komikku/servers/suwayomi/__init__.py:33
+#, fuzzy
+msgid "Manga reader server"
+msgstr "Manga-Lese-Server"
+
+#: ../komikku/servers/webtoon/__init__.py:61
+msgid "Originals"
+msgstr "Originale"
+
+#: ../komikku/servers/webtoon/__init__.py:62
+msgid "Canvas"
+msgstr "Leinwand"
+
+#: ../komikku/servers/weebcentral/__init__.py:36
+msgid "Filter by Adult Content"
+msgstr "Nach nicht jugendfreien Inhalten filtern"
+
+#: ../komikku/servers/weebcentral/__init__.py:41
+msgid "Yes"
+msgstr "Ja"
+
+#: ../komikku/servers/weebcentral/__init__.py:42
+msgid "No"
+msgstr "Nein"
+
+#: ../komikku/servers/zenko/__init__.py:45
+msgid "Age Restriction"
+msgstr "Altersbeschränkung"
+
+#: ../komikku/servers/zenko/__init__.py:46
+msgid "Filter by Age Restrictions"
+msgstr "Nach Altersbeschränkung filtern"
+
+#: ../komikku/servers/zenko/__init__.py:73
+msgid "Manga UA"
+msgstr "Manga UA"
+
+#: ../komikku/servers/zenko/__init__.py:77
+msgid "Western Comic"
+msgstr "Westlicher Comic"
+
+#: ../komikku/trackers/__init__.py:67
+msgid "Reading"
+msgstr "Lesen"
+
+#: ../komikku/trackers/__init__.py:69
+msgid "On Hold"
+msgstr "In Warteschleife"
+
+#: ../komikku/trackers/__init__.py:71
+msgid "Plan to Read"
+msgstr "Lesen planen"
+
+#: ../komikku/trackers/__init__.py:72
+msgid "Rereading"
+msgstr "Erneut lesen"
+
+#: ../komikku/updater.py:93
+#, python-brace-format
+msgid "{0} seems down. Please try updating later"
+msgstr ""
+"{0} scheint nicht verfügbar zu sein. Bitte versuchen Sie es später erneut"
+
+#: ../komikku/updater.py:125
+msgid "Library update completed with errors"
+msgstr "Aktualisierung der Bibliothek mit Fehlern abgeschlossen"
+
+#: ../komikku/updater.py:127
+msgid "Library update completed"
+msgstr "Aktualisierung der Bibliothek abgeschlossen"
+
+#: ../komikku/updater.py:130
+msgid "Update completed with errors"
+msgstr "Aktualisierung mit Fehlern abgeschlossen"
+
+#: ../komikku/updater.py:132
+msgid "Update completed"
+msgstr "Aktualisierung abgeschlossen"
+
+#: ../komikku/updater.py:136
+#, python-brace-format
+msgid "{0} successful update"
+msgid_plural "{0} successful updates"
+msgstr[0] "{0} erfolgreich Aktualisiert"
+msgstr[1] "{0} erfolgreiche Aktualisierungen"
+
+#: ../komikku/updater.py:137 ../komikku/updater.py:153
+#, python-brace-format
+msgid "{0} new chapter"
+msgid_plural "{0} new chapters"
+msgstr[0] "{0} neues Kapitel"
+msgstr[1] "{0} neue Kapitel"
+
+#: ../komikku/updater.py:139 ../komikku/updater.py:161
+msgid "No new chapters"
+msgstr "Keine neuen Kapitel"
+
+#: ../komikku/updater.py:142
+#, python-brace-format
+msgid "{0} update failed"
+msgid_plural "{0} updates failed"
+msgstr[0] "{0} Aktualisierung fehlgeschlagen"
+msgstr[1] "{0} Aktualisierungen fehlgeschlagen"
+
+#: ../komikku/updater.py:180
+msgid "Oops, update has failed. Please try again."
+msgstr "Ups, das Update schlug fehl. Bitte erneut versuchen."
+
+#: ../komikku/updater.py:198
+msgid "Library update started"
+msgstr "Aktualisierung der Bibliothek gestartet"
+
+#: ../komikku/utils.py:364
+msgid "You are currently offline"
+msgstr "Sie sind zurzeit offline"
+
+#: ../komikku/utils.py:392
+msgid "No Internet connection, timeout or server down"
+msgstr "Keine Internetverbindung, Timeout oder Serverfehler"
+
+#: ../komikku/webview.py:441
+msgid "Please wait…"
+msgstr "Bitte warten…"
+
+#: ../komikku/webview.py:496
+msgid "Please complete CAPTCHA"
+msgstr "Bitte füllen Sie das CAPTCHA aus"
+
+#~ msgid "Releasing"
+#~ msgstr "Freigabe"
+
+#~ msgid "Discontinued"
+#~ msgstr "Eingestellt"
+
+#~ msgid "Servers Modules"
+#~ msgstr "Servermodule"
+
+#~ msgid ""
+#~ "This tweak is only intended for users who do not use the GNOME desktop "
+#~ "environment and therefore cannot disable animations globally via GNOME "
+#~ "Settings (Accessibility ⇨ Seeing ⇨ Animation Effects)."
+#~ msgstr ""
+#~ "Diese Optimierung ist nur für Benutzer gedacht, die nicht den GNOME "
+#~ "Desktop verwenden und Animationen nicht global über die Einstellungen "
+#~ "(Barrierefreiheit ⇨ Sehen ⇨ Animationeseffekte) deaktivieren können."
+
+#~ msgid "Synopsis"
+#~ msgstr "Inhalt"
+
+#~ msgid "The Preferences page (Library settings)"
+#~ msgstr "Die Einstellungsseite (Bibliothekseinstellungen)"
+
+#~ msgid "One Shot"
+#~ msgstr "Einzelwerk"
+
+#~ msgid ""
+#~ "A specific folder structure is required for local comics to be properly "
+#~ "processed.\n"
+#~ "\n"
+#~ "Each comic must have its own folder which must contain the chapters/"
+#~ "volumes as archive files in CBZ or CBR formats.\n"
+#~ "\n"
+#~ "The folder's name will be used as name for the comic.\n"
+#~ "\n"
+#~ "NOTE: The 'unrar' or 'unar' command-line tool is required for CBR "
+#~ "archives."
+#~ msgstr ""
+#~ "Eine spezielle Ordnerstruktur wird erwartet, um lokale Manga "
+#~ "ordnungsgemäß zu behandeln.\n"
+#~ "\n"
+#~ "Jeder Manga muss in seinem eigenen Ordner gespeichert werden, wobei "
+#~ "Kapitel als CBZ/CBR-Archive abgelegt werden.\n"
+#~ "\n"
+#~ "Der Name des Ordners wird als Name für den Comic verwendet.\n"
+#~ "\n"
+#~ "HINWEIS: Die Kommandozeilenbefehle 'unrar' beziehungsweise 'unar' werden "
+#~ "für CBR-Archive benötigt."
+
+#~ msgid "Web Comic"
+#~ msgstr "Webcomic"
+
+#~ msgid "Webview"
+#~ msgstr "Webansicht"
+
+#~ msgid "Automatic tracking of series with MyAnimeList and AniList"
+#~ msgstr "Automatische Verfolgung von Serien mit MyAnimeList und AniList"
+
+#~ msgid ""
+#~ "Constrain reader's width to a given maximum size (Webtoon reading mode "
+#~ "only)"
+#~ msgstr "Schränke im Webtoon-Modus die maximale Breite ein"
+
+#~ msgid "manga;reader;viewer;comic;manhwa;manhua;bd;webtoon;webcomic;scan;offline;GTK;GNOME;"
+#~ msgstr "manga;lesen;anzeigen;comic;manhwa;manhua;db;webtook;webcomic;scan;offline;GTK;GHOME;"
+
+#~ msgid "Explorer"
+#~ msgstr "Erkunden"
+
+#, python-brace-format
+#~ msgid "Download failure: {0}"
+#~ msgstr "Herunterladen fehlgeschlagen: {0}"
+
+#, python-brace-format
+#~ msgid "{0}/{1} pages downloaded"
+#~ msgstr "{0}/{1} Seiten heruntergeladen"
+
+#~ msgid "error"
+#~ msgstr "Fehler"
+
+#, python-brace-format
+#~ msgid "[{0}] Chapter {1}"
+#~ msgstr "[{0}] Kapitel {1}"
+
+#~ msgid "Download completed"
+#~ msgstr "Download fertiggestellt"
+
+#~ msgid "Support for locally stored series (in CBZ or CBR formats)"
+#~ msgstr "Unterstützung für lokal gespeicherte Serien (im CBZ und CBR Format)"
+
+#~ msgid "Comics stored locally as archives in CBZ/CBR formats"
+#~ msgstr "Lokale Archive in CBZ/CBR-Format"
+
+#~ msgid ""
+#~ "A manga, manhwa, manhua, webtoons, webcomics and comics reader for GNOME\n"
+#~ "\n"
+#~ "👉 Never forget, you can support the authors\n"
+#~ "by buying the official comics when they are\n"
+#~ "available in your region/language."
+#~ msgstr ""
+#~ "\"Ein Manga-Lesegerät für GNOME\n"
+#~ "\n"
+#~ "👉 Nicht vergessen, dass du mit dem Kauf offizieller Veröffentlichungen\n"
+#~ "– so in deiner Region bzw. Sprache verfügbar – Autoren finanziell\n"
+#~ "unterstützen kannst."
+
+# "Details" scheint hier so viel wie "Metadaten" zu bedeuten, ist aber ein eher schwammiger Begriff.
+#~ msgid "Details"
+#~ msgstr "Eigenschaften"
+
+#~ msgid "Enable background recoloring to match cover"
+#~ msgstr "Hintergrund einfärben um mit dem Einband übereinzustimmen"
+
+#~ msgid "Komikku"
+#~ msgstr "Komikku"
+
+#~ msgid "Discover and read manga &amp; comics"
+#~ msgstr "Mangas &amp; comics entdecken und lesen"
+
+#, python-brace-format
+#~ msgid "Page successfully saved to {0}"
+#~ msgstr "Seite erfolgreich in {0} gespeichert"
+
+#~ msgid ""
+#~ "Failed to save page: missing permission to access the XDG pictures "
+#~ "directory"
+#~ msgstr "Fehler beim Speichern der Seite: Kein Zugang zum Bilder-Verzeichnis"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Failed to sync read progress with server:\n"
+#~ "{message}"
+#~ msgstr ""
+#~ "Lesefortschritt konnte nicht mit Server synchronisiert werden:\n"
+#~ "{message}"
+
+#~ msgid "Failed to bypass Cloudflare protection. Please try again."
+#~ msgstr ""
+#~ "Cloudflare-Herausforderung gescheitert. Bitte versuchen Sie es erneut."
+
+#~ msgid "Filter by content ratings"
+#~ msgstr "Nach Inhalt filtern"
+
+#~ msgid "Filter by type"
+#~ msgstr "Nach Art filtern"
+
+#~ msgid "Filter by types"
+#~ msgstr "Nach Arten filtern"
+
+#~ msgid "Filter by statuses"
+#~ msgstr "Nach Status filtern"
+
+#~ msgid ""
+#~ "This tweak is only intended for users who do not use the GNOME desktop "
+#~ "environment and therefore cannot disable animations globally via GNOME "
+#~ "Settings (Accessibility ⇨ Seeing ⇨ Reduce Animation)."
+#~ msgstr ""
+#~ "Dieser Tweak ist nur für Benutzer gedacht, die nicht die GNOME-"
+#~ "Desktopumgebung verwenden und daher Animationen nicht global über die "
+#~ "GNOME-Einstellungen (Barrierefreiheit ⇨ Sehen ⇨ Animationen reduzieren) "
+#~ "deaktivieren können."
+
+#~ msgid "Type of Scaling"
+#~ msgstr "Skalierung"
+
+#~ msgid "[Servers] MANGA Plus by SHUEISHA: Update"
+#~ msgstr "[Server] MANGA Pls by SHUEISHA: Aktualisiert"
+
+#~ msgid "Happy reading."
+#~ msgstr "Viel Spaß beim Lesen."
+
+#~ msgid "Read your favorite manga"
+#~ msgstr "Lies deine Lieblingsmanga"
+
+#~ msgid ""
+#~ "With its simple, elegant and adaptive interface, this manga reader allows "
+#~ "you to search, sort and read all your favorite manga with ease."
+#~ msgstr ""
+#~ "In der eleganten und adaptiven Nutzeroberfläche dieses Manga-Readers "
+#~ "kannst du problemlos deine Lieblingsmanga suchen, sortieren und lesen."
+
+#~ msgid "Support for locally stored manga (in CBZ or CBR formats)"
+#~ msgstr "Unterstützung lokal gespeicherter Manga im CBZ- und CBR-Format"
+
+#~ msgid "Automatic update of manga"
+#~ msgstr "Automatische Updates von Mangas"
+
+#~ msgid "@authorfullname@"
+#~ msgstr "@authorfullname@"
+
+#~ msgid "Tags to search for"
+#~ msgstr "Tags, nach denen gesucht werden soll"
+
+#~ msgid "Tags to exclude from search"
+#~ msgstr "Tags, die von der Suche ausgeschlossen werden sollen"
+
+#, python-brace-format
+#~ msgid ""
+#~ "NOTICE\n"
+#~ "{0} server is not longer supported.\n"
+#~ "Please switch to another server."
+#~ msgstr ""
+#~ "HINWEIS\n"
+#~ "Der Server {0} wird nicht mehr unterstützt.\n"
+#~ "Bitte wechseln sie auf einen anderen Server."
+
+#~ msgid "Update started"
+#~ msgstr "Aktualisierung gestartet"
+
+#~ msgid "[Servers] Izneo: Update"
+#~ msgstr "[Server] Izneo: Aktualisiert"
+
+#~ msgid "[Servers] Xoxocomics: Update"
+#~ msgstr "[Server] Xoxocomics: Aktualisiert"
+
+#~ msgid "[Servers] Asura Scans [EN/TR]: Update"
+#~ msgstr "[Server] Asura Scans (EN/TR): Aktualisert"
+
+#~ msgid "[Servers] Komga: Update"
+#~ msgstr "[Server] Komga: Aktualisiert"
+
+#~ msgid "[Servers] MangaDex: Update"
+#~ msgstr "[Server] MangaDex: Aktualisiert"
+
+#~ msgid "[Servers] MangaKawaii: Update"
+#~ msgstr "[Server] MangaKawaii: Aktualisiert"
+
+#~ msgid "[Servers] Read Manga: Update"
+#~ msgstr "[Server] Read Manga: Aktualisiert"
+
+#~ msgid "[Servers] Self Manga: Update"
+#~ msgstr "[Server] Self Manga: Aktualisiert"
+
+#~ msgid "[Servers] Dragon Ball Multiverse: Update"
+#~ msgstr "[Server] Dragon Ball Multiverse: Aktualisert"
+
+#~ msgid "[Servers] Golden Mangás: Update"
+#~ msgstr "[Server] Golden Mangás: Aktualisiert"
+
+#~ msgid "[L10n] Updated French translation"
+#~ msgstr "[L10n] Französische Übersetzung aktualisiert"
+
+#~ msgid "[Servers] MangaFreak: Update"
+#~ msgstr "[Server] MangaFreak: Aktualisiert"
+
+#~ msgid "[Servers] Webtoon: Update"
+#~ msgstr "[Server] Webtoon: Aktualisiert"
+
+#~ msgid "[Servers] Manga/in/ua: Update"
+#~ msgstr "[Server] Manga/in/ua: Aktualisiert"
+
+#~ msgid "[Servers] Mangaowl: Update"
+#~ msgstr "[Server] Mangaowl: Aktualisiert"
+
+#~ msgid "[Servers] Union Mangás: Update"
+#~ msgstr "[Server] Union Mangás: Aktualisiert"
+
+#~ msgid "[Servers] JapScan: Update"
+#~ msgstr "[Server] JapScan: Aktualisiert"
+
+#~ msgid "[Servers] Mangapill: Update"
+#~ msgstr "[Server] Mangapill: Aktualisiert"
+
+#~ msgid "[Servers] Jpmangas: Update"
+#~ msgstr "[Server] Jpmangas: Aktualisiert"
+
+#~ msgid "[Servers] 3asq: Update"
+#~ msgstr "[Server] 3asq: Aktualisiert"
+
+#~ msgid "[Servers] Phoenix Fansub: Update"
+#~ msgstr "[Server] Phoenix Fansub: Aktualisiert"
+
+#~ msgid "[Servers] Raw Manga: Update"
+#~ msgstr "[Server] Raw Manga: Aktualisiert"
+
+#~ msgid "[Servers] ReadManhwa: Update"
+#~ msgstr "[Server] ReadManhwa: Aktualisiert"
+
+#~ msgid "[Servers] Reaper Scans [PT]: Update"
+#~ msgstr "[Server] Reaper Scans (PT): Aktualisiert"
+
+#~ msgid "[Servers] Rawkuma: Update"
+#~ msgstr "[Server] Rawkuma: Aktualisiert"
+
+#~ msgid "[Servers] Apoll Comics: Update"
+#~ msgstr "[Server] Apoll Comics: Aktualisiert"
+
+#~ msgid "[Servers] Remanga: Update"
+#~ msgstr "[Server] Remanga: Aktualisiert"
+
+#~ msgid ""
+#~ "[Reader] Webtoon pager: Removed unwanted scrolling when clicking on "
+#~ "'Retry' button of a page"
+#~ msgstr ""
+#~ "[Reader] Webtoon-Pager: Unerwünschtes Scrollen beim Klicken auf die "
+#~ "Schaltfläche 'Wiederholen' auf einer Seite wurde entfernt"
+
+#~ msgid "[Servers] FMTEAM: Fixed logo"
+#~ msgstr "[Server] FMTEAM: Logo korrigiert"
+
+#~ msgid "[Servers] Viz: Update"
+#~ msgstr "[Server] Viz: Aktualisert"
+
+#~ msgid "[Servers] Zero Scans: Reactivation"
+#~ msgstr "[Server] Zero Scans: Reaktiviert"
+
+#~ msgid "[UX] Added possibility to go back with mouse Back button"
+#~ msgstr ""
+#~ "[UX] Möglichkeit zum Zurückgehen mit der Zurück-Taste der Maus hinzugefügt"
+
+#~ msgid "[Library] Fixed range selection mode"
+#~ msgstr "[Bibliothek] Fehler beim Auswählen benachbarter Elemente behoben"
+
+#~ msgid "[Servers] Added FMTEAM [FR] (Scantrad France sucessor)"
+#~ msgstr "[Server] FMTEAM (FR) hinzugefügt (ehemals Scantrad France)"
+
+#~ msgid "[Servers] MangaDex: Added `Español (Latinoamérica)` language"
+#~ msgstr ""
+#~ "[Server] MangaDex: Spanisch (Lateinamerika) als Sprachvariante hinzugefügt"
+
+#~ msgid "[Servers] Pepper&amp;Carrot: Added `Espéranto` language"
+#~ msgstr ""
+#~ "[Server] Pepper&amp;Carrot: Esperanto als Sprachvariante hinzugefügt"
+
+#~ msgid "[Servers] Manga-Scantrad: Update"
+#~ msgstr "[Server] Manga-Scantrad: Aktualisiert"
+
+#~ msgid "[Servers] Scantrad France: Disable"
+#~ msgstr "[Server] Scantrad France: Deaktiviert"
+
+#~ msgid "[Servers] Le Cercle du Scan: Added `Latest Updates`"
+#~ msgstr "[Server] Le Cercle du Scan: Neueste Updates\" hinzugefügt"
+
+#~ msgid ""
+#~ "[UX] Previous maximized state of window is now saved and restored when "
+#~ "application starts"
+#~ msgstr ""
+#~ "[UX] Starte mit maximiertem Fenster, wenn die Anwendung mit maximiertem "
+#~ "Fenster geschlossen wurde"
+
+#~ msgid ""
+#~ "[Library] Previous selected filters are now saved and restored when "
+#~ "application starts"
+#~ msgstr ""
+#~ "[Bibliothek] Zuvor ausgewählte Filter werden jetzt gespeichert und beim "
+#~ "Start der Anwendung wiederhergestellt"
+
+#~ msgid "[Preferences] Library: Added new `NSFW Only Content` setting"
+#~ msgstr ""
+#~ "[Einstellungen] Bibliothek: \"Fokus auf unpassende Inhalte (18+)\" "
+#~ "hinzugefügt"
+
+#~ msgid ""
+#~ "[Reader] RTL/LTR/Vertical pager: Improved placement of pages when they "
+#~ "are scrollable"
+#~ msgstr ""
+#~ "[Reader] RTL/LTR/Vertikaler Pager: Verbesserte Platzierung scrollbarer "
+#~ "Seiten"
+
+#~ msgid "[Servers] Local: Added `Latest Updates`"
+#~ msgstr "[Server] Lokal: \"Neueste Updates\" hinzugefügt"
+
+#~ msgid "Last week, Komikku joined GNOME Circle 🎉"
+#~ msgstr "Letzte Woche ist Komikku dem GNOME Circle beigetreten. 🎉"
+
+#~ msgid "Bugfix release"
+#~ msgstr "Version zur Fehlerbehebung"
+
+#~ msgid ""
+#~ "Fixed a bug that caused the loss of some pinned servers in the explorer "
+#~ "(it's certainly too late for those who have updated to version 1.12.0)."
+#~ msgstr ""
+#~ "Es wurde ein Fehler behoben, der zum Verlust angehefteter Server im "
+#~ "Explorer führte. Für diejenigen, die bereits auf Version 1.12.0 "
+#~ "aktualisiert haben, kommt diese Aktualisierung zu spät."
+
+#~ msgid ""
+#~ "BEWARE, since 1.12.0, all servers that contain explicit sexual content or "
+#~ "nudity, such as hentai, mature, ecchi or yaoi/yuri are now tagged NSFW "
+#~ "(18+)."
+#~ msgstr ""
+#~ "ACHTUNG: Seit Version 1.12.0 werden Server, die explizite Sexualität, "
+#~ "Nacktheit, oder gleichgeschlechtliche Beziehungen beinhalten als "
+#~ "\"unpassende Inhalte\" (18+) gewertet."
+
+#~ msgid "[UI] Added ability to go back with &lt;ALT+Left&gt; shortcut"
+#~ msgstr "[UI] Möglichkeit hinzugefügt, mit &lt;ALT+Links&gt; zurückzugehen"
+
+#~ msgid "[Reader] Added ability to navigate foward with &lt;SPACE&gt; key"
+#~ msgstr "[Leser] Vorwärtsnavigation mit &lt;SPACE&gt; Taste hinzugefügt"
+
+#~ msgid "[Servers] Guya.moe: Update"
+#~ msgstr "[Server] Guya.moe: Aktualisiert"
+
+#~ msgid "[Servers] MangaHub: Update"
+#~ msgstr "[Server] MangaHub: Aktualisiert"
+
+#~ msgid "[Servers] MangaLib: Update"
+#~ msgstr "[Server] MangaLib: Aktualisiert"
+
+#~ msgid "[Servers] Mangas Origines: Update"
+#~ msgstr "[Server] Mangas Origines: Aktualisiert"
+
+#~ msgid "[Servers] Mangas.in: Update"
+#~ msgstr "[Server] Mangas.in: Aktualisiert"
+
+#~ msgid ""
+#~ "Beware, all servers that contain explicit sexual content or nudity, such "
+#~ "as hentai, ecchi and yaoi/yuri are now tagged NSFW."
+#~ msgstr ""
+#~ "Achtung: Alle Server mit expliziter Sexualität, Nacktheit, oder "
+#~ "gleichgeschlechtlichen Beziehungen gelten nun als \"unpassende Inhalte\"."
+
+#~ msgid "[UI] Use #f66151 color (orange) as app's accent color"
+#~ msgstr "[UI] Verwende #f66151 (orange) als Akzentfarbe"
+
+#~ msgid ""
+#~ "[Shortcuts] Add &lt;Ctrl+f&gt; in History and Explorer =&gt; Servers "
+#~ "(toggles search entry)"
+#~ msgstr ""
+#~ "[Tastenkürzel] Neue Kürzel zu der Anzeige/dem Verschwinden des "
+#~ "Sucheintrags"
+
+#~ msgid "[Servers] Japscan: Update"
+#~ msgstr "[Server] Japscan: Aktualisert"
+
+#~ msgid "[Servers] Read Comic Online: Update"
+#~ msgstr "[Server] Read Comic Online: Aktualisiert"
+
+#~ msgid "[L10n] Update French, German and Turkish translations"
+#~ msgstr ""
+#~ "[L10n] Französische, deutsche und türkische Übersetzungen aktualisiert"
+
+#~ msgid "[Library] Improved thumbnails appearance"
+#~ msgstr "[Bibliothek] Verbesserte Darstellung der Thumbnails"
+
+#~ msgid "[Explorer] Various improvements in search"
+#~ msgstr "[Explorer] Verschiedene Verbesserungen in der Suche"
+
+#~ msgid ""
+#~ "[Reader] LTR, RTL, vertical pager: Improved page transition animation"
+#~ msgstr ""
+#~ "[Reader] LTR, RTL, vertikaler Pager: Verbesserte Seitenübergangsanimation"
+
+#~ msgid "[Servers] Read Manga, AllHentai, Mint Manga, Self Manga: Update"
+#~ msgstr ""
+#~ "[Server] Read Manga, AllHentai, Mint Manga, Self Manga: Aktualisiert"
+
+#~ msgid "[A11y] Fixed keyboard navigation and added missing buttons tooltips"
+#~ msgstr ""
+#~ "[A11y] Fehler bei der Tastaturennavigation behoben, fehlende Hinweise bei "
+#~ "Schaltflächen ergänzt"
+
+#~ msgid "[L10n] Update French and German translations"
+#~ msgstr "[L10n] Deutsche und französische Übersetzung aktualisiert"
+
+#~ msgid "[Reader] LTR, RTL, vertical pager: Added 2-finger zoom gesture"
+#~ msgstr ""
+#~ "[Leser] Links nach rechts, rechts nach links, vertikal: Zwei-Finger-"
+#~ "Gesten hinzugefügt"
+
+#~ msgid ""
+#~ "[Reader] LTR, RTL, vertical pager: Improved double-tap zoom on "
+#~ "touchscreens"
+#~ msgstr ""
+#~ "[Leser] Links nach rechts, rechts nach links, vertikal: Zoom bei "
+#~ "Touchscreens verbessert"
+
+#~ msgid ""
+#~ "[Reader] LTR, RTL, vertical pager: Fixed page scrolling when scaling is "
+#~ "`Original Size`"
+#~ msgstr ""
+#~ "[Leser] Links nach rechts, rechts nach links, vertikal: Besseres "
+#~ "Scrollverhalten, wenn die Skalierung \"Originalgröße\" ist"
+
+#~ msgid "[Servers] Add Toonily [EN]"
+#~ msgstr "[Server] Toonily (EN) hinzugefügt"
+
+#~ msgid "[Servers] Dynasty: Update"
+#~ msgstr "[Server] Dynasty: Aktualisiert"
+
+#~ msgid "[Servers] Local: Repair"
+#~ msgstr "[Server] Lokal: Fehler behoben"
+
+#~ msgid "[Servers] Add Bilibili Comics ES, FR, ID"
+#~ msgstr "[Server] Bilibili Comics (ES, FR, ID) hinzugefügt"
+
+#~ msgid "[Servers] Add Golden Mangás [pt_BR]"
+#~ msgstr "[Server] Golden Mangás (pt_BR) hinzugefügt"
+
+#~ msgid "[Servers] Add MangaWorld [IT]"
+#~ msgstr "[Server] MangaWorld (IT) hinzugefügt"
+
+#~ msgid "[Servers] Add Mangalek [AR]"
+#~ msgstr "[Server] Mangalek (AR) hinzugefügt"
+
+#~ msgid "[Servers] Colored Manga: Update"
+#~ msgstr "[Server] Colored Manga: Aktualisiert"
+
+#~ msgid "Brings new Brazilian Portuguese, French and German translations"
+#~ msgstr ""
+#~ "Neuerungen in brasilianischer, französischer und deutscher Übersetzung"
+
+#~ msgid ""
+#~ "[Explorer] Add `Latest Updates` (not available for all compatible servers "
+#~ "yet)"
+#~ msgstr ""
+#~ "[Explorer] `Zuletzt aktualisiert` hinzugefügt (Noch nicht für alle "
+#~ "kompatiblen Server verfügbar)"
+
+#~ msgid "[Servers] Add Reaper Scans AR, FR, ID and TR"
+#~ msgstr "[Server] Reaper Scans für AR, FR, ID und TR hinzugefügt"
+
+#~ msgid "[Servers] Re-enables Tutto Anime Manga (TAM) [IT]"
+#~ msgstr "[Server] Tutto Anime Manga (TAM) wiederhergestellt [IT]"
+
+#~ msgid "[Servers] Atikrost: Update"
+#~ msgstr "[Server] Sttikrost: Aktualisiert"
+
+#~ msgid "[Servers] LeviatanScans [EN]: Update"
+#~ msgstr "[Server] LevitianScans [EN]: Aktualisert"
+
+#~ msgid "Brings new French and Brazilian Portuguese translations"
+#~ msgstr "Neue Französische und Brasilianisch-Protugiesische Übersetzungen"
+
+#~ msgid "Happy reading and merry christmas."
+#~ msgstr "Frohe Weihnachten und Viel Spaß beim Lesen."
+
+#~ msgid "Bug-fix release:"
+#~ msgstr "Release zum Beheben von Fehlern:"
+
+#~ msgid "Missing database indexes"
+#~ msgstr "Fehlende Datenbank-Indizes"
+
+#~ msgid ""
+#~ "Disappearance of the categories toggle button after leaving the library"
+#~ msgstr "Verschwinden des Kategorien-Schalters"
+
+#~ msgid "New icon 🎉 Thank you to its author Tobias Bernard"
+#~ msgstr "Neues Logo 🎉 Danke an Tobias Bernard"
+
+#~ msgid ""
+#~ "[Card] Chapters are now downloaded in ascending order of chapter numbers"
+#~ msgstr ""
+#~ "[Mangakarte] Kapitel werden nun aufsteigend nach Nummer heruntergeladen"
+
+#~ msgid "[Servers] Add Manga Tube [DE]"
+#~ msgstr "[Server] Manga Tube (DE) hinzugefügt"
+
+#~ msgid "[Servers] Lector Manga (Leomanga): Update"
+#~ msgstr "[Server] Lector Manga (Leomanga): Aktualisiert"
+
+#~ msgid "[L10n] Update French and Simplified Chinese translations"
+#~ msgstr "[L10n] Französische und chinesische Übersetzung aktualisiert"
+
+#~ msgid "Bugs fixes"
+#~ msgstr "Fehler behoben"
+
+#~ msgid ""
+#~ "[Reader] Webtoon reading mode: Add srcolling with Page Up and Page Down "
+#~ "keys"
+#~ msgstr "[Leser] Webtoon-Modus: Scrollen mittels Bild-Tasten hinzugefügt"
+
+#~ msgid "[Explorer] Global search: Put servers without results at end"
+#~ msgstr "[Explorer] Globale Suche: Schicke resultatlose Server ans Ende"
+
+#~ msgid ""
+#~ "[Preferences] Advanced: Add new option to disable GTK animations (useful "
+#~ "with E Ink e-readers)"
+#~ msgstr ""
+#~ "[Einstellungen] Einstellung zum Unterbinden von Animationen hinzugefügt"
+
+#~ msgid "[Servers] Add 3asq (مانجا العاش) [AR]"
+#~ msgstr "[Server] 3asq (AR) hinzugefügt"
+
+#~ msgid "[Servers] Best Manga: Update"
+#~ msgstr "[Server] Best Manga: Aktualisiert"
+
+#~ msgid "[Servers] LeviatanScans: Update"
+#~ msgstr "[Server] LeviatanScans: Aktualisiert"
+
+#~ msgid "[Servers] Kirei Cake: Disable"
+#~ msgstr "[Server] Kirei Cake: Abgeschaltet"
+
+#~ msgid "Fixed app not starting on SteamOS (Steam Deck)"
+#~ msgstr "Startfehler in SteamOS behoben"
+
+#~ msgid "[Library] Improved thumbnails badges"
+#~ msgstr "[Bibliothek] Verbesserte Embleme"
+
+#~ msgid "[Reader] Improved double tap zoom on touch screens"
+#~ msgstr "[Leser] Zoomen mittels Touchscreen verbessert"
+
+#~ msgid "[Downloader] Bug fix"
+#~ msgstr "[Downloader] Fehler behoben"
+
+#~ msgid "[Updater] Bug fix"
+#~ msgstr "[Updater] Fehler behoben"
+
+#~ msgid "[Servers] Local: Fixed wrong pages order with some archives"
+#~ msgstr "[Server] Lokal: Fehler beim Ordnen von Bildern behoben"
+
+#~ msgid "[Library] Improved loading: Added a waiting page with a progress bar"
+#~ msgstr "[Bibliothek] Zeige Fortschrittbalken beim Laden"
+
+#~ msgid "[Explorer] Fixed Global Search when several languages are enabled"
+#~ msgstr ""
+#~ "[Explorer] Fehler bei der globalen Suche mit mehreren Sprache behoben"
+
+#~ msgid "[Reader] Improved rendering of Page numbering"
+#~ msgstr "[Leser] Bessere Anzeige von Seitenzahlen"
+
+#~ msgid "[Servers] 24hRomance: Disable"
+#~ msgstr "[Server] 24hRomance: Abgeschaltet"
+
+#~ msgid "[Downloader] Improved download speed"
+#~ msgstr "[Downloader] Geschwindigkeit verbessert"
+
+#~ msgid "[Explorer] Add Global search"
+#~ msgstr "[Explorer] Globale Suche hinzugefügt"
+
+#~ msgid "[Servers] Aralos BD: Fixed search"
+#~ msgstr "[Server] Aralos BD: Fehler in der Suche behoben"
+
+#~ msgid "[Servers] Local: Fixed CBR archives reading bug (Flatpak only)"
+#~ msgstr ""
+#~ "[Server] Lokal: Fehler beim Lesen von CBR-Archiven in der Flatpak-"
+#~ "Anwendung behoben"
+
+#~ msgid "[Reader] Improved Webtoon reading mode"
+#~ msgstr "[Leser] Webtoon-Modus verbessert"
+
+#~ msgid "[Servers] Add Local server (CBZ/CBR archives)"
+#~ msgstr "[Server] Lokalen \"Server\" für archivierte Dateien hinzugefügt"
+
+#~ msgid "[Servers] Add Comic Book Plus [EN]"
+#~ msgstr "[Server] Comic Book Plus (EN) hinzugefügt"
+
+#~ msgid "[Servers] Scan FR: Update"
+#~ msgstr "[Server] Scan FR: Aktualisiert"
+
+#~ msgid "Landscape covers (rare) are now converted to portrait"
+#~ msgstr "Breite Buchumschläge (selten) werden nun in Portraits konvertiert"
+
+#~ msgid "[Reader] Webtoon reading mode: Bugfix"
+#~ msgstr "[Leser] Webtoon-Modus: Fehler behoben"
+
+#~ msgid "[Reader] Fixed detection of 'read' chapters"
+#~ msgstr "[Leser] Fehler in der Erkennung gelesener Kapitel behoben"
+
+#~ msgid "[Servers] MangaLife [EN]: Reenable"
+#~ msgstr "[Server] MangaLife (EN) reaktiviert"
+
+#~ msgid "[Servers] LeviatanScans [EN]: Reenable"
+#~ msgstr "[Server] LeviatanScans (EN) reaktiviert"
+
+#~ msgid "[Servers] Scan OP [FR]: Disable"
+#~ msgstr "[Server] Scan OP (FR) deaktiviert"
+
+#~ msgid "[Servers] Zero Scans: Disable"
+#~ msgstr "[Server] Zero Scans deaktiviert"
+
+#~ msgid "[L10n] Add Simplified Chinese translations"
+#~ msgstr "[L10] Übersetzung in Chinesisch (vereinfacht) hinzugefügt"
+
+#~ msgid "[L10n] Update Turkish translation"
+#~ msgstr "[L10] Türkische Übersetzung überarbeitet"
+
+#~ msgid ""
+#~ "After several months of effort, Komikku's port to GTK4 and libadwaita is "
+#~ "ended."
+#~ msgstr ""
+#~ "Nach mehreren Monaten Arbeit ist Komikkus Portierung zu GTK4 und "
+#~ "libadwaita vollendet."
+
+#~ msgid "The highlights of this new major version:"
+#~ msgstr "Die Highlights dieser Version sind:"
+
+#~ msgid "Refreshing of the UI to follow the GNOME HIG as much as possible"
+#~ msgstr "Benutzeroberfläche weitestgehend an GNOME-Richtlinien angepasst"
+
+#~ msgid "Library has now two display modes: Grid and Compact grid"
+#~ msgstr "Die Bibliothek hat nun zwei Modi: Gitter und kompaktes Gitter"
+
+#~ msgid ""
+#~ "Faster display of the chapters list, whether there are few or many "
+#~ "chapters"
+#~ msgstr ""
+#~ "Schnellere Anzeige der Kapitelliste unabhängig von der Anzahl der Kapitel"
+
+#~ msgid "Full rewriting of the Webtoon reading mode"
+#~ msgstr "Komplette Neuimplementierung des Webtoon-Modus"
+
+#~ msgid "Modern ‘About’ window"
+#~ msgstr "Modernes ‘Über Komikku’-Fenster"
+
+#~ msgid "Changes since 0.41.0:"
+#~ msgstr "Änderungen seit 0.41.0:"
+
+#~ msgid "[Preferences] Reader: Add 'Landscape Pages Zoom' setting"
+#~ msgstr ""
+#~ "[Einstellungen] Einstellung zum Zoom bei breiten Bildern hinzugefügt"
+
+#~ msgid ""
+#~ "[Preferences] Reader: Add 'Maximum Width' setting (Webtoon reading mode)"
+#~ msgstr ""
+#~ "[Einstellungen] Leser: Maximale Breite im Webtoon-Modus kann nun "
+#~ "angepasst werden"
+
+#~ msgid "[Servers] Add Grise Bouille [FR]"
+#~ msgstr "[Server] Grise Bouille (FR) hinzugefügt"
+
+#~ msgid "[Servers] MangaNato (MangaNelo): Update"
+#~ msgstr "[Server] MangaNato (auch bekannt als MangaNelo): Aktualisiert"
+
+#~ msgid "[L10n] Update French, German, Spanish and Turkish translations"
+#~ msgstr "[L10] Französische, deutsche und türkische Übersetzung aktualisiert"
+
+#~ msgid "[Servers] Add Aralos BD [FR]"
+#~ msgstr "[Server] Aralos BD (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Manga-Scantrad [FR]"
+#~ msgstr "[Server] Manga-Scantrad (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Mangas Origines [FR]"
+#~ msgstr "[Server] Mangas Origines (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Mangaowl [EN]"
+#~ msgstr "[Server] Mangaowl (EN) hinzugefügt"
+
+#~ msgid "[Servers] Asura Scans: Update (EN+TR)"
+#~ msgstr "[Server] Asura Scans (EN, TR) hinzugefügt"
+
+#~ msgid "[Servers] BILIBILI COMICS: Update"
+#~ msgstr "[Server] BILIBILI COMICS: Aktualisiert"
+
+#~ msgid "[Servers] Mangas.in: Fix `Most populars` order"
+#~ msgstr ""
+#~ "[Server] Mangas.in: Fehler in der Reihenfolge beliebtester Manga behoben"
+
+#~ msgid "[Servers] Add Remanga [RU]"
+#~ msgstr "[Server] Remanga (RU) hinzugefügt"
+
+#~ msgid "[Servers] Add Manga.in.ua [UA]"
+#~ msgstr "[Server] Manga.in.ua (UA) hinzugefügt"
+
+#~ msgid "[Servers] FR Scan: Update"
+#~ msgstr "[Server] FR Scan: Aktualisiert"
+
+#~ msgid "[Servers] Lelscan-VF: Reenabled"
+#~ msgstr "[Server] Lelscan-VF: Wieder angeschaltet"
+
+#~ msgid "[Servers] Leomanga: Update"
+#~ msgstr "[Server] Leomanga: Aktualisiert"
+
+#~ msgid "[Servers] Madara (multi): Added filter in search to ignore novels"
+#~ msgstr "[Server] Madara (multi): Erlaube Suchfilter"
+
+#~ msgid "[Servers] MangaSee: Update"
+#~ msgstr "[Server] MangaSee: Aktualisiert"
+
+#~ msgid "[Servers] Submanga: Disabled"
+#~ msgstr "[Server] Submanga: abgeschaltet"
+
+#~ msgid "[L10n] Update French translation"
+#~ msgstr "[L10n] Französische Übersetzung aktualisiert"
+
+#~ msgid "[Servers] Add Mangapill [EN]"
+#~ msgstr "[Server] Mangapill (EN) hinzugefügt"
+
+#~ msgid "[Servers] Scan Manga: Update"
+#~ msgstr "[Server] Scan Manga: Aktualisiert"
+
+#~ msgid "[Servers] NHentai: Disable"
+#~ msgstr "[Server] NHentai: abgeschaltet"
+
+#~ msgid "[Servers] Add Manhuaus [EN]"
+#~ msgstr "[Server] Manhuaus (EN) hinzugefügt"
+
+#~ msgid "[Servers] Bilibili: Filter paywalled chapters"
+#~ msgstr ""
+#~ "[Server] Bilibili: Verhindere die Anzeige zahlungspflichtiger Kapiteln"
+
+#~ msgid "[Servers] Manga Eden: Disable"
+#~ msgstr "[Server] Manga Eden: abgeschaltet"
+
+#~ msgid "Add `Quit` shortcut action (Ctrl+Q)"
+#~ msgstr "Tastenkürzel Ctrl+Q zum beenden hinzugefügt"
+
+#~ msgid "[Servers] Fixed loading of images in `webp` format"
+#~ msgstr "[Server] Fehler beim Laden von Bildern im webp-Format behoben"
+
+#~ msgid "[Servers] Add GTO TGS [IT]"
+#~ msgstr "[Server] GTO TGS (IT) hinzugefügt"
+
+#~ msgid "[Servers] Add Phoenix Scans [IT]"
+#~ msgstr "[Server] Phoenix Scans (IT) hinzugefügt"
+
+#~ msgid "[Servers] Edelgarde Scans: Disabled"
+#~ msgstr "[Server] Edelgarde Scans: abgeschaltet"
+
+#~ msgid "[Servers] Hatigarm Scans: Disabled"
+#~ msgstr "[Server] Hatigarm Scans: abgeschaltet"
+
+#~ msgid "[Servers] LupiTeam: Update"
+#~ msgstr "[Server] LupiTeam: Aktualisiert"
+
+#~ msgid "[Servers] Nine Manga: Improved images loading"
+#~ msgstr "[Server] Nine Manga: Laden der Bilder verbessert"
+
+#~ msgid "[Servers] Wakascan: Disabled"
+#~ msgstr "[Server] Wakascan: Aktualisiert"
+
+#~ msgid "[Servers] NHentai: Update"
+#~ msgstr "[Server] NHentai: Aktualisiert"
+
+#~ msgid "[L10n] Update German translation"
+#~ msgstr "[L10n] Deutsche Übersetzung aktualisiert"
+
+#~ msgid "[Card] Add keyboard navigation outside of selection mode"
+#~ msgstr ""
+#~ "[Mangakarte] Tastennavigation außerhalb des Auswahlmodus hinzugefügt"
+
+#~ msgid "[Servers] CatManga: Disable"
+#~ msgstr "[Server] CatManga: Deaktiviert"
+
+#~ msgid "[Servers] ReaperScansFR: Disable"
+#~ msgstr "[Server] ReaperScansFR: Deaktiviert"
+
+#~ msgid "[Servers] 24hRomance: Update"
+#~ msgstr "[Server] 24hRomance: Aktualisiert"
+
+#~ msgid "[Servers] Colored Manga (Colored Council): Update"
+#~ msgstr "[Server] Colored Manga (Colored Council): Aktualisiert"
+
+#~ msgid "[Servers] Lelscan-VF: Disable"
+#~ msgstr "[Server] Lelscan-VF: Deaktiviert"
+
+#~ msgid "[Servers] Phoenix Fansub [ES]: Update"
+#~ msgstr "[Server] Phoenix Fansub (ES): Aktualisiert"
+
+#~ msgid "[Servers] Raw Manga [JA]: Update"
+#~ msgstr "[Server] Raw Manga (JA): Aktualisiert"
+
+#~ msgid "[Servers] Rawkuma [JA]: Update"
+#~ msgstr "[Server] Rawkuma (JA): Aktalisiert"
+
+#~ msgid "[Servers] Submanga: Update"
+#~ msgstr "[Server] Submanga: Aktualisiert"
+
+#~ msgid "[L10n] Update French and Spanish translations"
+#~ msgstr "[L10n] Französische und Spanische Übersetzung aktualisiert"
+
+#~ msgid "[Library] Faster rendering on category changes"
+#~ msgstr "[Bibliothek] Schnelleres Rendern bei Kategorieänderung"
+
+#~ msgid "[Servers] Argos Scan: Disable"
+#~ msgstr "[Server] Argos Scan: Deaktiviert"
+
+#~ msgid "[Servers] Bilibili: Detection of partially loaded pages"
+#~ msgstr "[Server] Bilibili: Erkenne nur teilweise geladene Seiten"
+
+#~ msgid "[Servers] MangaDex: Search now takes language into account"
+#~ msgstr "[Server] Mangadex respektiert nun Spracheinstellung"
+
+#~ msgid "[Servers] Under Flatpak, fixed problem with the HTML parser"
+#~ msgstr "[Server] Problem beim HTML-Parser in Flatpak behoben"
+
+#~ msgid "Add Reading History"
+#~ msgstr "\"Zuletzt gelesen\" hinzugefügt"
+
+#~ msgid "[Servers] Add Le Cercle du Scan [FR]"
+#~ msgstr "[Server] Le Cercle du Scan (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Raw Manga [JA]"
+#~ msgstr "[Server] Raw Manga (JA) hinzugefügt"
+
+#~ msgid "[Servers] Add Rawkuma [JA]"
+#~ msgstr "[Server] Rawkuma (JA) hinzugefügt"
+
+#~ msgid "[Servers] Add Reaper Scans [FR/PT]"
+#~ msgstr "[Server] Reaper Scans (FR/PT) hinzugefügt"
+
+#~ msgid "[Servers] MangaDex: Add rating filter"
+#~ msgstr "[Server] MangaDex: Filterung nach Inhalt hinzugefügt"
+
+#~ msgid "[Servers] AllHentai: Update"
+#~ msgstr "[Server] AllHentai: Aktualisiert"
+
+#~ msgid "[Servers] Reaper Scans: Update"
+#~ msgstr "[Server] Reaper Scans: Aktualisiert"
+
+#~ msgid "[Servers] Aloalivn: Disable"
+#~ msgstr "[Server] Aloalivn: Deaktiviert"
+
+#~ msgid "[Servers] Central de Mangás: Disable"
+#~ msgstr "[Server] Central de Mangás: Deaktiviert"
+
+#~ msgid "[Servers] TuttoAnimeManga: Disable"
+#~ msgstr "[Server] TuttoAnimeManga: Deaktiviert"
+
+#~ msgid "[L10n] Update French, German and Polish translations"
+#~ msgstr ""
+#~ "[L10] Französische, deutsche, und polnische Übersetzung aktualisiert"
+
+#~ msgid "[Servers] Mangahub: Fixed bug when summary is missing"
+#~ msgstr "[Server] Mangahub: Fehler bei fehlender Zusammenfassung behoben"
+
+#~ msgid "[L10n] Update French and Polish translations"
+#~ msgstr "[L10n] Französische und Polnische Übersetzung aktualisiert"
+
+#~ msgid "[Servers] Add Asura Scans [EN, TR]"
+#~ msgstr "[Server] Asura Scans (EN, TR) hinzugefügt"
+
+#~ msgid "[Servers] Add FR Scan [FR]"
+#~ msgstr "[Servers] FR Scan (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Lelscan-VF [FR]"
+#~ msgstr "[Server] Lelscan-VF (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Leomanga [ES]"
+#~ msgstr "[Server] Leomanga (ES) hinzugefügt"
+
+#~ msgid "[Servers] Add Phoenix Fansub [ES]"
+#~ msgstr "[Server] Phoenix Fansub (ES) hinzugefügt"
+
+#~ msgid "[Servers] Add Mangadoor [ES]"
+#~ msgstr "[Server] Mangadoor (ES) hinzugefügt"
+
+#~ msgid "[Servers] Add Mangas.in [ES]"
+#~ msgstr "[Server] Mangas.in (ES) hinzugefügt"
+
+#~ msgid "[Servers] Add Scan FR [FR]"
+#~ msgstr "[Server] Scan FR (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Scan OP [FR]"
+#~ msgstr "[Server] Scan OP (FR) hinzugefügt"
+
+#~ msgid "[Servers] Bilibili: Update"
+#~ msgstr "[Server] Bilibili: Aktualisiert"
+
+#~ msgid "[Reader] Controls overlay: Fix a bug in pages slider"
+#~ msgstr "[Leser] Fehler im Slider zur Seitenauswahl behoben"
+
+#~ msgid "[Servers] Add MangaKawaii [EN]"
+#~ msgstr "[Server] MangaKawaii (EN) hinzugefügt"
+
+#~ msgid "[Servers] Guya: Update"
+#~ msgstr "[Server] Guya: Aktualisiert"
+
+#~ msgid ""
+#~ "[Servers] MangaFreak: Add notification to notify user when webview failed "
+#~ "to solve Cloudflare JS challenge"
+#~ msgstr ""
+#~ "[Server] MangaFreak: Benachrichtige Benutzer·innen über fehlgeschlagene "
+#~ "Cloudflare-Herausforderungen"
+
+#~ msgid "[Servers] Tapas: Get dates while resolving chapters"
+#~ msgstr "[Server] Tapas: Schlage Ausstellungsdaten von Kapiteln nach"
+
+#~ msgid "[L10n] Update Polish translation"
+#~ msgstr "[L10n] Polnische Übersetzung aktualisiert"
+
+#~ msgid ""
+#~ "[Library] Thumbnails: Fix rendering of servers logos and badges on mobile "
+#~ "devices"
+#~ msgstr ""
+#~ "[Bibliothek] Fehler bei der Anzeige von Logos und Badges auf mobilen "
+#~ "Geräten behoben"
+
+#~ msgid "[Card] Fixed synopsis display when it contains HTML"
+#~ msgstr ""
+#~ "[Mangakarte] Fehler in der Anzeige der Kurzbeschreibung behoben, wenn "
+#~ "diese HTML enthält"
+
+#~ msgid "[Reader] Add option to hide page numbering"
+#~ msgstr "[Leser] Option hinzugefügt, um die Seitennummern zu verstecken"
+
+#~ msgid "[Reader] Fixed pager jumps when page rendering is retried"
+#~ msgstr "[Leser] Verhindere Sprünge zwischen Seiten beim Neuladen"
+
+#~ msgid "[Explorer] Servers: Don't show Pinned when empty"
+#~ msgstr "[Explorer] Zeige angeheftete Server nicht, wenn es keine gibt"
+
+#~ msgid "[Servers] Add Best Manga [RU]"
+#~ msgstr "[Server] Best Manga (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Bilibili [EN]"
+#~ msgstr "[Server] Bilibili (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Tapas [EN]"
+#~ msgstr "[Server] Tapas (EN) hinzugefügt"
+
+#~ msgid "[UI] Major redesign (except Library and Reader)"
+#~ msgstr ""
+#~ "[Benutzeroberfläche] Große Neugestaltung (ausgenommen Bibliothek und "
+#~ "Reader)"
+
+#~ msgid "[Card] Fixed chapters list scrolling on mobile devices"
+#~ msgstr "[Mangakarte] Fehler beim Scrollen auf mobilen Geräten behoben"
+
+#~ msgid "[Reader] Fix fullscreen/unfullscreen on mobile devices"
+#~ msgstr ""
+#~ "[Leser] Fehler beim Wechseln in den Vollbildmodus auf mobilen Geräten"
+
+#~ msgid "[Reader] Fixed navigation between pages on mobile devices"
+#~ msgstr ""
+#~ "[Leser] Fehler bei der Navigation zwischen Seiten auf mobilen Geräten "
+#~ "behoben"
+
+#~ msgid "[Reader] Fixed zoom on mobile devices"
+#~ msgstr "[Leser] Fehler beim Zoomen auf mobilen Geräten behoben"
+
+#~ msgid "[Servers] Add Colored Council [EN]"
+#~ msgstr "[Server] Colored Council (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Danke fürs Lesen [EN]"
+#~ msgstr "[Server] Danke fürs Lesen (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Guya [EN]"
+#~ msgstr "[Server] Guya (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Hachirumi [EN]"
+#~ msgstr "[Server] Hachimiru (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Jpmangas [FR]"
+#~ msgstr "[Server] Jpmangas (FR) hinzugefügt"
+
+#~ msgid "[Servers] Add Magical Translators [EN/PL]"
+#~ msgstr "[Server] Magical Translators [EN/PL] hinzugefügt"
+
+#~ msgid "[Servers] Read Manga server: Update"
+#~ msgstr "[Server] Read Manga: Aktualisiert"
+
+#~ msgid "[Servers] Pepper&amp;Carrot: Update"
+#~ msgstr "[Server] Pepper&amp;Carrot: Aktualisiert"
+
+#~ msgid "[Servers] Komga: Fix crashes when viewing manga from offline"
+#~ msgstr "[Server] Komga: Absturz beim Lesen ohne Internetverbindung behoben"
+
+#~ msgid "[L10n] Add Polish translation"
+#~ msgstr "[L10n] Polnische Übersetzung hinzugefügt"
+
+#~ msgid "[L10n] Add Spanish translation"
+#~ msgstr "[L10n] Spanische Übersetzung hinzugefügt"
+
+#~ msgid ""
+#~ "[Card] Chapters list: Add sorting by title (can be slow with long lists)"
+#~ msgstr ""
+#~ "[Mangakarte] Sortierung nach Titel hinzugefügt (kann bei vielen Kapiteln "
+#~ "lange dauern)"
+
+#~ msgid "[Reader] Improve touch screen support"
+#~ msgstr "[Leser] Verbesserter Touchscreen-Support"
+
+#~ msgid "[Servers] Mangadex: Update"
+#~ msgstr "[Server] Mangadex: Aktualisiert"
+
+#~ msgid "[Library] Fix bug preventing app startup (empty library only)"
+#~ msgstr ""
+#~ "[Bibliothek] Fehler behoben, der die App bei leerer Bibliothek am Starten "
+#~ "hindert"
+
+#~ msgid "[Library] Displayed currently selected category in subtitle"
+#~ msgstr "[Bibliothek] Zeige aktive Kategorie als Untertitel"
+
+#~ msgid "[Library] Add 'Uncategorized' category"
+#~ msgstr "[Bibliothek] Kategorie 'Unkategorisiert' hinzugefügt"
+
+#~ msgid "[Servers] Mangadex: The long-awaited comeback"
+#~ msgstr "[Server] Mangadex: Die lang ersehnte Rückkehr"
+
+#~ msgid ""
+#~ "[Servers] MangaNato: Update (previously called MangaNelo). Previous manga "
+#~ "and chapters won’t work after this update and need to be readded."
+#~ msgstr ""
+#~ "[Server] MangaNato (ehemals MangaNelo): Aktualisiert. Manga und Kapitel, "
+#~ "die auf den alten Server verweisen müssen manuell aktualisiert (erneut "
+#~ "hinzugefügt) werden."
+
+#~ msgid "[L10n] Update French and German translation"
+#~ msgstr "[L10n] Französische und deutsche Übersetzung aktualisiert"
+
+#~ msgid "Several UI changes to improve scaling on small devices screens"
+#~ msgstr ""
+#~ "Mehrere UI-Änderungen für bessere Skalierung bei kleineren Bildschirmen"
+
+#~ msgid ""
+#~ "[Library] Add categories edition in bulk (via multiple selection mode)"
+#~ msgstr ""
+#~ "[Bibliothek] Bearbeitung mehrerer Kategorien (im Multiselektionsmodus) "
+#~ "hinzugefügt"
+
+#~ msgid "[Reader] Fix memory leaks"
+#~ msgstr "[Leser] Datenlecks behoben"
+
+#~ msgid "[Explorer] Allow search in servers list"
+#~ msgstr "[Explorer] Erlaube Suche in Serverliste"
+
+#~ msgid "[Explorer] Added possibility to pin favorite servers"
+#~ msgstr "[Explorer] Anpinnen von favorisierten Servern ermöglicht"
+
+#~ msgid "[Updater] Prevents updating of comics whose server is disabled"
+#~ msgstr ""
+#~ "[Updater] Verhindere, dass Comics mit ausgeschaltetem Server aktualisiert "
+#~ "werden"
+
+#~ msgid "[Keyring] Improved SecretService detection"
+#~ msgstr "[Schlüsselring] Bessere Erkennung von SecretService"
+
+#~ msgid "[Servers] Add AllHentai (RU)"
+#~ msgstr "[Server] AllHentai (RU) hinzugefügt"
+
+#~ msgid "[Servers] Add CatManga aka Black Cat Scanlations (EN)"
+#~ msgstr "[Server] CatManga aka Black Cat Scanlations (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Dongman Manhua (ZH Hans)"
+#~ msgstr "[Server] Dongman Manhua (ZH Hans) hinzugefügt"
+
+#~ msgid ""
+#~ "[Servers] Add Madara (multi servers): Aloalivn (EN), Apoll Comics (ES), "
+#~ "Wakascan (FR), 24hRomance (EN), AkuManga (AR), ArazNovel (TR), Argos Scan "
+#~ "(PT), Atikrost (TR)"
+#~ msgstr ""
+#~ "[Server] Madara (Multi-Server) hinzugefügt: Aloalivn (EN), Apoll Comics "
+#~ "(ES), Wakascan (FR), 24hRomance (EN), AkuManga (AR), ArazNovel (TR), "
+#~ "Argos Scan (PT), Atikrost (TR)"
+
+#~ msgid "[Servers] Add MangaFreak (EN)"
+#~ msgstr "[Server] MangaFreak (EN) hinzugefügt"
+
+#~ msgid "[Servers] Pepper&amp;Carrot: Fix pages order"
+#~ msgstr "[Server] Pepper&amp;Carrot: Fehler in der Seitenordnung behoben"
+
+#~ msgid "[Servers] Scantrad France: Update"
+#~ msgstr "[Server] Scantrad France: Aktualisiert"
+
+#~ msgid ""
+#~ "[Servers] Webtoon: Improved details retrieval (both for originals and "
+#~ "challenges)"
+#~ msgstr "[Server] Webtoon: Verbesserte Detailsammlung"
+
+#~ msgid "[Library] Add Categories to organize the library"
+#~ msgstr ""
+#~ "[Bibliothek] Kategorien hinzugefügt, um die Bibliothek zu organisieren"
+
+#~ msgid "[Servers] Add Read Comics Online (EN)"
+#~ msgstr "[Server] Read Comics Online (EN) hinzugefügt"
+
+#~ msgid "[Servers] Komga: Add sync (read progress) with server"
+#~ msgstr ""
+#~ "[Server] Komga: Synchronisation des Lesefortschritts mit dem Server "
+#~ "hinzugefügt"
+
+#~ msgid ""
+#~ "[Servers] JapScan: Partial fix (Webtoons chapters in single page are not "
+#~ "handled)"
+#~ msgstr ""
+#~ "[Server] JapScan: Fehler teilweise behoben (Webtoonkapitel auf einer "
+#~ "einzigen Seite werden nicht behandelt)"
+
+#~ msgid ""
+#~ "[Servers] MangaSee: Fix page download for chapters with decimals in name"
+#~ msgstr ""
+#~ "[Server] MangaSee: Fehler beim Herunterladen von Kapiteln mit "
+#~ "Dezimalstellen"
+
+#~ msgid "[Servers] Scan Manga: Skip chapters coming from external servers"
+#~ msgstr "[Server] Scan Manga: Überspringe Kapitel aus externer Quelle"
+
+#~ msgid "[Servers] Tutto Anime Manga: Update"
+#~ msgstr "[Server] Tutto Anime Manga: Aktualisiert"
+
+#~ msgid "[L10n] Add Italian translation"
+#~ msgstr "[L10n] Italienische Übersetzung hinzugefügt"
+
+#~ msgid "[Preferences] Fixed a bug in saving logins credentials"
+#~ msgstr "[Einstellungen] Fehler beim Speichern von Zugangsdaten behoben"
+
+#~ msgid ""
+#~ "Refined the ability to add comics via the command line: more servers "
+#~ "supported"
+#~ msgstr "Hinzufügen von Comics via Kommandozeile: mehr Server unterstützt"
+
+#~ msgid "[Explorer] Search: Add button to open server's website in browser"
+#~ msgstr ""
+#~ "[Explorer] Knopf hinzugefügt, der die Webseite des Servers im Browser "
+#~ "anzeigt"
+
+#~ msgid ""
+#~ "[Explorer] Servers list: Add a 'key' icon when a server requires a user "
+#~ "account"
+#~ msgstr ""
+#~ "[Explorer] Serverliste: \"Schlüssel\"-Icon bei Servern hinzugefügt, die "
+#~ "ein Benutzerkonto benötigen"
+
+#~ msgid "[Explorer] Manga card: Add last chapter"
+#~ msgstr "[Explorer] Mangakarte: Letztes Kapitel hinzugefügt"
+
+#~ msgid ""
+#~ "[Servers] Add Komga (Free and open source comics/mangas media server)"
+#~ msgstr "[Server] Komga hinzugefügt"
+
+#~ msgid "[Servers] Add View Comics (EN)"
+#~ msgstr "[Server] View Comics (EN) hinzugefügt"
+
+#~ msgid "[Servers] NineManga: Update"
+#~ msgstr "[Server] NineManga: Aktualisiert"
+
+#~ msgid "Fixing manga addition"
+#~ msgstr "Fehler beim Hinzufügen von Manga behoben"
+
+#~ msgid "Added ability to add comics via the command line"
+#~ msgstr "Manga können nun per Kommandozeile hinzugefügt werden"
+
+#~ msgid "[Servers] Add Scan Manga (FR)"
+#~ msgstr "[Server] Scan Manga (FR) hinzugefügt"
+
+#~ msgid "[Servers] Mangahub: Fixed pages wrong order"
+#~ msgstr "[Server] Mangahub: Fehler bei der Seitenreihenfolge behoben"
+
+#~ msgid ""
+#~ "[Library] Allow Selection mode while in search and search in Selection "
+#~ "mode"
+#~ msgstr "[Bibliothek] Erlaube Suche und Auswahlmodus gleichzeitig"
+
+#~ msgid ""
+#~ "[Card] The chapter `Reset` action is now proposed as soon as chapter "
+#~ "pages are known"
+#~ msgstr ""
+#~ "[Mangakarte] Kapitel können nun zurückgesetzt werden, sobald die Anzahl "
+#~ "der Seiten bekannt ist"
+
+#~ msgid "[Card] Improve chapters multiple selection"
+#~ msgstr "[Mangakarte] Auswahl mehrerer Kapitel verbessert"
+
+#~ msgid "[Servers] Add Read Comic Online (EN)"
+#~ msgstr "[Server] Read Comic Online (EN) hinzugefügt"
+
+#~ msgid "[Servers] Hunlight Scans: Add logo"
+#~ msgstr "[Server] Hunlight Scans: Logo hinzugefügt"
+
+#~ msgid "[Add dialog] Add Back navigation between pages via Esc key"
+#~ msgstr "[Hinzufügen] Navigation mittels ESC-Taste hinzugefügt"
+
+#~ msgid ""
+#~ "[Add dialog] Search page: Give keyboard focus to search entry when a "
+#~ "printable character is typed"
+#~ msgstr "[Hinzufügen] Lege Fokus auf Sucheintrag, wenn Text eingegeben wird"
+
+#~ msgid "[Card] Add 'Resume read' button"
+#~ msgstr ""
+#~ "[Mangakarte] Schaltfläche zum Fortfahren beim letzten Kapitel hinzugefügt"
+
+#~ msgid "[Servers] Add Xoxocomics (EN)"
+#~ msgstr "[Server] Xoxocomics (EN) hinzegefügt"
+
+#~ msgid "[Servers] MangaDex: Update to API v2 (more stable)"
+#~ msgstr "[Server] MangaDex: Update zur stabileren v2 API"
+
+#~ msgid "[Servers] ScanOnePiece: Update"
+#~ msgstr "[Server] ScanOnePiece: Aktualisiert"
+
+#~ msgid "[Servers] Disable Leviatan Scans (ES)"
+#~ msgstr "[Server] Leviatan Scans (ES) deaktiviert"
+
+#~ msgid ""
+#~ "[Reader] Re-allow page scaling in Vertical reading mode (disabled by "
+#~ "mistake in 0.22.0)"
+#~ msgstr ""
+#~ "[Leser] Skalierung im Vertikalmodus reaktiviert (in 0.22.0 "
+#~ "fälschlicherweise deaktiviert)"
+
+#~ msgid ""
+#~ "[Library] Allow bulk downloading of manga, as well as marking all "
+#~ "chapters as (un)read"
+#~ msgstr ""
+#~ "[Bibliothek] Gleichzeitiges Herunterladen und als (un)gelesen Markieren "
+#~ "von Manga"
+
+#~ msgid "[Card] Chapters list: Add sort by date"
+#~ msgstr "[Mangakarte] Kapitel können nun nach Datum sortiert werden"
+
+#~ msgid ""
+#~ "[Reader] Add new pager for Webtoons: Vertical smooth/continuous scrolling "
+#~ "(a.k.a. infinite canvas)"
+#~ msgstr ""
+#~ "[Leser] Neuer Pager für Webtoons: kontinuierliches vertikales Scrollen"
+
+#~ msgid "[Download Manager] Adding downloads: Improve responsiveness"
+#~ msgstr ""
+#~ "[Download-Manager] Responsivität beim Hinzufügen von Downloads verbessert"
+
+#~ msgid ""
+#~ "[Preferences] Library: Add new option to allow user to enable/disable "
+#~ "servers with NSFW only content"
+#~ msgstr ""
+#~ "[Einstellungen] Bibliothek: Option zur (De-)Aktivierung von Servern mit "
+#~ "Fokus auf unpassendem Material hinzugefügt"
+
+#~ msgid "[Servers] Add Mangahub"
+#~ msgstr "[Server] Mangahub hinzugefügt"
+
+#~ msgid "[Servers] Add NHentai"
+#~ msgstr "[Server] NHentai hinzugefügt"
+
+#~ msgid "[Servers] Add Readmanhwa"
+#~ msgstr "[Server] Readmanhwa hinzugefügt"
+
+#~ msgid "[Servers] Central de Mangás: Update"
+#~ msgstr "[Server] Central de Mangás: Aktualisiert"
+
+#~ msgid "[Servers] Crunchyroll: Update"
+#~ msgstr "[Server] Crunchyroll: Aktualisiert"
+
+#~ msgid "[Servers] MangaNelo: Update"
+#~ msgstr "[Server] MangaNelo: Aktualisiert"
+
+#~ msgid "[Servers] Dynasty: Improvements"
+#~ msgstr "[Servers] Dynasty: Verbesserungen"
+
+#~ msgid "[Library] Several bugs fixes"
+#~ msgstr "[Bibliothek] Einige Fehler behoben"
+
+#~ msgid "[Library] Rounded mangas thumbnails"
+#~ msgstr "[Bibliothek] Abgerundete Mangathumbnails"
+
+#~ msgid "[L10n] German translation update"
+#~ msgstr "[Lokalisierung] Deutsche Übersetzung überarbeitet"
+
+#~ msgid ""
+#~ "Fixed circular import error that prevented Komikku from starting (only on "
+#~ "first launch, didn't affect Flatpak)"
+#~ msgstr ""
+#~ "Zirkulären Importfehler behoben, der Komikku vom Starten abhielt (nur "
+#~ "beim ersten Start, nicht in Flatpak)"
+
+#~ msgid "[Library] Search: Add filter options (Downloaded, Unread, Recent)"
+#~ msgstr ""
+#~ "[Bibliothek] Suche: Filteroptionen hinzugefügt (Heruntergeladen, "
+#~ "Ungelesen, Neu)"
+
+#~ msgid ""
+#~ "[Preferences] The window and its subpages can now be closed with Esc key"
+#~ msgstr ""
+#~ "[Einstellungen] Das Fenster und Unterseiten können nun mit der ESC-Taste "
+#~ "geschlossen werden"
+
+#~ msgid "[Servers] Add Dynasty (EN)"
+#~ msgstr "[Server] Dynasty (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add 'Lupi Team' and 'Tutto Anime Manga' (IT)"
+#~ msgstr "[Server] 'Lupi Team' und 'Tutti Anime Manga' (IT) hinzugefügt"
+
+#~ msgid "[Servers] Add VizManga (EN): an account is required"
+#~ msgstr "[Server] VizManga (EN) hinzugefügt: Ein Account wird benötigt"
+
+#~ msgid "[Servers] Disable Jaimini's Box (definitely closed)"
+#~ msgstr "[Server] Jaimini's Box deaktiviert (geschlossen)"
+
+#~ msgid "[L10n] Add German translation"
+#~ msgstr "[Lokalisierung] Deutsche Übersetzung hinzugefügt"
+
+#~ msgid "Add HiDPI display support"
+#~ msgstr "Unterstützung für HiDPI-Displays hinzufügen"
+
+#~ msgid ""
+#~ "[Preferences] Use Handy.PreferencesWindow subpages to display Servers "
+#~ "Languages and Servers Settings"
+#~ msgstr ""
+#~ "[Einstellungen] Nutze Handy.PreferencesWindow Unterseiten für "
+#~ "Serversprachen und Servereinstellungen"
+
+#~ msgid "[Library] Press &lt;Enter&gt; opens first manga in search"
+#~ msgstr "[Bibliothek] &lt;Enter&gt; öffnet den ersten Manga in der Suche"
+
+#~ msgid "[Library] Disable range selection when in search mode"
+#~ msgstr "[Bibliothek] Bereichauswahl im Suchmodus deaktiviert"
+
+#~ msgid ""
+#~ "[Library/Chapters/Download manager] Enter selection mode with Right click"
+#~ msgstr ""
+#~ "[Bibliothek/Kapitel/Download-Manager] Mit Rechtsklick in den Auswahlmodus "
+#~ "wechseln"
+
+#~ msgid ""
+#~ "[Reader] Two new navigation types: mouse scroll, 2-fingers swipe gesture"
+#~ msgstr ""
+#~ "[Leser] Zwei neue Navigationsmöglichkeiten: Maus-Scroll, 2-Finger-Wisch-"
+#~ "Gesten"
+
+#~ msgid "[Reader] New 'Save Page' action"
+#~ msgstr "[Leser] Neue Aktion 'Seite speichern'"
+
+#~ msgid "[Servers] Fix and improve credentials storage"
+#~ msgstr "[Server] Verbesserung des Zugangsdaten-Speicherung"
+
+#~ msgid "[Servers] Crunchyroll: Fix login"
+#~ msgstr "[Server] Crunchyroll: Fehler beim Login behoben"
+
+#~ msgid "[Servers] Re-enable Jaimini's Box"
+#~ msgstr "[Server] Jaimini's Box wieder aktiviert"
+
+#~ msgid "[Servers] Manga Eden: Fix downloading of images"
+#~ msgstr "[Server] Manga Eden: Fehler beim Herunterladen behoben"
+
+#~ msgid "[Servers] Manga Plus: Add manga 'Status' info"
+#~ msgstr "[Server] Manga Plus: 'Status'-Information für Manga hinzugefügt"
+
+#~ msgid "[Servers] Manga Plus: Can't get manga info of some manga"
+#~ msgstr "[Server] Manga Plus: Information bei einigen Manga unzugänglich"
+
+#~ msgid "[Servers] MangaDex: Fix new chapters not appearing"
+#~ msgstr ""
+#~ "[Server] MangaDex: Fehler behoben, durch den neue Kapitel nicht "
+#~ "erschienen sind"
+
+#~ msgid "[Servers] Webtoon: Fix search"
+#~ msgstr "[Server] Webtoon: Fehler bei Suche behoben"
+
+#~ msgid "[Preferences] Add search"
+#~ msgstr "[Einstellungen] Suche hinzugefügt"
+
+#~ msgid "Add Turkish translation"
+#~ msgstr "Türkische Übersetzung hinzugefügt"
+
+#~ msgid "[Preferences] New UI"
+#~ msgstr "[Einstellungen] Neue Benutzeroberfläche"
+
+#~ msgid "[Servers] MangaNelo: Fix images loading"
+#~ msgstr "[Server] MangaNelo: Fehler beim Laden von Bildern behoben"
+
+#~ msgid "[Servers] Disable Jaimini's Box"
+#~ msgstr "[Server] Jaimini's Box deaktiviert"
+
+#~ msgid "Fix 2 critical bugs (app crashs)"
+#~ msgstr "Zwei kritische Fehler behoben (Anwendungs-Abstürze)"
+
+#~ msgid "[Library/Readers] Add support of animated GIFs"
+#~ msgstr "[Bibliothek/Leser] Unterstützung für animierte GIFs hinzufügen"
+
+#~ msgid "[Library] Add &lt;Control&gt;+F shortcut: Enter search mode"
+#~ msgstr "[Bibliothek] Tastenkürzel &lt;Control&gt;+F: Suchmodus starten"
+
+#~ msgid ""
+#~ "[Library/Manga/Download Manager] Add &lt;Control&gt;+A shortcut: Select "
+#~ "all"
+#~ msgstr ""
+#~ "[Bibliothek/Manga/Download-Manager] Tastenkürzel &lt;Control&gt;+A: Alles "
+#~ "auswählen"
+
+#~ msgid ""
+#~ "[Library/Manga/Download Manger] Add &lt;Control&gt;+Click and "
+#~ "&lt;Shift&gt;+Click shortcuts: Enter selection mode"
+#~ msgstr ""
+#~ "[Bibliothek/Manga/Download-Manager] Tastenkürzel &lt;Control&gt;+Klick "
+#~ "und &lt;Shift&gt;+Klick: Auswahlmodus starten"
+
+#~ msgid ""
+#~ "[Download Manager] Add range selection: long press on an item then long "
+#~ "press on another to select everything in between"
+#~ msgstr ""
+#~ "[Download-Manager] Bereichauswahl hinzugefügt: Drücke lange auf ein "
+#~ "Element und dann auf ein zweites, um alle Elemente im dazwischen "
+#~ "auszuwählen"
+
+#~ msgid "[Manga] Add chapters scanlators support (MangaDex only)"
+#~ msgstr "[Manga] Support für Kapitelübersetzer (nur für MangaDex)"
+
+#~ msgid ""
+#~ "[Servers] Add Izneo (DE, EN and FR) and Yieha (NL): a account is required"
+#~ msgstr ""
+#~ "[Server] Izneo (DE, EN, FR) und Yieha (NL) hinzugefügt. Ein Nutzerkonto "
+#~ "wird benötigt"
+
+#~ msgid "[Library] Faster chapters list rendering"
+#~ msgstr "[Bibliothek] Schnelleres Rendern der Kapitelliste"
+
+#~ msgid ""
+#~ "[Library] Faster read/unread state toggling with long chapters selections"
+#~ msgstr ""
+#~ "[Bibliothek] Schnelleres Markieren als gelesen/ungelesen bei großer Zahl "
+#~ "von Kapiteln"
+
+#~ msgid "[Library] Reduce memory used by covers"
+#~ msgstr "[Bibliothek] Verringerter Speicherverbrauch für Cover"
+
+#~ msgid "[Servers] MangaSee: Fix manga with chapters grouped by seasons"
+#~ msgstr ""
+#~ "[Server] MangaSee: Probleme bei Manga, die nach Staffeln gruppiert sind, "
+#~ "behoben"
+
+#~ msgid "[Servers] Jaimini's Box: Several fixes"
+#~ msgstr "[Server] Jaimini's Box: Einige Probleme behoben"
+
+#~ msgid "[Servers] MangaLib: Several fixes"
+#~ msgstr "[Server] MangaLib: Einige Probleme behoben"
+
+#~ msgid "[Library] Add search by genre (exact match)"
+#~ msgstr "[Bibliothek] Suche nach Genre"
+
+#~ msgid ""
+#~ "[Library/Chapters] Add range selection: long press on an item then long "
+#~ "press on another to select everything in between"
+#~ msgstr ""
+#~ "[Bibliothek/Kapitel] Bereichauswahl: Drücke lange auf ein Element und "
+#~ "dann auf ein zweites, um alle Elemente dazuwischen auszuwählen"
+
+#~ msgid ""
+#~ "[Chapters] Fully cached/read chapters are now marked as \"Downloaded\""
+#~ msgstr ""
+#~ "[Kapitel] Vollständig zwischengespeicherte/gelesene Kapitel werden nun "
+#~ "als \"Heruntergeladen\" markiert"
+
+#~ msgid "[Reader] Improve keyboard navigation"
+#~ msgstr "[Leser] Bessere Tastaturnavigation"
+
+#~ msgid "[Reader] Improve pages transition"
+#~ msgstr "[Leser] Bessere Seitenübergänge"
+
+#~ msgid "[Servers] Add Crunchyroll (EN): a Premium account is required"
+#~ msgstr ""
+#~ "[Server] Crunchyroll (EN) hinzugefügt: ein Premiumkonto wird benötigt"
+
+#~ msgid "[Servers] Scantrad France: Add Most populars"
+#~ msgstr "[Server] Scantrad France: Beliebteste hinzugefügt"
+
+#~ msgid "Improve manga update"
+#~ msgstr "Manga-Aktualisierung verbessert"
+
+#~ msgid "New icon"
+#~ msgstr "Neues Icon"
+
+#~ msgid "[Reader] Add 'Original Size' scaling"
+#~ msgstr "[Leser] Skalierung 'Originalgröße' hinzugefügt"
+
+#~ msgid "[Reader] Several fixes in keyboard navigation"
+#~ msgstr "[Leser] Einige Fehler bei Tastaturnavigation behoben"
+
+#~ msgid "[Settings] Library: Add new option 'Auto Download of New Chapters'"
+#~ msgstr ""
+#~ "[Einstellungen] Bibliothek: Neue Einstellung 'Automatisches "
+#~ "Herunterladen' von neuen Kapiteln"
+
+#~ msgid ""
+#~ "[Settings] Library: Add new option 'Long Strip Detection' (MangaDex, "
+#~ "MangaNelo, Mangakawaii, JapScan and Union Mangás)"
+#~ msgstr ""
+#~ "[Einstellungen] Bibliothek: Neue Option 'Long Strip Erkennung' (MangaDex, "
+#~ "MangaNelo, Mangakawaii, JapScan and Union Mangás)"
+
+#~ msgid "[Servers] JapScan: Fix search and images loading"
+#~ msgstr "[Server] JapScan: Fehler bei Suche und Laden von Bildern behoben"
+
+#~ msgid "[Servers] MangaLib: Fix images loading"
+#~ msgstr "[Server] MangaLib: Fehler beim Laden von Bildern behoben"
+
+#~ msgid "[Servers] Submanga: Update of domain"
+#~ msgstr "[Server] Submange: Domain aktualisiert"
+
+#~ msgid "[Reader] Fix crash with corrupt or empty images"
+#~ msgstr "[Leser] Absturz bei korrupten oder leeren Bildern behoben"
+
+#~ msgid "[Settings] Add servers settings"
+#~ msgstr "[Einstellungen] Servereinstellungen hinzugefügt"
+
+#~ msgid "[Servers] Add Union Mangás (PT)"
+#~ msgstr "[Server] Union Mangás (PT) hinzugefügt"
+
+#~ msgid "[Servers] Add MangaLib and HentaiLib (RU)"
+#~ msgstr "[Servers] MangaLib und HentaiLib (RU) hinzugefügt"
+
+#~ msgid ""
+#~ "[Servers] Add Edelgarde Scans, Hunlight Scans, One Shot Scans, Reaper "
+#~ "Scans, The Nonames Scans, Zero Scans (EN)"
+#~ msgstr ""
+#~ "[Server] Edelgarde Scans, Hunlight Scans, One Shot Scans, Reaper Scans, "
+#~ "The Nonames Scans, Zero Scans (EN) hinzugefügt"
+
+#~ msgid "[Servers] Add Leviatan Scans (EN, ES)"
+#~ msgstr "[Server] Leviatan Scans (EN, ES) hinzugefügt"
+
+#~ msgid "[Servers] Hatigarm Scans: new server version"
+#~ msgstr "[Server] Hatigarm Scans: Neue Serverversion"
+
+#~ msgid "[Servers] Scantrad France: Fix"
+#~ msgstr "[Server] Scantrad France: Fehlerbehebung"
+
+#~ msgid "[Servers] MangaDex: Added ability to log in"
+#~ msgstr "[Server] MangaDex: Einloggen ermöglicht"
+
+#~ msgid "[Servers] Read Manga: Fixes"
+#~ msgstr "[Server] Read Manga: Fehler behoben"
+
+#~ msgid "Improved manga update"
+#~ msgstr "Manga-Aktualisierung verbessert"
+
+#~ msgid "[Servers] Mangakawaii: Fixed manga cover"
+#~ msgstr "[Server] Mangakawaii: Cover behoben"
+
+#~ msgid "[Manga] Fixed the unread action of chapters"
+#~ msgstr "[Manga] Fehler bei der 'ungelesen' Aktion behoben"
+
+#~ msgid "[Reader] Cursor hiding during keyboard navigation"
+#~ msgstr "[Leser] Während der Tastaturnavigation Zeiger unsichtbar machen"
+
+#~ msgid "[Reader] Arrow scrolling in every reading directions"
+#~ msgstr "[Leser] Pfeiltasten zum Scrollen in jede Richtung erlauben"
+
+#~ msgid "[Reader] Added white borders crop"
+#~ msgstr "[Leser] Randentferner hinzugefügt"
+
+#~ msgid "[Servers] Added Kirei Cake (EN)"
+#~ msgstr "[Server] Kirei Cake (EN) hinzugefügt"
+
+#~ msgid "[Servers] Added Read Manga, Mint Manga and Self Manga (RU)"
+#~ msgstr "[Server] Read Manga, Mint Manga und Self Manga (RU) hinzugefügt"
+
+#~ msgid "[Servers] Updated Mangakawaii domain"
+#~ msgstr "[Server] Mangakawaii: Domäne aktualisiert"
+
+#~ msgid "[Servers] Fixed JapScan search (using DuckDuckGo Lite)"
+#~ msgstr "[Server] Nutze DuckDuckGo Lite zum Durchsuchen von JapScan"
+
+#~ msgid "Added back navigation with Escape key"
+#~ msgstr "Zurück-Aktion mit der Escape-Taste hinzugefügt"
+
+#~ msgid ""
+#~ "Added abilility to add manga by ID using keyword \"id:&lt;id&gt;\" "
+#~ "(useful with MangaDex)"
+#~ msgstr ""
+#~ "Möglichkeit zum Hinzufügen eines Manga mittels ID durch Keyword "
+#~ "\"id:&lt;id&gt;\" hinzugefügt (nützlich bei MangaDex)"
+
+#~ msgid "Various bugs fixes"
+#~ msgstr "Einige Fehler behoben"
+
+#~ msgid "Added the Dutch translation"
+#~ msgstr "Niederländische Übersetzung hinzugefügt"
+
+#~ msgid "Added Desu server (RU)"
+#~ msgstr "Desu server (RU) hinzugefügt"
+
+#~ msgid "Added the Russian translation"
+#~ msgstr "Russische Übersetzung hinzugefügt"
+
+#~ msgid "Updated the Brazilian Portuguese translation"
+#~ msgstr "Brasilianisch-Portugiesische Übersetzung aktualisiert"
+
+#~ msgid "Fixed a bug in manga updater"
+#~ msgstr "Fehler in Manga-Aktualisierung behoben"
+
+#~ msgid "Fixe a bug in Download Manager"
+#~ msgstr "Fehler in Download-Manager behoben"
+
+#~ msgid "Added a Download Manager"
+#~ msgstr "Download-Manager hinzugefügt"
+
+#~ msgid "[Manga] Improved chapters download"
+#~ msgstr "[Manga] Herunterladen von Kapiteln verbessert"
+
+#~ msgid ""
+#~ "[Reader] Vertical reading direction: Added scrolling with UP and DOWN keys"
+#~ msgstr ""
+#~ "[Leser] Vertikale Leserichtung: Scrollen mittels HOCH und RUNTER Tasten "
+#~ "hinzugefügt"
+
+#~ msgid "[Reader] Added a Retry button when a image load failed"
+#~ msgstr ""
+#~ "[Leser] 'Erneut versuchen'-Button hinzugefügt, falls das Herunterladen "
+#~ "eines Bildes fehlschlägt"
+
+#~ msgid "[Servers] Removed Manga Rock (server has closed)"
+#~ msgstr "[Server] Manga Rock entfernt (geschlossen)"
+
+#~ msgid "[Servers] Minor fix in xkcd"
+#~ msgstr "[Server] Kleine Fehlerbehebung bei xkcd"
+
+#~ msgid "[Servers] MangaDex: Added 15 languages"
+#~ msgstr "[Server] MangaDex: 15 Sprachen hinzugefügt"
+
+#~ msgid "[Library] Add an unread badge"
+#~ msgstr "[Bibliothek] Badge für 'ungelesen' hinzugefügt"
+
+#~ msgid "[Library/Manga] Added \"Select All\" in selection mode"
+#~ msgstr "[Bibliothek/Manga] Im Auswahlmodus \"Alle Auswählen\" hinzugefügt"
+
+#~ msgid ""
+#~ "[Library/Manga] Now leaves selection mode when no mangas/chapters are "
+#~ "selected"
+#~ msgstr ""
+#~ "[Bibliothek/Manga] Auswahlmodus wird verlassen, wenn keine Manga/Kapitel "
+#~ "gewählt sind"
+
+#~ msgid "[Manga] Improved chapters list rendering"
+#~ msgstr "[Manga] Besseres Rendern der Kapitelliste"
+
+#~ msgid ""
+#~ "[Manga] Improved chapters download: add a progress bar and a \"Stop\" "
+#~ "button"
+#~ msgstr ""
+#~ "[Manga] Verbesserte Herunterladen von Kapiteln: Fortschrittsbalken und "
+#~ "\"Stop\"-Button"
+
+#~ msgid "[Settings] General: New option to disable desktop notifications"
+#~ msgstr ""
+#~ "[Einstellungen] Generell: Option, Desktop-Benachrichtigungen zu "
+#~ "deaktivieren"
+
+#~ msgid "[Servers] Minor fixes in xkcd"
+#~ msgstr "[Server] Kleine Fehlerbehebungen bei xkcd"
+
+#~ msgid "[Servers] Add MangaDex (EN, ES, FR)"
+#~ msgstr "[Server] Mangadex (EN, ES, FR) hinzugefügt"
+
+#~ msgid "Jaimini's Box server: Fixed mangas with an adult alert"
+#~ msgstr ""
+#~ "Jaimini's Box: Fehlerbehebung für Manga mit einer Warnung bei Inhalten "
+#~ "für Erwachsene"
+
+#~ msgid "Added MANGA Plus server (EN, ES)"
+#~ msgstr "MANGA Plus Server (EN, ES) hinzugefügt"
+
+#~ msgid "Added Jaimini's Box"
+#~ msgstr "Jaimini's Box hinzugefügt"
+
+#~ msgid "Fixed 'Night Light' preference"
+#~ msgstr "Fehler bei 'Nachtlicht' behoben"
+
+#~ msgid "Fixed JapScan server search"
+#~ msgstr "Fehlerbehebung JapScan-Suche"
+
+#~ msgid ""
+#~ "Pager focus is now correctly restored when menu is closed (useful for "
+#~ "keypad navigation)."
+#~ msgstr ""
+#~ "Pager-Fokus korrekt wiederhergestellt, wenn Menü geschlossen ist "
+#~ "(nützlich bei Keypadnavigierung)."
+
+#~ msgid "Happy new year to everyone."
+#~ msgstr "Frohes neues Jahr."
+
+#~ msgid "Added 'Vertical' reading direction"
+#~ msgstr "Vertikale Leserichtung hinzugefügt"
+
+#~ msgid "Added 'Night Light' preference"
+#~ msgstr "Nachtlicht-Einstellung hinzugefügt"
+
+#~ msgid "Fixed Manganelo and WEBTOON servers"
+#~ msgstr "Fehler bei Manganelo und WEBTOON behoben"
+
+#~ msgid "Ninemanga: Fixed missing chapters issue (EN, BR, DE, ES, IT)"
+#~ msgstr ""
+#~ "Ninemanga: Problem mit fehlenden Kapitel (EN, BR, DE, ES, IT) behoben"
+
+#~ msgid "Pepper&amp;Carrot: Fixed chapters update"
+#~ msgstr "Pepper&amp;Carrot: Fehlerbehebung bei Aktualisierung von Kapiteln"
+
+#~ msgid "Pepper&amp;Carrot: Added missing Cover and Credits pages"
+#~ msgstr "Pepper&amp;Carrot: Fehlende Cover und Attribution hinzugefügt"
+
+#~ msgid "New preference: Servers languages"
+#~ msgstr "Neue Einstellung: Serversprachen"
+
+#~ msgid "Bug fixes in Scantrad France and DB Multiverse"
+#~ msgstr "Fehlerbehebung bei Scantrad France und DB Multiverse"
+
+#~ msgid "A bug fix in change of reading direction"
+#~ msgstr "Fehler beim Wechseln der Leserichtung behoben"
+
+#~ msgid "A bug fix in Pepper&amp;Carrot"
+#~ msgstr "Fehlerbehebung bei Pepper&amp;Carrot"
+
+#~ msgid "Added Pepper&amp;Carrot server"
+#~ msgstr "Pepper&amp;Carrot Server hinzugefügt"
+
+#~ msgid ""
+#~ "A free(libre) and open-source webcomic supported directly by its patrons "
+#~ "to change the comic book industry!"
+#~ msgstr ""
+#~ "Ein freier open-source Webcomic, direkt unterstützt durch Patrons, um die "
+#~ "Comic Industrie zu verändern!"
+
+#~ msgid "New preference: Automatically update library at startup"
+#~ msgstr "Neue Einstellung: Automatische Aktualisierung bei Programmstart"
+
+#~ msgid "Fix in Mangakawaii server (Cloudflare problem)"
+#~ msgstr "Fehlerbehebung bei Mangakawaii (Cloudflare-Problem)"
+
+#~ msgid "Fixes in Mangakawaii server"
+#~ msgstr "Fehlerbehebung bei Mangakawaii"
+
+#~ msgid "Added Dragon Ball Multiverse (DBM) server"
+#~ msgstr "Dragon Ball Multiverse (DBM) hinzugefügt"
+
+#~ msgid "Fixes in Japscan server (search still broken)"
+#~ msgstr "Fixes beim Japscan Server (Suche funktioniert immer noch nicht)"
+
+#~ msgid "New servers: NineManga Russian, Webtoon Indonesia and Webtoon Thai"
+#~ msgstr "Neue Server: NineManga Russian, Webtoon Indonesia und Webtoon Thai"
+
+#~ msgid ""
+#~ "For all servers that allow it, most popular mangas are now offered as "
+#~ "starting search results."
+#~ msgstr ""
+#~ "Die beliebtesten Manga werden nun auf allen Servern, welche das "
+#~ "unterstützen, als erste Suchergebnisse angezeigt."
+
+#~ msgid "Improve speed of dates parsing"
+#~ msgstr "Schnelleres Parsen von Datumsangaben"
+
+#~ msgid ""
+#~ "Fixed order of manga chapters for Scantrad France and Central de Mangás"
+#~ msgstr ""
+#~ "Fehlerbehebung bei der Kapitelsortierung von Scantrad France und Central "
+#~ "de Mangás"
+
+#~ msgid "Fix keyboard navigation in reader"
+#~ msgstr "Fehler bei Navigation mittels Tastatur behoben"
+
+#~ msgid "Add a new server: xkcd (English)"
+#~ msgstr "Neuer Server: xkcd (Englisch)"
+
+#~ msgid "Add the Portuguese (Brazil) translation"
+#~ msgstr "Portugiesiche (Brasilianische) Übersetzung"
+
+#~ msgid "Add a new server: Central de Mangas (Portuguese)"
+#~ msgstr "Neuer Server: Central de Mangas (Portugiesisch)"
+
+#~ msgid "Bug fix: Change the location of the data storage"
+#~ msgstr "Fehlerbehebung: Änderung des Speicherortes der Daten"
+
+#~ msgid "First release"
+#~ msgstr "Erstes Release"
+
+#~ msgid "Resume reading"
+#~ msgstr "Fortfahren"
+
+#~ msgid "No categories"
+#~ msgstr "Keine Kategorien"
+
+#~ msgid "Start/Stop download"
+#~ msgstr "Download starten/anhalten"
+
+#~ msgid "No downloads"
+#~ msgstr "Keine Downloads"
+
+#~ msgid "Search for comics across all servers"
+#~ msgstr "Mangas über Server hinweg suchen"
+
+#~ msgid "Search for servers"
+#~ msgstr "Server suchen"
+
+# Again, avoid "Geschichte"
+#~ msgid "No history"
+#~ msgstr "Nichts vorhanden"
+
+#~ msgid "Clear chapters cache and database"
+#~ msgstr "Kapitel-Zwischenspeicher und Datenbank löschen"
+
+#~ msgid "Clear chapters cache and database on application close"
+#~ msgstr ""
+#~ "Kapitel-Zwischenspeicher und Datenbank beim Beenden der Anwendung löschen"
+
+#~ msgid "Credentials storage"
+#~ msgstr "Zugangsdatenspeicher"
+
+#~ msgid "Allow plaintext storage as fallback"
+#~ msgstr "Speicherung im Klartext als Alternative erlauben"
+
+#~ msgid "Add new comic"
+#~ msgstr "Hinzufügen"
+
+#, fuzzy
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Vollbildmodus"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Open preferences"
+#~ msgstr "Einstellungen"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Vollbildmodus"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Open shortcuts window"
+#~ msgstr "Tastenkürzel anzeigen"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Add manga"
+#~ msgstr "Manga hinzufügen"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Select all"
+#~ msgstr "Alle auswählen"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Select all chapters"
+#~ msgstr "Alle Kapitel auswählen"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Select all downloads"
+#~ msgstr "Alle Downloads auswählen"
+
+#~ msgid "Sponsor via Ko-fi"
+#~ msgstr "Mittels Ko-fi unterstützen"
+
+#~ msgid "Sponsor via Liberapay"
+#~ msgstr "Mittels Liberapay unterstützen"
+
+#~ msgid "Sponsor via Paypal"
+#~ msgstr "Mittels Paypal unterstützen"
+
+#~ msgid "manga;reader;viewer;comic;manhwa;manhua;bd;webtoon;webcomic;scan;offline;"
+#~ msgstr "manga;reader;viewer;comic;manhwa;manhua;bd;webtoon;webcomic;scan;offline;"
+
+# "Toggle" could be translated as "umschalten", but that's a rather weird word to use.  One translation per state would be better here.
+#~ msgid "Toggle category sidebar"
+#~ msgstr "Kategorien"
+
+#~ msgid "Discover new readings"
+#~ msgstr "Lektüren entdecken"
+
+#~ msgid "Search across all servers"
+#~ msgstr "Suche über alle Server"
+
+#~ msgid "Search by name globally across all the servers you have enabled"
+#~ msgstr "Globale namensbasierte Suche auf allen aktivierten Servern"
+
+#~ msgid "Dark Theme"
+#~ msgstr "Dunkles Farbschema"
+
+#~ msgid "Use dark GTK theme"
+#~ msgstr "Benutzt das dunkle GTK Farbscheme"
+
+#~ msgid "No new chapter found"
+#~ msgstr "Kein neues Kapitel gefunden"
+
+#~ msgid ""
+#~ "This tweak is only intended for users who do not use the GNOME desktop "
+#~ "environment and therefore cannot disable animations globally via GNOME "
+#~ "Settings (Accessibility ⇨ Seeing ⇨ Enable Animations)."
+#~ msgstr ""
+#~ "Diese Anpassung ist nur für Nutzer gedacht, die nicht GNOME verwenden und "
+#~ "daher die globale Einstellung unter dem Menüpunkt “Barrierefreiheit” "
+#~ "nicht verwenden können."
+
+#~ msgid "Please choose a file"
+#~ msgstr "Bitte wählen Sie eine Datei"
+
+#~ msgid "Last Chapter"
+#~ msgstr "Letztes Kapitel"
+
+#, python-brace-format
+#~ msgid "{0} manga added"
+#~ msgstr "Manga {0} hinzugefügt"
+
+#~ msgid "Read"
+#~ msgstr "Lesen"
+
+#~ msgid "Search by name in the server catalog"
+#~ msgstr "Suche nach Name im Serverkatalog"
+
+#~ msgid "This server accepts search filters."
+#~ msgstr "Dieser Server unterstützt Suchfilter."
+
+#~ msgid ""
+#~ "Alternatively, if you cannot find by name, you can look up using the "
+#~ "following format:\n"
+#~ "id:<id from comic URL>."
+#~ msgstr ""
+#~ "Falls du den Manga nicht per Namen findest, versuche die folgende Suche:\n"
+#~ "id:<ID-Teil der URL>"
+
+#~ msgid "Search by name in all servers catalogs"
+#~ msgstr "Suche nach Name in allen Servern"
+
+#~ msgid "Read your favorite manga and more"
+#~ msgstr "Lies deine Lieblingsmanga (und mehr)"
+
+#~ msgid "Most Populars"
+#~ msgstr "Beliebteste"
+
+#~ msgid "Oops, failed to retrieve most populars."
+#~ msgstr "Ups, beliebteste Manga konnten nicht geholt werden."
+
+#~ msgid "No Most Populars Found"
+#~ msgstr "Keine beliebten Manga gefunden"
+
+#~ msgid "Types of comics to search for"
+#~ msgstr "Comic-Arten, nach denen gesucht werden soll"
+
+#~ msgid "Content ratings to include in search"
+#~ msgstr "Inhalte, nach denen gesucht werden soll"
+
+#~ msgid "Type of comics to search for"
+#~ msgstr "Comic-Art, nach der gesucht werden soll"
+
+#~ msgid ""
+#~ "With its clean, intuitive and adaptive interface, this manga reader "
+#~ "allows you to search, sort and read all your favorite manga with ease."
+#~ msgstr ""
+#~ "Mit einem sauberen, intuitiven und adaptiven Oberfläche lässt dich "
+#~ "Komikku deine Lieblingsmanga einfach sortieren und lesen."
+
+#~ msgid "Features"
+#~ msgstr "Features"
+
+#~ msgid ""
+#~ "Komikku is a manga, manhwa, manhua, webtoons, webcomics and comics reader."
+#~ msgstr ""
+#~ "Komikku ist ein Lesegerät für Manga, Manhwa, Manhua, Webtoons, Webcomics "
+#~ "und Comics."
+
+#~ msgid "Online reading from dozens of servers"
+#~ msgstr "Comics von dutzenden Servern online lesen"
+
+#~ msgid "Offline reading of downloaded comics"
+#~ msgstr "Heruntergeladene Comics offline lesen"
+
+#~ msgid "Support for locally stored comics (in CBZ or CBR formats)"
+#~ msgstr "Unterstützung lokaler Comics im CBZ- bzw. CBR-Format"
+
+#~ msgid "Automatic update of comics"
+#~ msgstr "Automatische Aktualisierung von Comics"
+
+#~ msgid "It focuses on providing a clean, intuitive and adaptive interface."
+#~ msgstr ""
+#~ "Komikku bemüht sich, eine klare, intuitive und adaptive "
+#~ "Benutzeroberfläche zu erschaffen."
+
+#~ msgid "Most populars"
+#~ msgstr "Beliebteste"
+
+#~ msgid "Collection"
+#~ msgstr "Sammlung"
+
+#~ msgid "One shot"
+#~ msgstr "Oneshots"
+
+#~ msgid "Read your favorite manga online or offline"
+#~ msgstr "Lies deine Lieblingsmanga online oder offline"
+
+#~ msgid ""
+#~ "A specific folder structure is required for local comics to be properly "
+#~ "processed.\n"
+#~ "\n"
+#~ "Each comic must have its own folder which must contain the chapters/"
+#~ "volumes as archive files in CBZ or CBR formats.\n"
+#~ "\n"
+#~ "The folder's name will be used as name for the comic.\n"
+#~ "\n"
+#~ "NOTE: The 'unrar' command-line tool is required for CBR archives."
+#~ msgstr ""
+#~ "Eine spezielle Ordnerstruktur ist benötigt, um lokale Comics richtig "
+#~ "handzuhaben.\n"
+#~ "\n"
+#~ "Jeder Comic benötigt seien eigenen Ordner, in dem Kapitel als Archive im "
+#~ "CBZ- oder CBR-Format enthalten sind.\n"
+#~ "\n"
+#~ "Der Ordnername wird als Comicname übernommen.\n"
+#~ "\n"
+#~ "Hinweis: Zum Lesen von CBR-Archiven wird 'unrar' benötigt."
+
+#~ msgid "Reading of local comics in CBZ or CBR formats"
+#~ msgstr "Lokale Comics in CBZ-Format oder CBR-Format lesen"
+
+#~ msgid "Crop white borders of images"
+#~ msgstr "Entfernt weiße Ränder bei Bildern"
+
+#~ msgid ""
+#~ "After several months of effort, Komikku's port to GTK4 and libadwaita is "
+#~ "coming to an end."
+#~ msgstr ""
+#~ "Nach monatelanger Arbeit endet die Portierung von Komikku zu GTK4 und "
+#~ "libadwaita."
+
+#~ msgid ""
+#~ "We hope you will enjoy the new look as much as we do. All your feedbacks/"
+#~ "issues/suggestions are welcome."
+#~ msgstr ""
+#~ "Wir hoffen, dass Ihnen das neue Aussehen so gut gefällt wie uns.\n"
+#~ "Wünsche, Bitten und Beschwerden sind willkommen."
+
+#~ msgid "MOST POPULARS"
+#~ msgstr "BELIEBTESTE"
+
+#~ msgid "Valéry Febvre"
+#~ msgstr "Valéry Febvre"
+
+#~ msgid "A manga reader for GNOME"
+#~ msgstr "Manga-Lesegerät für GNOME"
+
+#~ msgid ""
+#~ "A manga reader for GNOME\n"
+#~ "\n"
+#~ "Never forget, you can support the authors\n"
+#~ "by buying the official comics when they are\n"
+#~ "available in your region/language."
+#~ msgstr ""
+#~ "Ein Manga-Lesegerät für GNOME\n"
+#~ "\n"
+#~ "Nicht vergessen, dass du mit dem Kauf offizieller Veröffentlichungen\n"
+#~ "– so in deiner Region bzw. Sprache verfügbar – Autoren finanziell\n"
+#~ "unterstützen kannst."
+
+#~ msgid "Learn more about Komikku"
+#~ msgstr "Mehr über Komikku erfahren"
+
+#~ msgid "Resume read"
+#~ msgstr "Weiterlesen"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "More"
+#~ msgstr "Mehr"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Save page"
+#~ msgstr "Seite speichern"
+
+#~ msgid "Contributors: Code, Patches, Debugging:"
+#~ msgstr "Mitwirkende: Quellcode, Patches, Debugging:"
+
+#~ msgid "Add to library"
+#~ msgstr "Zu Bibliothek hinzufügen"
+
+#~ msgid "%Y-%m-%d"
+#~ msgstr "%d.%m.%Y"
+
+#~ msgid "[L10n] Update Spanish translation"
+#~ msgstr "[L10n] Spanische Übersetzung aktualisiert"
+
+#~ msgid "Types of manga to search for"
+#~ msgstr "Arten von Manga, nach denen gesucht werden soll"
+
+#~ msgctxt "Shortcut window description"
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Tastenkürzel"

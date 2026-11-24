@@ -1,0 +1,581 @@
+# SPDX-FileCopyrightText: 2019-2026 Valéry Febvre
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Author: Valéry Febvre <vfebvre@easter-eggs.com>
+
+from gettext import gettext as _
+from io import BytesIO
+import threading
+
+from gi.repository import Adw
+from gi.repository import Gdk
+from gi.repository import GLib
+from gi.repository import GObject
+from gi.repository import Gtk
+
+import cairo
+from PIL import Image
+
+from komikku.consts import MISSING_IMG_RESOURCE_PATH
+from komikku.reader.pagers.image import KImage
+from komikku.models import Settings
+from komikku.utils import log_error_traceback
+
+
+class Page(Gtk.Overlay):
+    """Pager page composed of one or two pages"""
+
+    __gtype_name__ = 'Page'
+    __gsignals__ = {
+        'rendered': (GObject.SignalFlags.RUN_FIRST, None, (bool, bool, )),
+        'resolved': (GObject.SignalFlags.RUN_FIRST, None, ()),
+    }
+
+    def __init__(self, pager, chapter, index, double=False, direction=1):
+        super().__init__(hexpand=True, vexpand=True)
+
+        self.pager = pager
+        self.reader = pager.reader
+        self.window = self.reader.window
+
+        self.double = double
+        self.sides = [PageSide(self.reader.manga, chapter, index)]
+        if self.double:
+            if direction == 1:
+                self.sides.append(PageSide(self.reader.manga, chapter, index + direction))
+            else:
+                self.sides.insert(0, PageSide(self.reader.manga, chapter, index + direction))
+
+        self.image = None
+        self.retry_button = None
+
+        self._status = None    # rendering, resolved, allocable, rendered, offlimit, disposed
+        self.error = None      # connection error, server error, corrupt file error
+        self.loadable = False  # loadable from disk or downloadable from server (chapter pages are known)
+        self.obscured = True
+
+        if self.reader.reading_mode != 'webtoon':
+            self.zoomable = True
+            self.scrolledwindow = Gtk.ScrolledWindow()
+            self.scrolledwindow.set_policy(Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC)
+            self.scrolledwindow.set_kinetic_scrolling(True)
+            self.scrolledwindow.set_overlay_scrolling(True)
+
+            self.set_child(self.scrolledwindow)
+        else:
+            self.zoomable = False
+
+        # Activity indicator
+        self.activity_indicator = Adw.Spinner(
+            halign=Gtk.Align.CENTER, valign=Gtk.Align.CENTER, width_request=48, height_request=48, visible=False
+        )
+        self.add_overlay(self.activity_indicator)
+
+        if self.reader.ocr_translator.enabled:
+            # Creating a drawing area allowing to select an image portion containing text
+            # in order to perform text recognition and translate it
+            self.ocr_selection_da = Gtk.DrawingArea(hexpand=True, vexpand=True, can_target=False)
+            self.ocr_selection_da.set_draw_func(self.draw_ocr_selection)
+            self.reader.ocr_translator.bind_property(
+                'active', self.ocr_selection_da, 'can-target',
+                GObject.BindingFlags.BIDIRECTIONAL | GObject.BindingFlags.SYNC_CREATE
+            )
+            self.add_overlay(self.ocr_selection_da)
+
+            drag_gesture = Gtk.GestureDrag.new()
+            drag_gesture.set_propagation_phase(Gtk.PropagationPhase.BUBBLE)
+            drag_gesture.set_button(1)
+            self.ocr_selection_da.add_controller(drag_gesture)
+            drag_gesture.connect('drag-begin', self.on_ocr_selection_drag_begin)
+            drag_gesture.connect('drag-update', self.on_ocr_selection_drag_update, False)
+            drag_gesture.connect('drag-end', self.on_ocr_selection_drag_update, True)
+
+            self.ocr_selection_surface = None
+            self.ocr_selection_start_x = 0
+            self.ocr_selection_start_y = 0
+
+    @property
+    def hscrollable(self):
+        if self.zoomable:
+            adj = self.scrolledwindow.get_hadjustment()
+            return adj.props.upper > adj.props.page_size
+
+        return False
+
+    @property
+    def chapter(self):
+        return self.sides[0].chapter if self.sides[0] else self.sides[1].chapter
+
+    @property
+    def index(self):
+        return self.sides[0].index
+
+    @property
+    def index_end(self):
+        if not self.double:
+            return self.index
+
+        sides = reversed(self.sides) if self.reader.reading_mode != 'right-to-left' else self.sides
+        for side in sides:
+            if side:
+                return side.index
+
+    @property
+    def index_start(self):
+        if not self.double:
+            return self.index
+
+        sides = reversed(self.sides) if self.reader.reading_mode == 'right-to-left' else self.sides
+        for side in sides:
+            if side:
+                return side.index
+
+    @property
+    def indexes(self):
+        return [side.index for side in self.sides if side]
+
+    @property
+    def scrollable(self):
+        return self.hscrollable or self.vscrollable
+
+    @GObject.Property(type=str)
+    def status(self):
+        return self._status
+
+    @status.setter
+    def status(self, value):
+        self._status = value
+
+    @property
+    def vscrollable(self):
+        if self.zoomable:
+            adj = self.scrolledwindow.get_vadjustment()
+            return adj.props.upper > adj.props.page_size
+
+        return False
+
+    def dispose(self):
+        self.status = 'disposed'
+
+        if self.image:
+            self.image.dispose()
+            self.image = None
+
+        if self.get_parent().__class__.__name__ == 'KInfiniteCanvas':
+            # Webtoon pager: unparent from KInfiniteCanvas
+            self.unparent()
+        else:
+            # RTL/LTR/Vertical pager: remove from Adw.Carousel
+            self.get_parent().remove(self)
+
+    def draw_ocr_selection(self, da, ctx, width, height):
+        if not self.ocr_selection_surface:
+            return
+
+        ctx.set_source_surface(self.ocr_selection_surface, 0, 0)
+        ctx.paint()
+
+    def on_button_retry_clicked(self, _button):
+        for side in self.sides:
+            side.reset()
+
+        self.retry_button.set_visible(False)
+
+        self.render(retry=True)
+
+    def on_clicked(self, _image, x, y):
+        self.reader.pager.on_single_click(x, y)
+
+    def on_ocr_selection_drag_begin(self, gesture, x, y):
+        self.ocr_selection_start_x = x
+        self.ocr_selection_start_y = y
+
+    def on_ocr_selection_drag_update(self, gesture, offset_x, offset_y, end):
+        self.ocr_selection_surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, self.get_width(), self.get_height())
+
+        ctx = cairo.Context(self.ocr_selection_surface)
+        ctx.set_source_rgb(0.9647, 0.51, 0.462745)
+        ctx.set_line_width(2)
+        ctx.rectangle(self.ocr_selection_start_x, self.ocr_selection_start_y, offset_x, offset_y)
+        ctx.stroke()
+
+        self.ocr_selection_da.queue_draw()
+
+        if end:
+            # Clear context
+            ctx.set_operator(cairo.OPERATOR_CLEAR)
+            ctx.rectangle(0, 0, self.get_width(), self.get_height())
+            ctx.paint()
+
+            # Selection size
+            w = offset_x
+            h = offset_y
+            if abs(w) < 1 or abs(h) < 1:
+                return
+
+            # Selection coordinates
+            zoom = self.image.zoom
+            if self.image.crop_bbox:
+                crop_x = self.image.crop_bbox[0] * zoom
+                crop_y = self.image.crop_bbox[1] * zoom
+            else:
+                crop_x, crop_y = (0, 0)
+            x = crop_x + self.ocr_selection_start_x + min(0, offset_x)
+            y = crop_y + self.ocr_selection_start_y + min(0, offset_y)
+            x = max(0, x - self.image.image_displayed_x)
+            y = max(0, y - self.image.image_displayed_y)
+
+            # Text recognition
+            self.reader.ocr_translator.recognize(
+                self.image,
+                x / zoom, y / zoom,
+                (x + abs(w)) / zoom, (y + abs(h)) / zoom
+            )
+
+    def on_rendered(self, _image, update, retry):
+        self.status = 'rendered'
+        self.emit('rendered', update, retry)
+
+    def on_zoom_begin(self, _image):
+        self.reader.pager.interactive = False
+        self.reader.toggle_controls(False)
+
+    def on_zoom_end(self, _image):
+        self.reader.pager.interactive = True
+
+    def render(self, retry=False):
+        """Resolve page sides (chapter, index), retrieve image path(s)/buffer(s), then set image"""
+        def on_complete(errors):
+            for code, error in errors.items():
+                if code in ('connection', 'server'):
+                    self.stop_activity_indicator()
+                    on_error(code, error['message'], error['stack_trace'])
+                    if retry:
+                        continue
+
+                elif code == 'offlimit':
+                    self.stop_activity_indicator()
+                    self.status = 'offlimit'
+                    return
+
+                if self.status == 'disposed':
+                    # Page has been removed from pager
+                    self.stop_activity_indicator()
+                    return
+
+            self.set_image(retry)
+
+        def on_error(code, message=None, stack_trace=None):
+            assert code in ('connection', 'server', ), 'Invalid error code'
+
+            if message is not None:
+                self.window.add_notification(message, timeout=2)
+
+            elif stack_trace is not None and Settings.get_default().servers_bug_report:
+                manga = self.reader.manga
+                context = '\n'.join([
+                    'Failed to fetch chapter data or page',
+                    f'- Server ID: {manga.server.id}',
+                    f'- Serie Name: {manga.name}',
+                    f'- Serie URL: {manga.server.get_manga_url(manga.slug, manga.url)}',
+                ])
+                self.window.open_server_bug_report_dialog(manga.server, context, stack_trace)
+
+            self.error = code
+
+            self.show_retry_button()
+
+        def run():
+            errors = {}
+            for side in self.sides:
+                res, error_code, error_message, stack_trace = side.resolve()
+                if res == 'error':
+                    if error_code not in errors:
+                        errors[error_code] = {
+                            'message': error_message,
+                            'stack_trace': stack_trace,
+                        }
+                    continue
+
+                self.loadable = True
+
+                if not self.reader.manga.is_local:
+                    path = side.chapter.get_page_path(side.index)
+                    if path is None:
+                        try:
+                            path, _rtime = side.chapter.get_page(side.index)
+                            if path:
+                                side.path = path
+                            else:
+                                error_code, error_message, stack_trace = 'server', None, None
+                                if error_code not in errors:
+                                    errors[error_code] = {
+                                        'message': error_message,
+                                        'stack_trace': stack_trace,
+                                    }
+                        except Exception as e:
+                            error_code, error_message, stack_trace = 'connection', *log_error_traceback(e)
+                            if error_code not in errors:
+                                errors[error_code] = {
+                                    'message': error_message,
+                                    'stack_trace': stack_trace,
+                                }
+                    else:
+                        side.path = path
+                else:
+                    try:
+                        side.buffer = side.chapter.get_page_data(side.index)['buffer']
+                    except Exception as e:
+                        error_code, error_message, stack_trace = 'server', *log_error_traceback(e)
+                        if error_code not in errors:
+                            errors[error_code] = {
+                                'message': error_message,
+                                'stack_trace': stack_trace,
+                            }
+
+            if self.double:
+                # Detect single side page (last page when chapter has an odd number of pages)
+                # One of the two sides must be a blank page
+                if self.sides[0].index > self.sides[1].index:
+                    # Reading forward
+                    self.sides[1] = None
+                elif self.sides[0].index % 2 != 0:
+                    # Reading backward
+                    self.sides[0] = self.sides[1]
+                    self.sides[1] = None
+
+            self.status = 'resolved'
+            self.emit('resolved')
+            GLib.idle_add(on_complete, errors)
+
+        if self.status is not None and self.error is None:
+            return
+
+        self.status = 'rendering'
+        self.error = None
+
+        self.start_activity_indicator()
+
+        if not self.reader.manga.is_local:
+            thread = threading.Thread(target=run)
+            thread.daemon = True
+            thread.start()
+        else:
+            run()
+
+    def rescale(self):
+        if self.image is None:
+            return
+
+        self.image.scaling = self.reader.scaling
+        self.image.scaling_filter = self.reader.scaling_filter
+        self.image.landscape_zoom = self.reader.landscape_zoom
+
+    def set_allow_zooming(self, allow):
+        if self.image is None:
+            return
+
+        if self.reader.reading_mode == 'webtoon':
+            self.image.set_allow_zooming(False)
+            return
+
+        self.image.set_allow_zooming(allow)
+
+    def set_image(self, retry):
+        def on_loaded(image, error=None, mime_type=None):
+            if error:
+                self.error = error
+                self.show_retry_button()
+
+                for side in self.sides:
+                    if side and side.path:
+                        GLib.unlink(side.path)
+
+                message = [_('Failed to load image')]
+                if self.error == 'corrupted-or-unsupported-format':
+                    message.append(_('Corrupted file or unsupported image format ({0})').format(mime_type))
+                self.window.add_notification('\n'.join(message), timeout=2)
+
+            image.connect('clicked', self.on_clicked)
+            image.connect('rendered', self.on_rendered, retry)
+            image.connect('zoom-begin', self.on_zoom_begin)
+            image.connect('zoom-end', self.on_zoom_end)
+
+            if self.image:
+                self.image.dispose()
+
+            self.image = image
+            self.status = 'allocable'
+            if self.zoomable:
+                self.scrolledwindow.set_child(self.image)
+            else:
+                self.set_child(self.image)
+
+            self.stop_activity_indicator()
+
+        if self.double:
+            image = KImage(
+                scaling=self.reader.scaling, scaling_filter=self.reader.scaling_filter,
+                crop=self.reader.borders_crop, crop_threshold=self.reader.borders_crop_threshold,
+                landscape_zoom=self.reader.landscape_zoom, zoomable=self.zoomable
+            )
+
+            # Assemble the two sides
+            imgs = []
+            for side in self.sides:
+                if side is None:
+                    # Blank page
+                    imgs.append(None)
+                    continue
+
+                if not side.path and not side.buffer:
+                    # Missing page
+                    texture = Gdk.Texture.new_from_resource(MISSING_IMG_RESOURCE_PATH)
+                    buffer = texture.save_to_tiff_bytes().get_data()
+                    with Image.open(BytesIO(buffer)) as img:
+                        imgs.append(img.convert('RGB'))
+                    continue
+
+                try:
+                    obj = side.path or side.buffer
+                    with Image.open(obj if isinstance(obj, str) else BytesIO(obj)) as img:
+                        imgs.append(img.convert('RGB'))
+                except Exception:
+                    return None
+
+            if self.reader.reading_mode == 'right-to-left':
+                imgs.reverse()
+
+            maxw = max([img.width for img in imgs if img])
+            h = max([img.height for img in imgs if img])
+
+            w = 0
+            for img in imgs:
+                if img:
+                    if img.height < h:
+                        # Image is shorter in height, it will be scale up
+                        # Reserve more width
+                        ratio = h / img.height
+                        w += int(img.width * ratio)
+                    else:
+                        w += img.width
+                else:
+                    # Reserve more width to simulate a blank page
+                    w += maxw
+
+            double_img = Image.new('RGB', (w, h), (255, 255, 255))
+            x = 0
+            for img in imgs:
+                if img:
+                    if img.height < h:
+                        # Scale up image
+                        ratio = h / img.height
+                        new_img = img.resize((int(img.width * ratio), int(img.height * ratio)))
+                        img.close()
+                        img = new_img
+
+                    double_img.paste(img, (x, 0))
+                    x += img.width
+
+                    img.close()
+                else:
+                    x += maxw
+
+            with BytesIO() as io_buffer:
+                # Use the very fast/lossless TIFF format (Pillow uses libtiff)
+                double_img.save(io_buffer, 'tiff')
+                buffer = io_buffer.getvalue()
+                double_img.close()
+
+            image.load(path=None, buffer=buffer, callback=on_loaded)
+
+        else:
+            side = self.sides[0]
+            if not side.path and not side.buffer:
+                image = KImage()
+                image.load_missing(callback=on_loaded)
+            else:
+                image = KImage(
+                    scaling=self.reader.scaling, scaling_filter=self.reader.scaling_filter,
+                    crop=self.reader.borders_crop, crop_threshold=self.reader.borders_crop_threshold,
+                    landscape_zoom=self.reader.landscape_zoom, zoomable=self.zoomable
+                )
+                image.load(path=side.path, buffer=side.buffer, callback=on_loaded)
+
+    def show_retry_button(self):
+        if self.retry_button is None:
+            self.retry_button = Gtk.Button()
+            self.retry_button.add_css_class('suggested-action')
+            self.retry_button.set_valign(Gtk.Align.CENTER)
+            self.retry_button.set_halign(Gtk.Align.CENTER)
+            self.retry_button.connect('clicked', self.on_button_retry_clicked)
+
+            vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
+            icon = Gtk.Image.new_from_icon_name('view-refresh-symbolic')
+            icon.set_icon_size(Gtk.IconSize.LARGE)
+            vbox.append(icon)
+            vbox.append(Gtk.Label(label=_('Retry')))
+            self.retry_button.set_child(vbox)
+
+            self.add_overlay(self.retry_button)
+
+        self.retry_button.set_visible(True)
+
+    def start_activity_indicator(self):
+        if self.reader.reading_mode != 'webtoon':
+            self.activity_indicator.set_visible(True)
+
+    def stop_activity_indicator(self, *args):
+        if self.reader.reading_mode != 'webtoon':
+            self.activity_indicator.set_visible(False)
+
+
+class PageSide:
+    def __init__(self, manga, chapter, index):
+        self.manga = manga
+        self.chapter = chapter
+        self.chapter_initial = chapter
+        self.index = index
+        self.index_initial = index
+
+        self.path: str = None
+        self.buffer: bytes = None
+
+    def reset(self):
+        self.chapter = self.chapter_initial
+        self.index = self.index_initial
+
+    def resolve(self, prior_chapter=None):
+        """Calculate correct chapter and index if there is a chapter change (index < 0 or index > number of pages)"""
+
+        if self.chapter is None:
+            return 'error', 'offlimit', None, None
+
+        if self.chapter.pages and self.index >= 0 and self.index < len(self.chapter.pages):
+            return 'success', None, None, None
+
+        if self.index < 0:
+            # Page belongs to another (previous) chapter
+            self.chapter = self.manga.get_next_chapter(self.chapter, -1)
+            if self.chapter is None:
+                return 'error', 'offlimit', None, None
+
+        if not self.chapter.pages:
+            try:
+                if not self.chapter.update_full():
+                    return 'error', 'server', None, None
+            except Exception as e:
+                return 'error', 'connection', *log_error_traceback(e)
+
+        if self.index > len(self.chapter.pages) - 1:
+            # Page belongs to another (next) chapter
+            prior_chapter = self.chapter
+            self.chapter = self.manga.get_next_chapter(self.chapter, 1)
+            if self.chapter is None:
+                return 'error', 'offlimit', None, None
+
+        if self.index < 0:
+            self.index = len(self.chapter.pages) + self.index
+        elif self.index > len(prior_chapter.pages if prior_chapter else self.chapter.pages) - 1:
+            self.index = self.index - len(prior_chapter.pages)
+
+        return self.resolve(prior_chapter)

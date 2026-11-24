@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+SPDX-FileCopyrightText: 2019-2025 Valéry Febvre
+SPDX-License-Identifier: GPL-3.0-or-later
+SPDX-FileContributor: Valéry Febvre <vfebvre@easter-eggs.com>
+-->
+<interface>
+    <requires lib="gtk" version="4.0"/>
+    <menu id="menu">
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">Update Library</attribute>
+                <attribute name="action">app.library.update</attribute>
+            </item>
+            <submenu>
+                <attribute name="label" translatable="yes">Sort</attribute>
+
+                <section>
+                    <attribute name="id">library-sort-order</attribute>
+                    <item>
+                        <attribute name="label" translatable="yes">Alphabetical</attribute>
+                        <attribute name="action">app.library.sort-order</attribute>
+                        <attribute name="target">alphanum-asc</attribute>
+                    </item>
+                    <item>
+                        <attribute name="label" translatable="yes">Latest Read First</attribute>
+                        <attribute name="action">app.library.sort-order</attribute>
+                        <attribute name="target">latest-read-desc</attribute>
+                    </item>
+                    <item>
+                        <attribute name="label" translatable="yes">Latest Updated First</attribute>
+                        <attribute name="action">app.library.sort-order</attribute>
+                        <attribute name="target">latest-updated-desc</attribute>
+                    </item>
+                </section>
+            </submenu>
+        </section>
+
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">Download Manager</attribute>
+                <attribute name="action">app.library.download-manager</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">Categories</attribute>
+                <attribute name="action">app.library.categories-editor</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">History</attribute>
+                <attribute name="action">app.library.history</attribute>
+            </item>
+        </section>
+
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">Preferences</attribute>
+                <attribute name="action">app.preferences</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">Keyboard Shortcuts</attribute>
+                <attribute name="action">app.shortcuts</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">Donate</attribute>
+                <attribute name="action">app.support</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">About Komikku</attribute>
+                <attribute name="action">app.about</attribute>
+            </item>
+        </section>
+    </menu>
+</interface>

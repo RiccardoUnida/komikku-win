@@ -1,0 +1,179 @@
+// SPDX-FileCopyrightText: 2019-2026 Valéry Febvre
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+using Gtk 4.0;
+using Adw 1;
+
+template $ReaderPage : Adw.NavigationPage {
+  tag: "reader";
+  title: _("Reader");
+  can-pop: false;
+  child: Adw.BottomSheet ocr_translator_bottomsheet {
+    reveal-bottom-bar: false;
+
+    [content]
+    Adw.ToolbarView {
+      [top]
+      Revealer headerbar_revealer {
+        reveal-child: true;
+
+        Adw.HeaderBar {
+          centering-policy: strict;
+
+          [start]
+          Button back_button {
+            icon-name: "go-previous-symbolic";
+            tooltip-text: _("Back");
+          }
+
+          title-widget: Adw.WindowTitle title {};
+
+          [start]
+          ToggleButton fullscreen_button {
+            icon-name: "view-fullscreen-symbolic";
+            tooltip-text: _("Toggle Fullscreen Mode");
+          }
+
+          [end]
+          MenuButton menu_button {
+            icon-name: "view-more-symbolic";
+            tooltip-text: _("Menu");
+          }
+
+          [end]
+          ToggleButton ocr_translator_togglebutton {
+            icon-name: "translate-symbolic";
+            tooltip-text: _("Toggle OCR Translator");
+          }
+
+        }
+      }
+
+      content: Overlay reader_overlay {};
+    }
+
+    [sheet]
+    Adw.ToolbarView {
+      [top]
+      Adw.HeaderBar {}
+
+      content: Adw.Clamp {
+        maximum-size: 768;
+        margin-top: 12;
+        margin-end: 12;
+        margin-bottom: 12;
+        margin-start: 12;
+
+        Box ocr_translator_box {
+          orientation: horizontal;
+          homogeneous: true;
+          vexpand: true;
+          spacing: 12;
+
+          Box ocr_translator_src_box {
+            orientation: vertical;
+            spacing: 12;
+
+            DropDown ocr_translator_src_dropdown {
+              enable-search: true;
+            }
+
+            Frame {
+              ScrolledWindow ocr_translator_src_scrolledwindow {
+                min-content-height: 100;
+                hscrollbar-policy: never;
+              }
+            }
+
+            Box {
+              orientation: horizontal;
+              halign: fill;
+              vexpand: true;
+              spacing: 6;
+
+              Button ocr_translator_src_clear_button {
+                icon-name: "edit-clear-symbolic";
+                tooltip-text: _("Clear");
+
+                styles ["flat"]
+              }
+
+              Button ocr_translator_src_copy_button {
+                icon-name: "edit-copy-symbolic";
+                tooltip-text: _("Copy");
+                sensitive: false;
+
+                styles ["flat"]
+              }
+
+              Label ocr_translator_chars_counter_label {
+                hexpand: true;
+                halign: end;
+
+                styles [
+                  "dim-label",
+                  "caption-heading",
+                  "numeric"
+                ]
+              }
+
+              Button ocr_translator_translate_button {
+                label: _("Translate");
+                halign: end;
+
+                styles ["suggested-action"]
+              }
+            }
+          }
+
+          Box ocr_translator_dst_box {
+            orientation: vertical;
+            spacing: 12;
+
+            DropDown ocr_translator_dst_dropdown {
+              enable-search: true;
+            }
+
+            Frame {
+              ScrolledWindow ocr_translator_dst_scrolledwindow {
+                min-content-height: 100;
+                hscrollbar-policy: never;
+              }
+            }
+
+            Box {
+              orientation: horizontal;
+              halign: fill;
+              vexpand: true;
+              spacing: 6;
+
+              Adw.Spinner ocr_translator_translate_spinner {
+                margin-start: 8;
+                visible: false;
+              }
+
+              Button ocr_translator_dst_copy_button {
+                icon-name: "edit-copy-symbolic";
+                tooltip-text: _("Copy");
+                hexpand: true;
+                halign: end;
+                sensitive: false;
+
+                styles ["flat"]
+              }
+            }
+          }
+        }
+      };
+    }
+
+    [bottom-bar]
+    Label {
+      label: "<b>——————</b>";
+      use-markup: true;
+
+      styles ["monospace"]
+    }
+  };
+}

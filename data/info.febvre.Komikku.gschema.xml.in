@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <enum id="@appid@.BackgroundColor">
+        <value nick="white" value="0" />
+        <value nick="black" value="1" />
+        <value nick="gray" value="2" />
+        <value nick="system-style" value="3" />
+    </enum>
+    <enum id="@appid@.CardBackdropMethod">
+        <value nick="unset" value="-1" />
+        <value nick="none" value="0" />
+        <value nick="linear-gradient" value="1" />
+        <value nick="blurred-cover" value="2" />
+    </enum>
+    <enum id="@appid@.ColorScheme">
+        <value nick="light" value="0" />
+        <value nick="dark" value="1" />
+        <value nick="default" value="2" />
+    </enum>
+    <enum id="@appid@.LibraryDisplayMode">
+        <value nick="grid" value="0" />
+        <value nick="grid-compact" value="1" />
+    </enum>
+    <enum id="@appid@.LibrarySortOrder">
+        <value nick="alphanum-asc" value="0" />
+        <value nick="latest-read-desc" value="3" />
+        <value nick="latest-updated-desc" value="5" />
+    </enum>
+    <enum id="@appid@.progressbarTheme">
+        <value nick="accent-color" value="0" />
+        <value nick="pride-rainbow" value="1" />
+        <value nick="lesbian-pride" value="2" />
+        <value nick="gay-pride" value="3" />
+        <value nick="transgender" value="4" />
+        <value nick="nonbinary" value="5" />
+        <value nick="bisexual" value="6" />
+        <value nick="asexual" value="7" />
+        <value nick="pansexual" value="8" />
+        <value nick="aromantic" value="9" />
+        <value nick="genderfluid" value="10" />
+        <value nick="polysexual" value="11" />
+        <value nick="omnisexual" value="12" />
+        <value nick="aroace" value="13" />
+        <value nick="agender" value="14" />
+        <value nick="genderqueer" value="15" />
+        <value nick="intersex" value="16" />
+        <value nick="demigender" value="17" />
+        <value nick="biromantic" value="18" />
+        <value nick="disability" value="19" />
+        <value nick="femboy" value="20" />
+        <value nick="neutrois" value="21" />
+        <value nick="random" value="22" />
+    </enum>
+    <enum id="@appid@.ReadingMode">
+        <value nick="--" value="-1" />
+        <value nick="right-to-left" value="0" />
+        <value nick="left-to-right" value="1" />
+        <value nick="vertical" value="2" />
+        <value nick="webtoon" value="3" />
+    </enum>
+    <enum id="@appid@.Scaling">
+        <value nick="screen" value="0" />
+        <value nick="width" value="1" />
+        <value nick="height" value="2" />
+        <value nick="original" value="3" />
+    </enum>
+    <enum id="@appid@.ScalingFilter">
+        <value nick="linear" value="0" />
+        <value nick="trilinear" value="1" />
+    </enum>
+    <schema path="/@apppath@/" id="@appid@" gettext-domain="@projectname@">
+        <key type="ai" name="window-size">
+            <default>[720, 600]</default>
+            <summary>Window Size</summary>
+            <description>Remember the window size</description>
+        </key>
+        <key type="b" name="window-maximized-state">
+            <default>false</default>
+            <summary>Window Maximized State</summary>
+            <description>Maximized state of the window</description>
+        </key>
+
+        <!-- Downloader -->
+        <key type="b" name="downloader-state">
+            <default>true</default>
+            <summary>Downloader State</summary>
+            <description>State of Downloader: ON (true) or OFF (false)</description>
+        </key>
+
+        <!-- Explorer -->
+        <key type="as" name="pinned-servers">
+            <default>[]</default>
+            <summary>Pinned Servers</summary>
+            <description>List of pinned servers in Explorer</description>
+        </key>
+        <key type="as" name="explorer-search-global-selected-filters">
+            <default>[]</default>
+            <summary>Selected filters in Explorer Global Search</summary>
+            <description>List of selected filters in Explorer global search</description>
+        </key>
+
+        <!-- Library -->
+        <key type="as" name="library-selected-filters">
+            <default>[]</default>
+            <summary>Selected filters in Library search</summary>
+            <description>List of selected filters in Library search</description>
+        </key>
+        <key type="i" name="selected-category">
+            <default>0</default>
+            <summary>Selected Category</summary>
+            <description>Selected category in Library</description>
+        </key>
+
+        <!-- Preferences: General -->
+        <key enum="@appid@.ColorScheme" name="color-scheme">
+            <default>"default"</default>
+            <summary>Theme</summary>
+            <description>Preferred color scheme</description>
+        </key>
+        <key type="b" name="night-light">
+            <default>false</default>
+            <summary>Night Light</summary>
+            <description>Automatically enable dark GTK theme at night</description>
+        </key>
+        <key type="b" name="system-accent-colors">
+            <default>false</default>
+            <summary>Accent Color</summary>
+            <description>Use system accent colors</description>
+        </key>
+        <key enum="@appid@.progressbarTheme" name="progressbar-theme">
+          <default>"accent-color"</default>
+          <summary>Progress Bar Theme</summary>
+          <description>List of themes for progress bars</description>
+        </key>
+        <key type="b" name="card-backdrop">
+            <default>false</default>
+            <summary>Backdrop in Details Page</summary>
+            <description>Enable background recoloring to match cover (DEPRECATED since 1.79.0)</description>
+        </key>
+        <key enum="@appid@.CardBackdropMethod" name="card-backdrop-method">
+            <default>"unset"</default>
+            <summary>Backdrop in Details Page</summary>
+            <description>Method used to recolor background to match cover</description>
+        </key>
+
+        <key type="b" name="desktop-notifications">
+            <default>false</default>
+            <summary>Desktop Notifications</summary>
+            <description>Use desktop notifications for downloads and library updates</description>
+        </key>
+
+        <key type="b" name="tracking">
+            <default>false</default>
+            <summary>Tracking</summary>
+            <description>Synchronize reading progress</description>
+        </key>
+
+        <key type="s" name="trackers">
+            <default>"{}"</default>
+            <summary>Trackers Data</summary>
+            <description>Status, tokens...</description>
+        </key>
+
+        <!-- Preferences: Library -->
+        <key enum="@appid@.LibraryDisplayMode" name="library-display-mode">
+            <default>"grid"</default>
+            <summary>Library Display Mode</summary>
+            <description>Display mode of comics in Library</description>
+        </key>
+        <key enum="@appid@.LibrarySortOrder" name="library-sort-order">
+            <default>"latest-read-desc"</default>
+            <summary>Sorting method used in Library</summary>
+            <description>Sorting method used to display comics in Library</description>
+        </key>
+        <key type="b" name="library-servers-logo">
+            <default>false</default>
+            <summary>Servers logo</summary>
+            <description>Display servers logo</description>
+        </key>
+        <key type="as" name="library-badges">
+            <default>['unread-chapters']</default>
+            <summary>Badges</summary>
+            <description>Displayed badges</description>
+        </key>
+        <key type="b" name="update-at-startup">
+            <default>false</default>
+            <summary>Update at Startup</summary>
+            <description>Automatically update library at startup</description>
+        </key>
+        <key type="b" name="new-chapters-auto-download">
+            <default>false</default>
+            <summary>Auto Download of New Chapters</summary>
+            <description>Automatically download new chapters</description>
+        </key>
+        <key type="as" name="servers-languages">
+            <default>[]</default>
+            <summary>Servers Languages</summary>
+            <description>Allowed languages in servers list</description>
+        </key>
+        <key type="s" name="servers-settings">
+            <default>"{}"</default>
+            <summary>Servers Settings</summary>
+            <description>Enable/disable and configure servers</description>
+        </key>
+        <key type="b" name="long-strip-detection">
+            <default>false</default>
+            <summary>Long Strip Detection</summary>
+            <description>Automatically detect long vertical strip when possible (only on supported servers)</description>
+        </key>
+        <key type="b" name="nsfw-content">
+            <default>true</default>
+            <summary>NSFW Content</summary>
+            <description>Whether to enable servers with NSFW content</description>
+        </key>
+        <key type="b" name="nsfw-only-content">
+            <default>false</default>
+            <summary>NSFW Only Content</summary>
+            <description>Whether to enable servers with NSFW only content</description>
+        </key>
+
+        <!-- Preferences: Reader -->
+        <key enum="@appid@.BackgroundColor" name="background-color">
+            <default>"system-style"</default>
+            <summary>Background Color</summary>
+            <description>Background color of reader</description>
+        </key>
+        <key type="b" name="borders-crop">
+            <default>false</default>
+            <summary>Borders Crop</summary>
+            <description>Crop white borders of images</description>
+        </key>
+        <key type="i" name="borders-crop-threshold">
+            <default>220</default>
+            <summary>Borders Cropping Threshold</summary>
+            <description>Controls which pixels are classified as "white" during borders detection</description>
+        </key>
+
+        <key type="i" name="clamp-size">
+            <default>960</default>
+            <summary>Maximum Width</summary>
+            <description>Constrain reader's width to a given maximum size (Webtoon reading mode only)</description>
+        </key>
+        <key type="b" name="fullscreen">
+            <default>false</default>
+            <summary>Fullscreen</summary>
+            <description>Automatically enter fullscreen mode in reader</description>
+        </key>
+        <key type="b" name="landscape-zoom">
+            <default>false</default>
+            <summary>Landscape Pages Zoom</summary>
+            <description>Zoom page to fit height when page is landscape (Adapt to Screen scaling only)</description>
+        </key>
+        <key type="s" name="page-filters">
+            <default>"{}"</default>
+            <summary>Page Filters</summary>
+            <description>Apply filters to pages</description>
+        </key>
+        <key type="b" name="page-numbering">
+            <default>true</default>
+            <summary>Page Numbering</summary>
+            <description>Show the page numbering at the bottom of the screen while reading</description>
+        </key>
+        <key enum="@appid@.ReadingMode" name="reading-direction">
+            <default>"right-to-left"</default>
+            <summary>Reading Direction</summary>
+            <description>Reading direction in reader (DEPRECATED since 0.22.0)</description>
+        </key>
+        <key enum="@appid@.ReadingMode" name="reading-mode">
+            <default>"right-to-left"</default>
+            <summary>Reading Mode</summary>
+            <description>Reading mode in reader</description>
+        </key>
+        <key type="b" name="double-page">
+            <default>false</default>
+            <summary>Double Page</summary>
+            <description>Two pages on one spread</description>
+        </key>
+        <key enum="@appid@.Scaling" name="scaling">
+            <default>"screen"</default>
+            <summary>Scaling</summary>
+            <description>Images adjustment</description>
+        </key>
+        <key enum="@appid@.ScalingFilter" name="scaling-filter">
+            <default>"linear"</default>
+            <summary>Scaling Filter</summary>
+            <description>Interpolation method used when scaling images</description>
+        </key>
+        <key type="d" name="scroll-click-percentage">
+            <default>0.65</default>
+            <summary>Scroll Click Distance</summary>
+            <description>Percentage of page height to scroll on click or Page Up/Down (Webtoon reading mode only)</description>
+        </key>
+        <key type="d" name="scroll-drag-factor">
+            <default>2.0</default>
+            <summary>Scroll Drag Sensitivity</summary>
+            <description>Multiplier for drag scrolling sensitivity (Webtoon reading mode only)</description>
+        </key>
+
+        <key type="s" name="ocr-lang">
+            <default>""</default>
+            <summary>OCR Language</summary>
+            <description>Default language used for OCR text recognitions</description>
+        </key>
+        <key type="s" name="translators">
+            <default>"{}"</default>
+            <summary>Translators data</summary>
+        </key>
+
+        <!-- Preferences: Advanced -->
+        <key type="b" name="clear-cached-data-on-app-close">
+            <default>true</default>
+            <summary>Clear chapters cache and database on application close</summary>
+        </key>
+        <key type="b" name="external-servers-modules">
+            <default>false</default>
+            <summary>Allow usage of alternative versions of servers modules</summary>
+        </key>
+        <key type="b" name="servers-bug-report">
+            <default>false</default>
+            <summary>Suggest submitting a bug report in case of error</summary>
+        </key>
+        <key type="b" name="credentials-storage-plaintext-fallback">
+            <default>false</default>
+            <summary>Allow plaintext storage as fallback</summary>
+            <description>Used when no keyring backends are found</description>
+        </key>
+        <key type="b" name="disable-animations">
+            <default>false</default>
+            <summary>Disable Animations</summary>
+            <description>Useful with E Ink e-readers to avoid very choppy and unpleasant animations (due to the low refresh rate of the screen)</description>
+        </key>
+    </schema>
+</schemalist>

@@ -1,0 +1,3436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Komikku package.
+# Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024.
+# Karthik Yadav <mail@karthikyadav.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Komikku 1.41.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 14:36+0100\n"
+"PO-Revision-Date: 2026-11-21 20:49+0000\n"
+"Last-Translator: Karthik Yadav <mail@karthikyadav.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/komikku/main/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.12.dev0\n"
+
+#: ../data/info.febvre.Komikku.desktop.in:2
+msgid "@prettyname@"
+msgstr "@prettyname@"
+
+#: ../data/info.febvre.Komikku.desktop.in:3
+msgid "@description@"
+msgstr "@description@"
+
+#: ../data/info.febvre.Komikku.desktop.in:15
+msgid "manga;reader;viewer;comic;manhwa;manhua;webtoon;webcomic;scanlation;book;ebook;offline;GTK;GNOME;"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:11
+msgid "Discover and read manga & comics"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:13
+msgid ""
+"With its simple, elegant and adaptive interface, this reader lets you "
+"search, sort and read your series with ease."
+msgstr ""
+"अपने सरल, सुरुचिपूर्ण और अनुकूली इंटरफ़ेस के साथ, यह रीडर आपको अपनी श्रृंखला को आसानी से "
+"खोजने, क्रमबद्ध करने और पढ़ने की सुविधा देता है।"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:15
+msgid "Why you will love Komikku?"
+msgstr "आप Komikku को क्यों पसंद करेंगे?"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:17
+msgid "Online and offline reading from dozens of servers"
+msgstr "दर्जनों सर्वरों से ऑनलाइन और ऑफलाइन पठन"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:18
+msgid ""
+"Support for locally stored series (in CBZ/CBR/CBT, EPUB and PDF formats)"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:19
+msgid "RTL, LTR, Vertical and Webtoon reading modes"
+msgstr "RTL, LTR, वर्टिकल और वेबटून पठन मोड"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:20
+msgid "Double page view"
+msgstr "दोहरा पृष्ठ दृश्य"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:21
+msgid ""
+"Support several types of navigation: keyboard arrow keys, right and left "
+"navigation layout via mouse click or tapping (touchpad/touch screen), mouse "
+"wheel, 2-fingers swipe gesture (touchpad), swipe gesture (touch screen)"
+msgstr ""
+"कई प्रकार के नेविगेशन का समर्थन करें: कीबोर्ड तीर कुंजी, माउस क्लिक या टैपिंग (टचपैड/टच "
+"स्क्रीन), माउस व्हील, 2-उंगली स्वाइप जेस्चर (टचपैड), स्वाइप जेस्चर (टच स्क्रीन) के माध्यम से "
+"दाएं और बाएं नेविगेशन लेआउट"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:22
+msgid "Categories to organize your library"
+msgstr "आपकी लाइब्रेरी को व्यवस्थित करने के लिए श्रेणियाँ"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:24
+msgid "Automatic tracking of series with AniList, MangaUpdates and MyAnimeList"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:25
+msgid "Automatic update of series"
+msgstr "श्रृंखला का स्वचालित अद्यतन"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:26
+msgid "Automatic download of new chapters"
+msgstr "नए अध्यायों का स्वचालित डाउनलोड"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:27
+msgid "Reading history"
+msgstr "पठन इतिहास"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:28
+msgid "Light and dark themes"
+msgstr "हल्की और गहरी थीम"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:33
+msgid "reader"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:34
+msgid "viewer"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:35
+msgid "scanlation"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:36
+msgid "comic"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:37
+msgid "manga"
+msgstr "माङ्गा"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:38
+msgid "manhwa"
+msgstr "मान्ह्वा"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:39
+msgid "manhua"
+msgstr "मान्हुआ"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:40
+msgid "webtoon"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:41
+msgid "webcomic"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:42
+msgid "book"
+msgstr "किताब"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:43
+msgid "ebook"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:44
+msgid "offline"
+msgstr "ऑफ़लाइन"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:64
+msgid "The Library page"
+msgstr "लाइब्रेरी पृष्ठ"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:68
+msgid "The Library page with the category sidebar open"
+msgstr "श्रेणी पार्श्वपट्टी के साथ लाइब्रेरी पृष्ठ खुला है"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:72
+msgid "The Preferences page (General settings)"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:76
+msgid "The Explorer page in mobile format (Servers list)"
+msgstr "मोबाइल प्रारूप में अन्वेषक पृष्ठ (सर्वर सूची)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:80
+msgid "The Details page"
+msgstr "विवरण पृष्ठ"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:84
+msgid "The Details page (chapters list)"
+msgstr "विवरण पृष्ठ (अध्याय सूची)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:88
+msgid "The Reader page"
+msgstr "पाठक पृष्ठ"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:92
+msgid "The Reader page in mobile format"
+msgstr "मोबाइल प्रारूप में पाठक पृष्ठ"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:96
+msgid "The Reader page with the OCR Translator in use"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:100
+msgid "The Category editor page in mobile format"
+msgstr "मोबाइल प्रारूप में श्रेणी संपादक पृष्ठ"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:104
+msgid "The Reading history page in mobile format"
+msgstr "मोबाइल प्रारूप में पठन इतिहास पृष्ठ"
+
+#: ../data/ui/application_window.blp:56 ../data/ui/preferences.blp:450
+msgid "Got it!"
+msgstr ""
+
+#: ../data/ui/card.blp:47 ../data/ui/card.blp:418
+#: ../data/ui/card_chapters_list_row.blp:48 ../data/ui/download_manager.blp:26
+#: ../data/ui/library.blp:148 ../data/ui/reader.blp:41
+msgid "Menu"
+msgstr "मेनू"
+
+#: ../data/ui/card.blp:68
+msgid "Info"
+msgstr "जानकारी"
+
+#: ../data/ui/card.blp:148
+msgid "Add to Library"
+msgstr "लाइब्रेरी में जोड़ें"
+
+#: ../data/ui/card.blp:252
+msgid "Scanlators"
+msgstr "स्कैनलेटर"
+
+#: ../data/ui/card.blp:308
+msgid "Last Update"
+msgstr "अंतिम अद्यतन"
+
+#: ../data/ui/card.blp:336
+msgid "Size on Disk"
+msgstr "डिस्क पर आकार"
+
+#: ../data/ui/card.blp:455 ../data/ui/categories_editor.blp:67
+#: ../data/ui/library.blp:251
+msgid "No Categories"
+msgstr "कोई श्रेणियां नहीं"
+
+#: ../data/ui/card_tracking.blp:9 ../data/ui/preferences.blp:110
+msgid "Tracking"
+msgstr ""
+
+#: ../data/ui/card_tracking_search.blp:10 ../data/ui/explorer_search.blp:10
+#: ../data/ui/explorer_search.blp:43 ../data/ui/history.blp:22
+#: ../data/ui/library.blp:45
+msgid "Search"
+msgstr "खोजें"
+
+#: ../data/ui/card_tracking_search.blp:75
+msgid "Search for Tracking"
+msgstr ""
+
+#: ../data/ui/categories_editor.blp:36
+msgid "Add"
+msgstr "जोड़ें"
+
+#: ../data/ui/download_manager.blp:10 ../data/ui/download_manager.blp:20
+msgid "Download Manager"
+msgstr "डाउनलोड प्रबंधक"
+
+#: ../data/ui/download_manager.blp:32
+msgid "Start/Stop Download"
+msgstr "डाउनलोड प्रारंभ/बंद करें"
+
+#: ../data/ui/download_manager.blp:67
+msgid "No Downloads"
+msgstr "कोई डाउनलोड नहीं"
+
+#: ../data/ui/explorer_search.blp:28
+msgid "Search Filters"
+msgstr "खोज फिल्टर"
+
+#: ../data/ui/explorer_search.blp:34
+msgid "Open in Browser"
+msgstr "ब्राउज़र में खोलें"
+
+#: ../data/ui/explorer_search.blp:147
+msgid "Most Popular"
+msgstr "सबसे लोकप्रिय"
+
+#: ../data/ui/explorer_search.blp:214
+msgid "Latest Updates"
+msgstr "नवीनतम अपडेट"
+
+#: ../data/ui/explorer_servers.blp:10 ../data/ui/preferences.blp:221
+#: ../data/ui/preferences.blp:498
+msgid "Servers"
+msgstr "सर्वर"
+
+#: ../data/ui/explorer_servers.blp:17
+msgid "Search Comics Across All Servers"
+msgstr "सभी सर्वरों पर कॉमिक्स खोजें"
+
+#: ../data/ui/explorer_servers.blp:23
+msgid "Search Servers"
+msgstr "सर्वर खोजें"
+
+#: ../data/ui/explorer_servers.blp:37
+msgid "Search for servers by name or language"
+msgstr "नाम या भाषा के आधार पर सर्वर खोजें"
+
+#: ../data/ui/history.blp:10 ../data/ui/history.blp:16
+msgid "History"
+msgstr "इतिहास"
+
+#: ../data/ui/history.blp:71
+msgid "No History"
+msgstr "कोई इतिहास नहीं"
+
+#: ../data/ui/library.blp:10 ../data/ui/preferences.blp:120
+msgid "Library"
+msgstr "लाइब्रेरी"
+
+#: ../data/ui/library.blp:23
+msgid "Toggle Categories Sidebar"
+msgstr "श्रेणियां पार्श्वपट्टी टॉगल करें"
+
+#: ../data/ui/library.blp:39
+msgid "Main Menu"
+msgstr "मुख्य मेनू"
+
+#: ../data/ui/library.blp:79
+msgid "Search by name, server or genre"
+msgstr "नाम, सर्वर या शैली के आधार पर खोजें"
+
+#: ../data/ui/library.blp:113
+msgctxt "Library: verb"
+msgid "Update"
+msgstr ""
+
+#: ../data/ui/library.blp:202
+msgid "Discover Comics"
+msgstr "कॉमिक्स खोजें"
+
+#: ../data/ui/library.blp:273
+msgid "OK"
+msgstr "ठीक है"
+
+#: ../data/ui/menu/card.xml:16
+msgid "Update"
+msgstr "अद्यतन"
+
+#: ../data/ui/menu/card.xml:34
+msgid "Order of Chapters"
+msgstr "अध्यायों का क्रम"
+
+#: ../data/ui/menu/card.xml:39
+msgid "⬆ By Source"
+msgstr "⬆ स्रोत द्वारा"
+
+#: ../data/ui/menu/card.xml:44
+msgid "⬇ By Source"
+msgstr "⬇ स्रोत द्वारा"
+
+#: ../data/ui/menu/card.xml:50
+msgid "⬆ By Date"
+msgstr "⬆ तिथि से"
+
+#: ../data/ui/menu/card.xml:55
+msgid "⬇ By Date"
+msgstr "⬇ तिथि से"
+
+#: ../data/ui/menu/card.xml:61
+msgid "⬆ By Title"
+msgstr "⬆ शीर्षक से"
+
+#: ../data/ui/menu/card.xml:66
+msgid "⬇ By Title"
+msgstr "⬇ शीर्षक से"
+
+#: ../data/ui/menu/card_selection_mode.xml:23
+#: ../data/ui/menu/library_selection_mode.xml:30
+msgid "Select All"
+msgstr "सभी चुनें"
+
+#: ../data/ui/menu/download_manager.xml:12
+msgid "Delete All"
+msgstr "सभी मिटाएं"
+
+#: ../data/ui/menu/explorer_search_global_search.xml:12
+msgid "Pinned Servers Only"
+msgstr "केवल पिन किए गए सर्वर"
+
+#: ../data/ui/menu/library_selection_mode.xml:12
+msgid "Edit Categories"
+msgstr "श्रेणियां संपादन"
+
+#: ../data/ui/menu/main.xml:12
+msgid "Update Library"
+msgstr "लाइब्रेरी अद्यतन करें"
+
+#: ../data/ui/menu/main.xml:16
+msgid "Sort"
+msgstr "क्रमबद्ध करें"
+
+#: ../data/ui/menu/main.xml:21
+msgid "Alphabetical"
+msgstr "वर्णानुक्रमिक"
+
+#: ../data/ui/menu/main.xml:26
+msgid "Latest Read First"
+msgstr "नवीनतम पठित पहले"
+
+#: ../data/ui/menu/main.xml:31
+msgid "Latest Updated First"
+msgstr "नवीनतम अद्यतन पहले"
+
+#: ../data/ui/menu/main.xml:60
+msgid "Keyboard Shortcuts"
+msgstr "कीबोर्ड शॉर्टकट"
+
+#: ../data/ui/menu/main.xml:68
+msgid "About Komikku"
+msgstr "Komikku के बारे में"
+
+#: ../data/ui/menu/reader.xml:54
+msgid "Save Page"
+msgstr "पृष्ठ सहेजें"
+
+#: ../data/ui/preferences.blp:9 ../data/ui/preferences_servers_languages.blp:16
+#: ../data/ui/preferences_servers_settings.blp:16
+msgid "Preferences"
+msgstr "प्राथमिकताएं"
+
+#: ../data/ui/preferences.blp:14 ../data/ui/reader_settings.blp:64
+msgid "General"
+msgstr "सामान्य"
+
+#: ../data/ui/preferences.blp:24
+msgid "Support Komikku"
+msgstr ""
+
+#: ../data/ui/preferences.blp:30
+msgid ""
+"Komikku is a free and open-source, and always will be. If you like it, "
+"backing me through donating would be great. This will not only help me "
+"maintain it, but also continue my work as a free software developer in "
+"general."
+msgstr ""
+
+#: ../data/ui/preferences.blp:59
+msgid "Appearance"
+msgstr ""
+
+#: ../data/ui/preferences.blp:62
+msgid "Theme"
+msgstr "थीम"
+
+#: ../data/ui/preferences.blp:65
+msgid "Light"
+msgstr "हल्की"
+
+#: ../data/ui/preferences.blp:66
+msgid "Dark"
+msgstr "गहरी"
+
+#: ../data/ui/preferences.blp:67
+msgid "Follow System"
+msgstr "सिस्टम का पालन करें"
+
+#: ../data/ui/preferences.blp:73
+msgid "Night Light"
+msgstr "रात्रि प्रकाश"
+
+#: ../data/ui/preferences.blp:74
+msgid "Automatically enable dark theme at night"
+msgstr "रात में स्वचालित रूप से गहरी थीम सक्षम करें"
+
+#: ../data/ui/preferences.blp:79
+msgid "Use system accent colors"
+msgstr ""
+
+#: ../data/ui/preferences.blp:83
+msgid "Progress Bars Theme"
+msgstr ""
+
+#: ../data/ui/preferences.blp:84
+msgid "Theme to use for progress bars"
+msgstr ""
+
+#: ../data/ui/preferences.blp:88
+msgid "Backdrop in Details Page"
+msgstr "विवरण पृष्ठ में पृष्ठभूमि"
+
+#: ../data/ui/preferences.blp:89
+msgid "Method used to recolor background to match cover"
+msgstr ""
+
+#: ../data/ui/preferences.blp:93
+msgid "Linear gradient"
+msgstr ""
+
+#: ../data/ui/preferences.blp:94
+msgid "Blurred cover"
+msgstr ""
+
+#: ../data/ui/preferences.blp:104
+msgid "Desktop Notifications"
+msgstr "डेस्कटॉप अधिसूचनाएं"
+
+#: ../data/ui/preferences.blp:105
+msgid "Use desktop notifications for downloads and library updates"
+msgstr "डाउनलोड और लाइब्रेरी अपडेट के लिए डेस्कटॉप अधिसूचनाएं का उपयोग करें"
+
+#: ../data/ui/preferences.blp:113
+msgid "Synchronize reading progress"
+msgstr ""
+
+#: ../data/ui/preferences.blp:124
+msgid "Display"
+msgstr "प्रदर्शन"
+
+#: ../data/ui/preferences.blp:127
+msgid "Display Mode"
+msgstr "प्रदर्शन मोड"
+
+#: ../data/ui/preferences.blp:130
+msgid "Grid"
+msgstr "ग्रिड"
+
+#: ../data/ui/preferences.blp:131
+msgid "Compact Grid"
+msgstr "सघन ग्रिड"
+
+#: ../data/ui/preferences.blp:137
+msgid "Servers Logo"
+msgstr "सर्वर लोगो"
+
+#: ../data/ui/preferences.blp:138
+msgid "Display servers logo"
+msgstr "सर्वर लोगो प्रदर्शित करें"
+
+#: ../data/ui/preferences.blp:142
+msgid "Badges"
+msgstr "बिल्ला"
+
+#: ../data/ui/preferences.blp:145
+msgid "Number of Unread Chapters"
+msgstr "अपठित अध्यायों की संख्या"
+
+#: ../data/ui/preferences.blp:165
+msgid "Number of Downloaded Chapters"
+msgstr "डाउनलोड किए गए अध्यायों की संख्या"
+
+#: ../data/ui/preferences.blp:185
+msgid "Number of Recent and Unread Chapters"
+msgstr "हालिया और अपठित अध्यायों की संख्या"
+
+#: ../data/ui/preferences.blp:207
+msgctxt "Settings: noun"
+msgid "Update"
+msgstr ""
+
+#: ../data/ui/preferences.blp:210
+msgid "Update at Startup"
+msgstr "शुरुवात पर अद्यतन करें"
+
+#: ../data/ui/preferences.blp:211
+msgid "Automatically update library at startup"
+msgstr "शुरुवात पर स्वचालित रूप से लाइब्रेरी अद्यतन करें"
+
+#: ../data/ui/preferences.blp:215
+msgid "Auto Download of New Chapters"
+msgstr "नये अध्यायों का स्वतः डाउनलोड"
+
+#: ../data/ui/preferences.blp:216
+msgid "Automatically download new chapters"
+msgstr "स्वचालित रूप से नए अध्याय डाउनलोड करें"
+
+#: ../data/ui/preferences.blp:224
+msgid "Languages"
+msgstr ""
+
+#: ../data/ui/preferences.blp:225
+msgid "Restrict servers to selected languages"
+msgstr "सर्वर को चयनित भाषाओं तक सीमित रखें"
+
+#: ../data/ui/preferences.blp:233
+msgid "Settings"
+msgstr ""
+
+#: ../data/ui/preferences.blp:234
+msgid "Enable/disable and configure servers"
+msgstr "सर्वर को सक्षम/अक्षम और विन्यस्त करें"
+
+#: ../data/ui/preferences.blp:242
+msgid "Long Strip Detection"
+msgstr "लंबी पट्टी का पता लगाना"
+
+#: ../data/ui/preferences.blp:243
+msgid "Automatically detect long vertical strip when possible"
+msgstr "जब संभव हो तो स्वचालित रूप से लंबी ऊर्ध्वाधर पट्टी का पता लगाएं"
+
+#: ../data/ui/preferences.blp:249
+msgid "NSFW Content (18+)"
+msgstr "NSFW सामग्री (18+)"
+
+#: ../data/ui/preferences.blp:250
+msgid "Whether to enable servers with NSFW content"
+msgstr "क्या NSFW सामग्री वाले सर्वर को सक्षम करना है"
+
+#: ../data/ui/preferences.blp:254
+msgid "NSFW Only Content (18+)"
+msgstr "केवल NSFW सामग्री (18+)"
+
+#: ../data/ui/preferences.blp:255
+msgid "Whether to enable servers with NSFW only content"
+msgstr "क्या केवल NSFW सामग्री वाले सर्वर को सक्षम करना है"
+
+#: ../data/ui/preferences.blp:259
+msgid ""
+"These settings do not prevent potentially incorrectly flagged servers from "
+"surfacing NSFW content."
+msgstr ""
+"ये सेटिंग्स संभावित रूप से गलत तरीके से फ़्लैग किए गए सर्वर को NSFW सामग्री को सामने आने से "
+"नहीं रोकती हैं।"
+
+#: ../data/ui/preferences.blp:274 ../data/ui/reader.blp:10
+msgid "Reader"
+msgstr "पाठक"
+
+#: ../data/ui/preferences.blp:279
+msgid "Reading Mode"
+msgstr "पठन मोड"
+
+#: ../data/ui/preferences.blp:282
+msgid "⬅ Right to Left"
+msgstr "⬅ दाएं से बाएं"
+
+#: ../data/ui/preferences.blp:283
+msgid "➡ Left to Right"
+msgstr "➡ बाएं से दाएं"
+
+#: ../data/ui/preferences.blp:284
+msgid "⬇ Vertical"
+msgstr "⬇ लंबवत"
+
+#: ../data/ui/preferences.blp:285
+msgid "⬇ Webtoon"
+msgstr "⬇ वेबटून"
+
+#: ../data/ui/preferences.blp:291
+msgid "Double Page"
+msgstr ""
+
+#: ../data/ui/preferences.blp:292
+msgid "Use two pages side by side view"
+msgstr ""
+
+#: ../data/ui/preferences.blp:296 ../data/ui/reader_settings.blp:25
+msgid "Scaling Filter"
+msgstr "स्केलिंग फिल्टर"
+
+#: ../data/ui/preferences.blp:297
+msgid "Interpolation method used when scaling images"
+msgstr "छवियों को स्केल करते समय उपयोग की जाने वाली इंटरपोलेशन विधि"
+
+#: ../data/ui/preferences.blp:307 ../data/ui/reader_settings.blp:29
+msgid "Background Color"
+msgstr "पृष्ठभूमि का रंग"
+
+#: ../data/ui/preferences.blp:319
+msgid "Page Numbering"
+msgstr "पृष्ठ क्रमांकन"
+
+#: ../data/ui/preferences.blp:320 ../data/ui/reader_settings.blp:49
+msgid "Hide the page numbering at the bottom of the screen while reading"
+msgstr "पढ़ते समय स्क्रीन के नीचे पृष्ठ क्रमांक छिपाएँ"
+
+#: ../data/ui/preferences.blp:324
+msgid "Fullscreen"
+msgstr "फ़ुलस्क्रीन"
+
+#: ../data/ui/preferences.blp:325
+msgid "Automatically enter fullscreen mode"
+msgstr "स्वचालित रूप से फ़ुलस्क्रीन मोड में जाएं"
+
+#: ../data/ui/preferences.blp:330 ../data/ui/shortcuts.blp:80
+#: ../data/ui/shortcuts.blp:86 ../data/ui/shortcuts.blp:92
+msgid "Paged Reading Modes"
+msgstr ""
+
+#: ../data/ui/preferences.blp:331
+msgid "Right to Left / Left to Right / Vertical"
+msgstr ""
+
+#: ../data/ui/preferences.blp:334 ../data/ui/reader_settings.blp:21
+msgid "Scaling"
+msgstr "स्केलिंग"
+
+#: ../data/ui/preferences.blp:335
+msgid "Type of scaling to adapt image"
+msgstr "छवि को अनुकूलित करने के लिए स्केलिंग का प्रकार"
+
+#: ../data/ui/preferences.blp:347
+msgid "Landscape Pages Zoom"
+msgstr "लैंडस्केप पृष्ठ ज़ूम करें"
+
+#: ../data/ui/preferences.blp:348 ../data/ui/reader_settings.blp:34
+msgid ""
+"Zoom page to fit height when page is landscape (Adapt to Screen scaling only)"
+msgstr ""
+"जब पृष्ठ लैंडस्केप हो तो ऊंचाई में फिट होने के लिए पेज को ज़ूम करें (केवल स्क्रीन स्केलिंग के लिए "
+"अनुकूलित)"
+
+#: ../data/ui/preferences.blp:352
+msgid "Borders Crop"
+msgstr "सीमाएं काटें"
+
+#: ../data/ui/preferences.blp:353
+msgid ""
+"Crop white borders of images\n"
+"\n"
+"NOTE: Requires more CPU usage and can cause rendering and animation "
+"slowdowns, especially on mobile devices."
+msgstr ""
+"छवियों की सफ़ेद सीमाएँ काटें\n"
+"\n"
+"ध्यान दें: अधिक CPU उपयोग की आवश्यकता होती है और विशेष रूप से मोबाइल उपकरणों पर "
+"प्रतिपादन और सजीवता धीमी हो सकती है।"
+
+#: ../data/ui/preferences.blp:357 ../data/ui/reader_settings.blp:43
+msgid "Borders Cropping Threshold"
+msgstr ""
+
+#: ../data/ui/preferences.blp:358 ../data/ui/reader_settings.blp:44
+msgid "Control which pixels are classified as 'white' during borders detection"
+msgstr ""
+
+#: ../data/ui/preferences.blp:363 ../data/ui/shortcuts.blp:98
+#: ../data/ui/shortcuts.blp:104
+msgid "Webtoon Reading Mode"
+msgstr ""
+
+#: ../data/ui/preferences.blp:364
+msgid "Long Strip aka Infinite Vertical Canvas"
+msgstr ""
+
+#: ../data/ui/preferences.blp:369
+msgid "Reset to Default"
+msgstr ""
+
+#: ../data/ui/preferences.blp:377
+msgid "Maximum Width"
+msgstr "अधिकतम चौड़ाई"
+
+#: ../data/ui/preferences.blp:378
+msgid "Constrain reader's width to a given maximum size"
+msgstr ""
+
+#: ../data/ui/preferences.blp:388
+msgid "Scroll Distance"
+msgstr ""
+
+#: ../data/ui/preferences.blp:389
+msgid "Percentage of page height to scroll on click or Page Up/Down"
+msgstr ""
+
+#: ../data/ui/preferences.blp:400
+msgid "Drag Sensitivity"
+msgstr ""
+
+#: ../data/ui/preferences.blp:401
+msgid "Multiplier for drag scrolling sensitivity"
+msgstr ""
+
+#: ../data/ui/preferences.blp:413 ../data/ui/reader_settings.blp:54
+msgid "OCR Translator"
+msgstr ""
+
+#: ../data/ui/preferences.blp:416 ../data/ui/reader_settings.blp:57
+msgid "OCR Language"
+msgstr ""
+
+#: ../data/ui/preferences.blp:417
+msgid "Default language to use for OCR text recognitions"
+msgstr ""
+
+#: ../data/ui/preferences.blp:421
+msgid "Translator"
+msgstr ""
+
+#: ../data/ui/preferences.blp:422
+msgid "Service to use for translations"
+msgstr ""
+
+#: ../data/ui/preferences.blp:433
+msgid "Edit Translator Settings"
+msgstr ""
+
+#: ../data/ui/preferences.blp:445
+msgid "Advanced"
+msgstr "उन्नत"
+
+#: ../data/ui/preferences.blp:449
+msgid "A setting has changed that requires a restart to take effect"
+msgstr ""
+
+#: ../data/ui/preferences.blp:455
+msgid "Data"
+msgstr "डेटा"
+
+#: ../data/ui/preferences.blp:456
+msgid "Data not saved in the library"
+msgstr "लाइब्रेरी में डेटा सहेजा नहीं गया"
+
+#: ../data/ui/preferences.blp:459
+msgid "Clear Chapters Cache and Database"
+msgstr "अध्याय कैश और डेटाबेस साफ़ करें"
+
+#: ../data/ui/preferences.blp:474
+msgid "Clear Chapters Cache and Database on Exit"
+msgstr "बाहर निकलने पर अध्याय कैश और डेटाबेस साफ़ करें"
+
+#: ../data/ui/preferences.blp:479 ../data/ui/webview.blp:10
+msgid "WebView"
+msgstr ""
+
+#: ../data/ui/preferences.blp:482
+msgid "Clear Data"
+msgstr ""
+
+#: ../data/ui/preferences.blp:501
+msgid "Use Up-to-date Servers Modules"
+msgstr "नवीनतम सर्वर मॉड्यूल का उपयोग करें"
+
+#: ../data/ui/preferences.blp:502
+msgid ""
+"An alternative version of the servers modules, installed from the source "
+"code repository and updated at each startup, is used instead of the one "
+"delivered with the application."
+msgstr ""
+"अनुप्रयोग के साथ दिए गए संस्करण के स्थान पर, सर्वर मॉड्यूल का एक वैकल्पिक संस्करण प्रयोग "
+"किया जाता है, जिसे स्रोत कोड रिपोजिटरी से स्थापित किया जाता है और प्रत्येक स्टार्टअप पर "
+"अद्यतित किया जाता है।"
+
+#: ../data/ui/preferences.blp:506
+msgid "Suggest Submitting a Bug Report in Case of Error"
+msgstr ""
+
+#: ../data/ui/preferences.blp:507
+msgid ""
+"If an error occurs with a server (it has been updated or an unexpected case "
+"has arisen), you will be prompted to create a bug report using a pre-"
+"formatted text to copy/paste."
+msgstr ""
+
+#: ../data/ui/preferences.blp:512
+msgid "Credentials Storage"
+msgstr "प्रामाणिकताएं भंडारण"
+
+#: ../data/ui/preferences.blp:515
+msgid "Allow Plaintext Storage as Fallback"
+msgstr "फॉलबैक के रूप में प्लेनटेक्स्ट स्टोरेज की अनुमति दें"
+
+#: ../data/ui/preferences.blp:516
+msgid "Used when no keyring backends are found"
+msgstr "जब कोई कीरिंग बैकेंड नहीं मिलता तब उपयोग किया जाता है"
+
+#: ../data/ui/preferences.blp:521
+msgid "Tweaks"
+msgstr "बदलाव"
+
+#: ../data/ui/preferences.blp:524
+msgid "Disable Animations"
+msgstr "सजीवता अक्षम करें"
+
+#: ../data/ui/preferences.blp:525
+msgid ""
+"Useful with E Ink e-readers to avoid very choppy and unpleasant animations "
+"(due to the low refresh rate of the screen)"
+msgstr ""
+"बहुत अस्थिर और अप्रिय सजीवता (स्क्रीन की कम ताज़ा दर के कारण) से बचने के लिए ई इंक ई-"
+"रीडर्स के साथ उपयोगी"
+
+#: ../data/ui/preferences.blp:529
+msgid ""
+"This tweak is only intended for users who do not use the GNOME desktop "
+"environment and therefore cannot toggle reduced motion animations globally "
+"via GNOME Settings (Accessibility ⇨ Seeing ⇨ Reduced Motion)."
+msgstr ""
+
+#: ../data/ui/preferences_server_params.blp:10
+#: ../data/ui/preferences_server_params.blp:16
+#: ../data/ui/preferences_servers_settings.blp:10
+#: ../data/ui/preferences_servers_settings.blp:17
+msgid "Servers Settings"
+msgstr "सर्वर सेटिंग्स"
+
+#: ../data/ui/preferences_servers_languages.blp:10
+#: ../data/ui/preferences_servers_languages.blp:17
+msgid "Servers Languages"
+msgstr "सर्वर भाषाएं"
+
+#: ../data/ui/preferences_translator_params.blp:10
+#: ../data/ui/preferences_translator_params.blp:16
+msgid "Translator Settings"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:22
+msgid "Service"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:27
+msgid "Instance URL"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:36
+msgid "API Key"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:56
+msgid "Validate"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:69
+msgid "Behavior"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:72
+msgid "Translator Language"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:73
+msgid "Default language to use as target language for translations"
+msgstr ""
+
+#: ../data/ui/reader.blp:27
+msgid "Back"
+msgstr "पीछे"
+
+#: ../data/ui/reader.blp:35
+msgid "Toggle Fullscreen Mode"
+msgstr "फुलस्क्रीन मोड टॉगल करें"
+
+#: ../data/ui/reader.blp:47
+msgid "Toggle OCR Translator"
+msgstr ""
+
+#: ../data/ui/reader.blp:104 ../data/ui/reader.blp:158
+msgid "Copy"
+msgstr ""
+
+#: ../data/ui/reader.blp:122
+msgid "Translate"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:9
+msgid "Reader Settings"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:14
+msgid "Custom"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:18
+msgid "Pages"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:33
+msgid "Zoom Landscape Pages"
+msgstr "लैंडस्केप पेज ज़ूम करें"
+
+#: ../data/ui/reader_settings.blp:38
+msgid "Crop Borders"
+msgstr "सीमाएं काटें"
+
+#: ../data/ui/reader_settings.blp:39
+msgid "Crop white borders of pages"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:48
+msgid "Hide Page Numbering"
+msgstr "पृष्ठ क्रमांकन छुपाएं"
+
+#: ../data/ui/shortcuts.blp:10
+msgctxt "Shortcut window description"
+msgid "Application"
+msgstr "एप्लिकेशन"
+
+#: ../data/ui/shortcuts.blp:13
+msgctxt "Shortcut window description"
+msgid "Open Preferences"
+msgstr "प्राथमिकताएं खोलें"
+
+#: ../data/ui/shortcuts.blp:18
+msgctxt "Shortcut window description"
+msgid "Open Keyboard Shortcuts"
+msgstr "कीबोर्ड शॉर्टकट खोलें"
+
+#: ../data/ui/shortcuts.blp:23
+msgctxt "Shortcut window description"
+msgid "Quit"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:29
+msgctxt "Shortcut window description"
+msgid "Explorer"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:32
+msgctxt "Shortcut window description"
+msgid "Search For Servers"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:38
+msgctxt "Shortcut window description"
+msgid "Library"
+msgstr "लाइब्रेरी"
+
+#: ../data/ui/shortcuts.blp:41
+msgctxt "Shortcut window description"
+msgid "Add Manga"
+msgstr "मंगा जोड़ें"
+
+#: ../data/ui/shortcuts.blp:46
+msgctxt "Shortcut window description"
+msgid "Select All"
+msgstr "सभी चुनें"
+
+#: ../data/ui/shortcuts.blp:51 ../data/ui/shortcuts.blp:160
+msgctxt "Shortcut window description"
+msgid "Search"
+msgstr "खोजें"
+
+#: ../data/ui/shortcuts.blp:56
+msgctxt "Shortcut window description"
+msgid "Toggle Categories Pane"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:61
+msgctxt "Shortcut window description"
+msgid "Update"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:67
+msgctxt "Shortcut window description"
+msgid "Manga Card"
+msgstr "मंगा कार्ड"
+
+#: ../data/ui/shortcuts.blp:70
+msgctxt "Shortcut window description"
+msgid "Select All Chapters"
+msgstr "सभी अध्याय चुनें"
+
+#: ../data/ui/shortcuts.blp:76
+msgctxt "Shortcut window description"
+msgid "Reader"
+msgstr "पाठक"
+
+#: ../data/ui/shortcuts.blp:79
+msgctxt "Shortcut window description"
+msgid "Go to Next Page"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:85
+msgctxt "Shortcut window description"
+msgid "Go to Right Page"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:91
+msgctxt "Shortcut window description"
+msgid "Go to Left Page"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:97
+msgctxt "Shortcut window description"
+msgid "Scroll Down"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:103
+msgctxt "Shortcut window description"
+msgid "Scroll Up"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:111
+msgctxt "Shortcut window description"
+msgid "Zoom In"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:116
+msgctxt "Shortcut window description"
+msgid "Zoom Out"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:121
+msgctxt "Shortcut window description"
+msgid "Zoom Reset"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:128
+msgctxt "Shortcut window description"
+msgid "Toggle OCR Translator"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:135
+msgctxt "Shortcut window description"
+msgid "Toggle Fullscreen Mode"
+msgstr "फुलस्क्रीन मोड टॉगल करें"
+
+#: ../data/ui/shortcuts.blp:142
+msgctxt "Shortcut window description"
+msgid "Save Page"
+msgstr "पृष्ठ सहेजें"
+
+#: ../data/ui/shortcuts.blp:148
+msgctxt "Shortcut window description"
+msgid "Download Manager"
+msgstr "डाउनलोड प्रबंधक"
+
+#: ../data/ui/shortcuts.blp:151
+msgctxt "Shortcut window description"
+msgid "Select All Downloads"
+msgstr "सभी डाउनलोड चुनें"
+
+#: ../data/ui/shortcuts.blp:157
+msgctxt "Shortcut window description"
+msgid "History"
+msgstr ""
+
+#: ../data/ui/support.blp:10 ../data/ui/support.blp:16
+msgid "Support Development"
+msgstr "विकास का समर्थन करें"
+
+#: ../data/ui/support.blp:48
+msgid "How can you support?"
+msgstr "आप कैसे समर्थन कर सकते हैं?"
+
+#: ../data/ui/support.blp:56
+msgid ""
+"Developing and maintaining Komikku is a challenging task that takes up most "
+"of my free time."
+msgstr ""
+"Komikku का विकास और रखरखाव एक चुनौतीपूर्ण कार्य है जिसमें मेरा अधिकांश खाली समय खर्च "
+"हो जाता है।"
+
+#: ../data/ui/support.blp:63
+msgid "Komikku will always be free and open-source and will never contain ads."
+msgstr "Komikku हमेशा स्वतंत्र और खुला-स्रोत रहेगा और इसमें कभी भी विज्ञापन नहीं होंगे।"
+
+#: ../data/ui/support.blp:70
+msgid ""
+"So if you like it, and you are able, please consider a one-time or recurring "
+"donation to support me, it will be hugely appreciated."
+msgstr ""
+"इसलिए यदि आपको यह पसंद है, और आप सक्षम हैं, तो कृपया मुझे समर्थन देने के लिए एक बार या "
+"पुनरावर्ती दान पर विचार करें, इसकी अत्यधिक सराहना की जाएगी।"
+
+#: ../data/ui/support.blp:84
+msgid "Weekly, monthly or yearly donation"
+msgstr "साप्ताहिक, मासिक या वार्षिक दान"
+
+#: ../data/ui/support.blp:90 ../data/ui/support.blp:106
+#: ../data/ui/support.blp:122 ../data/ui/support.blp:136
+msgid "Donate and Support"
+msgstr "दान और समर्थन करें"
+
+#: ../data/ui/support.blp:100 ../data/ui/support.blp:132
+msgid "One-time donation"
+msgstr "एकमुश्त दान"
+
+#: ../data/ui/support.blp:116
+msgid "One-time or monthly donation"
+msgstr "एकमुश्त या मासिक दान"
+
+#: ../data/ui/support.blp:144
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: ../komikku/application.py:117
+msgid "Multiple URLs not supported"
+msgstr "एकाधिक URL समर्थित नहीं हैं"
+
+#: ../komikku/application.py:133
+#, python-brace-format
+msgid "Invalid URL {}, not handled by any server."
+msgstr "अमान्य URL {}, किसी भी सर्वर द्वारा नियंत्रित नहीं किया जा रहा है।"
+
+#: ../komikku/application.py:441
+msgid "Servers modules have been updated"
+msgstr "सर्वर मॉड्यूल अद्यतित किया गया"
+
+#: ../komikku/application.py:448
+msgid "External Servers Modules Update"
+msgstr "बाहरी सर्वर मॉड्यूल अद्यतन"
+
+#: ../komikku/application.py:449
+msgid ""
+"Updating of external server modules is temporarily suspended, as changes are "
+"currently making them incompatible with the current version of the "
+"application. Please update it if a more recent version exists."
+msgstr ""
+"बाहरी सर्वर मॉड्यूल का अद्यतन अस्थायी रूप से निलंबित कर दिया गया है, क्योंकि वर्तमान में "
+"किए गए परिवर्तन उन्हें अनुप्रयोग के वर्तमान संस्करण के साथ असंगत बना रहे हैं। यदि कोई "
+"नवीनतम संस्करण मौजूद है तो कृपया उसे अद्यतन करें।"
+
+#: ../komikku/application.py:450 ../komikku/application.py:700
+#: ../komikku/explorer/common.py:322
+msgid "Close"
+msgstr "बंद"
+
+#: ../komikku/application.py:465
+msgid ""
+"A manga, webtoons and comics reader\n"
+"\n"
+"👉 Never forget, you can support the authors\n"
+"by buying the official comics when they are\n"
+"available in your region/language."
+msgstr ""
+
+#: ../komikku/application.py:474
+msgid "Supporters"
+msgstr "समर्थक"
+
+#: ../komikku/application.py:476
+msgid "Join Chat"
+msgstr "चैट से जुड़ें"
+
+#: ../komikku/application.py:569 ../komikku/card/__init__.py:163
+#: ../komikku/card/__init__.py:164 ../komikku/categories_editor.py:188
+#: ../komikku/downloader.py:388 ../komikku/downloader.py:389
+#: ../komikku/library/__init__.py:844 ../komikku/library/__init__.py:845
+msgid "Cancel"
+msgstr "रद्द"
+
+#: ../komikku/application.py:618
+msgid "Copy Text"
+msgstr ""
+
+#: ../komikku/application.py:626
+msgid "Context"
+msgstr ""
+
+#: ../komikku/application.py:646
+msgid "Stack Trace"
+msgstr ""
+
+#: ../komikku/application.py:675
+msgid "Debug Information"
+msgstr ""
+
+#: ../komikku/application.py:695
+msgid "Server Error"
+msgstr ""
+
+#: ../komikku/application.py:696
+msgid ""
+"You have encountered a problem with a server (it has been updated or an "
+"unexpected case has arisen). Here is a pre-formatted text that you can copy "
+"and paste when filling out the issue."
+msgstr ""
+
+#: ../komikku/application.py:701
+msgid "Create an Issue"
+msgstr ""
+
+#: ../komikku/application.py:735
+msgid "Are you sure you want to quit?"
+msgstr "क्या आप वाकई छोड़ना चाहते हैं?"
+
+#: ../komikku/application.py:738
+msgid "Some chapters are currently being downloaded."
+msgstr "कुछ अध्याय अभी डाउनलोड किये जा रहे हैं।"
+
+#: ../komikku/application.py:740
+msgid "Some mangas are currently being updated."
+msgstr "कुछ मंगा वर्तमान में अद्यतन किए जा रहे हैं।"
+
+#: ../komikku/application.py:744
+msgid "Quit?"
+msgstr "छोड़ें?"
+
+#: ../komikku/application.py:746
+msgid "Quit"
+msgstr "छोड़ें"
+
+#: ../komikku/application.py:761
+msgid "Restart?"
+msgstr ""
+
+#: ../komikku/application.py:763
+msgid "Restart"
+msgstr ""
+
+#: ../komikku/card/__init__.py:110 ../komikku/card/__init__.py:258
+#: ../komikku/explorer/search/__init__.py:75
+#: ../komikku/explorer/search/__init__.py:220
+#: ../komikku/library/__init__.py:105 ../komikku/library/__init__.py:450
+msgid "Filters"
+msgstr "फिल्टर"
+
+#: ../komikku/card/__init__.py:221 ../komikku/library/__init__.py:339
+#: ../komikku/preferences/__init__.py:170
+#: ../komikku/preferences/__init__.py:193
+msgid "Clear?"
+msgstr "साफ़?"
+
+#: ../komikku/card/__init__.py:222
+msgid "Are you sure you want to clear all chapters?"
+msgstr ""
+
+#: ../komikku/card/__init__.py:223 ../komikku/card/chapters_list.py:724
+#: ../komikku/library/__init__.py:341 ../komikku/preferences/__init__.py:172
+#: ../komikku/preferences/__init__.py:195
+msgid "Clear"
+msgstr "साफ करें"
+
+#: ../komikku/card/__init__.py:267
+msgid "Unknown"
+msgstr ""
+
+#: ../komikku/card/__init__.py:369
+msgid "Read progress synchronization with server completed successfully"
+msgstr "सर्वर के साथ पठन प्रगति समन्वयन सफलतापूर्वक पूरा हुआ"
+
+#: ../komikku/card/__init__.py:375
+msgid "Failed to get manga URL"
+msgstr "मंगा URL प्राप्त करने में विफल"
+
+#: ../komikku/card/__init__.py:399
+#, python-brace-format
+msgid ""
+"NOTICE\n"
+"{0} is no longer supported.\n"
+"Please switch to another server."
+msgstr ""
+"सूचना\n"
+"{0} अब समर्थित नहीं है।\n"
+"कृपया किसी अन्य सर्वर पर स्विच करें।"
+
+#: ../komikku/card/__init__.py:492 ../komikku/card/chapters_list.py:728
+msgid "Clear and Reset"
+msgstr "साफ और रीसेट करें"
+
+#: ../komikku/card/__init__.py:492 ../komikku/card/chapters_list.py:728
+msgid "Reset"
+msgstr "रीसेट"
+
+#: ../komikku/card/chapters_list.py:336 ../komikku/downloader.py:533
+#: ../komikku/library/__init__.py:872
+#, python-brace-format
+msgid "{0} selected"
+msgid_plural "{0} selected"
+msgstr[0] "{0} चयनित"
+msgstr[1] "{0} चयनित"
+
+#: ../komikku/card/chapters_list.py:355
+msgid "No chapters found"
+msgstr ""
+
+#: ../komikku/card/chapters_list.py:418 ../komikku/card/chapters_list.py:517
+msgid "Failed to update chapters reading status"
+msgstr "अध्याय पठन स्थिति अद्यतन करने में विफल"
+
+#: ../komikku/card/chapters_list.py:656
+msgid "%m/%d/%Y"
+msgstr "%m/%d/%Y"
+
+#: ../komikku/card/chapters_list.py:714 ../komikku/library/__init__.py:432
+msgid "Download"
+msgstr "डाउनलोड"
+
+#: ../komikku/card/chapters_list.py:738
+msgid "Mark as Read"
+msgstr "पठित चिह्नित करें"
+
+#: ../komikku/card/chapters_list.py:742
+msgid "Mark as Unread"
+msgstr "अपठित चिह्नित करें"
+
+#: ../komikku/card/chapters_list.py:746
+msgid "Mark Previous Chapters as Read"
+msgstr "पिछले अध्यायों को पठित चिह्नित करें"
+
+#: ../komikku/card/info_box.py:80
+msgid "Show Less"
+msgstr ""
+
+#: ../komikku/card/info_box.py:80 ../komikku/card/info_box.py:178
+msgid "Show More"
+msgstr ""
+
+#: ../komikku/card/info_box.py:110
+msgid "Unknown author"
+msgstr "अज्ञात लेखक"
+
+#: ../komikku/card/info_box.py:117 ../komikku/card/info_box.py:124
+#: ../komikku/card/tracking.py:162
+msgid "Unknown status"
+msgstr "अज्ञात स्थिति"
+
+#: ../komikku/card/info_box.py:124
+msgid "Local"
+msgstr "स्थानीय"
+
+#: ../komikku/card/info_box.py:165
+msgid "%m/%d/%Y %H:%M"
+msgstr ""
+
+#: ../komikku/card/info_box.py:183
+msgid "Donate"
+msgstr "दान करें"
+
+#: ../komikku/card/tracking.py:72
+msgid "Failed to get data from tracker"
+msgstr ""
+
+#: ../komikku/card/tracking.py:100
+msgid "No tracking services available"
+msgstr ""
+
+#: ../komikku/card/tracking.py:105
+msgid ""
+"The chapter numbers are unknown. Automatic synchronization of reading "
+"progress is not possible."
+msgstr ""
+
+#: ../komikku/card/tracking.py:195
+msgid "Track"
+msgstr ""
+
+#: ../komikku/card/tracking.py:221
+msgid "Use"
+msgstr ""
+
+#: ../komikku/card/tracking.py:229
+msgid "Cancel Tracking"
+msgstr ""
+
+#: ../komikku/card/tracking.py:235 ../komikku/servers/comick/__init__.py:77
+#: ../komikku/servers/comix/__init__.py:322
+#: ../komikku/servers/jmanga/__init__.py:46
+#: ../komikku/servers/mangaball/__init__.py:84
+#: ../komikku/servers/mangadex/__init__.py:72
+#: ../komikku/servers/mangak/__init__.py:91
+#: ../komikku/servers/mangakawaii/__init__.py:47
+#: ../komikku/servers/mangalivreblog/__init__.py:37
+#: ../komikku/servers/mangamana/__init__.py:62
+#: ../komikku/servers/mangamana/__init__.py:63
+#: ../komikku/servers/mangasorigines/__init__.py:44
+#: ../komikku/servers/mangatown/__init__.py:65
+#: ../komikku/servers/mangaworld/__init__.py:74
+#: ../komikku/servers/multi/madtheme/__init__.py:44
+#: ../komikku/servers/raijinscan/__init__.py:41
+#: ../komikku/servers/readcomicsonline/__init__.py:33
+#: ../komikku/servers/rncalation/__init__.py:52
+#: ../komikku/servers/skymangas/__init__.py:41
+#: ../komikku/servers/weebdex/__init__.py:61
+#: ../komikku/servers/zenko/__init__.py:57
+msgid "Status"
+msgstr "स्थिति"
+
+#: ../komikku/card/tracking.py:244
+msgid "Score"
+msgstr ""
+
+#: ../komikku/card/tracking.py:249
+msgid "Chapter"
+msgstr ""
+
+#: ../komikku/card/tracking.py:261 ../komikku/categories_editor.py:78
+#: ../komikku/library/__init__.py:406
+msgid "Delete?"
+msgstr "मिटाएं?"
+
+#: ../komikku/card/tracking.py:262
+msgid "Are you sure you want to cancel tracking?"
+msgstr ""
+
+#: ../komikku/card/tracking.py:263 ../komikku/categories_editor.py:80
+#: ../komikku/categories_editor.py:176 ../komikku/library/__init__.py:408
+msgid "Delete"
+msgstr "मिटाएं"
+
+#: ../komikku/card/tracking.py:378 ../komikku/preferences/trackers.py:42
+msgid "Connection is expired"
+msgstr ""
+
+#: ../komikku/card/tracking.py:466 ../komikku/explorer/search/__init__.py:378
+#, python-brace-format
+msgid "Search {}"
+msgstr "खोजें {}"
+
+#: ../komikku/card/tracking.py:528 ../komikku/explorer/search/search.py:83
+#: ../komikku/explorer/search/search_global.py:166
+msgid "Oops, search failed. Please try again."
+msgstr "उफ़, खोज विफल रही। कृपया पुन: प्रयास करें।"
+
+#: ../komikku/card/tracking.py:532 ../komikku/explorer/search/search.py:87
+msgid "No Results Found"
+msgstr "कोई परिणाम नहीं मिला"
+
+#: ../komikku/card/tracking.py:533 ../komikku/explorer/search/search.py:88
+msgid "Try a different search"
+msgstr "भिन्न खोज का प्रयास करें"
+
+#: ../komikku/categories_editor.py:79
+#, python-brace-format
+msgid ""
+"Are you sure you want to delete\n"
+"\"{0}\" category?"
+msgstr ""
+"क्या आप वाकई \"{0}\" श्रेणी को मिटाना \n"
+"चाहते हैं?"
+
+#: ../komikku/categories_editor.py:182
+msgid "Edit"
+msgstr "संपादन"
+
+#: ../komikku/categories_editor.py:195
+msgid "Save"
+msgstr "सहेजें"
+
+#: ../komikku/consts.py:22
+msgid "Accent Color"
+msgstr ""
+
+#: ../komikku/consts.py:27
+msgid "Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:31
+msgid "Lesbian Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:35
+msgid "Male Homosexual Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:39
+msgid "Transgender Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:43
+msgid "Nonbinary Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:47
+msgid "Bisexual Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:51
+msgid "Asexual Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:55
+msgid "Pansexual Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:59
+msgid "Aromantic Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:63
+msgid "Genderfluid Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:67
+msgid "Polysexual Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:71
+msgid "Omnisexual Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:75
+msgid "Aroace Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:79
+msgid "Agender Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:83
+msgid "Genderqueer Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:87
+msgid "Intersex Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:91
+msgid "Demigender Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:95
+msgid "Biromantic Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:99
+msgid "Disability Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:103
+msgid "Femboy Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:107
+msgid "Neutrois Pride Colors"
+msgstr ""
+
+#: ../komikku/consts.py:111
+msgid "Random Colors"
+msgstr ""
+
+#: ../komikku/downloader.py:274
+#, python-brace-format
+msgid "[{0}] Chapters download ended"
+msgstr ""
+
+#: ../komikku/explorer/common.py:123
+#, python-brace-format
+msgid "{0} chapter"
+msgid_plural "{0} chapters"
+msgstr[0] "{0} अध्याय"
+msgstr[1] "{0} अध्याय"
+
+#: ../komikku/explorer/common.py:125
+#, python-brace-format
+msgid "Last Chapter: {}"
+msgstr "अंतिम अध्याय: {}"
+
+#: ../komikku/explorer/common.py:127
+#, python-brace-format
+msgid "Last Volume: {}"
+msgstr "अंतिम वॉल्यूम: {}"
+
+#: ../komikku/explorer/common.py:245 ../komikku/preferences/servers.py:396
+#: ../komikku/preferences/servers.py:450
+#: ../komikku/servers/mangatube/__init__.py:150
+msgid "18+"
+msgstr "18+"
+
+#: ../komikku/explorer/common.py:268
+msgid "Help"
+msgstr "सहायता"
+
+#: ../komikku/explorer/common.py:269
+msgid "Local Folder"
+msgstr "स्थानीय फोल्डर"
+
+#: ../komikku/explorer/common.py:271
+msgid ""
+"A specific folder structure is required for local comics to be properly "
+"processed."
+msgstr ""
+
+#: ../komikku/explorer/common.py:272
+msgid ""
+"Each comic must have its own folder which must contain the chapters/volumes "
+"as archive files in CBZ, CBR, CBT, EPUB or PDF formats."
+msgstr ""
+
+#: ../komikku/explorer/common.py:273
+msgid "The folder's name will be used as name for the comic."
+msgstr ""
+
+#: ../komikku/explorer/common.py:274
+msgid ""
+"NOTE: The 'unrar' or 'unar' command-line tool is required for CBR archives."
+msgstr ""
+
+#: ../komikku/explorer/common.py:280
+msgid "Open local folder"
+msgstr "स्थानीय फोल्डर खोलें"
+
+#: ../komikku/explorer/common.py:286 ../komikku/explorer/common.py:288
+#: ../komikku/explorer/common.py:304 ../komikku/explorer/common.py:307
+msgid "Content Information"
+msgstr ""
+
+#: ../komikku/explorer/common.py:293
+#, python-brace-format
+msgid "Type: {0}"
+msgstr ""
+
+#: ../komikku/explorer/common.py:296
+#, python-brace-format
+msgid ""
+"Copyrighted: Reproduction and distribution authorized under certain "
+"conditions ({0} license)"
+msgstr ""
+
+#: ../komikku/explorer/common.py:299
+msgid "Royalty-free, Public domain"
+msgstr ""
+
+#: ../komikku/explorer/common.py:301 ../komikku/explorer/common.py:312
+msgid "Copyrighted works"
+msgstr ""
+
+#: ../komikku/explorer/common.py:311
+msgid "Use with caution!"
+msgstr ""
+
+#: ../komikku/explorer/common.py:314
+msgid "Licensed/Published and/or Unlicensed works"
+msgstr ""
+
+#: ../komikku/explorer/common.py:315
+msgid "It may be partially or totally illegal"
+msgstr ""
+
+#: ../komikku/explorer/common.py:330
+msgid "Toggle pinned status"
+msgstr "पिन की गई स्थिति टॉगल करें"
+
+#: ../komikku/explorer/search/__init__.py:283
+msgid "Search was cancelled"
+msgstr ""
+
+#: ../komikku/explorer/search/__init__.py:290
+msgid "Oops, server website URL is unknown."
+msgstr "उफ़, सर्वर वेबसाइट का URL अज्ञात है।"
+
+#: ../komikku/explorer/search/__init__.py:380
+msgid "Search for Reading"
+msgstr "पढ़ने हेतु खोजें"
+
+#: ../komikku/explorer/search/__init__.py:382
+msgid "Empty search is allowed."
+msgstr "रिक्त खोज की अनुमति है।"
+
+#: ../komikku/explorer/search/__init__.py:384
+msgid ""
+"Alternatively, you can look up specific comics using the syntax:\n"
+"\n"
+"<b>id:ID from comic URL</b>"
+msgstr ""
+"वैकल्पिक रूप से, आप वाक्यविन्यास का उपयोग करके विशिष्ट कॉमिक्स देख सकते हैं:\n"
+"\n"
+"<b>ID: कॉमिक URL से ID</b>"
+
+#: ../komikku/explorer/search/__init__.py:412
+msgid "Global Search"
+msgstr "वैश्विक खोज"
+
+#: ../komikku/explorer/search/__init__.py:414
+msgid "Search globally by name"
+msgstr "नाम से वैश्विक स्तर पर खोजें"
+
+#: ../komikku/explorer/search/__init__.py:416
+msgid "Search for Comics"
+msgstr "कॉमिक्स खोजें"
+
+#: ../komikku/explorer/search/__init__.py:488
+msgid "Oops, failed to retrieve manga's information."
+msgstr "उफ़, मंगा की जानकारी पुनर्प्राप्त करने में विफल रहा।"
+
+#: ../komikku/explorer/search/latest_updates.py:71
+msgid "Oops, failed to retrieve latest updates."
+msgstr "उफ़, नवीनतम अपडेट पुनर्प्राप्त करने में विफल रहा।"
+
+#: ../komikku/explorer/search/latest_updates.py:75
+msgid "No Latest Updates Found"
+msgstr "कोई नवीनतम अपडेट नहीं मिला"
+
+#: ../komikku/explorer/search/latest_updates.py:83
+#: ../komikku/explorer/search/most_popular.py:83
+#: ../komikku/explorer/search/search.py:97
+#: ../komikku/explorer/search/search_global.py:94
+msgid "A request is already in progress."
+msgstr "एक अनुरोध पहले से ही प्रगति पर है।"
+
+#: ../komikku/explorer/search/most_popular.py:71
+msgid "Oops, failed to retrieve most popular."
+msgstr "उफ़, सर्वाधिक लोकप्रिय को पुनः प्राप्त करने में विफल।"
+
+#: ../komikku/explorer/search/most_popular.py:75
+msgid "No Most Popular Found"
+msgstr "कोई सर्वाधिक लोकप्रिय नहीं मिला"
+
+#: ../komikku/explorer/search/search_global.py:163
+msgid "Search cancelled"
+msgstr ""
+
+#: ../komikku/explorer/search/search_global.py:171
+msgid "No results"
+msgstr "कोई परिणाम नहीं"
+
+#: ../komikku/explorer/servers.py:109 ../komikku/explorer/servers.py:186
+#: ../komikku/servers/comix/__init__.py:342
+#: ../komikku/servers/mangafire/__init__.py:140
+#: ../komikku/servers/readcomicsonline/__init__.py:54
+#: ../komikku/servers/rncalation/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:67
+#: ../komikku/servers/skymangas/__init__.py:84
+#: ../komikku/servers/zenko/__init__.py:80
+msgid "Other"
+msgstr "अन्य"
+
+#: ../komikku/explorer/servers.py:150
+msgid ""
+"It appears that you have not yet defined any server languages in Preferences."
+msgstr ""
+
+#: ../komikku/explorer/servers.py:223
+msgid "Pinned"
+msgstr "पिन की गई"
+
+#: ../komikku/history.py:36
+msgid "Today"
+msgstr "आज"
+
+#: ../komikku/history.py:38
+msgid "Yesterday"
+msgstr "बिता कल"
+
+#: ../komikku/history.py:40
+msgid "%A, %B %e"
+msgstr "%A, %B %e"
+
+#: ../komikku/history.py:94
+msgid "Resume"
+msgstr "पुनः आरम्भ"
+
+#: ../komikku/library/__init__.py:340
+msgid "Are you sure you want to clear selected mangas?"
+msgstr ""
+
+#: ../komikku/library/__init__.py:402
+msgid "Are you sure you want to delete this manga?"
+msgstr "क्या आप वाकई इस मंगा को मिटाना चाहते हैं?"
+
+#: ../komikku/library/__init__.py:404
+msgid "Are you sure you want to delete selected mangas?"
+msgstr "क्या आप वाकई चयनित मंगा को मिटाना चाहते हैं?"
+
+#: ../komikku/library/__init__.py:428
+msgid "Are you sure you want to download all chapters of selected mangas?"
+msgstr "क्या आप वाकई चयनित मंगा के सभी अध्याय डाउनलोड करना चाहते हैं?"
+
+#: ../komikku/library/__init__.py:430
+msgid "Download?"
+msgstr "डाउनलोड?"
+
+#: ../komikku/library/__init__.py:457
+msgid "Unread"
+msgstr "अपठित"
+
+#: ../komikku/library/__init__.py:458
+msgid "Series with unread chapters"
+msgstr ""
+
+#: ../komikku/library/__init__.py:461
+#: ../komikku/models/database/downloads.py:20
+msgid "Downloaded"
+msgstr "डाउनलोड किए गए"
+
+#: ../komikku/library/__init__.py:462
+msgid "Series with downloaded chapters"
+msgstr ""
+
+#: ../komikku/library/__init__.py:465
+msgid "Recents"
+msgstr "हालिया"
+
+#: ../komikku/library/__init__.py:466
+msgid "Series with new chapters"
+msgstr ""
+
+#: ../komikku/library/__init__.py:685
+msgid "Welcome to Komikku"
+msgstr "Komikku में आपका स्वागत है"
+
+#: ../komikku/library/__init__.py:697
+msgid "Loading…"
+msgstr "लोड हो रहा है…"
+
+#: ../komikku/library/__init__.py:821
+msgid "Failed to update reading status"
+msgstr "पठन स्थिति अपडेट करने में विफल"
+
+#: ../komikku/library/__init__.py:849
+msgid "Add New Comic"
+msgstr "नई कॉमिक जोड़ें"
+
+#: ../komikku/library/__init__.py:876 ../komikku/library/categories_list.py:146
+msgid "Uncategorized"
+msgstr "अवर्गीकृत"
+
+#: ../komikku/library/categories_list.py:140
+#: ../komikku/servers/asurascans/__init__.py:38
+#: ../komikku/servers/bilibili/__init__.py:43
+#: ../komikku/servers/coloredcouncil/__init__.py:42
+#: ../komikku/servers/coloredcouncil/__init__.py:55
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:42
+#: ../komikku/servers/jmanga/__init__.py:51
+#: ../komikku/servers/mangapill/__init__.py:39
+#: ../komikku/servers/mangasorigines/__init__.py:49
+#: ../komikku/servers/mangatown/__init__.py:51
+#: ../komikku/servers/mangatown/__init__.py:70
+#: ../komikku/servers/mangatown/__init__.py:84
+#: ../komikku/servers/mangatube/__init__.py:130
+#: ../komikku/servers/multi/madtheme/__init__.py:49
+#: ../komikku/servers/multi/manga_stream/__init__.py:81
+#: ../komikku/servers/phenixscans/__init__.py:40
+#: ../komikku/servers/readcomicsonline/__init__.py:38
+#: ../komikku/servers/readcomicsonline/__init__.py:51
+#: ../komikku/servers/skymangas/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:61
+#: ../komikku/servers/skymangas/__init__.py:78
+#: ../komikku/servers/webtoon/__init__.py:60
+msgid "All"
+msgstr "सभी"
+
+#: ../komikku/models/database/downloads.py:19
+msgid "Download pending"
+msgstr "डाउनलोड लंबित है"
+
+#: ../komikku/models/database/downloads.py:21
+msgid "Downloading"
+msgstr "डाउनलोड हो रहा है"
+
+#: ../komikku/models/database/downloads.py:22
+msgid "Download canceled"
+msgstr ""
+
+#: ../komikku/models/database/downloads.py:23
+msgid "Download error"
+msgstr "डाउनलोड त्रुटि"
+
+#: ../komikku/models/database/mangas.py:45
+#: ../komikku/servers/jmanga/__init__.py:53
+#: ../komikku/servers/mangakawaii/__init__.py:54
+#: ../komikku/servers/mangamana/__init__.py:68
+#: ../komikku/servers/mangasorigines/__init__.py:51
+#: ../komikku/servers/mangaworld/__init__.py:79
+#: ../komikku/servers/readcomicsonline/__init__.py:40
+#: ../komikku/servers/skymangas/__init__.py:48
+#: ../komikku/servers/weebcentral/__init__.py:66
+msgid "Complete"
+msgstr "पूर्ण"
+
+#: ../komikku/models/database/mangas.py:46
+#: ../komikku/servers/comick/__init__.py:81
+#: ../komikku/servers/comix/__init__.py:326
+#: ../komikku/servers/flamescans/__init__.py:53
+#: ../komikku/servers/jmanga/__init__.py:52
+#: ../komikku/servers/mangaball/__init__.py:90
+#: ../komikku/servers/mangadex/__init__.py:76
+#: ../komikku/servers/mangafire/__init__.py:163
+#: ../komikku/servers/mangak/__init__.py:97
+#: ../komikku/servers/mangakawaii/__init__.py:52
+#: ../komikku/servers/mangamana/__init__.py:67
+#: ../komikku/servers/mangasorigines/__init__.py:50
+#: ../komikku/servers/mangatown/__init__.py:72
+#: ../komikku/servers/mangaworld/__init__.py:78
+#: ../komikku/servers/multi/madtheme/__init__.py:50
+#: ../komikku/servers/raijinscan/__init__.py:45
+#: ../komikku/servers/readcomicsonline/__init__.py:39
+#: ../komikku/servers/rncalation/__init__.py:58
+#: ../komikku/servers/skymangas/__init__.py:47
+#: ../komikku/servers/weebcentral/__init__.py:65
+#: ../komikku/servers/weebdex/__init__.py:65
+#: ../komikku/servers/zenko/__init__.py:61
+msgid "Ongoing"
+msgstr "चालू"
+
+#: ../komikku/models/database/mangas.py:47
+#: ../komikku/servers/mangakawaii/__init__.py:51
+#: ../komikku/servers/mangamana/__init__.py:69
+#: ../komikku/servers/mangaworld/__init__.py:80
+#: ../komikku/servers/skymangas/__init__.py:50
+msgid "Suspended"
+msgstr "निलंबित"
+
+#: ../komikku/models/database/mangas.py:48
+#: ../komikku/servers/comix/__init__.py:328
+#: ../komikku/servers/flamescans/__init__.py:55
+#: ../komikku/servers/mangaball/__init__.py:92
+#: ../komikku/servers/mangadex/__init__.py:78
+#: ../komikku/servers/mangafire/__init__.py:165
+#: ../komikku/servers/mangak/__init__.py:99
+#: ../komikku/servers/mangakawaii/__init__.py:53
+#: ../komikku/servers/mangaworld/__init__.py:81
+#: ../komikku/servers/rncalation/__init__.py:60
+#: ../komikku/servers/skymangas/__init__.py:49
+#: ../komikku/servers/weebcentral/__init__.py:67
+#: ../komikku/servers/weebdex/__init__.py:67
+#: ../komikku/servers/zenko/__init__.py:63
+msgid "Hiatus"
+msgstr "अंतराल"
+
+#: ../komikku/preferences/__init__.py:171
+msgid "Are you sure you want to clear chapters cache and database?"
+msgstr "क्या आप वाकई अध्याय कैश और डेटाबेस साफ़ करना चाहते हैं?"
+
+#: ../komikku/preferences/__init__.py:190
+msgid "Failed to clear WebView data"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:194
+msgid "Are you sure you want to clear WebView data (cache, storage, cookies)?"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:219
+msgid "Disable animations?"
+msgstr "सजीवता अक्षम करें?"
+
+#: ../komikku/preferences/__init__.py:220
+msgid ""
+"Are you sure you want to disable animations?\n"
+"\n"
+"The gesture navigation in the reader will not work properly anymore."
+msgstr ""
+"क्या आप वाकई सजीवता अक्षम करना चाहते हैं?\n"
+"\n"
+"पाठक में जेस्चर नेविगेशन अब ठीक से काम नहीं करेगा।"
+
+#: ../komikku/preferences/__init__.py:221
+msgid "Disable"
+msgstr "अक्षम"
+
+#: ../komikku/preferences/__init__.py:705 ../komikku/preferences/servers.py:72
+msgid "System keyring service is disabled. Credential cannot be saved."
+msgstr "सिस्टम कीरिंग सेवा अक्षम है। प्रमाण पत्र सहेजा नहीं जा सकता।"
+
+#: ../komikku/preferences/__init__.py:710 ../komikku/preferences/servers.py:77
+msgid ""
+"No keyring backends were found to store credential. Use plaintext storage as "
+"fallback."
+msgstr ""
+"प्रमाण पत्र संग्रहीत करने के लिए कोई कीरिंग बैकेंड नहीं मिला। फ़ॉलबैक के रूप में सादापाठ "
+"स्टोरेज का उपयोग करें।"
+
+#: ../komikku/preferences/__init__.py:716 ../komikku/preferences/servers.py:83
+msgid ""
+"No keyring backends were found to store credential. Plaintext storage will "
+"be used as fallback."
+msgstr ""
+"प्रमाण पत्र संग्रहीत करने के लिए कोई कीरिंग बैकएंड नहीं मिला। सादापाठ स्टोरेज का उपयोग "
+"फ़ॉलबैक के रूप में किया जाएगा।"
+
+#: ../komikku/preferences/__init__.py:746
+msgid "Invalid instance URL"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:748
+#: ../komikku/preferences/__init__.py:762
+msgid "Unavailable service"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:760
+msgid "Invalid API key"
+msgstr ""
+
+#: ../komikku/preferences/servers.py:44
+msgid "User Account"
+msgstr "उपयोक्ता खाता"
+
+#: ../komikku/preferences/servers.py:49
+msgid "Address"
+msgstr "पता"
+
+#: ../komikku/preferences/servers.py:55 ../komikku/preferences/trackers.py:60
+msgid "Username"
+msgstr "उपयोक्तानाम"
+
+#: ../komikku/preferences/servers.py:59 ../komikku/preferences/trackers.py:64
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: ../komikku/preferences/servers.py:92
+msgid "Test"
+msgstr "परीक्षण"
+
+#: ../komikku/preferences/servers.py:419 ../komikku/preferences/servers.py:456
+msgid "Edit Server Settings"
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:36 ../komikku/preferences/trackers.py:88
+#: ../komikku/preferences/trackers.py:118
+msgid "Disconnect"
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:43
+msgid "Reconnect"
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:46 ../komikku/preferences/trackers.py:71
+#: ../komikku/preferences/trackers.py:104
+msgid "Connect"
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:92
+msgid "Failed to request client access"
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:95
+msgid "Webview is currently in used. Please retry later."
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:117
+#, python-brace-format
+msgid "Disconnect from {}"
+msgstr ""
+
+#: ../komikku/reader/__init__.py:364
+msgid "Page successfully saved"
+msgstr ""
+
+#: ../komikku/reader/ocr_translator.py:149
+#: ../komikku/reader/ocr_translator.py:154
+msgid "Copied to clipboard"
+msgstr ""
+
+#: ../komikku/reader/pagers/__init__.py:179
+msgid "Failed to sync read progress with server"
+msgstr "पठन प्रगति को सर्वर के साथ समन्वयित करने में विफल"
+
+#: ../komikku/reader/pagers/longstrip_pager.py:102
+#: ../komikku/reader/pagers/paged_pager.py:310
+msgid "It was the last chapter."
+msgstr "यह अंतिम अध्याय था।"
+
+#: ../komikku/reader/pagers/longstrip_pager.py:104
+#: ../komikku/reader/pagers/paged_pager.py:308
+msgid "There is no previous chapter."
+msgstr "कोई पिछला अध्याय नहीं है।"
+
+#: ../komikku/reader/pagers/longstrip_pager.py:180
+#: ../komikku/reader/pagers/paged_pager.py:481
+msgid "This chapter is inaccessible."
+msgstr "यह अध्याय अप्राप्य है।"
+
+#: ../komikku/reader/pagers/page.py:393
+msgid "Failed to load image"
+msgstr "छवि लोड करने में विफल"
+
+#: ../komikku/reader/pagers/page.py:395
+#, python-brace-format
+msgid "Corrupted file or unsupported image format ({0})"
+msgstr ""
+
+#: ../komikku/reader/pagers/page.py:516
+msgid "Retry"
+msgstr "पुन: प्रयास"
+
+#: ../komikku/reader/settings.py:18
+msgid "Brightness"
+msgstr ""
+
+#: ../komikku/reader/settings.py:19
+msgid "Make pages brighter or darker"
+msgstr ""
+
+#: ../komikku/reader/settings.py:26
+msgid "Contrast"
+msgstr ""
+
+#: ../komikku/reader/settings.py:27
+msgid "Increase or decrease the contrast of pages"
+msgstr ""
+
+#: ../komikku/reader/settings.py:34
+msgid "Grayscale"
+msgstr ""
+
+#: ../komikku/reader/settings.py:35
+msgid "Convert pages to grayscale"
+msgstr ""
+
+#: ../komikku/reader/settings.py:42
+msgid "Inversion"
+msgstr ""
+
+#: ../komikku/reader/settings.py:43
+msgid "Convert pages to grayscale and invert black and white"
+msgstr ""
+
+#: ../komikku/reader/settings.py:50
+msgid "Sepia"
+msgstr ""
+
+#: ../komikku/reader/settings.py:51
+msgid "Give a more yellow/brown appearance to pages"
+msgstr ""
+
+#: ../komikku/reader/settings.py:58
+msgid "Saturation"
+msgstr ""
+
+#: ../komikku/reader/settings.py:59
+msgid "Super-saturate or desaturate pages"
+msgstr ""
+
+#: ../komikku/reader/settings.py:105
+msgid "Adapt to Screen"
+msgstr "स्क्रीन के अनुकूल"
+
+#: ../komikku/reader/settings.py:106
+msgid "Adapt to Width"
+msgstr "चौड़ाई के अनुकूल"
+
+#: ../komikku/reader/settings.py:107
+msgid "Adapt to Height"
+msgstr "ऊंचाई के अनुकूल"
+
+#: ../komikku/reader/settings.py:108
+msgid "Original Size"
+msgstr "मूल आकार"
+
+#: ../komikku/reader/settings.py:119
+msgid "Linear"
+msgstr "रेखीय"
+
+#: ../komikku/reader/settings.py:120
+msgid "Trilinear"
+msgstr "त्रिरेखीय"
+
+#: ../komikku/reader/settings.py:131
+msgid "White"
+msgstr "सफ़ेद"
+
+#: ../komikku/reader/settings.py:132
+msgid "Gray"
+msgstr "स्लेटी"
+
+#: ../komikku/reader/settings.py:133
+msgid "Black"
+msgstr "काला"
+
+#: ../komikku/reader/settings.py:134
+msgid "System Style"
+msgstr "सिस्टम शैली"
+
+#: ../komikku/servers/annyo/__init__.py:22
+#: ../komikku/servers/existentialcomics/__init__.py:23
+#: ../komikku/servers/fosscomics/__init__.py:29
+#: ../komikku/servers/grisebouille/__init__.py:24
+#: ../komikku/servers/jensorensen/__init__.py:25
+#: ../komikku/servers/monkeyuser/__init__.py:23
+#: ../komikku/servers/nixofnothing/__init__.py:19
+#: ../komikku/servers/peppercarrot/__init__.py:54
+#: ../komikku/servers/smbc/__init__.py:19
+#: ../komikku/servers/threepanelsoul/__init__.py:18
+#: ../komikku/servers/wildlife/__init__.py:16
+#: ../komikku/servers/xkcd/__init__.py:24
+msgid "Self-publishing"
+msgstr ""
+
+#: ../komikku/servers/annyo/__init__.py:22
+#: ../komikku/servers/comick/__init__.py:149
+#: ../komikku/servers/existentialcomics/__init__.py:23
+#: ../komikku/servers/fosscomics/__init__.py:29
+#: ../komikku/servers/grisebouille/__init__.py:24
+#: ../komikku/servers/jensorensen/__init__.py:25
+#: ../komikku/servers/mangadex/__init__.py:113
+#: ../komikku/servers/monkeyuser/__init__.py:23
+#: ../komikku/servers/nixofnothing/__init__.py:19
+#: ../komikku/servers/peppercarrot/__init__.py:54
+#: ../komikku/servers/smbc/__init__.py:19
+#: ../komikku/servers/threepanelsoul/__init__.py:18
+#: ../komikku/servers/wildlife/__init__.py:16
+#: ../komikku/servers/xkcd/__init__.py:24
+msgid "Webcomic"
+msgstr ""
+
+#: ../komikku/servers/aralosbd/__init__.py:21
+msgid "Self-publishing platform"
+msgstr ""
+
+#: ../komikku/servers/asurascans/__init__.py:33
+#: ../komikku/servers/comix/__init__.py:335
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:37
+#: ../komikku/servers/jmanga/__init__.py:27
+#: ../komikku/servers/mangaball/__init__.py:99
+#: ../komikku/servers/mangak/__init__.py:60
+#: ../komikku/servers/mangakawaii/__init__.py:60
+#: ../komikku/servers/mangapill/__init__.py:34
+#: ../komikku/servers/mangasorigines/__init__.py:32
+#: ../komikku/servers/mangatown/__init__.py:79
+#: ../komikku/servers/mangatube/__init__.py:125
+#: ../komikku/servers/mangaworld/__init__.py:59
+#: ../komikku/servers/multi/manga_stream/__init__.py:76
+#: ../komikku/servers/phenixscans/__init__.py:35
+#: ../komikku/servers/raijinscan/__init__.py:52
+#: ../komikku/servers/readcomicsonline/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:36
+#: ../komikku/servers/skymangas/__init__.py:56
+#: ../komikku/servers/webtoon/__init__.py:55
+#: ../komikku/servers/zenko/__init__.py:69
+msgid "Type"
+msgstr "प्रकार"
+
+#: ../komikku/servers/asurascans/__init__.py:34
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:38
+#: ../komikku/servers/jmanga/__init__.py:28
+#: ../komikku/servers/mangaball/__init__.py:100
+#: ../komikku/servers/mangak/__init__.py:61
+#: ../komikku/servers/mangapill/__init__.py:35
+#: ../komikku/servers/mangatown/__init__.py:80
+#: ../komikku/servers/multi/manga_stream/__init__.py:77
+#: ../komikku/servers/phenixscans/__init__.py:36
+#: ../komikku/servers/rawkuma/__init__.py:41
+#: ../komikku/servers/readcomicsonline/__init__.py:47
+#: ../komikku/servers/rncalation/__init__.py:37
+#: ../komikku/servers/skymangas/__init__.py:57
+#: ../komikku/servers/webtoon/__init__.py:56
+msgid "Filter by Type"
+msgstr ""
+
+#: ../komikku/servers/asurascans/__init__.py:39
+#: ../komikku/servers/coloredcouncil/__init__.py:44
+#: ../komikku/servers/comick/__init__.py:94
+#: ../komikku/servers/comix/__init__.py:339
+#: ../komikku/servers/flamescans/__init__.py:41
+#: ../komikku/servers/mangaball/__init__.py:105
+#: ../komikku/servers/mangafire/__init__.py:137
+#: ../komikku/servers/mangak/__init__.py:66
+#: ../komikku/servers/mangakawaii/__init__.py:66
+#: ../komikku/servers/mangapill/__init__.py:40
+#: ../komikku/servers/mangasorigines/__init__.py:38
+#: ../komikku/servers/mangatown/__init__.py:85
+#: ../komikku/servers/mangatube/__init__.py:131
+#: ../komikku/servers/mangaworld/__init__.py:63
+#: ../komikku/servers/multi/manga_stream/__init__.py:82
+#: ../komikku/servers/phenixscans/__init__.py:41
+#: ../komikku/servers/raijinscan/__init__.py:56
+#: ../komikku/servers/rawkuma/__init__.py:44
+#: ../komikku/servers/rncalation/__init__.py:42
+#: ../komikku/servers/skymangas/__init__.py:64
+#: ../komikku/servers/weebcentral/__init__.py:52
+#: ../komikku/servers/zenko/__init__.py:74
+msgid "Manga"
+msgstr "मंगा"
+
+#: ../komikku/servers/asurascans/__init__.py:40
+#: ../komikku/servers/coloredcouncil/__init__.py:43
+#: ../komikku/servers/comick/__init__.py:95
+#: ../komikku/servers/comix/__init__.py:340
+#: ../komikku/servers/flamescans/__init__.py:42
+#: ../komikku/servers/mangaball/__init__.py:106
+#: ../komikku/servers/mangafire/__init__.py:138
+#: ../komikku/servers/mangak/__init__.py:67
+#: ../komikku/servers/mangakawaii/__init__.py:68
+#: ../komikku/servers/mangapill/__init__.py:44
+#: ../komikku/servers/mangasorigines/__init__.py:36
+#: ../komikku/servers/mangatown/__init__.py:87
+#: ../komikku/servers/mangatube/__init__.py:132
+#: ../komikku/servers/mangaworld/__init__.py:65
+#: ../komikku/servers/multi/manga_stream/__init__.py:83
+#: ../komikku/servers/phenixscans/__init__.py:42
+#: ../komikku/servers/raijinscan/__init__.py:57
+#: ../komikku/servers/rawkuma/__init__.py:45
+#: ../komikku/servers/rncalation/__init__.py:43
+#: ../komikku/servers/skymangas/__init__.py:63
+#: ../komikku/servers/weebcentral/__init__.py:53
+#: ../komikku/servers/zenko/__init__.py:75
+msgid "Manhwa"
+msgstr "मैनहवा"
+
+#: ../komikku/servers/asurascans/__init__.py:41
+#: ../komikku/servers/comick/__init__.py:96
+#: ../komikku/servers/comix/__init__.py:341
+#: ../komikku/servers/flamescans/__init__.py:43
+#: ../komikku/servers/mangaball/__init__.py:107
+#: ../komikku/servers/mangafire/__init__.py:139
+#: ../komikku/servers/mangak/__init__.py:68
+#: ../komikku/servers/mangakawaii/__init__.py:67
+#: ../komikku/servers/mangapill/__init__.py:45
+#: ../komikku/servers/mangasorigines/__init__.py:37
+#: ../komikku/servers/mangatown/__init__.py:86
+#: ../komikku/servers/mangatube/__init__.py:133
+#: ../komikku/servers/mangaworld/__init__.py:64
+#: ../komikku/servers/multi/manga_stream/__init__.py:84
+#: ../komikku/servers/phenixscans/__init__.py:43
+#: ../komikku/servers/raijinscan/__init__.py:58
+#: ../komikku/servers/rawkuma/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:44
+#: ../komikku/servers/skymangas/__init__.py:62
+#: ../komikku/servers/weebcentral/__init__.py:54
+#: ../komikku/servers/zenko/__init__.py:76
+msgid "Manhua"
+msgstr "मैनहुआ"
+
+#: ../komikku/servers/bdplus/__init__.py:58
+msgid "Genre"
+msgstr ""
+
+#: ../komikku/servers/bdplus/__init__.py:59
+msgid "Filter by Genre"
+msgstr ""
+
+#: ../komikku/servers/bilibili/__init__.py:38
+msgid "Price"
+msgstr "मूल्य"
+
+#: ../komikku/servers/bilibili/__init__.py:39
+msgid "Filter by price"
+msgstr "मूल्य के अनुसार फिल्टर करें"
+
+#: ../komikku/servers/bilibili/__init__.py:44
+msgid "Free"
+msgstr "मुफ़्त"
+
+#: ../komikku/servers/bilibili/__init__.py:45
+msgid "Paid"
+msgstr "सशुल्क"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:37
+msgid "Format"
+msgstr "प्रारूप"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:38
+msgid "Filter by format"
+msgstr "प्रारूप द्वारा फिल्टर"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:50
+msgid "Version"
+msgstr "संस्करण"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:51
+msgid "Filter by version"
+msgstr "संस्करण द्वारा फिल्टर"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:56
+msgid "Color"
+msgstr "रंग"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:57
+msgid "B/W"
+msgstr "श्याम/सफेद"
+
+#: ../komikku/servers/comick/__init__.py:65
+#: ../komikku/servers/mangadex/__init__.py:58
+#: ../komikku/servers/weebdex/__init__.py:48
+msgid "Rating"
+msgstr "रेटिंग"
+
+#: ../komikku/servers/comick/__init__.py:66
+#: ../komikku/servers/mangadex/__init__.py:59
+#: ../komikku/servers/weebdex/__init__.py:49
+msgid "Filter by Content Ratings"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:69
+#: ../komikku/servers/mangadex/__init__.py:62
+#: ../komikku/servers/mangafire/__init__.py:124
+#: ../komikku/servers/mangak/__init__.py:51
+#: ../komikku/servers/weebdex/__init__.py:52
+msgid "Safe"
+msgstr "सुरक्षित"
+
+#: ../komikku/servers/comick/__init__.py:70
+#: ../komikku/servers/mangadex/__init__.py:63
+#: ../komikku/servers/mangafire/__init__.py:125
+#: ../komikku/servers/mangak/__init__.py:52
+#: ../komikku/servers/weebdex/__init__.py:53
+msgid "Suggestive"
+msgstr "सुझावात्मक"
+
+#: ../komikku/servers/comick/__init__.py:71
+#: ../komikku/servers/mangadex/__init__.py:64
+#: ../komikku/servers/mangafire/__init__.py:126
+#: ../komikku/servers/mangak/__init__.py:53
+#: ../komikku/servers/weebdex/__init__.py:54
+msgid "Erotica"
+msgstr "प्रेमकाव्य"
+
+#: ../komikku/servers/comick/__init__.py:78
+#: ../komikku/servers/comix/__init__.py:323
+#: ../komikku/servers/flamescans/__init__.py:50
+#: ../komikku/servers/mangadex/__init__.py:73
+#: ../komikku/servers/mangafire/__init__.py:160
+#: ../komikku/servers/mangakawaii/__init__.py:48
+#: ../komikku/servers/mangaworld/__init__.py:75
+#: ../komikku/servers/raijinscan/__init__.py:42
+#: ../komikku/servers/weebcentral/__init__.py:62
+#: ../komikku/servers/weebdex/__init__.py:62
+#: ../komikku/servers/zenko/__init__.py:58
+msgid "Filter by Statuses"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:82
+#: ../komikku/servers/comix/__init__.py:327
+#: ../komikku/servers/flamescans/__init__.py:54
+#: ../komikku/servers/mangaball/__init__.py:91
+#: ../komikku/servers/mangadex/__init__.py:77
+#: ../komikku/servers/mangafire/__init__.py:164
+#: ../komikku/servers/mangak/__init__.py:98
+#: ../komikku/servers/mangatown/__init__.py:73
+#: ../komikku/servers/multi/madtheme/__init__.py:51
+#: ../komikku/servers/raijinscan/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:59
+#: ../komikku/servers/weebdex/__init__.py:66
+#: ../komikku/servers/zenko/__init__.py:62 ../komikku/trackers/__init__.py:68
+msgid "Completed"
+msgstr "पूर्ण"
+
+#: ../komikku/servers/comick/__init__.py:83
+#: ../komikku/servers/comix/__init__.py:329
+#: ../komikku/servers/flamescans/__init__.py:57
+#: ../komikku/servers/mangaball/__init__.py:93
+#: ../komikku/servers/mangadex/__init__.py:79
+#: ../komikku/servers/mangafire/__init__.py:166
+#: ../komikku/servers/mangak/__init__.py:100
+#: ../komikku/servers/mangaworld/__init__.py:82
+#: ../komikku/servers/rncalation/__init__.py:61
+#: ../komikku/servers/weebcentral/__init__.py:68
+#: ../komikku/servers/weebdex/__init__.py:68
+msgid "Canceled"
+msgstr "रद्द किया गया"
+
+#: ../komikku/servers/comick/__init__.py:84
+msgid "Paused"
+msgstr "विरामित"
+
+#: ../komikku/servers/comick/__init__.py:90
+msgid "Origination"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:91
+msgid "[Latest Updates only] Filter by Origination"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:102
+msgid "Countries"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:104
+msgid "[Search and Most Popular only] Filter by Country (origination)"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:108
+msgid "Japan (Manga)"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:109
+msgid "Korea (Manhwa)"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:110
+msgid "China (Manhua)"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:116
+#: ../komikku/servers/comix/__init__.py:348
+#: ../komikku/servers/mangadex/__init__.py:85
+msgid "Publication Demographic"
+msgstr "प्रकाशन जनसांख्यिकीय"
+
+#: ../komikku/servers/comick/__init__.py:117
+#: ../komikku/servers/comix/__init__.py:349
+#: ../komikku/servers/mangadex/__init__.py:86
+#: ../komikku/servers/mangafire/__init__.py:147
+#: ../komikku/servers/weebdex/__init__.py:75
+msgid "Filter by Publication Demographics"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:120
+#: ../komikku/servers/comix/__init__.py:355
+#: ../komikku/servers/mangaball/__init__.py:73
+#: ../komikku/servers/mangadex/__init__.py:89
+#: ../komikku/servers/mangafire/__init__.py:153
+#: ../komikku/servers/mangak/__init__.py:82
+#: ../komikku/servers/mangatown/__init__.py:52
+#: ../komikku/servers/skymangas/__init__.py:79
+#: ../komikku/servers/weebdex/__init__.py:78
+msgid "Shounen"
+msgstr "शौनेन"
+
+#: ../komikku/servers/comick/__init__.py:121
+#: ../komikku/servers/comix/__init__.py:354
+#: ../komikku/servers/mangaball/__init__.py:74
+#: ../komikku/servers/mangadex/__init__.py:90
+#: ../komikku/servers/mangafire/__init__.py:152
+#: ../komikku/servers/mangak/__init__.py:83
+#: ../komikku/servers/mangatown/__init__.py:54
+#: ../komikku/servers/skymangas/__init__.py:80
+#: ../komikku/servers/weebdex/__init__.py:79
+msgid "Shoujo"
+msgstr "शौजो"
+
+#: ../komikku/servers/comick/__init__.py:122
+#: ../komikku/servers/comix/__init__.py:353
+#: ../komikku/servers/mangaball/__init__.py:75
+#: ../komikku/servers/mangadex/__init__.py:92
+#: ../komikku/servers/mangafire/__init__.py:151
+#: ../komikku/servers/mangak/__init__.py:84
+#: ../komikku/servers/mangatown/__init__.py:53
+#: ../komikku/servers/skymangas/__init__.py:81
+#: ../komikku/servers/weebdex/__init__.py:81
+msgid "Seinen"
+msgstr "सिनेन"
+
+#: ../komikku/servers/comick/__init__.py:123
+#: ../komikku/servers/comix/__init__.py:352
+#: ../komikku/servers/mangaball/__init__.py:76
+#: ../komikku/servers/mangadex/__init__.py:91
+#: ../komikku/servers/mangafire/__init__.py:150
+#: ../komikku/servers/mangak/__init__.py:85
+#: ../komikku/servers/mangatown/__init__.py:57
+#: ../komikku/servers/skymangas/__init__.py:82
+#: ../komikku/servers/weebdex/__init__.py:80
+msgid "Josei"
+msgstr "जोसी"
+
+#: ../komikku/servers/comick/__init__.py:124
+msgid "None"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:130
+#: ../komikku/servers/mangadex/__init__.py:98
+msgid "Tags"
+msgstr "टैग्स"
+
+#: ../komikku/servers/comick/__init__.py:131
+#: ../komikku/servers/mangadex/__init__.py:99
+msgid "Filter by Formats"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:134
+#: ../komikku/servers/mangadex/__init__.py:102
+msgid "4-Koma"
+msgstr "4-कोमा"
+
+#: ../komikku/servers/comick/__init__.py:135
+#: ../komikku/servers/mangadex/__init__.py:103
+msgid "Adaptation"
+msgstr "अनुकूलन"
+
+#: ../komikku/servers/comick/__init__.py:136
+#: ../komikku/servers/mangadex/__init__.py:104
+msgid "Anthology"
+msgstr "संकलन"
+
+#: ../komikku/servers/comick/__init__.py:137
+#: ../komikku/servers/mangadex/__init__.py:105
+msgid "Award Winning"
+msgstr "पुरस्कार विजेता"
+
+#: ../komikku/servers/comick/__init__.py:138
+#: ../komikku/servers/dbmultiverse/__init__.py:58
+#: ../komikku/servers/dbnewhope/__init__.py:30
+#: ../komikku/servers/mangadex/__init__.py:106
+#: ../komikku/servers/mangakawaii/__init__.py:65
+#: ../komikku/servers/mangapill/__init__.py:43
+#: ../komikku/servers/rncalation/__init__.py:45
+msgid "Doujinshi"
+msgstr "डौजिंशी"
+
+#: ../komikku/servers/comick/__init__.py:139
+#: ../komikku/servers/mangadex/__init__.py:107
+msgid "Fan Colored"
+msgstr "प्रशंसकों द्वारा रंगित"
+
+#: ../komikku/servers/comick/__init__.py:140
+#: ../komikku/servers/mangadex/__init__.py:108
+msgid "Full Color"
+msgstr "पूर्ण रंग"
+
+#: ../komikku/servers/comick/__init__.py:141
+#: ../komikku/servers/mangadex/__init__.py:109
+msgid "Long Strip"
+msgstr "लम्बी पट्टी"
+
+#: ../komikku/servers/comick/__init__.py:144
+#: ../komikku/servers/mangadex/__init__.py:110
+msgid "Official Colored"
+msgstr "आधिकारिक रंगित"
+
+#: ../komikku/servers/comick/__init__.py:147
+#: ../komikku/servers/mangadex/__init__.py:111
+#: ../komikku/servers/mangakawaii/__init__.py:69
+#: ../komikku/servers/mangapill/__init__.py:42
+#: ../komikku/servers/mangatube/__init__.py:136
+#: ../komikku/servers/mangaworld/__init__.py:66
+#: ../komikku/servers/weebdex/__init__.py:251
+msgid "Oneshot"
+msgstr "एक बार में"
+
+#: ../komikku/servers/comick/__init__.py:148
+msgid "User Created"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:155
+#: ../komikku/servers/mangadex/__init__.py:119
+msgid "Genres"
+msgstr "शैलियां"
+
+#: ../komikku/servers/comick/__init__.py:156
+#: ../komikku/servers/mangadex/__init__.py:120
+msgid "Filter by Genres"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:159
+#: ../komikku/servers/mangadex/__init__.py:123
+msgid "Action"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:160
+msgid "Adult"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:161
+#: ../komikku/servers/mangadex/__init__.py:124
+msgid "Adventure"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:162
+#: ../komikku/servers/mangadex/__init__.py:126
+msgid "Comedy"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:163
+#: ../komikku/servers/mangadex/__init__.py:127
+msgid "Crime"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:164
+#: ../komikku/servers/mangadex/__init__.py:128
+msgid "Drama"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:165
+msgid "Ecchi"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:166
+#: ../komikku/servers/mangadex/__init__.py:129
+msgid "Fantasy"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:167
+msgid "Gender Bender"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:168
+#: ../komikku/servers/mangadex/__init__.py:131
+msgid "Historical"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:169
+#: ../komikku/servers/mangadex/__init__.py:132
+msgid "Horror"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:170
+#: ../komikku/servers/mangadex/__init__.py:133
+msgid "Isekai"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:171
+#: ../komikku/servers/mangadex/__init__.py:134
+msgid "Magical Girls"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:172
+msgid "Mature"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:173
+#: ../komikku/servers/mangadex/__init__.py:135
+msgid "Mecha"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:174
+#: ../komikku/servers/mangadex/__init__.py:136
+msgid "Medical"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:175
+#: ../komikku/servers/mangadex/__init__.py:137
+msgid "Mystery"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:176
+#: ../komikku/servers/mangadex/__init__.py:138
+msgid "Philosophical"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:177
+msgid "Psychological"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:178
+#: ../komikku/servers/mangadex/__init__.py:139
+msgid "Romance"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:179
+#: ../komikku/servers/mangadex/__init__.py:140
+msgid "Sci-Fi"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:180
+#: ../komikku/servers/mangatown/__init__.py:56
+msgid "Shoujo Ai"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:181
+#: ../komikku/servers/mangadex/__init__.py:141
+msgid "Slice of Life"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:182
+#: ../komikku/servers/mangadex/__init__.py:142
+msgid "Sports"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:183
+#: ../komikku/servers/mangadex/__init__.py:143
+msgid "Superhero"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:184
+#: ../komikku/servers/mangadex/__init__.py:144
+msgid "Thriller"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:185
+#: ../komikku/servers/mangadex/__init__.py:145
+msgid "Tragedy"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:186
+#: ../komikku/servers/mangadex/__init__.py:146
+msgid "Wuxia"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:187
+#: ../komikku/servers/mangaball/__init__.py:78
+#: ../komikku/servers/mangatown/__init__.py:55
+msgid "Yaoi"
+msgstr ""
+
+#: ../komikku/servers/comick/__init__.py:188
+#: ../komikku/servers/mangaball/__init__.py:77
+#: ../komikku/servers/mangatown/__init__.py:59
+msgid "Yuri"
+msgstr ""
+
+#: ../komikku/servers/comix/__init__.py:336
+#: ../komikku/servers/dynasty/__init__.py:41
+#: ../komikku/servers/flamescans/__init__.py:38
+#: ../komikku/servers/mangafire/__init__.py:134
+#: ../komikku/servers/mangakawaii/__init__.py:61
+#: ../komikku/servers/mangasorigines/__init__.py:33
+#: ../komikku/servers/mangaworld/__init__.py:60
+#: ../komikku/servers/raijinscan/__init__.py:53
+#: ../komikku/servers/weebcentral/__init__.py:49
+#: ../komikku/servers/zenko/__init__.py:70
+msgid "Filter by Types"
+msgstr ""
+
+#: ../komikku/servers/comix/__init__.py:366
+msgid "Hide NSFW Content"
+msgstr ""
+
+#: ../komikku/servers/comix/__init__.py:367
+msgid "Hide NSFW content from popular, latest, and search lists"
+msgstr ""
+
+#: ../komikku/servers/dbmultiverse/__init__.py:58
+#: ../komikku/servers/dbnewhope/__init__.py:30
+msgid "Fan Webcomic"
+msgstr ""
+
+#: ../komikku/servers/dynasty/__init__.py:40
+msgid "Categories"
+msgstr "श्रेणियां"
+
+#: ../komikku/servers/dynasty/__init__.py:44
+msgid "Anthologies"
+msgstr ""
+
+#: ../komikku/servers/dynasty/__init__.py:45
+msgid "Doujins"
+msgstr "डौजिन्स"
+
+#: ../komikku/servers/dynasty/__init__.py:46
+msgid "Issues"
+msgstr "मुद्दे"
+
+#: ../komikku/servers/dynasty/__init__.py:47
+msgid "Series"
+msgstr "शृंखला"
+
+#: ../komikku/servers/dynasty/__init__.py:48
+msgid "Chapters"
+msgstr "अध्याय"
+
+#: ../komikku/servers/dynasty/__init__.py:54
+msgid "With Tags"
+msgstr "टैग के साथ"
+
+#: ../komikku/servers/dynasty/__init__.py:55
+msgid "Comma separated list of tags to search for"
+msgstr ""
+
+#: ../komikku/servers/dynasty/__init__.py:61
+msgid "Without Tags"
+msgstr "टैग के बिना"
+
+#: ../komikku/servers/dynasty/__init__.py:62
+msgid "Comma separated list of tags to exclude from search"
+msgstr ""
+
+#: ../komikku/servers/exceptions.py:10
+#, python-brace-format
+msgid "Error: {}"
+msgstr "त्रुटि: {}"
+
+#: ../komikku/servers/exceptions.py:16
+msgid "Local archive is corrupt."
+msgstr "स्थानीय पुरालेख भ्रष्ट है।"
+
+#: ../komikku/servers/exceptions.py:21
+msgid "Unable to extract page. Maybe the 'unrar' tool is missing?"
+msgstr "पृष्ठ निकालने में असमर्थ। शायद 'unrar' टूल गायब है?"
+
+#: ../komikku/servers/exceptions.py:26
+msgid "Failed to complete browser challenge. Please try again."
+msgstr ""
+
+#: ../komikku/servers/exceptions.py:31
+msgid "No longer exists."
+msgstr "अब मौजूद नहीं है।"
+
+#: ../komikku/servers/flamescans/__init__.py:37
+#: ../komikku/servers/mangafire/__init__.py:133
+#: ../komikku/servers/rawkuma/__init__.py:40
+#: ../komikku/servers/weebcentral/__init__.py:48
+msgid "Types"
+msgstr ""
+
+#: ../komikku/servers/flamescans/__init__.py:49
+#: ../komikku/servers/mangafire/__init__.py:159
+#: ../komikku/servers/weebcentral/__init__.py:61
+msgid "Statuses"
+msgstr ""
+
+#: ../komikku/servers/flamescans/__init__.py:56
+#: ../komikku/trackers/__init__.py:70
+msgid "Dropped"
+msgstr ""
+
+#: ../komikku/servers/jmanga/__init__.py:47
+#: ../komikku/servers/mangaball/__init__.py:85
+#: ../komikku/servers/mangak/__init__.py:92
+#: ../komikku/servers/mangalivreblog/__init__.py:38
+#: ../komikku/servers/mangasorigines/__init__.py:45
+#: ../komikku/servers/mangatown/__init__.py:66
+#: ../komikku/servers/multi/madtheme/__init__.py:45
+#: ../komikku/servers/readcomicsonline/__init__.py:34
+#: ../komikku/servers/rncalation/__init__.py:53
+#: ../komikku/servers/skymangas/__init__.py:42
+msgid "Filter by Status"
+msgstr ""
+
+#: ../komikku/servers/kavita/__init__.py:32
+#: ../komikku/servers/komga/__init__.py:26
+msgid "Self-hosted digital library"
+msgstr ""
+
+#: ../komikku/servers/local/__init__.py:351
+msgid "Comics stored locally as archives in CBZ/CBR/CBT or PDF formats"
+msgstr ""
+
+#: ../komikku/servers/mangaball/__init__.py:67
+#: ../komikku/servers/mangak/__init__.py:74
+#: ../komikku/servers/mangatown/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:73
+#: ../komikku/servers/weebdex/__init__.py:74
+msgid "Demographic"
+msgstr ""
+
+#: ../komikku/servers/mangaball/__init__.py:68
+#: ../komikku/servers/mangak/__init__.py:75
+#: ../komikku/servers/mangatown/__init__.py:47
+#: ../komikku/servers/skymangas/__init__.py:74
+msgid "Filter by Publication Demographic"
+msgstr ""
+
+#: ../komikku/servers/mangaball/__init__.py:72
+#: ../komikku/servers/mangaball/__init__.py:89
+#: ../komikku/servers/mangaball/__init__.py:104
+#: ../komikku/servers/mangak/__init__.py:50
+#: ../komikku/servers/mangak/__init__.py:65
+#: ../komikku/servers/mangak/__init__.py:79
+#: ../komikku/servers/mangak/__init__.py:96
+#: ../komikku/servers/mangalivreblog/__init__.py:42
+#: ../komikku/servers/rncalation/__init__.py:41
+#: ../komikku/servers/rncalation/__init__.py:57
+#: ../komikku/servers/weebcentral/__init__.py:40
+msgid "Any"
+msgstr ""
+
+#: ../komikku/servers/mangaball/__init__.py:108
+#: ../komikku/servers/mangakawaii/__init__.py:64
+#: ../komikku/servers/mangatube/__init__.py:135
+#: ../komikku/servers/multi/manga_stream/__init__.py:85
+#: ../komikku/servers/zenko/__init__.py:78
+msgid "Comic"
+msgstr "कॉमिक"
+
+#: ../komikku/servers/mangaball/__init__.py:114
+#: ../komikku/servers/multi/madara/__init__.py:434
+#: ../komikku/servers/shadowmanga/__init__.py:39
+#: ../komikku/servers/weebcentral/__init__.py:35
+msgid "Adult Content"
+msgstr ""
+
+#: ../komikku/servers/mangaball/__init__.py:115
+#: ../komikku/servers/multi/madara/__init__.py:435
+#: ../komikku/servers/shadowmanga/__init__.py:40
+msgid "Whether to show series containing adult content"
+msgstr ""
+
+#: ../komikku/servers/mangadex/__init__.py:65
+#: ../komikku/servers/mangafire/__init__.py:127
+#: ../komikku/servers/mangak/__init__.py:54
+#: ../komikku/servers/weebdex/__init__.py:55
+msgid "Pornographic"
+msgstr "अश्लील"
+
+#: ../komikku/servers/mangadex/__init__.py:112
+msgid "Self-Published"
+msgstr "स्व-प्रकाशित"
+
+#: ../komikku/servers/mangadex/__init__.py:125
+msgid "Boys Love"
+msgstr ""
+
+#: ../komikku/servers/mangadex/__init__.py:130
+msgid "Girls Love"
+msgstr ""
+
+#: ../komikku/servers/mangadex/__init__.py:152
+msgid "Tags Inclusion Mode"
+msgstr "टैग समावेशन मोड"
+
+#: ../komikku/servers/mangadex/__init__.py:153
+msgid "Include manga that match <b>all</b> tags (AND) or <b>any</b> tag (OR)"
+msgstr ""
+"वह मंगा शामिल करें जो <b>सभी</b> टैग (और) या <b>किसी</b> टैग (या) से मेल खाता हो"
+
+#: ../komikku/servers/mangadex/__init__.py:157
+msgid "AND"
+msgstr "और"
+
+#: ../komikku/servers/mangadex/__init__.py:158
+msgid "OR"
+msgstr "या"
+
+#: ../komikku/servers/mangadex/__init__.py:167
+#: ../komikku/servers/weebdex/__init__.py:98
+msgid "Data Saver Mode"
+msgstr ""
+
+#: ../komikku/servers/mangadex/__init__.py:168
+#: ../komikku/servers/weebdex/__init__.py:99
+msgid "Fetch lower quality images to save bandwidth"
+msgstr ""
+
+#: ../komikku/servers/mangafire/__init__.py:120
+#: ../komikku/servers/mangak/__init__.py:45
+msgid "Content Rating"
+msgstr ""
+
+#: ../komikku/servers/mangafire/__init__.py:121
+#: ../komikku/servers/mangak/__init__.py:46
+msgid "Filter by Content Rating"
+msgstr ""
+
+#: ../komikku/servers/mangafire/__init__.py:146
+msgid "Demographics"
+msgstr ""
+
+#: ../komikku/servers/mangak/__init__.py:80
+msgid "Boy (Shounen + Seinen)"
+msgstr ""
+
+#: ../komikku/servers/mangak/__init__.py:81
+msgid "Girl (Shoujo + Josei)"
+msgstr ""
+
+#: ../komikku/servers/mangakawaii/__init__.py:70
+#: ../komikku/servers/mangatube/__init__.py:134
+msgid "Webtoon"
+msgstr "वेबटून"
+
+#: ../komikku/servers/mangapill/__init__.py:41
+#: ../komikku/servers/rawkuma/__init__.py:47
+msgid "Novel"
+msgstr "उपन्यास"
+
+#: ../komikku/servers/mangapill/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:66
+#: ../komikku/servers/weebcentral/__init__.py:55
+msgid "OEL"
+msgstr "OEL"
+
+#: ../komikku/servers/mangatown/__init__.py:58
+msgid "Shounen Ai"
+msgstr ""
+
+#: ../komikku/servers/mangatown/__init__.py:71
+msgid "New"
+msgstr "नया"
+
+#: ../komikku/servers/mangatube/__init__.py:126
+msgid "Type of Serie"
+msgstr "श्रृंखला का प्रकार"
+
+#: ../komikku/servers/mangatube/__init__.py:137
+#: ../komikku/servers/zenko/__init__.py:79
+msgid "Light Novel"
+msgstr "हल्का उपन्यास"
+
+#: ../komikku/servers/mangatube/__init__.py:143
+msgid "Age Rating"
+msgstr "आयु रेटिंग"
+
+#: ../komikku/servers/mangatube/__init__.py:144
+msgid "Maturity"
+msgstr "परिपक्वता"
+
+#: ../komikku/servers/mangatube/__init__.py:148
+msgid "Without"
+msgstr "बिना"
+
+#: ../komikku/servers/mangatube/__init__.py:149
+msgid "16+"
+msgstr "16+"
+
+#: ../komikku/servers/multi/mangareader/__init__.py:119
+#, python-brace-format
+msgid "Not available in {0} language"
+msgstr "{0} भाषा में उपलब्ध नहीं है"
+
+#: ../komikku/servers/readmanhwa/__init__.py:45
+msgid "NSFW Content"
+msgstr "NSFW सामग्री"
+
+#: ../komikku/servers/readmanhwa/__init__.py:46
+msgid "Whether to show manga containing NSFW content"
+msgstr "क्या NSFW सामग्री वाला मंगा दिखाना है"
+
+#: ../komikku/servers/skymangas/__init__.py:65
+msgid "Manfra"
+msgstr ""
+
+#: ../komikku/servers/skymangas/__init__.py:83
+msgid "Kodomo"
+msgstr ""
+
+#: ../komikku/servers/suwayomi/__init__.py:33
+msgid "Manga reader server"
+msgstr ""
+
+#: ../komikku/servers/webtoon/__init__.py:61
+msgid "Originals"
+msgstr "मूल"
+
+#: ../komikku/servers/webtoon/__init__.py:62
+msgid "Canvas"
+msgstr "कैनवास"
+
+#: ../komikku/servers/weebcentral/__init__.py:36
+msgid "Filter by Adult Content"
+msgstr ""
+
+#: ../komikku/servers/weebcentral/__init__.py:41
+msgid "Yes"
+msgstr ""
+
+#: ../komikku/servers/weebcentral/__init__.py:42
+msgid "No"
+msgstr ""
+
+#: ../komikku/servers/zenko/__init__.py:45
+msgid "Age Restriction"
+msgstr ""
+
+#: ../komikku/servers/zenko/__init__.py:46
+msgid "Filter by Age Restrictions"
+msgstr ""
+
+#: ../komikku/servers/zenko/__init__.py:73
+msgid "Manga UA"
+msgstr ""
+
+#: ../komikku/servers/zenko/__init__.py:77
+msgid "Western Comic"
+msgstr ""
+
+#: ../komikku/trackers/__init__.py:67
+msgid "Reading"
+msgstr ""
+
+#: ../komikku/trackers/__init__.py:69
+msgid "On Hold"
+msgstr ""
+
+#: ../komikku/trackers/__init__.py:71
+msgid "Plan to Read"
+msgstr ""
+
+#: ../komikku/trackers/__init__.py:72
+msgid "Rereading"
+msgstr ""
+
+#: ../komikku/updater.py:93
+#, python-brace-format
+msgid "{0} seems down. Please try updating later"
+msgstr ""
+
+#: ../komikku/updater.py:125
+msgid "Library update completed with errors"
+msgstr "लाइब्रेरी अद्यतन त्रुटियों के साथ पूरा हुआ"
+
+#: ../komikku/updater.py:127
+msgid "Library update completed"
+msgstr "लाइब्रेरी अद्यतन पूरा हुआ"
+
+#: ../komikku/updater.py:130
+msgid "Update completed with errors"
+msgstr "अद्यतन त्रुटियों के साथ पूरा हुआ"
+
+#: ../komikku/updater.py:132
+msgid "Update completed"
+msgstr "अद्यतन पूरा हुआ"
+
+#: ../komikku/updater.py:136
+#, python-brace-format
+msgid "{0} successful update"
+msgid_plural "{0} successful updates"
+msgstr[0] "{0} सफल अद्यतन"
+msgstr[1] "{0} सफल अद्यतन"
+
+#: ../komikku/updater.py:137 ../komikku/updater.py:153
+#, python-brace-format
+msgid "{0} new chapter"
+msgid_plural "{0} new chapters"
+msgstr[0] "{0} नया अध्याय"
+msgstr[1] "{0} नए अध्याय"
+
+#: ../komikku/updater.py:139 ../komikku/updater.py:161
+msgid "No new chapters"
+msgstr "कोई नए अध्याय नहीं"
+
+#: ../komikku/updater.py:142
+#, python-brace-format
+msgid "{0} update failed"
+msgid_plural "{0} updates failed"
+msgstr[0] "{0} अद्यतन विफल रहा"
+msgstr[1] "{0} अद्यतन विफल रहे"
+
+#: ../komikku/updater.py:180
+msgid "Oops, update has failed. Please try again."
+msgstr "उफ़, अद्यतन विफल हो गया है। कृपया पुन: प्रयास करें।"
+
+#: ../komikku/updater.py:198
+msgid "Library update started"
+msgstr "लाइब्रेरी अद्यतन प्रारंभ हुआ"
+
+#: ../komikku/utils.py:364
+msgid "You are currently offline"
+msgstr "आप अभी ऑफ़लाइन हैं"
+
+#: ../komikku/utils.py:392
+msgid "No Internet connection, timeout or server down"
+msgstr "कोई इंटरनेट कनेक्शन नहीं, समय समाप्त या सर्वर डाउन"
+
+#: ../komikku/webview.py:441
+msgid "Please wait…"
+msgstr ""
+
+#: ../komikku/webview.py:496
+msgid "Please complete CAPTCHA"
+msgstr "कृपया CAPTCHA पूर्ण करें"
+
+#~ msgid "Releasing"
+#~ msgstr "जारी"
+
+#~ msgid "Discontinued"
+#~ msgstr "बंद"
+
+#~ msgid "Servers Modules"
+#~ msgstr "सर्वर मॉड्यूल"
+
+#~ msgid "Synopsis"
+#~ msgstr "सार"
+
+#~ msgid "The Preferences page (Library settings)"
+#~ msgstr "प्राथमिकताएं पृष्ठ (लाइब्रेरी सेटिंग)"
+
+#~ msgid "One Shot"
+#~ msgstr "एक बार में"
+
+#~ msgid ""
+#~ "A specific folder structure is required for local comics to be properly "
+#~ "processed.\n"
+#~ "\n"
+#~ "Each comic must have its own folder which must contain the chapters/"
+#~ "volumes as archive files in CBZ or CBR formats.\n"
+#~ "\n"
+#~ "The folder's name will be used as name for the comic.\n"
+#~ "\n"
+#~ "NOTE: The 'unrar' or 'unar' command-line tool is required for CBR "
+#~ "archives."
+#~ msgstr ""
+#~ "स्थानीय कॉमिक्स को ठीक से संसाधित करने के लिए एक विशिष्ट फोल्डर संरचना की आवश्यकता "
+#~ "होती है।\n"
+#~ "\n"
+#~ "प्रत्येक कॉमिक का अपना स्वयं का फोल्डर होना चाहिए जिसमें CBZ या CBR प्रारूपों में संग्रह "
+#~ "फाइलों के रूप में अध्याय/खंड शामिल होने चाहिए।\n"
+#~ "\n"
+#~ "फोल्डर का नाम कॉमिक के नाम के रूप में उपयोग किया जाएगा।\n"
+#~ "\n"
+#~ "नोट: CBR अभिलेखागार के लिए 'unrar' या 'rar' कमांड-लाइन टूल आवश्यक है।"
+
+#~ msgid "Web Comic"
+#~ msgstr "वेब कॉमिक"
+
+#~ msgid "Webview"
+#~ msgstr "वेब-दृश्य"
+
+#~ msgid "Manwha"
+#~ msgstr "Manwha"
+
+#~ msgid ""
+#~ "Constrain reader's width to a given maximum size (Webtoon reading mode "
+#~ "only)"
+#~ msgstr ""
+#~ "पाठक की चौड़ाई को किसी दिए गए अधिकतम आकार तक सीमित करें (केवल वेबटून पाठक मोड)"
+
+#~ msgid "manga;reader;viewer;comic;manhwa;manhua;bd;webtoon;webcomic;scan;offline;GTK;GNOME;"
+#~ msgstr "मंगा;पाठक;दर्शक;कॉमिक;manhwa;manhua;bd;वेबटून;वेबकॉमिक;स्कैन;ऑफलाइन;GTK;GNOME;"
+
+#~ msgid "Explorer"
+#~ msgstr "अन्वेषक"
+
+#, python-brace-format
+#~ msgid "Download failure: {0}"
+#~ msgstr "डाउनलोड विफलता: {0}"
+
+#, python-brace-format
+#~ msgid "{0}/{1} pages downloaded"
+#~ msgstr "{0}/{1} पृष्ठ डाउनलोड किए गए"
+
+#~ msgid "error"
+#~ msgstr "त्रुटि"
+
+#, python-brace-format
+#~ msgid "[{0}] Chapter {1}"
+#~ msgstr "[{0}] अध्याय {1}"
+
+#~ msgid "Download completed"
+#~ msgstr "डाउनलोड पूरा हुआ"
+
+#~ msgid "Filter by publication demographics"
+#~ msgstr "प्रकाशन जनसांख्यिकी के अनुसार फिल्टर करें"
+
+#~ msgid "Support for locally stored series (in CBZ or CBR formats)"
+#~ msgstr "स्थानीय रूप से संग्रहीत श्रृंखला के लिए समर्थन (CBZ या CBR प्रारूप में)"
+
+#~ msgid "Comics stored locally as archives in CBZ/CBR formats"
+#~ msgstr "कॉमिक्स को CBZ/CBR प्रारूपों में स्थानीय रूप से संग्रहित किया गया है"
+
+#~ msgid ""
+#~ "A manga, manhwa, manhua, webtoons, webcomics and comics reader for GNOME\n"
+#~ "\n"
+#~ "👉 Never forget, you can support the authors\n"
+#~ "by buying the official comics when they are\n"
+#~ "available in your region/language."
+#~ msgstr ""
+#~ "GNOME के लिए एक मंगा, मनहवा, मनहुआ, वेबटून, वेबकॉमिक्स और कॉमिक्स पाठक\n"
+#~ "\n"
+#~ "👉 कभी न भूलें, जब आपके क्षेत्र/भाषा में आधिकारिक कॉमिक्स उपलब्ध हों तो आप उन्हें खरीदकर "
+#~ "लेखकों का समर्थन कर सकते हैं।"
+
+#~ msgid "Details"
+#~ msgstr "विवरण"
+
+#~ msgid "Enable background recoloring to match cover"
+#~ msgstr "कवर से मेल खाने के लिए पृष्ठभूमि का पुनः रंग सक्षम करें"
+
+#~ msgid "Komikku"
+#~ msgstr "Komikku"
+
+#~ msgid "Discover and read manga &amp; comics"
+#~ msgstr "मंगा खोजें और पढ़ें &amp; कॉमिक्स"
+
+#, python-brace-format
+#~ msgid "Page successfully saved to {0}"
+#~ msgstr "पृष्ठ सफलतापूर्वक {0} पर सहेजा गया"
+
+#~ msgid ""
+#~ "Failed to save page: missing permission to access the XDG pictures "
+#~ "directory"
+#~ msgstr "पृष्ठ सहेजने में विफल: XDG चित्र निर्देशिका तक पहुँचने की अनुमति अनुपलब्ध है"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Failed to sync read progress with server:\n"
+#~ "{message}"
+#~ msgstr ""
+#~ "पठन प्रगति को सर्वर के साथ समन्वयित करने में विफल:\n"
+#~ "{message}"
+
+#~ msgid "Failed to bypass Cloudflare protection. Please try again."
+#~ msgstr "Cloudflare सुरक्षा को दरकिनार करने में विफल। कृपया पुन: प्रयास करें।"
+
+#~ msgid "Filter by content ratings"
+#~ msgstr "सामग्री रेटिंग के आधार पर फिल्टर करें"
+
+#~ msgid "Filter by formats"
+#~ msgstr "प्रारूपों के अनुसार फिल्टर करें"
+
+#~ msgid "Comma seperated list of tags to search for"
+#~ msgstr "खोजने के लिए टैग की अल्पविराम से अलग की गई सूची"
+
+#~ msgid "Comma seperated list of tags to exclude from search"
+#~ msgstr "खोज से बाहर करने के लिए टैग की अल्पविराम से अलग की गई सूची"
+
+#~ msgid "Filter by type"
+#~ msgstr "प्रकार के अनुसार फिल्टर"
+
+#~ msgid "Filter by types"
+#~ msgstr "प्रकार के अनुसार फिल्टर करें"
+
+#~ msgid "Filter by statuses"
+#~ msgstr "स्थितियों के अनुसार फिल्टर करें"
+
+#~ msgid ""
+#~ "This tweak is only intended for users who do not use the GNOME desktop "
+#~ "environment and therefore cannot disable animations globally via GNOME "
+#~ "Settings (Accessibility ⇨ Seeing ⇨ Reduce Animation)."
+#~ msgstr ""
+#~ "यह बदलाव केवल उन उपयोगकर्ताओं के लिए है जो GNOME डेस्कटॉप वातावरण का उपयोग नहीं "
+#~ "करते हैं और इसलिए GNOME सेटिंग्स (अभिगम्यता ⇨ देखना ⇨ सजीवता कम करें) के माध्यम से "
+#~ "विश्व स्तर पर एनिमेशन को अक्षम नहीं कर सकते हैं।"
+
+#~ msgid "Type of Scaling"
+#~ msgstr "स्केलिंग के प्रकार"
+
+#~ msgid "Use up-to-date servers modules?"
+#~ msgstr "अद्यतित सर्वर मॉड्यूल का उपयोग करें?"
+
+#~ msgid "Confirm"
+#~ msgstr "पुष्टि करें"
+
+#~ msgid "manga;reader;viewer;comic;manhwa;manhua;bd;webtoon;webcomic;scan;offline;gnome;"
+#~ msgstr "मंगा;पाठक;दर्शक;कॉमिक;मैनहवा;मैनहुआ;बीडी;वेबटून;वेब कॉमिक;स्कैन;ऑफलाइन;gnome;"

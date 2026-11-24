@@ -1,0 +1,14 @@
+{
+    "name": "python3-pypdf",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pypdf\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/cb/17/378943705992f74e451a06de3401ce68e3213763c81e44d0614559c45599/pypdf-6.13.2-py3-none-any.whl",
+            "sha256": "6eeb9e57693f29d41bd01255d02660cbbb41fd7fc818a982677389a35e4f2083"
+        }
+    ]
+}

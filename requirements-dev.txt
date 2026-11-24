@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2019-2025 Valéry Febvre
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Author: Valéry Febvre <vfebvre@easter-eggs.com>
+
+flake8
+flake8-pyproject
+flake8-quotes
+flatpak_pip_generator
+pre-commit
+pytest
+pytest-steps
+reuse

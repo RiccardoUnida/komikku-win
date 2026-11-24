@@ -1,0 +1,14 @@
+{
+    "name": "python3-ebooklib",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"ebooklib\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/15/72/5dde31a7b988f13ea158936e10bf82e7f6c1763201b325774ea93a0cf8ff/ebooklib-0.21-py3-none-any.whl",
+            "sha256": "8cb417bed66567210661e6ef203f6310f394ad4a282f385a07320cbc09906c30"
+        }
+    ]
+}

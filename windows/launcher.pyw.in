@@ -1,0 +1,212 @@
+# Komikku -- Windows launcher (relocatable bundle)
+#
+# Generated from windows/launcher.pyw.in by windows/build.sh.
+# Mirrors bin/komikku.in, but computes every path from its own location so the
+# folder can be moved anywhere.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+import glob
+import os
+import subprocess
+import sys
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+BIN = os.path.join(ROOT, 'bin')
+LIB = os.path.join(ROOT, 'lib')
+SHARE = os.path.join(ROOT, 'share')
+
+APP_ID = '@APPID@'
+APP_AUTHOR = '@AUTHOR@'
+APP_DESCRIPTION = '@DESCRIPTION@'
+APP_GITREPO = '@GITREPO@'
+APP_PROFILE = '@PROFILE@'
+APP_VERSION = '@VERSION@'
+
+STATE_DIR = os.path.join(os.environ.get('LOCALAPPDATA', os.path.expanduser('~')), 'Komikku')
+os.makedirs(STATE_DIR, exist_ok=True)
+
+
+def redirect_std_streams():
+    """pythonw.exe has no console: send stdout/stderr to a log file instead"""
+    if sys.stdout is None or sys.stderr is None:
+        log = open(os.path.join(STATE_DIR, 'komikku.log'), 'a', encoding='utf-8', buffering=1)
+        if sys.stdout is None:
+            sys.stdout = log
+        if sys.stderr is None:
+            sys.stderr = log
+
+
+def first_existing(*paths):
+    for path in paths:
+        if os.path.exists(path):
+            return path
+    return None
+
+
+def setup_pixbuf_loaders():
+    """
+    loaders.cache contains absolute paths, so it is (re)generated on first run
+    and whenever the folder has been moved
+    """
+    loader_dirs = glob.glob(os.path.join(LIB, 'gdk-pixbuf-2.0', '*', 'loaders'))
+    query = os.path.join(BIN, 'gdk-pixbuf-query-loaders.exe')
+    if not loader_dirs or not os.path.exists(query):
+        return
+
+    cache = os.path.join(STATE_DIR, 'loaders.cache')
+    marker = cache + '.root'
+
+    try:
+        with open(marker, encoding='utf-8') as fp:
+            up_to_date = os.path.exists(cache) and fp.read() == ROOT
+    except OSError:
+        up_to_date = False
+
+    if not up_to_date:
+        dlls = sorted(glob.glob(os.path.join(loader_dirs[0], '*.dll')))
+        result = subprocess.run(
+            [query] + dlls, capture_output=True, check=False, creationflags=0x08000000,  # CREATE_NO_WINDOW
+        )
+        if result.returncode == 0 and result.stdout:
+            with open(cache, 'wb') as fp:
+                fp.write(result.stdout)
+            with open(marker, 'w', encoding='utf-8') as fp:
+                fp.write(ROOT)
+        else:
+            print('Failed to generate pixbuf loaders cache:', result.stderr.decode(errors='replace'))
+            return
+
+    os.environ['GDK_PIXBUF_MODULE_FILE'] = cache
+
+
+def setup_environment():
+    os.environ['PATH'] = BIN + os.pathsep + os.environ.get('PATH', '')
+    if hasattr(os, 'add_dll_directory'):
+        os.add_dll_directory(BIN)
+
+    os.environ['GI_TYPELIB_PATH'] = os.path.join(LIB, 'girepository-1.0')
+    os.environ['GSETTINGS_SCHEMA_DIR'] = os.path.join(SHARE, 'glib-2.0', 'schemas')
+    os.environ['XDG_DATA_DIRS'] = SHARE
+    os.environ['GTK_EXE_PREFIX'] = ROOT
+    os.environ['GTK_DATA_PREFIX'] = ROOT
+
+    gio_modules = os.path.join(LIB, 'gio', 'modules')
+    if os.path.isdir(gio_modules):
+        os.environ['GIO_EXTRA_MODULES'] = gio_modules
+
+    fonts_conf = os.path.join(ROOT, 'etc', 'fonts')
+    if os.path.isdir(fonts_conf):
+        os.environ['FONTCONFIG_PATH'] = fonts_conf
+
+    magic_db = os.path.join(SHARE, 'misc', 'magic.mgc')
+    if os.path.exists(magic_db):
+        os.environ['MAGIC'] = magic_db
+
+    ca_bundle = os.path.join(ROOT, 'etc', 'ssl', 'certs', 'ca-bundle.crt')
+    if os.path.exists(ca_bundle):
+        os.environ['SSL_CERT_FILE'] = ca_bundle
+        os.environ['REQUESTS_CA_BUNDLE'] = ca_bundle
+
+    for site_packages in glob.glob(os.path.join(LIB, 'python3*', 'site-packages')) + [os.path.join(ROOT, 'Lib', 'site-packages')]:
+        if os.path.isdir(site_packages) and site_packages not in sys.path:
+            sys.path.insert(1, site_packages)
+
+    setup_pixbuf_loaders()
+
+
+def selftest():
+    """Import everything the app needs without opening a window. Used by CI."""
+    import gi
+
+    gi.require_version('Gtk', '4.0')
+    gi.require_version('Adw', '1')
+    gi.require_version('GtkSource', '5')
+    gi.require_version('Soup', '3.0')
+
+    from gi.repository import Adw
+    from gi.repository import Gio
+    from gi.repository import GdkPixbuf
+    from gi.repository import Gtk
+    from gi.repository import GtkSource  # noqa: F401
+    from gi.repository import Soup  # noqa: F401
+
+    print(f'GTK {Gtk.get_major_version()}.{Gtk.get_minor_version()}.{Gtk.get_micro_version()}')
+    print(f'Adwaita {Adw.get_major_version()}.{Adw.get_minor_version()}.{Adw.get_micro_version()}')
+    print('Pixbuf formats:', ', '.join(sorted(f.get_name() for f in GdkPixbuf.Pixbuf.get_formats())))
+
+    schema_source = Gio.SettingsSchemaSource.get_default()
+    assert schema_source is not None and schema_source.lookup(APP_ID, True) is not None, f'GSettings schema {APP_ID} not found'
+    print('GSettings schema OK')
+
+    resource = Gio.Resource.load(os.path.join(SHARE, 'komikku', f'{APP_ID}.gresource'))
+    resource._register()
+    print('GResource OK')
+
+    import magic
+    print('libmagic', magic.version())
+    assert magic.from_buffer(b'\x89PNG\r\n\x1a\n' + b'\0' * 32, mime=True) == 'image/png', 'libmagic database not working'
+
+    import komikku.application  # noqa: F401
+    print('komikku.application import OK')
+    print('SELFTEST OK')
+
+
+def main():
+    redirect_std_streams()
+    setup_environment()
+
+    if '--selftest' in sys.argv:
+        try:
+            selftest()
+        except Exception:
+            import traceback
+            traceback.print_exc()
+            print('SELFTEST FAILED')
+            sys.exit(1)
+        sys.exit(0)
+
+    import gettext
+    import locale
+
+    import gi
+
+    gi.require_version('Gtk', '4.0')
+    gi.require_version('Adw', '1')
+
+    from gi.repository import Gio
+
+    localedir = os.path.join(SHARE, 'locale')
+    try:
+        locale.textdomain('komikku')
+        locale.bindtextdomain('komikku', localedir)
+    except AttributeError as e:
+        # Python built without gettext support doesn't have bindtextdomain() and textdomain()
+        print('Could not bind the gettext translation domain. Some translations will not work.')
+        print('Error: {}'.format(e))
+    gettext.textdomain('komikku')
+    gettext.bindtextdomain('komikku', localedir)
+
+    resource = Gio.Resource.load(os.path.join(SHARE, 'komikku', f'{APP_ID}.gresource'))
+    resource._register()
+
+    from komikku.application import Application
+
+    Application.application_id = APP_ID
+    Application.author = APP_AUTHOR
+    Application.description = APP_DESCRIPTION
+    Application.gitrepo = APP_GITREPO
+    Application.profile = APP_PROFILE
+    Application.version = APP_VERSION
+    app = Application()
+
+    try:
+        status = app.run(sys.argv)
+    except SystemExit as e:
+        status = e.code
+
+    sys.exit(status)
+
+
+if __name__ == '__main__':
+    main()

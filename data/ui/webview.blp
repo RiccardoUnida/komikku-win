@@ -1,0 +1,18 @@
+// SPDX-FileCopyrightText: 2019-2025 Valéry Febvre
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+using Gtk 4.0;
+using Adw 1;
+
+template $WebviewPage : Adw.NavigationPage {
+  tag: "webview";
+  title: _("WebView");
+  child: Adw.ToolbarView toolbarview {
+    [top]
+    Adw.HeaderBar {
+      title-widget: Adw.WindowTitle title {
+      };
+    }
+  };
+}

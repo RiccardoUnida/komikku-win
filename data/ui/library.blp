@@ -1,0 +1,279 @@
+// SPDX-FileCopyrightText: 2019-2026 Valéry Febvre
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+using Gtk 4.0;
+using Adw 1;
+
+template $LibraryPage : Adw.NavigationPage {
+  tag: "library";
+  title: _("Library");
+  child: Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {
+      [start]
+      Button left_button {
+        icon-name: "list-add-symbolic";
+        tooltip-text: _("Add New Comic");
+      }
+
+      [start]
+      ToggleButton categories_togglebutton {
+        icon-name: "categories-symbolic";
+        tooltip-text: _("Toggle Categories Sidebar");
+      }
+      Button filters_button {
+        icon-name: "filter-symbolic";
+        tooltip-text: _("Filters");
+        visible: false;
+      }
+
+      title-widget: Adw.WindowTitle title {
+        title: "Komikku";
+      };
+
+      [end]
+      MenuButton menu_button {
+        primary: true;
+        icon-name: "open-menu-symbolic";
+        tooltip-text: _("Main Menu");
+      }
+
+      [end]
+      ToggleButton search_button {
+        icon-name: "edit-find-symbolic";
+        tooltip-text: _("Search");
+      }
+    }
+
+    content: Adw.OverlaySplitView overlaysplitview {
+      collapsed: true;
+
+      content: Stack stack {
+        transition-type: none;
+
+        StackPage {
+          name: "flowbox";
+
+          child: Overlay {
+            [overlay]
+            ProgressBar activity_progressbar {
+              valign: start;
+              inverted: true;
+              pulse-step: 0.25;
+              show-text: false;
+              styles [
+                "osd",
+              ]
+            }
+
+            child: Box {
+              orientation: vertical;
+
+              SearchBar searchbar {
+                margin-start: 8;
+                margin-end: 8;
+
+                SearchEntry searchentry {
+                  hexpand: true;
+                  placeholder-text: _("Search by name, server or genre");
+                }
+
+                styles [
+                  "inline",
+                ]
+              }
+
+              Separator searchbar_separator {}
+
+              ScrolledWindow {
+                vexpand: true;
+                hscrollbar-policy: never;
+
+                FlowBox flowbox {
+                  column-spacing: 0;
+                  row-spacing: 0;
+                  homogeneous: true;
+                  min-children-per-line: 2;
+                  max-children-per-line: 999;
+                  selection-mode: none;
+                }
+
+                styles [
+                  "library",
+                ]
+              }
+
+              ActionBar selection_mode_actionbar {
+                revealed: false;
+
+                [start]
+                Button {
+                  icon-name: "view-refresh-symbolic";
+                  tooltip-text: C_("Library: verb", "Update");
+                  action-name: "app.library.update-selected";
+                }
+
+                [start]
+                Button {
+                  icon-name: "folder-download-symbolic";
+                  tooltip-text: _("Download");
+                  action-name: "app.library.download-selected";
+                }
+
+                [start]
+                Separator {
+                  styles [
+                    "spacer",
+                  ]
+                }
+
+                [start]
+                Button {
+                  icon-name: "brush-symbolic";
+                  tooltip-text: _("Clear");
+                  action-name: "app.library.clear-selected";
+                }
+
+                [start]
+                Button {
+                  icon-name: "user-trash-symbolic";
+                  tooltip-text: _("Delete");
+                  action-name: "app.library.delete-selected";
+                }
+
+                [end]
+                MenuButton selection_mode_menubutton {
+                  icon-name: "view-more-symbolic";
+                  tooltip-text: _("Menu");
+                  direction: up;
+                }
+              }
+            };
+          };
+        }
+
+        StackPage {
+          name: "start_page";
+          child: Box {
+            orientation: vertical;
+
+            ProgressBar start_page_progressbar {
+              fraction: 0.5;
+              show-text: false;
+
+              styles [
+                "osd",
+              ]
+            }
+
+            Box {
+              halign: center;
+              valign: center;
+              vexpand: true;
+              margin-top: 4;
+              margin-end: 12;
+              margin-bottom: 12;
+              margin-start: 12;
+              orientation: vertical;
+              spacing: 24;
+
+              Image start_page_logo_image {
+                halign: center;
+                valign: center;
+                hexpand: false;
+                vexpand: false;
+                pixel-size: 140;
+
+                styles [
+                  "icon-dropshadow",
+                ]
+              }
+
+              Label start_page_title_label {
+                wrap: true;
+                justify: center;
+                styles [
+                  "title-1",
+                ]
+              }
+
+              Button start_page_discover_button {
+                label: _("Discover Comics");
+                visible: false;
+                halign: center;
+                action-name: "app.library.add";
+
+                styles [
+                  "suggested-action",
+                  "pill",
+                ]
+              }
+            }
+          };
+        }
+      };
+
+      sidebar: Box {
+        orientation: vertical;
+
+        Label {
+          margin-start: 12;
+          margin-end: 12;
+          margin-top: 12;
+          margin-bottom: 12;
+          label: _("Categories");
+          styles [
+            "heading",
+          ]
+        }
+
+        Stack categories_stack {
+          vexpand: true;
+
+          StackPage {
+            name: "list";
+            child: ScrolledWindow {
+              hscrollbar-policy: never;
+
+              child: ListBox categories_listbox {
+                styles [
+                  "navigation-sidebar",
+                ]
+              };
+            };
+          }
+
+          StackPage {
+            name: "empty";
+            child: Adw.StatusPage {
+              icon-name: "categories-symbolic";
+              title: _("No Categories");
+
+              styles [
+                "compact",
+              ]
+            };
+          }
+        }
+
+        Box categories_edit_mode_buttonbox {
+          homogeneous: true;
+          margin-start: 6;
+          margin-end: 6;
+          margin-top: 6;
+          margin-bottom: 6;
+          spacing: 6;
+
+          Button categories_edit_mode_cancel_button {
+            label: _("Cancel");
+          }
+
+          Button categories_edit_mode_ok_button {
+            label: _("OK");
+          }
+        }
+      };
+    };
+  };
+}

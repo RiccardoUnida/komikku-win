@@ -1,0 +1,3321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Komikku package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026.
+# David Gogniashvili <gogniashvili.dg@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Komikku 50.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 14:36+0100\n"
+"PO-Revision-Date: 2026-07-28 14:01+0000\n"
+"Last-Translator: David Gogniashvili <gogniashvili.dg@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/komikku/main/ka/"
+">\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.dev0\n"
+
+#: ../data/info.febvre.Komikku.desktop.in:2
+msgid "@prettyname@"
+msgstr "@prettyname@"
+
+#: ../data/info.febvre.Komikku.desktop.in:3
+msgid "@description@"
+msgstr "@description@"
+
+#: ../data/info.febvre.Komikku.desktop.in:15
+msgid "manga;reader;viewer;comic;manhwa;manhua;webtoon;webcomic;scanlation;book;ebook;offline;GTK;GNOME;"
+msgstr ""
+"მანგა;მკითხველი;მნახველი;კომიქსი;მანჰვა;მანჰუა;ვებ-ტუნი;ვებ-"
+"კომიქსი;სკანლაცია;წიგნი;ელ-წიგნი;ხაზგარეშე;GTK;GNOME;"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:11
+msgid "Discover and read manga & comics"
+msgstr "აღმოაჩინე და წაიკითხე მანგა &amp; კომიქსი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:13
+msgid ""
+"With its simple, elegant and adaptive interface, this reader lets you "
+"search, sort and read your series with ease."
+msgstr ""
+"თავისი მარტივი, ელეგანტური და მორგებადი ინტერფეისით, ეს მკითხველი საშუალებას "
+"გაძელვთ, მოძებნოთ და წაიკითხოთ თქვენი სერიები ადვილად."
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:15
+msgid "Why you will love Komikku?"
+msgstr "რატომ შეიყვარებთ კომიკკუს?"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:17
+msgid "Online and offline reading from dozens of servers"
+msgstr "ხაზზე და ხაზგარეშე კითხვა უამრავი სერვერებიდან"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:18
+msgid ""
+"Support for locally stored series (in CBZ/CBR/CBT, EPUB and PDF formats)"
+msgstr ""
+"ადგილობრივად შენახული სერიების მხარდაჭერა (CBZ/CBR/CBT, EPUB და PDF "
+"ფორმატებში)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:19
+msgid "RTL, LTR, Vertical and Webtoon reading modes"
+msgstr ""
+"მარჯვნიდან მარცხნივ, მარცხნიდან მარჯვნივ, ვერტიკალური და ვებ-ტუნის კითხვის "
+"რეჟიმები"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:20
+msgid "Double page view"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:21
+msgid ""
+"Support several types of navigation: keyboard arrow keys, right and left "
+"navigation layout via mouse click or tapping (touchpad/touch screen), mouse "
+"wheel, 2-fingers swipe gesture (touchpad), swipe gesture (touch screen)"
+msgstr ""
+"მხარს უჭერს რამდენიმე ტიპის ნავიგაციას: კლავიატურის ისრის ღილაკები, მარჯვენა "
+"და მარხენა ნავიგაციის განლაგება მაუზე დაწკაპუნებით ან ეკრანზე შეხებით "
+"(თაჩპედი/თაჩ სქრინი), მაუსის ბორბალი, 2 თითის გასმის ჟესტი (თაჩპედი), თითის "
+"გასმის ჟესტი (თაჩ სქრინი)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:22
+msgid "Categories to organize your library"
+msgstr "კატეგორიები ბიბლიოთეკის მოსაწესრიგებლად"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:24
+msgid "Automatic tracking of series with AniList, MangaUpdates and MyAnimeList"
+msgstr ""
+"სერიების ავტომატური თვალყურის დევნება - AniList, MangaUpdates და MyAnimeList"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:25
+msgid "Automatic update of series"
+msgstr "სერიების ავტომატური განახლება"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:26
+msgid "Automatic download of new chapters"
+msgstr "ახალი თავების ავტომატური ჩამოტვირთვა"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:27
+msgid "Reading history"
+msgstr "კითხვის ისტორია"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:28
+msgid "Light and dark themes"
+msgstr "ნათელი და ბნელი თემები"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:33
+msgid "reader"
+msgstr "მკითხველი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:34
+msgid "viewer"
+msgstr "მნახველი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:35
+msgid "scanlation"
+msgstr "სკანლაცია"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:36
+msgid "comic"
+msgstr "კომიქსი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:37
+msgid "manga"
+msgstr "მანგა"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:38
+msgid "manhwa"
+msgstr "მანჰვა"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:39
+msgid "manhua"
+msgstr "მანჰუა"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:40
+msgid "webtoon"
+msgstr "ვებ-ტუნი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:41
+msgid "webcomic"
+msgstr "ვებ-კომიქსი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:42
+msgid "book"
+msgstr "წიგნი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:43
+msgid "ebook"
+msgstr "ელ-წიგნი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:44
+msgid "offline"
+msgstr "გათიშული"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:64
+msgid "The Library page"
+msgstr "ბიბლიოთეკის გვერდი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:68
+msgid "The Library page with the category sidebar open"
+msgstr "ბიბლიოთეკის გვერდი ღია კატეგორიების პანელით"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:72
+msgid "The Preferences page (General settings)"
+msgstr "მორგების გვერდი (ზოგადი პარამეტრები)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:76
+msgid "The Explorer page in mobile format (Servers list)"
+msgstr "გვერდების დათვალიერება მობილურ ფორმატში (სერვერების სია)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:80
+msgid "The Details page"
+msgstr "დეტალების გვერდი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:84
+msgid "The Details page (chapters list)"
+msgstr "დეტალების გვერდი (თავების სია)"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:88
+msgid "The Reader page"
+msgstr "მკითხველის გვერდი"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:92
+msgid "The Reader page in mobile format"
+msgstr "მკითხველის გვერდი მობილურ ფორმატში"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:96
+msgid "The Reader page with the OCR Translator in use"
+msgstr ""
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:100
+msgid "The Category editor page in mobile format"
+msgstr "კატეგორიების ჩასწორების გვერდი მობილურ ფორმატში"
+
+#: ../data/info.febvre.Komikku.metainfo.xml.in.in:104
+msgid "The Reading history page in mobile format"
+msgstr "კითხვის ისტორიის გვერდი მობილურ ფორმატში"
+
+#: ../data/ui/application_window.blp:56 ../data/ui/preferences.blp:450
+msgid "Got it!"
+msgstr "გავიგე!"
+
+#: ../data/ui/card.blp:47 ../data/ui/card.blp:418
+#: ../data/ui/card_chapters_list_row.blp:48 ../data/ui/download_manager.blp:26
+#: ../data/ui/library.blp:148 ../data/ui/reader.blp:41
+msgid "Menu"
+msgstr "მენიუ"
+
+#: ../data/ui/card.blp:68
+msgid "Info"
+msgstr "ინფო"
+
+#: ../data/ui/card.blp:148
+msgid "Add to Library"
+msgstr "ბიბლიოთეკაში დამატება"
+
+#: ../data/ui/card.blp:252
+msgid "Scanlators"
+msgstr "სკანლატორები"
+
+#: ../data/ui/card.blp:308
+msgid "Last Update"
+msgstr "ბოლო განახლება"
+
+#: ../data/ui/card.blp:336
+msgid "Size on Disk"
+msgstr "ზომა დისკზე"
+
+#: ../data/ui/card.blp:455 ../data/ui/categories_editor.blp:67
+#: ../data/ui/library.blp:251
+msgid "No Categories"
+msgstr "არ არის კატეგორიები"
+
+#: ../data/ui/card_tracking.blp:9 ../data/ui/preferences.blp:110
+msgid "Tracking"
+msgstr "თვალყურის დევნება"
+
+#: ../data/ui/card_tracking_search.blp:10 ../data/ui/explorer_search.blp:10
+#: ../data/ui/explorer_search.blp:43 ../data/ui/history.blp:22
+#: ../data/ui/library.blp:45
+msgid "Search"
+msgstr "ძებნა"
+
+#: ../data/ui/card_tracking_search.blp:75
+msgid "Search for Tracking"
+msgstr "თვალყურის დევნებისთვის ძებნა"
+
+#: ../data/ui/categories_editor.blp:36
+msgid "Add"
+msgstr "დამატება"
+
+#: ../data/ui/download_manager.blp:10 ../data/ui/download_manager.blp:20
+msgid "Download Manager"
+msgstr "გადმოწერების მმართველი"
+
+#: ../data/ui/download_manager.blp:32
+msgid "Start/Stop Download"
+msgstr "გადმოწერის დაწყება/დასრულება"
+
+#: ../data/ui/download_manager.blp:67
+msgid "No Downloads"
+msgstr "გადმოწერების გარეშე"
+
+#: ../data/ui/explorer_search.blp:28
+msgid "Search Filters"
+msgstr "ფილტრების ძებნა"
+
+#: ../data/ui/explorer_search.blp:34
+msgid "Open in Browser"
+msgstr "ბრაუზერში გახსნა"
+
+#: ../data/ui/explorer_search.blp:147
+msgid "Most Popular"
+msgstr "პოპულარული"
+
+#: ../data/ui/explorer_search.blp:214
+msgid "Latest Updates"
+msgstr "უახლესი განახლებები"
+
+#: ../data/ui/explorer_servers.blp:10 ../data/ui/preferences.blp:221
+#: ../data/ui/preferences.blp:498
+msgid "Servers"
+msgstr "სერვერები"
+
+#: ../data/ui/explorer_servers.blp:17
+msgid "Search Comics Across All Servers"
+msgstr "კომიქსების ძებნა ყველა სერვერზე"
+
+#: ../data/ui/explorer_servers.blp:23
+msgid "Search Servers"
+msgstr "სერვერების ძებნა"
+
+#: ../data/ui/explorer_servers.blp:37
+msgid "Search for servers by name or language"
+msgstr "სერვერების ძებნა სახელით ან ენით"
+
+#: ../data/ui/history.blp:10 ../data/ui/history.blp:16
+msgid "History"
+msgstr "ისტორია"
+
+#: ../data/ui/history.blp:71
+msgid "No History"
+msgstr "ისტორია არ არის"
+
+#: ../data/ui/library.blp:10 ../data/ui/preferences.blp:120
+msgid "Library"
+msgstr "ბიბლიოთეკა"
+
+#: ../data/ui/library.blp:23
+msgid "Toggle Categories Sidebar"
+msgstr "კატეგორიების პანელის გადართვა"
+
+#: ../data/ui/library.blp:39
+msgid "Main Menu"
+msgstr "მთავარი მენიუ"
+
+#: ../data/ui/library.blp:79
+msgid "Search by name, server or genre"
+msgstr "სახელით, სერვერით ან ჟანრით ძიება"
+
+#: ../data/ui/library.blp:113
+msgctxt "Library: verb"
+msgid "Update"
+msgstr ""
+
+#: ../data/ui/library.blp:202
+msgid "Discover Comics"
+msgstr "აღმოაჩინე კომიქსები"
+
+#: ../data/ui/library.blp:273
+msgid "OK"
+msgstr "კარგი"
+
+#: ../data/ui/menu/card.xml:16
+msgid "Update"
+msgstr "განახლება"
+
+#: ../data/ui/menu/card.xml:34
+msgid "Order of Chapters"
+msgstr "თავების მწყობრი"
+
+#: ../data/ui/menu/card.xml:39
+msgid "⬆ By Source"
+msgstr "⬆ წყაროთი"
+
+#: ../data/ui/menu/card.xml:44
+msgid "⬇ By Source"
+msgstr "⬇ წყაროთი"
+
+#: ../data/ui/menu/card.xml:50
+msgid "⬆ By Date"
+msgstr "⬆ თარიღით"
+
+#: ../data/ui/menu/card.xml:55
+msgid "⬇ By Date"
+msgstr "⬇ თარიღით"
+
+#: ../data/ui/menu/card.xml:61
+msgid "⬆ By Title"
+msgstr "⬆ სათაურით"
+
+#: ../data/ui/menu/card.xml:66
+msgid "⬇ By Title"
+msgstr "⬇ სათაურით"
+
+#: ../data/ui/menu/card_selection_mode.xml:23
+#: ../data/ui/menu/library_selection_mode.xml:30
+msgid "Select All"
+msgstr "ყველაფრის მონიშვნა"
+
+#: ../data/ui/menu/download_manager.xml:12
+msgid "Delete All"
+msgstr "ყველას წაშლა"
+
+#: ../data/ui/menu/explorer_search_global_search.xml:12
+msgid "Pinned Servers Only"
+msgstr "მხოლოდ მიმაგრებული სერვერები"
+
+#: ../data/ui/menu/library_selection_mode.xml:12
+msgid "Edit Categories"
+msgstr "კატეგორიების ჩასწორება"
+
+#: ../data/ui/menu/main.xml:12
+msgid "Update Library"
+msgstr "ბიბლიოთეკის განახლება"
+
+#: ../data/ui/menu/main.xml:16
+msgid "Sort"
+msgstr "დალაგება"
+
+#: ../data/ui/menu/main.xml:21
+msgid "Alphabetical"
+msgstr "ანბანური"
+
+#: ../data/ui/menu/main.xml:26
+msgid "Latest Read First"
+msgstr "პირველ რიგში უახლესის საკითხავი"
+
+#: ../data/ui/menu/main.xml:31
+msgid "Latest Updated First"
+msgstr "პირველ რიგში უახლესი განახლება"
+
+#: ../data/ui/menu/main.xml:60
+msgid "Keyboard Shortcuts"
+msgstr "კლავიატურის მალსახმობები"
+
+#: ../data/ui/menu/main.xml:68
+msgid "About Komikku"
+msgstr "კომიკკუს შესახებ"
+
+#: ../data/ui/menu/reader.xml:54
+msgid "Save Page"
+msgstr "გვერდის შენახვა"
+
+#: ../data/ui/preferences.blp:9 ../data/ui/preferences_servers_languages.blp:16
+#: ../data/ui/preferences_servers_settings.blp:16
+msgid "Preferences"
+msgstr "მორგება"
+
+#: ../data/ui/preferences.blp:14 ../data/ui/reader_settings.blp:64
+msgid "General"
+msgstr "ზოგადი"
+
+#: ../data/ui/preferences.blp:24
+msgid "Support Komikku"
+msgstr "მხარი დაუჭირეთ კომიკკუს"
+
+#: ../data/ui/preferences.blp:30
+msgid ""
+"Komikku is a free and open-source, and always will be. If you like it, "
+"backing me through donating would be great. This will not only help me "
+"maintain it, but also continue my work as a free software developer in "
+"general."
+msgstr ""
+"კომიკკუ არის უფასო და ოფენ-სორს, და ყოველთვის იქნება. თუ მოგწონთ, "
+"გამიხარდება დონაციებით მხარდაჭერა. ეს არამარტო მოვლაში, არამედ უფასო "
+"პროგრამის დეველოპერად დარჩენაშიც დამეხმარება ზოგადად."
+
+#: ../data/ui/preferences.blp:59
+msgid "Appearance"
+msgstr "გარეგნობა"
+
+#: ../data/ui/preferences.blp:62
+msgid "Theme"
+msgstr "თემა"
+
+#: ../data/ui/preferences.blp:65
+msgid "Light"
+msgstr "ნათელი"
+
+#: ../data/ui/preferences.blp:66
+msgid "Dark"
+msgstr "ბნელი"
+
+#: ../data/ui/preferences.blp:67
+msgid "Follow System"
+msgstr "სისტემის მიყოლა"
+
+#: ../data/ui/preferences.blp:73
+msgid "Night Light"
+msgstr "ღამის სინათლე"
+
+#: ../data/ui/preferences.blp:74
+msgid "Automatically enable dark theme at night"
+msgstr "ღამით ბნელი რეჟიმის ავტომატურად ჩართვა"
+
+#: ../data/ui/preferences.blp:79
+msgid "Use system accent colors"
+msgstr "სისტემის აქცენტის ფერების გამოყენება"
+
+#: ../data/ui/preferences.blp:83
+msgid "Progress Bars Theme"
+msgstr "პროგრესის ზოლის თემა"
+
+#: ../data/ui/preferences.blp:84
+msgid "Theme to use for progress bars"
+msgstr "თემა პროგრესის ბარისთვის"
+
+#: ../data/ui/preferences.blp:88
+msgid "Backdrop in Details Page"
+msgstr "ფონი დეტალების გვერდზე"
+
+#: ../data/ui/preferences.blp:89
+msgid "Method used to recolor background to match cover"
+msgstr "გამოყენებული მეთოდი ფონის შეფერვისთვის, რათა დამეთხას საფარს"
+
+#: ../data/ui/preferences.blp:93
+msgid "Linear gradient"
+msgstr "წრფივი გრადიენტი"
+
+#: ../data/ui/preferences.blp:94
+msgid "Blurred cover"
+msgstr "ბუნდრი საფარი"
+
+#: ../data/ui/preferences.blp:104
+msgid "Desktop Notifications"
+msgstr "სამუშაო მაგიდის შეტყობინებები"
+
+#: ../data/ui/preferences.blp:105
+msgid "Use desktop notifications for downloads and library updates"
+msgstr ""
+"გამოიყენეთ სამუშაო მაგიდის შეტყობინებები გადმოწერების და ბიბლიოთეკის "
+"განახლებებისთვის"
+
+#: ../data/ui/preferences.blp:113
+msgid "Synchronize reading progress"
+msgstr "კითხვის პროგრესის სინქრონირება"
+
+#: ../data/ui/preferences.blp:124
+msgid "Display"
+msgstr "ჩვენება"
+
+#: ../data/ui/preferences.blp:127
+msgid "Display Mode"
+msgstr "ჩვენების რეჟიმი"
+
+#: ../data/ui/preferences.blp:130
+msgid "Grid"
+msgstr "ბადე"
+
+#: ../data/ui/preferences.blp:131
+msgid "Compact Grid"
+msgstr "მჭიდრო ბადე"
+
+#: ../data/ui/preferences.blp:137
+msgid "Servers Logo"
+msgstr "სერვერის ლოგი"
+
+#: ../data/ui/preferences.blp:138
+msgid "Display servers logo"
+msgstr "სერვერების ლოგოს გამოსახვა"
+
+#: ../data/ui/preferences.blp:142
+msgid "Badges"
+msgstr "სამკერდე ნიშნები"
+
+#: ../data/ui/preferences.blp:145
+msgid "Number of Unread Chapters"
+msgstr "წაუკითხავი თავების რაოდენობა"
+
+#: ../data/ui/preferences.blp:165
+msgid "Number of Downloaded Chapters"
+msgstr "გადმოწერილი თავიების რაოდენობა"
+
+#: ../data/ui/preferences.blp:185
+msgid "Number of Recent and Unread Chapters"
+msgstr "უახლესი და წაუკითხავი თავების რაოდენობა"
+
+#: ../data/ui/preferences.blp:207
+msgctxt "Settings: noun"
+msgid "Update"
+msgstr ""
+
+#: ../data/ui/preferences.blp:210
+msgid "Update at Startup"
+msgstr "გახსნისას განახლება"
+
+#: ../data/ui/preferences.blp:211
+msgid "Automatically update library at startup"
+msgstr "ბიბლიოთქკის ავტომატური განახლება გახსნისას"
+
+#: ../data/ui/preferences.blp:215
+msgid "Auto Download of New Chapters"
+msgstr "ახალი თავების ავტო-გადმოწერა"
+
+#: ../data/ui/preferences.blp:216
+msgid "Automatically download new chapters"
+msgstr "ახალი თავების ავტომატური გადმოწერა"
+
+#: ../data/ui/preferences.blp:224
+msgid "Languages"
+msgstr "ენები"
+
+#: ../data/ui/preferences.blp:225
+msgid "Restrict servers to selected languages"
+msgstr "სერვერების მითითებულ ენებზე შეზღუდვა"
+
+#: ../data/ui/preferences.blp:233
+msgid "Settings"
+msgstr "პარამეტრები"
+
+#: ../data/ui/preferences.blp:234
+msgid "Enable/disable and configure servers"
+msgstr "ჩართვა/გამორთვა და სერვერების კონფიგურაცია"
+
+#: ../data/ui/preferences.blp:242
+msgid "Long Strip Detection"
+msgstr "გრძელი ზოლის ამოცნობა"
+
+#: ../data/ui/preferences.blp:243
+msgid "Automatically detect long vertical strip when possible"
+msgstr "გრძელი ვერტიკალური ზოლის ამოცნობა როცა შესაძელებლია"
+
+#: ../data/ui/preferences.blp:249
+msgid "NSFW Content (18+)"
+msgstr "NSFW შინაარსი (18+)"
+
+#: ../data/ui/preferences.blp:250
+msgid "Whether to enable servers with NSFW content"
+msgstr "იყოს თუ არა ჩართული NSFW შინაარსიანი სერვერები"
+
+#: ../data/ui/preferences.blp:254
+msgid "NSFW Only Content (18+)"
+msgstr "მხოლოდ NSFW შინაარის (18+)"
+
+#: ../data/ui/preferences.blp:255
+msgid "Whether to enable servers with NSFW only content"
+msgstr "იყოს თუ არა ჩართული მხოლოდ NSFW შინაარსიანი სერვერები"
+
+#: ../data/ui/preferences.blp:259
+msgid ""
+"These settings do not prevent potentially incorrectly flagged servers from "
+"surfacing NSFW content."
+msgstr ""
+"ეს პარამეტრები ვერ აღკვეთს პოტენციურად არასწორად მონიშნულ სერვერებს NSFW "
+"შინაარსის გამოჩენისგან."
+
+#: ../data/ui/preferences.blp:274 ../data/ui/reader.blp:10
+msgid "Reader"
+msgstr "მკითხველი"
+
+#: ../data/ui/preferences.blp:279
+msgid "Reading Mode"
+msgstr "კითცვის რეჟიმი"
+
+#: ../data/ui/preferences.blp:282
+msgid "⬅ Right to Left"
+msgstr "⬅ მარჯვნიდან მარცხნივ"
+
+#: ../data/ui/preferences.blp:283
+msgid "➡ Left to Right"
+msgstr "➡ მარცხნიდან მარჯვნივ"
+
+#: ../data/ui/preferences.blp:284
+msgid "⬇ Vertical"
+msgstr "⬇ ვერტიკალური"
+
+#: ../data/ui/preferences.blp:285
+msgid "⬇ Webtoon"
+msgstr "⬇ ვებ-ტუნი"
+
+#: ../data/ui/preferences.blp:291
+msgid "Double Page"
+msgstr ""
+
+#: ../data/ui/preferences.blp:292
+msgid "Use two pages side by side view"
+msgstr ""
+
+#: ../data/ui/preferences.blp:296 ../data/ui/reader_settings.blp:25
+msgid "Scaling Filter"
+msgstr "ზრდადი ფილტრი"
+
+#: ../data/ui/preferences.blp:297
+msgid "Interpolation method used when scaling images"
+msgstr "გამოსახულებების გაფართოებისას გამოყენებული ინტერპოლაციის მეთოდი"
+
+#: ../data/ui/preferences.blp:307 ../data/ui/reader_settings.blp:29
+msgid "Background Color"
+msgstr "ფონის ფერი"
+
+#: ../data/ui/preferences.blp:319
+msgid "Page Numbering"
+msgstr "გვერდის დანომრვა"
+
+#: ../data/ui/preferences.blp:320 ../data/ui/reader_settings.blp:49
+msgid "Hide the page numbering at the bottom of the screen while reading"
+msgstr "კითხვისას ეკრანის ძირას გვერდის ნუმერაციის დამალვა"
+
+#: ../data/ui/preferences.blp:324
+msgid "Fullscreen"
+msgstr "სრულ ეკრანზე"
+
+#: ../data/ui/preferences.blp:325
+msgid "Automatically enter fullscreen mode"
+msgstr "სრული ეკრანის რეჟიმში ავტომატურად შესვლა"
+
+#: ../data/ui/preferences.blp:330 ../data/ui/shortcuts.blp:80
+#: ../data/ui/shortcuts.blp:86 ../data/ui/shortcuts.blp:92
+msgid "Paged Reading Modes"
+msgstr "გვერდის კითხვის რეჟიმები"
+
+#: ../data/ui/preferences.blp:331
+msgid "Right to Left / Left to Right / Vertical"
+msgstr "მარჯვნიდან მარცხნივ / მარცხნიდან მარჯვნივ / ვერტიკალური"
+
+#: ../data/ui/preferences.blp:334 ../data/ui/reader_settings.blp:21
+msgid "Scaling"
+msgstr "მასშტაბი"
+
+#: ../data/ui/preferences.blp:335
+msgid "Type of scaling to adapt image"
+msgstr "სკალირების ტიპი გამოსახულების მოსარგებად"
+
+#: ../data/ui/preferences.blp:347
+msgid "Landscape Pages Zoom"
+msgstr "ლანდშაფტური გვერდების მოახლოება"
+
+#: ../data/ui/preferences.blp:348 ../data/ui/reader_settings.blp:34
+msgid ""
+"Zoom page to fit height when page is landscape (Adapt to Screen scaling only)"
+msgstr ""
+"გვერდის მოახლოება ლანდშაპტურ რეჟიმში, სიმაღლეში მოსარგებად (მხოლოდ ეკრანის "
+"სკალირებაზე მორგება)"
+
+#: ../data/ui/preferences.blp:352
+msgid "Borders Crop"
+msgstr "საზღვრები იჭრება"
+
+#: ../data/ui/preferences.blp:353
+msgid ""
+"Crop white borders of images\n"
+"\n"
+"NOTE: Requires more CPU usage and can cause rendering and animation "
+"slowdowns, especially on mobile devices."
+msgstr ""
+"გამოსახულებების თეთრი საზღვრების მოჭრა\n"
+"\n"
+"შენიშვნა: საჭიროებს პროცესორის მეტ მუშაობას და შეიძლება გამოიწვიოს დახატვის "
+"და ანიმაციის შენელება, განსაკუთრებით მობილურ მოწყობილობებზე."
+
+#: ../data/ui/preferences.blp:357 ../data/ui/reader_settings.blp:43
+msgid "Borders Cropping Threshold"
+msgstr ""
+
+#: ../data/ui/preferences.blp:358 ../data/ui/reader_settings.blp:44
+msgid "Control which pixels are classified as 'white' during borders detection"
+msgstr ""
+
+#: ../data/ui/preferences.blp:363 ../data/ui/shortcuts.blp:98
+#: ../data/ui/shortcuts.blp:104
+msgid "Webtoon Reading Mode"
+msgstr "ვებ-ტუნის კითხვის რეჟიმი"
+
+#: ../data/ui/preferences.blp:364
+msgid "Long Strip aka Infinite Vertical Canvas"
+msgstr "გრძელი ზოლი იგივე უსასრულო ვერტიკალური ტილო"
+
+#: ../data/ui/preferences.blp:369
+msgid "Reset to Default"
+msgstr "ნაგულისხმევზე დაბრუნება"
+
+#: ../data/ui/preferences.blp:377
+msgid "Maximum Width"
+msgstr "მაქსიმალური სიგანე"
+
+#: ../data/ui/preferences.blp:378
+msgid "Constrain reader's width to a given maximum size"
+msgstr "მკითხველის სიგანის შეზღუდვა მოცემულ მაქსიმალურ ზომაზე"
+
+#: ../data/ui/preferences.blp:388
+msgid "Scroll Distance"
+msgstr "გადახვევის მანძილი"
+
+#: ../data/ui/preferences.blp:389
+msgid "Percentage of page height to scroll on click or Page Up/Down"
+msgstr ""
+"გვერდის სიმაღლის პროცენტულობა გადახვევისთვის დაწკაპუნებაზე ან \"Page Up/"
+"Down\""
+
+#: ../data/ui/preferences.blp:400
+msgid "Drag Sensitivity"
+msgstr "გადათრევის მგრძნობელობა"
+
+#: ../data/ui/preferences.blp:401
+msgid "Multiplier for drag scrolling sensitivity"
+msgstr "თრევითი გადახვევის მგრძნობელობის მამრავლი"
+
+#: ../data/ui/preferences.blp:413 ../data/ui/reader_settings.blp:54
+msgid "OCR Translator"
+msgstr ""
+
+#: ../data/ui/preferences.blp:416 ../data/ui/reader_settings.blp:57
+msgid "OCR Language"
+msgstr ""
+
+#: ../data/ui/preferences.blp:417
+msgid "Default language to use for OCR text recognitions"
+msgstr ""
+
+#: ../data/ui/preferences.blp:421
+msgid "Translator"
+msgstr ""
+
+#: ../data/ui/preferences.blp:422
+msgid "Service to use for translations"
+msgstr ""
+
+#: ../data/ui/preferences.blp:433
+msgid "Edit Translator Settings"
+msgstr ""
+
+#: ../data/ui/preferences.blp:445
+msgid "Advanced"
+msgstr "გაფართოებული"
+
+#: ../data/ui/preferences.blp:449
+msgid "A setting has changed that requires a restart to take effect"
+msgstr "შეიცვალა პარამეტრი რომელიც საჭიროებს გადატვირთვას ეფექტის მისაღებად"
+
+#: ../data/ui/preferences.blp:455
+msgid "Data"
+msgstr "მონაცემები"
+
+#: ../data/ui/preferences.blp:456
+msgid "Data not saved in the library"
+msgstr "მონაცემი არ შეინახა ბიბლიოთეკაში"
+
+#: ../data/ui/preferences.blp:459
+msgid "Clear Chapters Cache and Database"
+msgstr "თავების ქეშის და მონაცემების გასუფთავება"
+
+#: ../data/ui/preferences.blp:474
+msgid "Clear Chapters Cache and Database on Exit"
+msgstr "გასვლისას თავების ქეშის და მონაცემების გასუფთავება"
+
+#: ../data/ui/preferences.blp:479 ../data/ui/webview.blp:10
+msgid "WebView"
+msgstr "ვებ-ხედი"
+
+#: ../data/ui/preferences.blp:482
+msgid "Clear Data"
+msgstr "მონაცემთა გასუფავება"
+
+#: ../data/ui/preferences.blp:501
+msgid "Use Up-to-date Servers Modules"
+msgstr "განახლებული სერვერების მოდულების გამოყენება"
+
+#: ../data/ui/preferences.blp:502
+msgid ""
+"An alternative version of the servers modules, installed from the source "
+"code repository and updated at each startup, is used instead of the one "
+"delivered with the application."
+msgstr ""
+"გამოიყენება სერვერების მოდულების ალტერნატიული, წყარო კოდის საცავიდა "
+"დაყენებული და ყოველ ჩართვაზე განახლებადი, ვერსია აპლიკაციასათნ ერთად "
+"მოწყოლილის ნაცვლად."
+
+#: ../data/ui/preferences.blp:506
+msgid "Suggest Submitting a Bug Report in Case of Error"
+msgstr "შეცდომის შემთხვევაში ხარვეზის მოხსენების გაგზავნის რჩევა"
+
+#: ../data/ui/preferences.blp:507
+msgid ""
+"If an error occurs with a server (it has been updated or an unexpected case "
+"has arisen), you will be prompted to create a bug report using a pre-"
+"formatted text to copy/paste."
+msgstr ""
+"სერვერული შეცდომის შემთხვევაში (განახლებულია ან გაუთვალისწინებელი შემთხვევა "
+"გამოჩნდა), წაქეზებულ იქნებით ხარვეზის მოხსენების შესაქმნელად დაფორმატებული, "
+"დაკოპირება-ჩასმადი ტექსტის გამოყენებით."
+
+#: ../data/ui/preferences.blp:512
+msgid "Credentials Storage"
+msgstr "ავტორიზაციის მონაცემების საცავი"
+
+#: ../data/ui/preferences.blp:515
+msgid "Allow Plaintext Storage as Fallback"
+msgstr "სათადარიგოდ ღია ტექსტური საცავის ნებართვა"
+
+#: ../data/ui/preferences.blp:516
+msgid "Used when no keyring backends are found"
+msgstr ""
+"გამოიყენება მაშინ როდესაც გასაღებთა ასხმულის სისტემური მხარეები არ იძებნება"
+
+#: ../data/ui/preferences.blp:521
+msgid "Tweaks"
+msgstr "მცირე ცვლილებები"
+
+#: ../data/ui/preferences.blp:524
+msgid "Disable Animations"
+msgstr "ანიმაციების გათიშვა"
+
+#: ../data/ui/preferences.blp:525
+msgid ""
+"Useful with E Ink e-readers to avoid very choppy and unpleasant animations "
+"(due to the low refresh rate of the screen)"
+msgstr ""
+"სასარგებლოა ელ-მელნიან ელ-მკითხველებთან, დაქუქუცამცებული და არასასიამოვნო "
+"ანიმაციების თავიდან ასაცილებლად (ეკრანის დაბალი განახლების სიხშირით "
+"გამოწვეული)"
+
+#: ../data/ui/preferences.blp:529
+msgid ""
+"This tweak is only intended for users who do not use the GNOME desktop "
+"environment and therefore cannot toggle reduced motion animations globally "
+"via GNOME Settings (Accessibility ⇨ Seeing ⇨ Reduced Motion)."
+msgstr ""
+"ეს მცირე შესწორება არის განკუთვნილი მომხმარებლებისთვის, რომლებიც არ იყენებენ "
+"GNOME სამუშაო მაგიდის გარემოს და შესაბამისად არ შეუძლიათ გადართონ "
+"შემცირებული მოძრაობის ანიმაციები გლობალურად GNOME პარამეტრების მეშვეობით "
+"(ხელმისაწვდომობა ⇨ პარამეტრები ⇨ შემცირებული მოძრაობა)."
+
+#: ../data/ui/preferences_server_params.blp:10
+#: ../data/ui/preferences_server_params.blp:16
+#: ../data/ui/preferences_servers_settings.blp:10
+#: ../data/ui/preferences_servers_settings.blp:17
+msgid "Servers Settings"
+msgstr "სერვერების პარამეტრები"
+
+#: ../data/ui/preferences_servers_languages.blp:10
+#: ../data/ui/preferences_servers_languages.blp:17
+msgid "Servers Languages"
+msgstr "სერვერების ენები"
+
+#: ../data/ui/preferences_translator_params.blp:10
+#: ../data/ui/preferences_translator_params.blp:16
+msgid "Translator Settings"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:22
+msgid "Service"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:27
+msgid "Instance URL"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:36
+msgid "API Key"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:56
+msgid "Validate"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:69
+msgid "Behavior"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:72
+msgid "Translator Language"
+msgstr ""
+
+#: ../data/ui/preferences_translator_params.blp:73
+msgid "Default language to use as target language for translations"
+msgstr ""
+
+#: ../data/ui/reader.blp:27
+msgid "Back"
+msgstr "უკან"
+
+#: ../data/ui/reader.blp:35
+msgid "Toggle Fullscreen Mode"
+msgstr "სრული ეკრანის რეჟიმის გადართვა"
+
+#: ../data/ui/reader.blp:47
+msgid "Toggle OCR Translator"
+msgstr ""
+
+#: ../data/ui/reader.blp:104 ../data/ui/reader.blp:158
+msgid "Copy"
+msgstr ""
+
+#: ../data/ui/reader.blp:122
+msgid "Translate"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:9
+msgid "Reader Settings"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:14
+msgid "Custom"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:18
+msgid "Pages"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:33
+msgid "Zoom Landscape Pages"
+msgstr "პეიზაჟის რეჟიმის გვერდების მიახლოება"
+
+#: ../data/ui/reader_settings.blp:38
+msgid "Crop Borders"
+msgstr "საზღვრების მოჭრა"
+
+#: ../data/ui/reader_settings.blp:39
+msgid "Crop white borders of pages"
+msgstr ""
+
+#: ../data/ui/reader_settings.blp:48
+msgid "Hide Page Numbering"
+msgstr "გვერდის ნუმერაციის დამალვა"
+
+#: ../data/ui/shortcuts.blp:10
+msgctxt "Shortcut window description"
+msgid "Application"
+msgstr "აპლიკაცია"
+
+#: ../data/ui/shortcuts.blp:13
+msgctxt "Shortcut window description"
+msgid "Open Preferences"
+msgstr "მორგების ფანჯრის გახსნა"
+
+#: ../data/ui/shortcuts.blp:18
+msgctxt "Shortcut window description"
+msgid "Open Keyboard Shortcuts"
+msgstr "კლავიატურის მალსახმობების გახსნა"
+
+#: ../data/ui/shortcuts.blp:23
+msgctxt "Shortcut window description"
+msgid "Quit"
+msgstr "გასვლა"
+
+#: ../data/ui/shortcuts.blp:29
+msgctxt "Shortcut window description"
+msgid "Explorer"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:32
+msgctxt "Shortcut window description"
+msgid "Search For Servers"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:38
+msgctxt "Shortcut window description"
+msgid "Library"
+msgstr "ბიბლიოთეკა"
+
+#: ../data/ui/shortcuts.blp:41
+msgctxt "Shortcut window description"
+msgid "Add Manga"
+msgstr "მანგას დამატება"
+
+#: ../data/ui/shortcuts.blp:46
+msgctxt "Shortcut window description"
+msgid "Select All"
+msgstr "ყველაფრის მონიშვნა"
+
+#: ../data/ui/shortcuts.blp:51 ../data/ui/shortcuts.blp:160
+msgctxt "Shortcut window description"
+msgid "Search"
+msgstr "ძებნა"
+
+#: ../data/ui/shortcuts.blp:56
+msgctxt "Shortcut window description"
+msgid "Toggle Categories Pane"
+msgstr "კატეგორიების მინის გადართვა"
+
+#: ../data/ui/shortcuts.blp:61
+msgctxt "Shortcut window description"
+msgid "Update"
+msgstr "განახლება"
+
+#: ../data/ui/shortcuts.blp:67
+msgctxt "Shortcut window description"
+msgid "Manga Card"
+msgstr "მანგა ბარათი"
+
+#: ../data/ui/shortcuts.blp:70
+msgctxt "Shortcut window description"
+msgid "Select All Chapters"
+msgstr "ყველა თავის მითითება"
+
+#: ../data/ui/shortcuts.blp:76
+msgctxt "Shortcut window description"
+msgid "Reader"
+msgstr "მკითხველი"
+
+#: ../data/ui/shortcuts.blp:79
+msgctxt "Shortcut window description"
+msgid "Go to Next Page"
+msgstr "გადასვლა შემდეგ გვერდზე"
+
+#: ../data/ui/shortcuts.blp:85
+msgctxt "Shortcut window description"
+msgid "Go to Right Page"
+msgstr "მარჯვენა გვერდზე გადასვლა"
+
+#: ../data/ui/shortcuts.blp:91
+msgctxt "Shortcut window description"
+msgid "Go to Left Page"
+msgstr "მარცხენა გვერდზე გადასვლა"
+
+#: ../data/ui/shortcuts.blp:97
+msgctxt "Shortcut window description"
+msgid "Scroll Down"
+msgstr "ქვემოთ ჩამოწევა"
+
+#: ../data/ui/shortcuts.blp:103
+msgctxt "Shortcut window description"
+msgid "Scroll Up"
+msgstr "მაღლა აწევა"
+
+#: ../data/ui/shortcuts.blp:111
+msgctxt "Shortcut window description"
+msgid "Zoom In"
+msgstr "მიახლოება"
+
+#: ../data/ui/shortcuts.blp:116
+msgctxt "Shortcut window description"
+msgid "Zoom Out"
+msgstr "დაშორება"
+
+#: ../data/ui/shortcuts.blp:121
+msgctxt "Shortcut window description"
+msgid "Zoom Reset"
+msgstr "მიახლოების გადაყენება"
+
+#: ../data/ui/shortcuts.blp:128
+msgctxt "Shortcut window description"
+msgid "Toggle OCR Translator"
+msgstr ""
+
+#: ../data/ui/shortcuts.blp:135
+msgctxt "Shortcut window description"
+msgid "Toggle Fullscreen Mode"
+msgstr "სრული ეკრანის რეჟიმის გადართვა"
+
+#: ../data/ui/shortcuts.blp:142
+msgctxt "Shortcut window description"
+msgid "Save Page"
+msgstr "გვერდის შენახვა"
+
+#: ../data/ui/shortcuts.blp:148
+msgctxt "Shortcut window description"
+msgid "Download Manager"
+msgstr "გადმოწერების მმართველი"
+
+#: ../data/ui/shortcuts.blp:151
+msgctxt "Shortcut window description"
+msgid "Select All Downloads"
+msgstr "ყველა გადმოწერილის მითითება"
+
+#: ../data/ui/shortcuts.blp:157
+msgctxt "Shortcut window description"
+msgid "History"
+msgstr ""
+
+#: ../data/ui/support.blp:10 ../data/ui/support.blp:16
+msgid "Support Development"
+msgstr "განვითარების მხარდაჭერა"
+
+#: ../data/ui/support.blp:48
+msgid "How can you support?"
+msgstr "როგორ შეგიძლიათ დახმარება?"
+
+#: ../data/ui/support.blp:56
+msgid ""
+"Developing and maintaining Komikku is a challenging task that takes up most "
+"of my free time."
+msgstr ""
+"კომიკკუს განვითარება და შენარჩუნება არის გამოწვევადი საქმე რასაც ჩემ "
+"თავისუფალი დროის უმეტესი ნაწილი მიაქვს."
+
+#: ../data/ui/support.blp:63
+msgid "Komikku will always be free and open-source and will never contain ads."
+msgstr ""
+"კომიკკუ ყოველთვის უფასო და open-source იქნება და არასდროს არ ჩაემატება "
+"რეკლამები."
+
+#: ../data/ui/support.blp:70
+msgid ""
+"So if you like it, and you are able, please consider a one-time or recurring "
+"donation to support me, it will be hugely appreciated."
+msgstr ""
+"ასე რომ თუ მოგწონთ, და გაქვთ შესაძლებლობა, გთხოვთ დაფიქრდედ ერთჯერად ან "
+"განმეორებად შემოწირულობაზე ჩემს მხარდასაჭერად, დიდად დაფასებული იქნება."
+
+#: ../data/ui/support.blp:84
+msgid "Weekly, monthly or yearly donation"
+msgstr "კვირეული, თვიური ან წლიური შემოწირულობა"
+
+#: ../data/ui/support.blp:90 ../data/ui/support.blp:106
+#: ../data/ui/support.blp:122 ../data/ui/support.blp:136
+msgid "Donate and Support"
+msgstr "შემოწირვა და მხარდაჭერა"
+
+#: ../data/ui/support.blp:100 ../data/ui/support.blp:132
+msgid "One-time donation"
+msgstr "ერთჯერადი შემოწირულობა"
+
+#: ../data/ui/support.blp:116
+msgid "One-time or monthly donation"
+msgstr "ერთჯერადი ან ყოველთვიური შემოწირულობა"
+
+#: ../data/ui/support.blp:144
+msgid "Copy to Clipboard"
+msgstr "გაცვლის ბუფერში კოპირება"
+
+#: ../komikku/application.py:117
+msgid "Multiple URLs not supported"
+msgstr "მრავალი ბმული არ არის მხარდაჭერილი"
+
+#: ../komikku/application.py:133
+#, python-brace-format
+msgid "Invalid URL {}, not handled by any server."
+msgstr "არასწორი ბმული {}, არ გამოიყენება არცერთი სერვერის მიერ."
+
+#: ../komikku/application.py:441
+msgid "Servers modules have been updated"
+msgstr "სერვერების მოდულები განახლებულია"
+
+#: ../komikku/application.py:448
+msgid "External Servers Modules Update"
+msgstr "გარეგანი სერვერების მოდულების განახლება"
+
+#: ../komikku/application.py:449
+msgid ""
+"Updating of external server modules is temporarily suspended, as changes are "
+"currently making them incompatible with the current version of the "
+"application. Please update it if a more recent version exists."
+msgstr ""
+"გარეგანი სერვერის მოდულების განახლება დროებით შეჩერებულია, რადგან მიმდინარე "
+"ცვლილებები არათავსებადს ხდის მათ აპლიკაციის ამჟამინდელ ვერსიასთან. გთხოვთ "
+"განაახლეთ იგი თუ უფორ ახალი ვერსია არსებობს."
+
+#: ../komikku/application.py:450 ../komikku/application.py:700
+#: ../komikku/explorer/common.py:322
+msgid "Close"
+msgstr "დახურვა"
+
+#: ../komikku/application.py:465
+msgid ""
+"A manga, webtoons and comics reader\n"
+"\n"
+"👉 Never forget, you can support the authors\n"
+"by buying the official comics when they are\n"
+"available in your region/language."
+msgstr ""
+"მანგას, ვებ-ტუნის და კომიქსის მკითხველი\n"
+"\n"
+"👉 არსოდეს დაივიწყო, შეგიძლია ავტორების მხარდაჭერა\n"
+"ოფიციალური კომიქსის შეძენით როცა კი\n"
+"ხელმისაწვდომი იქნება ისინი შენს რეგიონში/ენაზე."
+
+#: ../komikku/application.py:474
+msgid "Supporters"
+msgstr "მხარდამჭერები"
+
+#: ../komikku/application.py:476
+msgid "Join Chat"
+msgstr "საუბარში ჩართვა"
+
+#: ../komikku/application.py:569 ../komikku/card/__init__.py:163
+#: ../komikku/card/__init__.py:164 ../komikku/categories_editor.py:188
+#: ../komikku/downloader.py:388 ../komikku/downloader.py:389
+#: ../komikku/library/__init__.py:844 ../komikku/library/__init__.py:845
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: ../komikku/application.py:618
+msgid "Copy Text"
+msgstr "ტექსტის კოპირება"
+
+#: ../komikku/application.py:626
+msgid "Context"
+msgstr "კონტექსტი"
+
+#: ../komikku/application.py:646
+msgid "Stack Trace"
+msgstr "დასტის კვალი"
+
+#: ../komikku/application.py:675
+msgid "Debug Information"
+msgstr "გამართვის ინფორმაცია"
+
+#: ../komikku/application.py:695
+msgid "Server Error"
+msgstr "სერვერის შეცდომა"
+
+#: ../komikku/application.py:696
+msgid ""
+"You have encountered a problem with a server (it has been updated or an "
+"unexpected case has arisen). Here is a pre-formatted text that you can copy "
+"and paste when filling out the issue."
+msgstr ""
+"თქვენ წააწყდით პრობლემას სერვერთან (იგი განახლებულ იქნა ან მოულოდნელი "
+"შემთხვევა გამოჩნდა). აქ არის დაფორმატებული ტექსტი რომელიც შეგიძლიათ "
+"დააკოპიროთ და ჩასვათ საკითხის შევსებისას."
+
+#: ../komikku/application.py:701
+msgid "Create an Issue"
+msgstr "საკითხის შექმნა"
+
+#: ../komikku/application.py:735
+msgid "Are you sure you want to quit?"
+msgstr "მართლა გნებავთ, გახვიდეთ?"
+
+#: ../komikku/application.py:738
+msgid "Some chapters are currently being downloaded."
+msgstr "ზოგიერთი თავი ჯერ კიდევ იწერება."
+
+#: ../komikku/application.py:740
+msgid "Some mangas are currently being updated."
+msgstr "ზოგიერთი მანგა ჯერ კიდევ ახლდება."
+
+#: ../komikku/application.py:744
+msgid "Quit?"
+msgstr "გავიდე?"
+
+#: ../komikku/application.py:746
+msgid "Quit"
+msgstr "გასვლა"
+
+#: ../komikku/application.py:761
+msgid "Restart?"
+msgstr "გადავტვირთო?"
+
+#: ../komikku/application.py:763
+msgid "Restart"
+msgstr "გადატვირთვა"
+
+#: ../komikku/card/__init__.py:110 ../komikku/card/__init__.py:258
+#: ../komikku/explorer/search/__init__.py:75
+#: ../komikku/explorer/search/__init__.py:220
+#: ../komikku/library/__init__.py:105 ../komikku/library/__init__.py:450
+msgid "Filters"
+msgstr "ფილტრები"
+
+#: ../komikku/card/__init__.py:221 ../komikku/library/__init__.py:339
+#: ../komikku/preferences/__init__.py:170
+#: ../komikku/preferences/__init__.py:193
+msgid "Clear?"
+msgstr "გავასუფთაო?"
+
+#: ../komikku/card/__init__.py:222
+msgid "Are you sure you want to clear all chapters?"
+msgstr "დარწმუნებული ხართ რომ ყველა თავის გასუფთავება გსურთ?"
+
+#: ../komikku/card/__init__.py:223 ../komikku/card/chapters_list.py:724
+#: ../komikku/library/__init__.py:341 ../komikku/preferences/__init__.py:172
+#: ../komikku/preferences/__init__.py:195
+msgid "Clear"
+msgstr "გასუფთავება"
+
+#: ../komikku/card/__init__.py:267
+msgid "Unknown"
+msgstr "უცნობი"
+
+#: ../komikku/card/__init__.py:369
+msgid "Read progress synchronization with server completed successfully"
+msgstr "წაკითხვის პროგრესის სერვერთან სინქრონიზაცია წარმატებით დასრულდა"
+
+#: ../komikku/card/__init__.py:375
+msgid "Failed to get manga URL"
+msgstr "მანგას ბმულის მიღება ვერ მოხერხდა"
+
+#: ../komikku/card/__init__.py:399
+#, python-brace-format
+msgid ""
+"NOTICE\n"
+"{0} is no longer supported.\n"
+"Please switch to another server."
+msgstr ""
+"შეტყობინება\n"
+"{0} აღარ არის მხარდაჭერილი.\n"
+"გთხოვთ გადახვიდეთ სხვა სერვერზე."
+
+#: ../komikku/card/__init__.py:492 ../komikku/card/chapters_list.py:728
+msgid "Clear and Reset"
+msgstr "გასუფთავება და გადაყენება"
+
+#: ../komikku/card/__init__.py:492 ../komikku/card/chapters_list.py:728
+msgid "Reset"
+msgstr "გადაყენება"
+
+#: ../komikku/card/chapters_list.py:336 ../komikku/downloader.py:533
+#: ../komikku/library/__init__.py:872
+#, python-brace-format
+msgid "{0} selected"
+msgid_plural "{0} selected"
+msgstr[0] "{0} მითითებული"
+msgstr[1] "{0} მითითებული"
+
+#: ../komikku/card/chapters_list.py:355
+msgid "No chapters found"
+msgstr "თავები ვერ მოიძებნა"
+
+#: ../komikku/card/chapters_list.py:418 ../komikku/card/chapters_list.py:517
+msgid "Failed to update chapters reading status"
+msgstr "თავის კითხვის სტატუსის განახლება ვერ მოხერხდა"
+
+#: ../komikku/card/chapters_list.py:656
+msgid "%m/%d/%Y"
+msgstr "%m/%d/%Y"
+
+#: ../komikku/card/chapters_list.py:714 ../komikku/library/__init__.py:432
+msgid "Download"
+msgstr "გადმოწერა"
+
+#: ../komikku/card/chapters_list.py:738
+msgid "Mark as Read"
+msgstr "წაკითხულად მონიშვნა"
+
+#: ../komikku/card/chapters_list.py:742
+msgid "Mark as Unread"
+msgstr "წაუკითხავად მონიშვნა"
+
+#: ../komikku/card/chapters_list.py:746
+msgid "Mark Previous Chapters as Read"
+msgstr "მონიშნეწ თინა თავები როგორც წაკითხული"
+
+#: ../komikku/card/info_box.py:80
+msgid "Show Less"
+msgstr "ნაკლების ჩვენება"
+
+#: ../komikku/card/info_box.py:80 ../komikku/card/info_box.py:178
+msgid "Show More"
+msgstr "მეტის ჩვენება"
+
+#: ../komikku/card/info_box.py:110
+msgid "Unknown author"
+msgstr "უცნობი ავტორი"
+
+#: ../komikku/card/info_box.py:117 ../komikku/card/info_box.py:124
+#: ../komikku/card/tracking.py:162
+msgid "Unknown status"
+msgstr "უცნობი სტატუსი"
+
+#: ../komikku/card/info_box.py:124
+msgid "Local"
+msgstr "ადგილობრივი"
+
+#: ../komikku/card/info_box.py:165
+msgid "%m/%d/%Y %H:%M"
+msgstr "%m/%d/%Y %H:%M"
+
+#: ../komikku/card/info_box.py:183
+msgid "Donate"
+msgstr "შემოწირულობა"
+
+#: ../komikku/card/tracking.py:72
+msgid "Failed to get data from tracker"
+msgstr "თვალყურის მდევნელიდან მონაცემის მიღება ვერ მოხერხდა"
+
+#: ../komikku/card/tracking.py:100
+msgid "No tracking services available"
+msgstr "თვალყურის დევნების სერვისები არ არის ხელმისაწვდომი"
+
+#: ../komikku/card/tracking.py:105
+msgid ""
+"The chapter numbers are unknown. Automatic synchronization of reading "
+"progress is not possible."
+msgstr ""
+
+#: ../komikku/card/tracking.py:195
+msgid "Track"
+msgstr "თვალყურის მიდევნება"
+
+#: ../komikku/card/tracking.py:221
+msgid "Use"
+msgstr "გამოყენება"
+
+#: ../komikku/card/tracking.py:229
+msgid "Cancel Tracking"
+msgstr "თვალყურის დევნების გაუქმება"
+
+#: ../komikku/card/tracking.py:235 ../komikku/servers/comick/__init__.py:77
+#: ../komikku/servers/comix/__init__.py:322
+#: ../komikku/servers/jmanga/__init__.py:46
+#: ../komikku/servers/mangaball/__init__.py:84
+#: ../komikku/servers/mangadex/__init__.py:72
+#: ../komikku/servers/mangak/__init__.py:91
+#: ../komikku/servers/mangakawaii/__init__.py:47
+#: ../komikku/servers/mangalivreblog/__init__.py:37
+#: ../komikku/servers/mangamana/__init__.py:62
+#: ../komikku/servers/mangamana/__init__.py:63
+#: ../komikku/servers/mangasorigines/__init__.py:44
+#: ../komikku/servers/mangatown/__init__.py:65
+#: ../komikku/servers/mangaworld/__init__.py:74
+#: ../komikku/servers/multi/madtheme/__init__.py:44
+#: ../komikku/servers/raijinscan/__init__.py:41
+#: ../komikku/servers/readcomicsonline/__init__.py:33
+#: ../komikku/servers/rncalation/__init__.py:52
+#: ../komikku/servers/skymangas/__init__.py:41
+#: ../komikku/servers/weebdex/__init__.py:61
+#: ../komikku/servers/zenko/__init__.py:57
+msgid "Status"
+msgstr "სტატუსი"
+
+#: ../komikku/card/tracking.py:244
+msgid "Score"
+msgstr "ქულა"
+
+#: ../komikku/card/tracking.py:249
+msgid "Chapter"
+msgstr "თავი"
+
+#: ../komikku/card/tracking.py:261 ../komikku/categories_editor.py:78
+#: ../komikku/library/__init__.py:406
+msgid "Delete?"
+msgstr "წავშალო?"
+
+#: ../komikku/card/tracking.py:262
+msgid "Are you sure you want to cancel tracking?"
+msgstr "დარწმუნებული ხართ რომ გსურთ თვალყურის დევნების გაუქმება?"
+
+#: ../komikku/card/tracking.py:263 ../komikku/categories_editor.py:80
+#: ../komikku/categories_editor.py:176 ../komikku/library/__init__.py:408
+msgid "Delete"
+msgstr "წაშლა"
+
+#: ../komikku/card/tracking.py:378 ../komikku/preferences/trackers.py:42
+msgid "Connection is expired"
+msgstr "კავშირი ვადაგასულია"
+
+#: ../komikku/card/tracking.py:466 ../komikku/explorer/search/__init__.py:378
+#, python-brace-format
+msgid "Search {}"
+msgstr "ძებნა {}"
+
+#: ../komikku/card/tracking.py:528 ../komikku/explorer/search/search.py:83
+#: ../komikku/explorer/search/search_global.py:166
+msgid "Oops, search failed. Please try again."
+msgstr "უი, მოძებნა ვერ მოხერხდა. გთხოვთ სცადოთ ხელახლა."
+
+#: ../komikku/card/tracking.py:532 ../komikku/explorer/search/search.py:87
+msgid "No Results Found"
+msgstr "შედეგები არ მოიძებნა"
+
+#: ../komikku/card/tracking.py:533 ../komikku/explorer/search/search.py:88
+msgid "Try a different search"
+msgstr "სცადეთ სხვა ძებნა"
+
+#: ../komikku/categories_editor.py:79
+#, python-brace-format
+msgid ""
+"Are you sure you want to delete\n"
+"\"{0}\" category?"
+msgstr ""
+"დარწმუნებული ხართ რომ გსურთ წაშალოთ\n"
+"\"{0}\" კატეგორია?"
+
+#: ../komikku/categories_editor.py:182
+msgid "Edit"
+msgstr "ჩასწორება"
+
+#: ../komikku/categories_editor.py:195
+msgid "Save"
+msgstr "შენახვა"
+
+#: ../komikku/consts.py:22
+msgid "Accent Color"
+msgstr "აქცენტის ფერი"
+
+#: ../komikku/consts.py:27
+msgid "Pride Colors"
+msgstr "პრაიდის ფერები"
+
+#: ../komikku/consts.py:31
+msgid "Lesbian Pride Colors"
+msgstr "ლესბოსელთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:35
+msgid "Male Homosexual Pride Colors"
+msgstr "მამაკაც ჰომოსექსუალთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:39
+msgid "Transgender Pride Colors"
+msgstr "ტრანსგენდერთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:43
+msgid "Nonbinary Pride Colors"
+msgstr "ნონბაინართა პრაიდის ფერები"
+
+#: ../komikku/consts.py:47
+msgid "Bisexual Pride Colors"
+msgstr "ბისექსუალთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:51
+msgid "Asexual Pride Colors"
+msgstr "ასექსუალთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:55
+msgid "Pansexual Pride Colors"
+msgstr "პანსექსუალთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:59
+msgid "Aromantic Pride Colors"
+msgstr "არომანტიულთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:63
+msgid "Genderfluid Pride Colors"
+msgstr "გენდერფლუიდთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:67
+msgid "Polysexual Pride Colors"
+msgstr "პოლისექსუალთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:71
+msgid "Omnisexual Pride Colors"
+msgstr "ომნისექსუალთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:75
+msgid "Aroace Pride Colors"
+msgstr "აროაცეთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:79
+msgid "Agender Pride Colors"
+msgstr "აგენდერთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:83
+msgid "Genderqueer Pride Colors"
+msgstr "გენდერქუირთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:87
+msgid "Intersex Pride Colors"
+msgstr "ინტერსექსდა პრაიდის ფერები"
+
+#: ../komikku/consts.py:91
+msgid "Demigender Pride Colors"
+msgstr "დემიგენდერთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:95
+msgid "Biromantic Pride Colors"
+msgstr "ბირომანტიულთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:99
+msgid "Disability Pride Colors"
+msgstr "შეზღუდულთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:103
+msgid "Femboy Pride Colors"
+msgstr "ფემბოებთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:107
+msgid "Neutrois Pride Colors"
+msgstr "ნეუტროისთა პრაიდის ფერები"
+
+#: ../komikku/consts.py:111
+msgid "Random Colors"
+msgstr "შემთხვევითი ფერები"
+
+#: ../komikku/downloader.py:274
+#, python-brace-format
+msgid "[{0}] Chapters download ended"
+msgstr "[{0}] თავების ჩამოტვირთვა დასრულდა"
+
+#: ../komikku/explorer/common.py:123
+#, python-brace-format
+msgid "{0} chapter"
+msgid_plural "{0} chapters"
+msgstr[0] "{0} თავი"
+msgstr[1] "{0} თავები"
+
+#: ../komikku/explorer/common.py:125
+#, python-brace-format
+msgid "Last Chapter: {}"
+msgstr "ბოლო თავი: {}"
+
+#: ../komikku/explorer/common.py:127
+#, python-brace-format
+msgid "Last Volume: {}"
+msgstr "ბოლო ტომი: {}"
+
+#: ../komikku/explorer/common.py:245 ../komikku/preferences/servers.py:396
+#: ../komikku/preferences/servers.py:450
+#: ../komikku/servers/mangatube/__init__.py:150
+msgid "18+"
+msgstr "18+"
+
+#: ../komikku/explorer/common.py:268
+msgid "Help"
+msgstr "დახმარება"
+
+#: ../komikku/explorer/common.py:269
+msgid "Local Folder"
+msgstr "ადგილობრივი საქაღალდე"
+
+#: ../komikku/explorer/common.py:271
+msgid ""
+"A specific folder structure is required for local comics to be properly "
+"processed."
+msgstr ""
+"საჭიროა სპეციფიკური საქაღალდის სტრუქტურა, რათა ლოკალური კომიქსები წესიერად "
+"დამუშავდეს."
+
+#: ../komikku/explorer/common.py:272
+msgid ""
+"Each comic must have its own folder which must contain the chapters/volumes "
+"as archive files in CBZ, CBR, CBT, EPUB or PDF formats."
+msgstr ""
+"თითო კომიქსს უნდა ჰქონდეს საკუთარი საქაღალდე,რომელიც უნდა შეიცავდეს თავებს/"
+"ტომებს როგორც არქივის ფაილებს: CBZ, CBR, CBT, EPUB ან PDF ფორმატებში."
+
+#: ../komikku/explorer/common.py:273
+msgid "The folder's name will be used as name for the comic."
+msgstr "კომიქსის სახელად ფოლდერის სახელი იქნება გამოყენებული."
+
+#: ../komikku/explorer/common.py:274
+msgid ""
+"NOTE: The 'unrar' or 'unar' command-line tool is required for CBR archives."
+msgstr ""
+"შენიშვნა: CBR არქივებისთვის საჭიროა 'unrar' ან 'unar' ბრძანებათა სტრიქონის "
+"ინსტრუმენტი."
+
+#: ../komikku/explorer/common.py:280
+msgid "Open local folder"
+msgstr "ადგილობრივი საქაღალდის გახსნა"
+
+#: ../komikku/explorer/common.py:286 ../komikku/explorer/common.py:288
+#: ../komikku/explorer/common.py:304 ../komikku/explorer/common.py:307
+msgid "Content Information"
+msgstr "შემადგენოლბის ინფორმაცია"
+
+#: ../komikku/explorer/common.py:293
+#, python-brace-format
+msgid "Type: {0}"
+msgstr "ტიპი: {0}"
+
+#: ../komikku/explorer/common.py:296
+#, python-brace-format
+msgid ""
+"Copyrighted: Reproduction and distribution authorized under certain "
+"conditions ({0} license)"
+msgstr ""
+"საავტორო უფლებით: კვლავწარმოება და მიწოდება ნებადართულია გარკვეული პირობებით "
+"({0} ლიცენზია)"
+
+#: ../komikku/explorer/common.py:299
+msgid "Royalty-free, Public domain"
+msgstr "უსასყიდლო, საჯარო კუთვნილება"
+
+#: ../komikku/explorer/common.py:301 ../komikku/explorer/common.py:312
+msgid "Copyrighted works"
+msgstr "საავტორო უფლებით დაცული ნაწარმოებები"
+
+#: ../komikku/explorer/common.py:311
+msgid "Use with caution!"
+msgstr "გამოიყენეთ გაფრთხილებით!"
+
+#: ../komikku/explorer/common.py:314
+msgid "Licensed/Published and/or Unlicensed works"
+msgstr "ნებართვის მქონე/გამოქვეყნებული და/ან უნებართვო ნაწარმოებები"
+
+#: ../komikku/explorer/common.py:315
+msgid "It may be partially or totally illegal"
+msgstr "შესაძლებელია იყოს ნაწილობრივ ან სრულად არალეგალური"
+
+#: ../komikku/explorer/common.py:330
+msgid "Toggle pinned status"
+msgstr "მიმაგრებულის სტატუსის გადართვა"
+
+#: ../komikku/explorer/search/__init__.py:283
+msgid "Search was cancelled"
+msgstr "ძებნა გაუქმდა"
+
+#: ../komikku/explorer/search/__init__.py:290
+msgid "Oops, server website URL is unknown."
+msgstr "უი, სერვერის საიტის ბმული უცნობია."
+
+#: ../komikku/explorer/search/__init__.py:380
+msgid "Search for Reading"
+msgstr "საკითხავად ძებნა"
+
+#: ../komikku/explorer/search/__init__.py:382
+msgid "Empty search is allowed."
+msgstr "ცერიელი ძებნა დაშვებულია."
+
+#: ../komikku/explorer/search/__init__.py:384
+msgid ""
+"Alternatively, you can look up specific comics using the syntax:\n"
+"\n"
+"<b>id:ID from comic URL</b>"
+msgstr ""
+"გარდა ამისა, შეგიძლიათ მონახოთ სპეციფიკური კომიქსები სინტაქსის გამოყენებით:\n"
+"\n"
+"<b>id:იდენტიფიკატორი (ID) კომიქსის ბმულიდან</b>"
+
+#: ../komikku/explorer/search/__init__.py:412
+msgid "Global Search"
+msgstr "გლობალური ძებნა"
+
+#: ../komikku/explorer/search/__init__.py:414
+msgid "Search globally by name"
+msgstr "გლობალურად, სახელით ძიება"
+
+#: ../komikku/explorer/search/__init__.py:416
+msgid "Search for Comics"
+msgstr "კომიქსების ძებნა"
+
+#: ../komikku/explorer/search/__init__.py:488
+msgid "Oops, failed to retrieve manga's information."
+msgstr "უი, მანგას ინფორმაციის მოძიება ვერ მოხერხდა."
+
+#: ../komikku/explorer/search/latest_updates.py:71
+msgid "Oops, failed to retrieve latest updates."
+msgstr "უი, უახლესი თავების მოძიება ვერ მოხერხდა."
+
+#: ../komikku/explorer/search/latest_updates.py:75
+msgid "No Latest Updates Found"
+msgstr "უახლესი განახლებები არ მოიძებნა"
+
+#: ../komikku/explorer/search/latest_updates.py:83
+#: ../komikku/explorer/search/most_popular.py:83
+#: ../komikku/explorer/search/search.py:97
+#: ../komikku/explorer/search/search_global.py:94
+msgid "A request is already in progress."
+msgstr "მოთხოვნა უკვე პროგრესშია."
+
+#: ../komikku/explorer/search/most_popular.py:71
+msgid "Oops, failed to retrieve most popular."
+msgstr "უი, ყველაზე პოპულარულის მოძიება ვერ მოხერხდა."
+
+#: ../komikku/explorer/search/most_popular.py:75
+msgid "No Most Popular Found"
+msgstr "ყველაზე პოპულარული არ მოიძებნა"
+
+#: ../komikku/explorer/search/search_global.py:163
+msgid "Search cancelled"
+msgstr "ძებნა გაუქმებულია"
+
+#: ../komikku/explorer/search/search_global.py:171
+msgid "No results"
+msgstr "შედეგების გარეშე"
+
+#: ../komikku/explorer/servers.py:109 ../komikku/explorer/servers.py:186
+#: ../komikku/servers/comix/__init__.py:342
+#: ../komikku/servers/mangafire/__init__.py:140
+#: ../komikku/servers/readcomicsonline/__init__.py:54
+#: ../komikku/servers/rncalation/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:67
+#: ../komikku/servers/skymangas/__init__.py:84
+#: ../komikku/servers/zenko/__init__.py:80
+msgid "Other"
+msgstr "სხვა"
+
+#: ../komikku/explorer/servers.py:150
+msgid ""
+"It appears that you have not yet defined any server languages in Preferences."
+msgstr ""
+"როგორც ჩანს ჯერ არ განგისაზღვრავთ არც ერთი სერვერის ენა უპირატესობებში."
+
+#: ../komikku/explorer/servers.py:223
+msgid "Pinned"
+msgstr "მიმაგრებულია"
+
+#: ../komikku/history.py:36
+msgid "Today"
+msgstr "დღეს"
+
+#: ../komikku/history.py:38
+msgid "Yesterday"
+msgstr "გუშინ"
+
+#: ../komikku/history.py:40
+msgid "%A, %B %e"
+msgstr "%A, %B %e"
+
+#: ../komikku/history.py:94
+msgid "Resume"
+msgstr "გაგრძელება"
+
+#: ../komikku/library/__init__.py:340
+msgid "Are you sure you want to clear selected mangas?"
+msgstr "დარწმუნებული ხართ რომ გსურთ მითითებული მანგების გასუფთავება?"
+
+#: ../komikku/library/__init__.py:402
+msgid "Are you sure you want to delete this manga?"
+msgstr "დარწმუნებული ხართ რომ გსურთ ამ მანგას წაშლა?"
+
+#: ../komikku/library/__init__.py:404
+msgid "Are you sure you want to delete selected mangas?"
+msgstr "დარწმუნებული ხართ რომ გსურთ მითითებული მანგების წაშლა?"
+
+#: ../komikku/library/__init__.py:428
+msgid "Are you sure you want to download all chapters of selected mangas?"
+msgstr "დარწმუნებული ხართ რომ გსურთ გადმოწეროთ მითითებული მანგების ყველა თავი?"
+
+#: ../komikku/library/__init__.py:430
+msgid "Download?"
+msgstr "გადმოვწერო?"
+
+#: ../komikku/library/__init__.py:457
+msgid "Unread"
+msgstr "წაუკითხავი"
+
+#: ../komikku/library/__init__.py:458
+msgid "Series with unread chapters"
+msgstr "სერიები წაუკითხავი თავებით"
+
+#: ../komikku/library/__init__.py:461
+#: ../komikku/models/database/downloads.py:20
+msgid "Downloaded"
+msgstr "გადმოწერილია"
+
+#: ../komikku/library/__init__.py:462
+msgid "Series with downloaded chapters"
+msgstr "სერიები გადმოწერილი თავებით"
+
+#: ../komikku/library/__init__.py:465
+msgid "Recents"
+msgstr "უახლესები"
+
+#: ../komikku/library/__init__.py:466
+msgid "Series with new chapters"
+msgstr "სერიები ახალი თავებით"
+
+#: ../komikku/library/__init__.py:685
+msgid "Welcome to Komikku"
+msgstr "მოგესალმებით კომიკკუში"
+
+#: ../komikku/library/__init__.py:697
+msgid "Loading…"
+msgstr "იტვირთება…"
+
+#: ../komikku/library/__init__.py:821
+msgid "Failed to update reading status"
+msgstr "კითხვის სტატუსის განახლება ვერ მოხერხდა"
+
+#: ../komikku/library/__init__.py:849
+msgid "Add New Comic"
+msgstr "ახალი კომიქსის დამატება"
+
+#: ../komikku/library/__init__.py:876 ../komikku/library/categories_list.py:146
+msgid "Uncategorized"
+msgstr "კატეგორიის გარეშე"
+
+#: ../komikku/library/categories_list.py:140
+#: ../komikku/servers/asurascans/__init__.py:38
+#: ../komikku/servers/bilibili/__init__.py:43
+#: ../komikku/servers/coloredcouncil/__init__.py:42
+#: ../komikku/servers/coloredcouncil/__init__.py:55
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:42
+#: ../komikku/servers/jmanga/__init__.py:51
+#: ../komikku/servers/mangapill/__init__.py:39
+#: ../komikku/servers/mangasorigines/__init__.py:49
+#: ../komikku/servers/mangatown/__init__.py:51
+#: ../komikku/servers/mangatown/__init__.py:70
+#: ../komikku/servers/mangatown/__init__.py:84
+#: ../komikku/servers/mangatube/__init__.py:130
+#: ../komikku/servers/multi/madtheme/__init__.py:49
+#: ../komikku/servers/multi/manga_stream/__init__.py:81
+#: ../komikku/servers/phenixscans/__init__.py:40
+#: ../komikku/servers/readcomicsonline/__init__.py:38
+#: ../komikku/servers/readcomicsonline/__init__.py:51
+#: ../komikku/servers/skymangas/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:61
+#: ../komikku/servers/skymangas/__init__.py:78
+#: ../komikku/servers/webtoon/__init__.py:60
+msgid "All"
+msgstr "ყველა"
+
+#: ../komikku/models/database/downloads.py:19
+msgid "Download pending"
+msgstr "გადმოწერა რიგშია"
+
+#: ../komikku/models/database/downloads.py:21
+msgid "Downloading"
+msgstr "იწერება"
+
+#: ../komikku/models/database/downloads.py:22
+msgid "Download canceled"
+msgstr "გადმოწერა გაუქმდა"
+
+#: ../komikku/models/database/downloads.py:23
+msgid "Download error"
+msgstr "გადმოწერის შეცდომა"
+
+#: ../komikku/models/database/mangas.py:45
+#: ../komikku/servers/jmanga/__init__.py:53
+#: ../komikku/servers/mangakawaii/__init__.py:54
+#: ../komikku/servers/mangamana/__init__.py:68
+#: ../komikku/servers/mangasorigines/__init__.py:51
+#: ../komikku/servers/mangaworld/__init__.py:79
+#: ../komikku/servers/readcomicsonline/__init__.py:40
+#: ../komikku/servers/skymangas/__init__.py:48
+#: ../komikku/servers/weebcentral/__init__.py:66
+msgid "Complete"
+msgstr "დასრულება"
+
+#: ../komikku/models/database/mangas.py:46
+#: ../komikku/servers/comick/__init__.py:81
+#: ../komikku/servers/comix/__init__.py:326
+#: ../komikku/servers/flamescans/__init__.py:53
+#: ../komikku/servers/jmanga/__init__.py:52
+#: ../komikku/servers/mangaball/__init__.py:90
+#: ../komikku/servers/mangadex/__init__.py:76
+#: ../komikku/servers/mangafire/__init__.py:163
+#: ../komikku/servers/mangak/__init__.py:97
+#: ../komikku/servers/mangakawaii/__init__.py:52
+#: ../komikku/servers/mangamana/__init__.py:67
+#: ../komikku/servers/mangasorigines/__init__.py:50
+#: ../komikku/servers/mangatown/__init__.py:72
+#: ../komikku/servers/mangaworld/__init__.py:78
+#: ../komikku/servers/multi/madtheme/__init__.py:50
+#: ../komikku/servers/raijinscan/__init__.py:45
+#: ../komikku/servers/readcomicsonline/__init__.py:39
+#: ../komikku/servers/rncalation/__init__.py:58
+#: ../komikku/servers/skymangas/__init__.py:47
+#: ../komikku/servers/weebcentral/__init__.py:65
+#: ../komikku/servers/weebdex/__init__.py:65
+#: ../komikku/servers/zenko/__init__.py:61
+msgid "Ongoing"
+msgstr "მიმდინარე"
+
+#: ../komikku/models/database/mangas.py:47
+#: ../komikku/servers/mangakawaii/__init__.py:51
+#: ../komikku/servers/mangamana/__init__.py:69
+#: ../komikku/servers/mangaworld/__init__.py:80
+#: ../komikku/servers/skymangas/__init__.py:50
+msgid "Suspended"
+msgstr "გაჩერებულია"
+
+#: ../komikku/models/database/mangas.py:48
+#: ../komikku/servers/comix/__init__.py:328
+#: ../komikku/servers/flamescans/__init__.py:55
+#: ../komikku/servers/mangaball/__init__.py:92
+#: ../komikku/servers/mangadex/__init__.py:78
+#: ../komikku/servers/mangafire/__init__.py:165
+#: ../komikku/servers/mangak/__init__.py:99
+#: ../komikku/servers/mangakawaii/__init__.py:53
+#: ../komikku/servers/mangaworld/__init__.py:81
+#: ../komikku/servers/rncalation/__init__.py:60
+#: ../komikku/servers/skymangas/__init__.py:49
+#: ../komikku/servers/weebcentral/__init__.py:67
+#: ../komikku/servers/weebdex/__init__.py:67
+#: ../komikku/servers/zenko/__init__.py:63
+msgid "Hiatus"
+msgstr "წყვეტა"
+
+#: ../komikku/preferences/__init__.py:171
+msgid "Are you sure you want to clear chapters cache and database?"
+msgstr ""
+"დარწმუნებული ხართ რომ გსურთ თავების ქეშის და მონაცემთა ბაზის გასუფთავება?"
+
+#: ../komikku/preferences/__init__.py:190
+msgid "Failed to clear WebView data"
+msgstr "WebView მონაცემების გასუფთავება ვერ მოხერხდა"
+
+#: ../komikku/preferences/__init__.py:194
+msgid "Are you sure you want to clear WebView data (cache, storage, cookies)?"
+msgstr ""
+"დარწმუნებული ხართ რომ გსურთ WebView მონაცემების გასუფთავება (ქეში, საცავი, "
+"ქუქიები)?"
+
+#: ../komikku/preferences/__init__.py:219
+msgid "Disable animations?"
+msgstr "გამოვრთო ანიმაციები?"
+
+#: ../komikku/preferences/__init__.py:220
+msgid ""
+"Are you sure you want to disable animations?\n"
+"\n"
+"The gesture navigation in the reader will not work properly anymore."
+msgstr ""
+"დარწმუნებული ხართ რომ გსურთ ანიმახიების გათიშვა?\n"
+"\n"
+"ჟესტებით ანიმაცია არაღ იმუშავებს წესიერად მკითხველში."
+
+#: ../komikku/preferences/__init__.py:221
+msgid "Disable"
+msgstr "გამორთვა"
+
+#: ../komikku/preferences/__init__.py:705 ../komikku/preferences/servers.py:72
+msgid "System keyring service is disabled. Credential cannot be saved."
+msgstr ""
+"სისტემის გასაღებების ასხმულის სსერვისი გათიშულია. ავტორიზაციის მონაცემების "
+"შენახვა შეუძლებელია."
+
+#: ../komikku/preferences/__init__.py:710 ../komikku/preferences/servers.py:77
+msgid ""
+"No keyring backends were found to store credential. Use plaintext storage as "
+"fallback."
+msgstr ""
+"გასაღებების ასხმულის სისტემური მხარეები, აცტორიზაციის მონაცემების შესანახად, "
+"არ მოიძებნა. ნაცვლად გამოიყენეთ ღია ტექსტის საცავი."
+
+#: ../komikku/preferences/__init__.py:716 ../komikku/preferences/servers.py:83
+msgid ""
+"No keyring backends were found to store credential. Plaintext storage will "
+"be used as fallback."
+msgstr ""
+"გასაღებების ასხმულის სისტემური მხარეები, აცტორიზაციის მონაცემების შესანახად, "
+"არ მოიძებნა. ნაცვლად ღია ტექსტის საცავი იქნება გამოყენებული."
+
+#: ../komikku/preferences/__init__.py:746
+msgid "Invalid instance URL"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:748
+#: ../komikku/preferences/__init__.py:762
+msgid "Unavailable service"
+msgstr ""
+
+#: ../komikku/preferences/__init__.py:760
+msgid "Invalid API key"
+msgstr ""
+
+#: ../komikku/preferences/servers.py:44
+msgid "User Account"
+msgstr "მომხმარებლის ანგარიში"
+
+#: ../komikku/preferences/servers.py:49
+msgid "Address"
+msgstr "მისამართი"
+
+#: ../komikku/preferences/servers.py:55 ../komikku/preferences/trackers.py:60
+msgid "Username"
+msgstr "მომხმარებლის სახელი"
+
+#: ../komikku/preferences/servers.py:59 ../komikku/preferences/trackers.py:64
+msgid "Password"
+msgstr "პაროლი"
+
+#: ../komikku/preferences/servers.py:92
+msgid "Test"
+msgstr "შემოწმება"
+
+#: ../komikku/preferences/servers.py:419 ../komikku/preferences/servers.py:456
+msgid "Edit Server Settings"
+msgstr ""
+
+#: ../komikku/preferences/trackers.py:36 ../komikku/preferences/trackers.py:88
+#: ../komikku/preferences/trackers.py:118
+msgid "Disconnect"
+msgstr "გათიშვა"
+
+#: ../komikku/preferences/trackers.py:43
+msgid "Reconnect"
+msgstr "თავიდან დაკავშირება"
+
+#: ../komikku/preferences/trackers.py:46 ../komikku/preferences/trackers.py:71
+#: ../komikku/preferences/trackers.py:104
+msgid "Connect"
+msgstr "დაკავშირება"
+
+#: ../komikku/preferences/trackers.py:92
+msgid "Failed to request client access"
+msgstr "კლიენტზე წვდომის მოთხოვნა ვერ მოხერხდა"
+
+#: ../komikku/preferences/trackers.py:95
+msgid "Webview is currently in used. Please retry later."
+msgstr "WebView ამჟამად გამოყენებაშია. გთხოვთ სცადოთ მოგვიანებით."
+
+#: ../komikku/preferences/trackers.py:117
+#, python-brace-format
+msgid "Disconnect from {}"
+msgstr "{}-სგან გამოთიშვა"
+
+#: ../komikku/reader/__init__.py:364
+msgid "Page successfully saved"
+msgstr "გვერდი წარმატებით შეინახა"
+
+#: ../komikku/reader/ocr_translator.py:149
+#: ../komikku/reader/ocr_translator.py:154
+msgid "Copied to clipboard"
+msgstr ""
+
+#: ../komikku/reader/pagers/__init__.py:179
+msgid "Failed to sync read progress with server"
+msgstr "კითხვის პროგრესის სერვერთან სინქრონიზაცია ვერ მოხერხდა"
+
+#: ../komikku/reader/pagers/longstrip_pager.py:102
+#: ../komikku/reader/pagers/paged_pager.py:310
+msgid "It was the last chapter."
+msgstr "ბოლო თავი იყო."
+
+#: ../komikku/reader/pagers/longstrip_pager.py:104
+#: ../komikku/reader/pagers/paged_pager.py:308
+msgid "There is no previous chapter."
+msgstr "წინა თავი არ არის."
+
+#: ../komikku/reader/pagers/longstrip_pager.py:180
+#: ../komikku/reader/pagers/paged_pager.py:481
+msgid "This chapter is inaccessible."
+msgstr "ეს თავი მიუწვდომელია."
+
+#: ../komikku/reader/pagers/page.py:393
+msgid "Failed to load image"
+msgstr "გამოსახულების ჩატვირთვის შეცდომა"
+
+#: ../komikku/reader/pagers/page.py:395
+#, python-brace-format
+msgid "Corrupted file or unsupported image format ({0})"
+msgstr "კორუმპირებული ფაილი ან მხარდაუჭერილი გამოსახულების ფორმატი ({0})"
+
+#: ../komikku/reader/pagers/page.py:516
+msgid "Retry"
+msgstr "თავიდან ცდა"
+
+#: ../komikku/reader/settings.py:18
+msgid "Brightness"
+msgstr "სიკაშკაშე"
+
+#: ../komikku/reader/settings.py:19
+msgid "Make pages brighter or darker"
+msgstr "გვერდის გაღიავება ან ჩაბნელება"
+
+#: ../komikku/reader/settings.py:26
+msgid "Contrast"
+msgstr "კონტრასტი"
+
+#: ../komikku/reader/settings.py:27
+msgid "Increase or decrease the contrast of pages"
+msgstr "გვერდების კონტრასტის გაზრდა ან შემცირება"
+
+#: ../komikku/reader/settings.py:34
+msgid "Grayscale"
+msgstr "ნაცრისფერი-სკალა"
+
+#: ../komikku/reader/settings.py:35
+msgid "Convert pages to grayscale"
+msgstr "გვერდების რუხ შკალაზე გარდაქმნა"
+
+#: ../komikku/reader/settings.py:42
+msgid "Inversion"
+msgstr ""
+
+#: ../komikku/reader/settings.py:43
+msgid "Convert pages to grayscale and invert black and white"
+msgstr ""
+
+#: ../komikku/reader/settings.py:50
+msgid "Sepia"
+msgstr "სეპია"
+
+#: ../komikku/reader/settings.py:51
+msgid "Give a more yellow/brown appearance to pages"
+msgstr "გვერდებისთვის უფრო ყვითელი/ყავისფერი შეხედულების მიცემა"
+
+#: ../komikku/reader/settings.py:58
+msgid "Saturation"
+msgstr "გაჯერებულობა"
+
+#: ../komikku/reader/settings.py:59
+msgid "Super-saturate or desaturate pages"
+msgstr "გვერდების ძლიერ-გაჯერება ან გაჯერების შემცირება (ფერების)"
+
+#: ../komikku/reader/settings.py:105
+msgid "Adapt to Screen"
+msgstr "ეკრანზე მორგება"
+
+#: ../komikku/reader/settings.py:106
+msgid "Adapt to Width"
+msgstr "სიგანეზე მორგება"
+
+#: ../komikku/reader/settings.py:107
+msgid "Adapt to Height"
+msgstr "სიმაღლეზე მორგება"
+
+#: ../komikku/reader/settings.py:108
+msgid "Original Size"
+msgstr "საწყისი ზომა"
+
+#: ../komikku/reader/settings.py:119
+msgid "Linear"
+msgstr "წრფივი"
+
+#: ../komikku/reader/settings.py:120
+msgid "Trilinear"
+msgstr "სამ-წრფივი"
+
+#: ../komikku/reader/settings.py:131
+msgid "White"
+msgstr "თეთრი"
+
+#: ../komikku/reader/settings.py:132
+msgid "Gray"
+msgstr "რუხი"
+
+#: ../komikku/reader/settings.py:133
+msgid "Black"
+msgstr "შავი"
+
+#: ../komikku/reader/settings.py:134
+msgid "System Style"
+msgstr "სისტემის სტილი"
+
+#: ../komikku/servers/annyo/__init__.py:22
+#: ../komikku/servers/existentialcomics/__init__.py:23
+#: ../komikku/servers/fosscomics/__init__.py:29
+#: ../komikku/servers/grisebouille/__init__.py:24
+#: ../komikku/servers/jensorensen/__init__.py:25
+#: ../komikku/servers/monkeyuser/__init__.py:23
+#: ../komikku/servers/nixofnothing/__init__.py:19
+#: ../komikku/servers/peppercarrot/__init__.py:54
+#: ../komikku/servers/smbc/__init__.py:19
+#: ../komikku/servers/threepanelsoul/__init__.py:18
+#: ../komikku/servers/wildlife/__init__.py:16
+#: ../komikku/servers/xkcd/__init__.py:24
+msgid "Self-publishing"
+msgstr "თვით-გამოქვეყნება"
+
+#: ../komikku/servers/annyo/__init__.py:22
+#: ../komikku/servers/comick/__init__.py:149
+#: ../komikku/servers/existentialcomics/__init__.py:23
+#: ../komikku/servers/fosscomics/__init__.py:29
+#: ../komikku/servers/grisebouille/__init__.py:24
+#: ../komikku/servers/jensorensen/__init__.py:25
+#: ../komikku/servers/mangadex/__init__.py:113
+#: ../komikku/servers/monkeyuser/__init__.py:23
+#: ../komikku/servers/nixofnothing/__init__.py:19
+#: ../komikku/servers/peppercarrot/__init__.py:54
+#: ../komikku/servers/smbc/__init__.py:19
+#: ../komikku/servers/threepanelsoul/__init__.py:18
+#: ../komikku/servers/wildlife/__init__.py:16
+#: ../komikku/servers/xkcd/__init__.py:24
+msgid "Webcomic"
+msgstr "ვებ-კომიქსი"
+
+#: ../komikku/servers/aralosbd/__init__.py:21
+msgid "Self-publishing platform"
+msgstr "თვით-გამოქვეყნებადი პლატფორმა"
+
+#: ../komikku/servers/asurascans/__init__.py:33
+#: ../komikku/servers/comix/__init__.py:335
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:37
+#: ../komikku/servers/jmanga/__init__.py:27
+#: ../komikku/servers/mangaball/__init__.py:99
+#: ../komikku/servers/mangak/__init__.py:60
+#: ../komikku/servers/mangakawaii/__init__.py:60
+#: ../komikku/servers/mangapill/__init__.py:34
+#: ../komikku/servers/mangasorigines/__init__.py:32
+#: ../komikku/servers/mangatown/__init__.py:79
+#: ../komikku/servers/mangatube/__init__.py:125
+#: ../komikku/servers/mangaworld/__init__.py:59
+#: ../komikku/servers/multi/manga_stream/__init__.py:76
+#: ../komikku/servers/phenixscans/__init__.py:35
+#: ../komikku/servers/raijinscan/__init__.py:52
+#: ../komikku/servers/readcomicsonline/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:36
+#: ../komikku/servers/skymangas/__init__.py:56
+#: ../komikku/servers/webtoon/__init__.py:55
+#: ../komikku/servers/zenko/__init__.py:69
+msgid "Type"
+msgstr "ტიპი"
+
+#: ../komikku/servers/asurascans/__init__.py:34
+#: ../komikku/servers/invinciblecomicsvf/__init__.py:38
+#: ../komikku/servers/jmanga/__init__.py:28
+#: ../komikku/servers/mangaball/__init__.py:100
+#: ../komikku/servers/mangak/__init__.py:61
+#: ../komikku/servers/mangapill/__init__.py:35
+#: ../komikku/servers/mangatown/__init__.py:80
+#: ../komikku/servers/multi/manga_stream/__init__.py:77
+#: ../komikku/servers/phenixscans/__init__.py:36
+#: ../komikku/servers/rawkuma/__init__.py:41
+#: ../komikku/servers/readcomicsonline/__init__.py:47
+#: ../komikku/servers/rncalation/__init__.py:37
+#: ../komikku/servers/skymangas/__init__.py:57
+#: ../komikku/servers/webtoon/__init__.py:56
+msgid "Filter by Type"
+msgstr "ტიპით გაფილტვრა"
+
+#: ../komikku/servers/asurascans/__init__.py:39
+#: ../komikku/servers/coloredcouncil/__init__.py:44
+#: ../komikku/servers/comick/__init__.py:94
+#: ../komikku/servers/comix/__init__.py:339
+#: ../komikku/servers/flamescans/__init__.py:41
+#: ../komikku/servers/mangaball/__init__.py:105
+#: ../komikku/servers/mangafire/__init__.py:137
+#: ../komikku/servers/mangak/__init__.py:66
+#: ../komikku/servers/mangakawaii/__init__.py:66
+#: ../komikku/servers/mangapill/__init__.py:40
+#: ../komikku/servers/mangasorigines/__init__.py:38
+#: ../komikku/servers/mangatown/__init__.py:85
+#: ../komikku/servers/mangatube/__init__.py:131
+#: ../komikku/servers/mangaworld/__init__.py:63
+#: ../komikku/servers/multi/manga_stream/__init__.py:82
+#: ../komikku/servers/phenixscans/__init__.py:41
+#: ../komikku/servers/raijinscan/__init__.py:56
+#: ../komikku/servers/rawkuma/__init__.py:44
+#: ../komikku/servers/rncalation/__init__.py:42
+#: ../komikku/servers/skymangas/__init__.py:64
+#: ../komikku/servers/weebcentral/__init__.py:52
+#: ../komikku/servers/zenko/__init__.py:74
+msgid "Manga"
+msgstr "მანგა"
+
+#: ../komikku/servers/asurascans/__init__.py:40
+#: ../komikku/servers/coloredcouncil/__init__.py:43
+#: ../komikku/servers/comick/__init__.py:95
+#: ../komikku/servers/comix/__init__.py:340
+#: ../komikku/servers/flamescans/__init__.py:42
+#: ../komikku/servers/mangaball/__init__.py:106
+#: ../komikku/servers/mangafire/__init__.py:138
+#: ../komikku/servers/mangak/__init__.py:67
+#: ../komikku/servers/mangakawaii/__init__.py:68
+#: ../komikku/servers/mangapill/__init__.py:44
+#: ../komikku/servers/mangasorigines/__init__.py:36
+#: ../komikku/servers/mangatown/__init__.py:87
+#: ../komikku/servers/mangatube/__init__.py:132
+#: ../komikku/servers/mangaworld/__init__.py:65
+#: ../komikku/servers/multi/manga_stream/__init__.py:83
+#: ../komikku/servers/phenixscans/__init__.py:42
+#: ../komikku/servers/raijinscan/__init__.py:57
+#: ../komikku/servers/rawkuma/__init__.py:45
+#: ../komikku/servers/rncalation/__init__.py:43
+#: ../komikku/servers/skymangas/__init__.py:63
+#: ../komikku/servers/weebcentral/__init__.py:53
+#: ../komikku/servers/zenko/__init__.py:75
+msgid "Manhwa"
+msgstr "მანჰვა"
+
+#: ../komikku/servers/asurascans/__init__.py:41
+#: ../komikku/servers/comick/__init__.py:96
+#: ../komikku/servers/comix/__init__.py:341
+#: ../komikku/servers/flamescans/__init__.py:43
+#: ../komikku/servers/mangaball/__init__.py:107
+#: ../komikku/servers/mangafire/__init__.py:139
+#: ../komikku/servers/mangak/__init__.py:68
+#: ../komikku/servers/mangakawaii/__init__.py:67
+#: ../komikku/servers/mangapill/__init__.py:45
+#: ../komikku/servers/mangasorigines/__init__.py:37
+#: ../komikku/servers/mangatown/__init__.py:86
+#: ../komikku/servers/mangatube/__init__.py:133
+#: ../komikku/servers/mangaworld/__init__.py:64
+#: ../komikku/servers/multi/manga_stream/__init__.py:84
+#: ../komikku/servers/phenixscans/__init__.py:43
+#: ../komikku/servers/raijinscan/__init__.py:58
+#: ../komikku/servers/rawkuma/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:44
+#: ../komikku/servers/skymangas/__init__.py:62
+#: ../komikku/servers/weebcentral/__init__.py:54
+#: ../komikku/servers/zenko/__init__.py:76
+msgid "Manhua"
+msgstr "მანჰუა"
+
+#: ../komikku/servers/bdplus/__init__.py:58
+msgid "Genre"
+msgstr ""
+
+#: ../komikku/servers/bdplus/__init__.py:59
+msgid "Filter by Genre"
+msgstr ""
+
+#: ../komikku/servers/bilibili/__init__.py:38
+msgid "Price"
+msgstr "ფასი"
+
+#: ../komikku/servers/bilibili/__init__.py:39
+msgid "Filter by price"
+msgstr "ფასით გაფილტვრა"
+
+#: ../komikku/servers/bilibili/__init__.py:44
+msgid "Free"
+msgstr "უფასო"
+
+#: ../komikku/servers/bilibili/__init__.py:45
+msgid "Paid"
+msgstr "ფასიანი"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:37
+msgid "Format"
+msgstr "ფორმატი"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:38
+msgid "Filter by format"
+msgstr "ფორმატით გაფილტვრა"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:50
+msgid "Version"
+msgstr "ვერსია"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:51
+msgid "Filter by version"
+msgstr "ვერსიით გაფილტვრა"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:56
+msgid "Color"
+msgstr "ფერი"
+
+#: ../komikku/servers/coloredcouncil/__init__.py:57
+msgid "B/W"
+msgstr "შ/თ"
+
+#: ../komikku/servers/comick/__init__.py:65
+#: ../komikku/servers/mangadex/__init__.py:58
+#: ../komikku/servers/weebdex/__init__.py:48
+msgid "Rating"
+msgstr "რეიტინგი"
+
+#: ../komikku/servers/comick/__init__.py:66
+#: ../komikku/servers/mangadex/__init__.py:59
+#: ../komikku/servers/weebdex/__init__.py:49
+msgid "Filter by Content Ratings"
+msgstr "შინაარსის შეფასებით გაფილტვრა"
+
+#: ../komikku/servers/comick/__init__.py:69
+#: ../komikku/servers/mangadex/__init__.py:62
+#: ../komikku/servers/mangafire/__init__.py:124
+#: ../komikku/servers/mangak/__init__.py:51
+#: ../komikku/servers/weebdex/__init__.py:52
+msgid "Safe"
+msgstr "უსაფრთხო"
+
+#: ../komikku/servers/comick/__init__.py:70
+#: ../komikku/servers/mangadex/__init__.py:63
+#: ../komikku/servers/mangafire/__init__.py:125
+#: ../komikku/servers/mangak/__init__.py:52
+#: ../komikku/servers/weebdex/__init__.py:53
+msgid "Suggestive"
+msgstr "გამომწვევი"
+
+#: ../komikku/servers/comick/__init__.py:71
+#: ../komikku/servers/mangadex/__init__.py:64
+#: ../komikku/servers/mangafire/__init__.py:126
+#: ../komikku/servers/mangak/__init__.py:53
+#: ../komikku/servers/weebdex/__init__.py:54
+msgid "Erotica"
+msgstr "ეროტიკა"
+
+#: ../komikku/servers/comick/__init__.py:78
+#: ../komikku/servers/comix/__init__.py:323
+#: ../komikku/servers/flamescans/__init__.py:50
+#: ../komikku/servers/mangadex/__init__.py:73
+#: ../komikku/servers/mangafire/__init__.py:160
+#: ../komikku/servers/mangakawaii/__init__.py:48
+#: ../komikku/servers/mangaworld/__init__.py:75
+#: ../komikku/servers/raijinscan/__init__.py:42
+#: ../komikku/servers/weebcentral/__init__.py:62
+#: ../komikku/servers/weebdex/__init__.py:62
+#: ../komikku/servers/zenko/__init__.py:58
+msgid "Filter by Statuses"
+msgstr "სტატუსებით გაფილტვრა"
+
+#: ../komikku/servers/comick/__init__.py:82
+#: ../komikku/servers/comix/__init__.py:327
+#: ../komikku/servers/flamescans/__init__.py:54
+#: ../komikku/servers/mangaball/__init__.py:91
+#: ../komikku/servers/mangadex/__init__.py:77
+#: ../komikku/servers/mangafire/__init__.py:164
+#: ../komikku/servers/mangak/__init__.py:98
+#: ../komikku/servers/mangatown/__init__.py:73
+#: ../komikku/servers/multi/madtheme/__init__.py:51
+#: ../komikku/servers/raijinscan/__init__.py:46
+#: ../komikku/servers/rncalation/__init__.py:59
+#: ../komikku/servers/weebdex/__init__.py:66
+#: ../komikku/servers/zenko/__init__.py:62 ../komikku/trackers/__init__.py:68
+msgid "Completed"
+msgstr "დასრულებულია"
+
+#: ../komikku/servers/comick/__init__.py:83
+#: ../komikku/servers/comix/__init__.py:329
+#: ../komikku/servers/flamescans/__init__.py:57
+#: ../komikku/servers/mangaball/__init__.py:93
+#: ../komikku/servers/mangadex/__init__.py:79
+#: ../komikku/servers/mangafire/__init__.py:166
+#: ../komikku/servers/mangak/__init__.py:100
+#: ../komikku/servers/mangaworld/__init__.py:82
+#: ../komikku/servers/rncalation/__init__.py:61
+#: ../komikku/servers/weebcentral/__init__.py:68
+#: ../komikku/servers/weebdex/__init__.py:68
+msgid "Canceled"
+msgstr "გაუქმებულია"
+
+#: ../komikku/servers/comick/__init__.py:84
+msgid "Paused"
+msgstr "შეჩერებულია"
+
+#: ../komikku/servers/comick/__init__.py:90
+msgid "Origination"
+msgstr "წარმოშობა"
+
+#: ../komikku/servers/comick/__init__.py:91
+msgid "[Latest Updates only] Filter by Origination"
+msgstr "[მხოლოდ უახლესი განახლებები] წარმოშობით გაფილტვრა"
+
+#: ../komikku/servers/comick/__init__.py:102
+msgid "Countries"
+msgstr "ქვეყნები"
+
+#: ../komikku/servers/comick/__init__.py:104
+msgid "[Search and Most Popular only] Filter by Country (origination)"
+msgstr "[ძებნა და მხოლოდ ყველაზე პოპულარული] ქვეყნით გაფილტვრა (წარმოშობა)"
+
+#: ../komikku/servers/comick/__init__.py:108
+msgid "Japan (Manga)"
+msgstr "იაპონია (მანგა)"
+
+#: ../komikku/servers/comick/__init__.py:109
+msgid "Korea (Manhwa)"
+msgstr "კორეა (მანჰვა)"
+
+#: ../komikku/servers/comick/__init__.py:110
+msgid "China (Manhua)"
+msgstr "ჩინეთი (მანჰუა)"
+
+#: ../komikku/servers/comick/__init__.py:116
+#: ../komikku/servers/comix/__init__.py:348
+#: ../komikku/servers/mangadex/__init__.py:85
+msgid "Publication Demographic"
+msgstr "სამიზნე აუდიტორია"
+
+#: ../komikku/servers/comick/__init__.py:117
+#: ../komikku/servers/comix/__init__.py:349
+#: ../komikku/servers/mangadex/__init__.py:86
+#: ../komikku/servers/mangafire/__init__.py:147
+#: ../komikku/servers/weebdex/__init__.py:75
+msgid "Filter by Publication Demographics"
+msgstr "სამიზნე აუდიტორიით ფილტრი"
+
+#: ../komikku/servers/comick/__init__.py:120
+#: ../komikku/servers/comix/__init__.py:355
+#: ../komikku/servers/mangaball/__init__.py:73
+#: ../komikku/servers/mangadex/__init__.py:89
+#: ../komikku/servers/mangafire/__init__.py:153
+#: ../komikku/servers/mangak/__init__.py:82
+#: ../komikku/servers/mangatown/__init__.py:52
+#: ../komikku/servers/skymangas/__init__.py:79
+#: ../komikku/servers/weebdex/__init__.py:78
+msgid "Shounen"
+msgstr "შოუნენი"
+
+#: ../komikku/servers/comick/__init__.py:121
+#: ../komikku/servers/comix/__init__.py:354
+#: ../komikku/servers/mangaball/__init__.py:74
+#: ../komikku/servers/mangadex/__init__.py:90
+#: ../komikku/servers/mangafire/__init__.py:152
+#: ../komikku/servers/mangak/__init__.py:83
+#: ../komikku/servers/mangatown/__init__.py:54
+#: ../komikku/servers/skymangas/__init__.py:80
+#: ../komikku/servers/weebdex/__init__.py:79
+msgid "Shoujo"
+msgstr "შოუჯო"
+
+#: ../komikku/servers/comick/__init__.py:122
+#: ../komikku/servers/comix/__init__.py:353
+#: ../komikku/servers/mangaball/__init__.py:75
+#: ../komikku/servers/mangadex/__init__.py:92
+#: ../komikku/servers/mangafire/__init__.py:151
+#: ../komikku/servers/mangak/__init__.py:84
+#: ../komikku/servers/mangatown/__init__.py:53
+#: ../komikku/servers/skymangas/__init__.py:81
+#: ../komikku/servers/weebdex/__init__.py:81
+msgid "Seinen"
+msgstr "სეინენი"
+
+#: ../komikku/servers/comick/__init__.py:123
+#: ../komikku/servers/comix/__init__.py:352
+#: ../komikku/servers/mangaball/__init__.py:76
+#: ../komikku/servers/mangadex/__init__.py:91
+#: ../komikku/servers/mangafire/__init__.py:150
+#: ../komikku/servers/mangak/__init__.py:85
+#: ../komikku/servers/mangatown/__init__.py:57
+#: ../komikku/servers/skymangas/__init__.py:82
+#: ../komikku/servers/weebdex/__init__.py:80
+msgid "Josei"
+msgstr "ჯოსეი"
+
+#: ../komikku/servers/comick/__init__.py:124
+msgid "None"
+msgstr "არცერთი"
+
+#: ../komikku/servers/comick/__init__.py:130
+#: ../komikku/servers/mangadex/__init__.py:98
+msgid "Tags"
+msgstr "იარლიყი"
+
+#: ../komikku/servers/comick/__init__.py:131
+#: ../komikku/servers/mangadex/__init__.py:99
+msgid "Filter by Formats"
+msgstr "ფორმატებით გაფილტვრა"
+
+#: ../komikku/servers/comick/__init__.py:134
+#: ../komikku/servers/mangadex/__init__.py:102
+msgid "4-Koma"
+msgstr "4-კომა"
+
+#: ../komikku/servers/comick/__init__.py:135
+#: ../komikku/servers/mangadex/__init__.py:103
+msgid "Adaptation"
+msgstr "ადაპტაცია"
+
+#: ../komikku/servers/comick/__init__.py:136
+#: ../komikku/servers/mangadex/__init__.py:104
+msgid "Anthology"
+msgstr "ანტოლოგია"
+
+#: ../komikku/servers/comick/__init__.py:137
+#: ../komikku/servers/mangadex/__init__.py:105
+msgid "Award Winning"
+msgstr "ჯილდოს მფოლბელი"
+
+#: ../komikku/servers/comick/__init__.py:138
+#: ../komikku/servers/dbmultiverse/__init__.py:58
+#: ../komikku/servers/dbnewhope/__init__.py:30
+#: ../komikku/servers/mangadex/__init__.py:106
+#: ../komikku/servers/mangakawaii/__init__.py:65
+#: ../komikku/servers/mangapill/__init__.py:43
+#: ../komikku/servers/rncalation/__init__.py:45
+msgid "Doujinshi"
+msgstr "დოუჯინში"
+
+#: ../komikku/servers/comick/__init__.py:139
+#: ../komikku/servers/mangadex/__init__.py:107
+msgid "Fan Colored"
+msgstr "ფანის გაფერადებული"
+
+#: ../komikku/servers/comick/__init__.py:140
+#: ../komikku/servers/mangadex/__init__.py:108
+msgid "Full Color"
+msgstr "სრულფერიანი"
+
+#: ../komikku/servers/comick/__init__.py:141
+#: ../komikku/servers/mangadex/__init__.py:109
+msgid "Long Strip"
+msgstr "გრძელი ნაჭერი"
+
+#: ../komikku/servers/comick/__init__.py:144
+#: ../komikku/servers/mangadex/__init__.py:110
+msgid "Official Colored"
+msgstr "ოფიციალურად გაფერადებული"
+
+#: ../komikku/servers/comick/__init__.py:147
+#: ../komikku/servers/mangadex/__init__.py:111
+#: ../komikku/servers/mangakawaii/__init__.py:69
+#: ../komikku/servers/mangapill/__init__.py:42
+#: ../komikku/servers/mangatube/__init__.py:136
+#: ../komikku/servers/mangaworld/__init__.py:66
+#: ../komikku/servers/weebdex/__init__.py:251
+msgid "Oneshot"
+msgstr "ერთჯერადი"
+
+#: ../komikku/servers/comick/__init__.py:148
+msgid "User Created"
+msgstr "მომხმარებლის მიერ შექმნილი"
+
+#: ../komikku/servers/comick/__init__.py:155
+#: ../komikku/servers/mangadex/__init__.py:119
+msgid "Genres"
+msgstr "ჟანრები"
+
+#: ../komikku/servers/comick/__init__.py:156
+#: ../komikku/servers/mangadex/__init__.py:120
+msgid "Filter by Genres"
+msgstr "ჟანრებით გაფილტვრა"
+
+#: ../komikku/servers/comick/__init__.py:159
+#: ../komikku/servers/mangadex/__init__.py:123
+msgid "Action"
+msgstr "ექშენი"
+
+#: ../komikku/servers/comick/__init__.py:160
+msgid "Adult"
+msgstr "ზრდასრულთა"
+
+#: ../komikku/servers/comick/__init__.py:161
+#: ../komikku/servers/mangadex/__init__.py:124
+msgid "Adventure"
+msgstr "სათავგადასავლო"
+
+#: ../komikku/servers/comick/__init__.py:162
+#: ../komikku/servers/mangadex/__init__.py:126
+msgid "Comedy"
+msgstr "კომედია"
+
+#: ../komikku/servers/comick/__init__.py:163
+#: ../komikku/servers/mangadex/__init__.py:127
+msgid "Crime"
+msgstr "კრიმინალი"
+
+#: ../komikku/servers/comick/__init__.py:164
+#: ../komikku/servers/mangadex/__init__.py:128
+msgid "Drama"
+msgstr "დრამა"
+
+#: ../komikku/servers/comick/__init__.py:165
+msgid "Ecchi"
+msgstr "ეჩი"
+
+#: ../komikku/servers/comick/__init__.py:166
+#: ../komikku/servers/mangadex/__init__.py:129
+msgid "Fantasy"
+msgstr "ფანტაზია"
+
+#: ../komikku/servers/comick/__init__.py:167
+msgid "Gender Bender"
+msgstr "გენდერ-ბენდერი"
+
+#: ../komikku/servers/comick/__init__.py:168
+#: ../komikku/servers/mangadex/__init__.py:131
+msgid "Historical"
+msgstr "ისტორიული"
+
+#: ../komikku/servers/comick/__init__.py:169
+#: ../komikku/servers/mangadex/__init__.py:132
+msgid "Horror"
+msgstr "საშინელებათა"
+
+#: ../komikku/servers/comick/__init__.py:170
+#: ../komikku/servers/mangadex/__init__.py:133
+msgid "Isekai"
+msgstr "ისეკაი"
+
+#: ../komikku/servers/comick/__init__.py:171
+#: ../komikku/servers/mangadex/__init__.py:134
+msgid "Magical Girls"
+msgstr "მაგიური გოგონები"
+
+#: ../komikku/servers/comick/__init__.py:172
+msgid "Mature"
+msgstr "მოწიფულთათვის"
+
+#: ../komikku/servers/comick/__init__.py:173
+#: ../komikku/servers/mangadex/__init__.py:135
+msgid "Mecha"
+msgstr "მექა"
+
+#: ../komikku/servers/comick/__init__.py:174
+#: ../komikku/servers/mangadex/__init__.py:136
+msgid "Medical"
+msgstr "სამედიცინო"
+
+#: ../komikku/servers/comick/__init__.py:175
+#: ../komikku/servers/mangadex/__init__.py:137
+msgid "Mystery"
+msgstr "მისტიკა"
+
+#: ../komikku/servers/comick/__init__.py:176
+#: ../komikku/servers/mangadex/__init__.py:138
+msgid "Philosophical"
+msgstr "ფილოსოფიური"
+
+#: ../komikku/servers/comick/__init__.py:177
+msgid "Psychological"
+msgstr "ფსიქოლოგიური"
+
+#: ../komikku/servers/comick/__init__.py:178
+#: ../komikku/servers/mangadex/__init__.py:139
+msgid "Romance"
+msgstr "რომანტიკა"
+
+#: ../komikku/servers/comick/__init__.py:179
+#: ../komikku/servers/mangadex/__init__.py:140
+msgid "Sci-Fi"
+msgstr "საი-ფაი"
+
+#: ../komikku/servers/comick/__init__.py:180
+#: ../komikku/servers/mangatown/__init__.py:56
+msgid "Shoujo Ai"
+msgstr "შოუჯო აი"
+
+#: ../komikku/servers/comick/__init__.py:181
+#: ../komikku/servers/mangadex/__init__.py:141
+msgid "Slice of Life"
+msgstr "ცხოვრებისეული"
+
+#: ../komikku/servers/comick/__init__.py:182
+#: ../komikku/servers/mangadex/__init__.py:142
+msgid "Sports"
+msgstr "სპორტი"
+
+#: ../komikku/servers/comick/__init__.py:183
+#: ../komikku/servers/mangadex/__init__.py:143
+msgid "Superhero"
+msgstr "სუპერგმირი"
+
+#: ../komikku/servers/comick/__init__.py:184
+#: ../komikku/servers/mangadex/__init__.py:144
+msgid "Thriller"
+msgstr "თრილერი"
+
+#: ../komikku/servers/comick/__init__.py:185
+#: ../komikku/servers/mangadex/__init__.py:145
+msgid "Tragedy"
+msgstr "ტრაგედია"
+
+#: ../komikku/servers/comick/__init__.py:186
+#: ../komikku/servers/mangadex/__init__.py:146
+msgid "Wuxia"
+msgstr "ვუშია"
+
+#: ../komikku/servers/comick/__init__.py:187
+#: ../komikku/servers/mangaball/__init__.py:78
+#: ../komikku/servers/mangatown/__init__.py:55
+msgid "Yaoi"
+msgstr "იაოი"
+
+#: ../komikku/servers/comick/__init__.py:188
+#: ../komikku/servers/mangaball/__init__.py:77
+#: ../komikku/servers/mangatown/__init__.py:59
+msgid "Yuri"
+msgstr "იური"
+
+#: ../komikku/servers/comix/__init__.py:336
+#: ../komikku/servers/dynasty/__init__.py:41
+#: ../komikku/servers/flamescans/__init__.py:38
+#: ../komikku/servers/mangafire/__init__.py:134
+#: ../komikku/servers/mangakawaii/__init__.py:61
+#: ../komikku/servers/mangasorigines/__init__.py:33
+#: ../komikku/servers/mangaworld/__init__.py:60
+#: ../komikku/servers/raijinscan/__init__.py:53
+#: ../komikku/servers/weebcentral/__init__.py:49
+#: ../komikku/servers/zenko/__init__.py:70
+msgid "Filter by Types"
+msgstr "ტიპებით გაფილტვრა"
+
+#: ../komikku/servers/comix/__init__.py:366
+msgid "Hide NSFW Content"
+msgstr ""
+
+#: ../komikku/servers/comix/__init__.py:367
+msgid "Hide NSFW content from popular, latest, and search lists"
+msgstr ""
+
+#: ../komikku/servers/dbmultiverse/__init__.py:58
+#: ../komikku/servers/dbnewhope/__init__.py:30
+msgid "Fan Webcomic"
+msgstr "ფანის ვებ-კომიქსი"
+
+#: ../komikku/servers/dynasty/__init__.py:40
+msgid "Categories"
+msgstr "კატეგორიები"
+
+#: ../komikku/servers/dynasty/__init__.py:44
+msgid "Anthologies"
+msgstr "ანტოლოგიები"
+
+#: ../komikku/servers/dynasty/__init__.py:45
+msgid "Doujins"
+msgstr "დოუჯინები"
+
+#: ../komikku/servers/dynasty/__init__.py:46
+msgid "Issues"
+msgstr "პრობლემები"
+
+#: ../komikku/servers/dynasty/__init__.py:47
+msgid "Series"
+msgstr "სერიები"
+
+#: ../komikku/servers/dynasty/__init__.py:48
+msgid "Chapters"
+msgstr "თავები"
+
+#: ../komikku/servers/dynasty/__init__.py:54
+msgid "With Tags"
+msgstr "იარლიყებით"
+
+#: ../komikku/servers/dynasty/__init__.py:55
+msgid "Comma separated list of tags to search for"
+msgstr "იარლიყების მძიმით გამოყოფილი სია საძიებლად"
+
+#: ../komikku/servers/dynasty/__init__.py:61
+msgid "Without Tags"
+msgstr "იარლიყების გარეშე"
+
+#: ../komikku/servers/dynasty/__init__.py:62
+msgid "Comma separated list of tags to exclude from search"
+msgstr "იარლიყების მძიმით გამოყოფილი სია ძებნიდან გამოსარიცხად"
+
+#: ../komikku/servers/exceptions.py:10
+#, python-brace-format
+msgid "Error: {}"
+msgstr "შეცდომა: {}"
+
+#: ../komikku/servers/exceptions.py:16
+msgid "Local archive is corrupt."
+msgstr "ადგილობრივი არქივი კორუმპირებულია."
+
+#: ../komikku/servers/exceptions.py:21
+msgid "Unable to extract page. Maybe the 'unrar' tool is missing?"
+msgstr "გვერდის ამოღევა ვერ ხერხდება. დაყენებულია 'unrar' ინსტრუმენტი?"
+
+#: ../komikku/servers/exceptions.py:26
+msgid "Failed to complete browser challenge. Please try again."
+msgstr ""
+"ბრაუზერის გამოწვევის შესრულება ვერ მოხერხდა. გთხოვთ სცადოთ მოგვიანებით."
+
+#: ../komikku/servers/exceptions.py:31
+msgid "No longer exists."
+msgstr "აღარ არსებობს."
+
+#: ../komikku/servers/flamescans/__init__.py:37
+#: ../komikku/servers/mangafire/__init__.py:133
+#: ../komikku/servers/rawkuma/__init__.py:40
+#: ../komikku/servers/weebcentral/__init__.py:48
+msgid "Types"
+msgstr "ტიპები"
+
+#: ../komikku/servers/flamescans/__init__.py:49
+#: ../komikku/servers/mangafire/__init__.py:159
+#: ../komikku/servers/weebcentral/__init__.py:61
+msgid "Statuses"
+msgstr "სტატუსები"
+
+#: ../komikku/servers/flamescans/__init__.py:56
+#: ../komikku/trackers/__init__.py:70
+msgid "Dropped"
+msgstr "შეწყვეტილი"
+
+#: ../komikku/servers/jmanga/__init__.py:47
+#: ../komikku/servers/mangaball/__init__.py:85
+#: ../komikku/servers/mangak/__init__.py:92
+#: ../komikku/servers/mangalivreblog/__init__.py:38
+#: ../komikku/servers/mangasorigines/__init__.py:45
+#: ../komikku/servers/mangatown/__init__.py:66
+#: ../komikku/servers/multi/madtheme/__init__.py:45
+#: ../komikku/servers/readcomicsonline/__init__.py:34
+#: ../komikku/servers/rncalation/__init__.py:53
+#: ../komikku/servers/skymangas/__init__.py:42
+msgid "Filter by Status"
+msgstr "სტატუსით გაფილტვრა"
+
+#: ../komikku/servers/kavita/__init__.py:32
+#: ../komikku/servers/komga/__init__.py:26
+msgid "Self-hosted digital library"
+msgstr "საკუთარ სერვერზე განთავსებული ციფრული ბიბლიოთეკა"
+
+#: ../komikku/servers/local/__init__.py:351
+msgid "Comics stored locally as archives in CBZ/CBR/CBT or PDF formats"
+msgstr ""
+"ადგილობრივად შენახული კომიქსების არქივები CBZ/CBR/CBT ან PDF ფორმატებში"
+
+#: ../komikku/servers/mangaball/__init__.py:67
+#: ../komikku/servers/mangak/__init__.py:74
+#: ../komikku/servers/mangatown/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:73
+#: ../komikku/servers/weebdex/__init__.py:74
+msgid "Demographic"
+msgstr "დემოგრაფია"
+
+#: ../komikku/servers/mangaball/__init__.py:68
+#: ../komikku/servers/mangak/__init__.py:75
+#: ../komikku/servers/mangatown/__init__.py:47
+#: ../komikku/servers/skymangas/__init__.py:74
+msgid "Filter by Publication Demographic"
+msgstr "სამიზნე აუდიტორიით გაფილტვრა"
+
+#: ../komikku/servers/mangaball/__init__.py:72
+#: ../komikku/servers/mangaball/__init__.py:89
+#: ../komikku/servers/mangaball/__init__.py:104
+#: ../komikku/servers/mangak/__init__.py:50
+#: ../komikku/servers/mangak/__init__.py:65
+#: ../komikku/servers/mangak/__init__.py:79
+#: ../komikku/servers/mangak/__init__.py:96
+#: ../komikku/servers/mangalivreblog/__init__.py:42
+#: ../komikku/servers/rncalation/__init__.py:41
+#: ../komikku/servers/rncalation/__init__.py:57
+#: ../komikku/servers/weebcentral/__init__.py:40
+msgid "Any"
+msgstr "ნებისმიერი"
+
+#: ../komikku/servers/mangaball/__init__.py:108
+#: ../komikku/servers/mangakawaii/__init__.py:64
+#: ../komikku/servers/mangatube/__init__.py:135
+#: ../komikku/servers/multi/manga_stream/__init__.py:85
+#: ../komikku/servers/zenko/__init__.py:78
+msgid "Comic"
+msgstr "კომიკური"
+
+#: ../komikku/servers/mangaball/__init__.py:114
+#: ../komikku/servers/multi/madara/__init__.py:434
+#: ../komikku/servers/shadowmanga/__init__.py:39
+#: ../komikku/servers/weebcentral/__init__.py:35
+msgid "Adult Content"
+msgstr "ზრადსრულთათვის"
+
+#: ../komikku/servers/mangaball/__init__.py:115
+#: ../komikku/servers/multi/madara/__init__.py:435
+#: ../komikku/servers/shadowmanga/__init__.py:40
+msgid "Whether to show series containing adult content"
+msgstr ""
+
+#: ../komikku/servers/mangadex/__init__.py:65
+#: ../komikku/servers/mangafire/__init__.py:127
+#: ../komikku/servers/mangak/__init__.py:54
+#: ../komikku/servers/weebdex/__init__.py:55
+msgid "Pornographic"
+msgstr "პორნოგრაფიული"
+
+#: ../komikku/servers/mangadex/__init__.py:112
+msgid "Self-Published"
+msgstr "თვით-გამოქვეყნებადი"
+
+#: ../komikku/servers/mangadex/__init__.py:125
+msgid "Boys Love"
+msgstr "ბიჭების სიყვარული"
+
+#: ../komikku/servers/mangadex/__init__.py:130
+msgid "Girls Love"
+msgstr "გოგონების სიყვარული"
+
+#: ../komikku/servers/mangadex/__init__.py:152
+msgid "Tags Inclusion Mode"
+msgstr "იარლიყებიანი რეჟიმი"
+
+#: ../komikku/servers/mangadex/__init__.py:153
+msgid "Include manga that match <b>all</b> tags (AND) or <b>any</b> tag (OR)"
+msgstr ""
+"მანგების მითითება რომელბით ემთხვევა <b>ყველა</b> იარლიყს (და) ან "
+"<b>ნებისმიერი</b> იარლიყი (ან)"
+
+#: ../komikku/servers/mangadex/__init__.py:157
+msgid "AND"
+msgstr "და"
+
+#: ../komikku/servers/mangadex/__init__.py:158
+msgid "OR"
+msgstr "ან"
+
+#: ../komikku/servers/mangadex/__init__.py:167
+#: ../komikku/servers/weebdex/__init__.py:98
+msgid "Data Saver Mode"
+msgstr "მონაცემთა დაზოგვის რეჟიმი"
+
+#: ../komikku/servers/mangadex/__init__.py:168
+#: ../komikku/servers/weebdex/__init__.py:99
+msgid "Fetch lower quality images to save bandwidth"
+msgstr ""
+"დაბალი ხარისხის გამოსახულებების წამოღება (სიხშირეთა) ზოლის სიგანის დასაზოგად"
+
+#: ../komikku/servers/mangafire/__init__.py:120
+#: ../komikku/servers/mangak/__init__.py:45
+msgid "Content Rating"
+msgstr "შინაარსის რეიტინგი"
+
+#: ../komikku/servers/mangafire/__init__.py:121
+#: ../komikku/servers/mangak/__init__.py:46
+msgid "Filter by Content Rating"
+msgstr "შინაარსის შეფასებით ფაფილტვრა"
+
+#: ../komikku/servers/mangafire/__init__.py:146
+msgid "Demographics"
+msgstr ""
+
+#: ../komikku/servers/mangak/__init__.py:80
+msgid "Boy (Shounen + Seinen)"
+msgstr ""
+
+#: ../komikku/servers/mangak/__init__.py:81
+msgid "Girl (Shoujo + Josei)"
+msgstr ""
+
+#: ../komikku/servers/mangakawaii/__init__.py:70
+#: ../komikku/servers/mangatube/__init__.py:134
+msgid "Webtoon"
+msgstr "ვებ-ტუნი"
+
+#: ../komikku/servers/mangapill/__init__.py:41
+#: ../komikku/servers/rawkuma/__init__.py:47
+msgid "Novel"
+msgstr "ნოველა"
+
+#: ../komikku/servers/mangapill/__init__.py:46
+#: ../komikku/servers/skymangas/__init__.py:66
+#: ../komikku/servers/weebcentral/__init__.py:55
+msgid "OEL"
+msgstr "OEL"
+
+#: ../komikku/servers/mangatown/__init__.py:58
+msgid "Shounen Ai"
+msgstr "შოუნენ აი"
+
+#: ../komikku/servers/mangatown/__init__.py:71
+msgid "New"
+msgstr "ახალი"
+
+#: ../komikku/servers/mangatube/__init__.py:126
+msgid "Type of Serie"
+msgstr "სერიის ტიპი"
+
+#: ../komikku/servers/mangatube/__init__.py:137
+#: ../komikku/servers/zenko/__init__.py:79
+msgid "Light Novel"
+msgstr "ლაით ნოველა"
+
+#: ../komikku/servers/mangatube/__init__.py:143
+msgid "Age Rating"
+msgstr "ასაკის რეიტინგი"
+
+#: ../komikku/servers/mangatube/__init__.py:144
+msgid "Maturity"
+msgstr "მოწიფულობა"
+
+#: ../komikku/servers/mangatube/__init__.py:148
+msgid "Without"
+msgstr "გარეშე"
+
+#: ../komikku/servers/mangatube/__init__.py:149
+msgid "16+"
+msgstr "16+"
+
+#: ../komikku/servers/multi/mangareader/__init__.py:119
+#, python-brace-format
+msgid "Not available in {0} language"
+msgstr "არ არის ხელმისაწვდომი {0} ენაზე"
+
+#: ../komikku/servers/readmanhwa/__init__.py:45
+msgid "NSFW Content"
+msgstr "სექსუალური შინაარსის"
+
+#: ../komikku/servers/readmanhwa/__init__.py:46
+msgid "Whether to show manga containing NSFW content"
+msgstr "სექსუალური შინაარსის მქონე მანგის ჩვენება/არ ჩვენება"
+
+#: ../komikku/servers/skymangas/__init__.py:65
+msgid "Manfra"
+msgstr ""
+
+#: ../komikku/servers/skymangas/__init__.py:83
+msgid "Kodomo"
+msgstr ""
+
+#: ../komikku/servers/suwayomi/__init__.py:33
+msgid "Manga reader server"
+msgstr "მანგა წამკითხველის სერვერი"
+
+#: ../komikku/servers/webtoon/__init__.py:61
+msgid "Originals"
+msgstr "ორიგინალები"
+
+#: ../komikku/servers/webtoon/__init__.py:62
+msgid "Canvas"
+msgstr "ტილო"
+
+#: ../komikku/servers/weebcentral/__init__.py:36
+msgid "Filter by Adult Content"
+msgstr "\"ზრდასრულთათვის\"-ით გაფილტვრა"
+
+#: ../komikku/servers/weebcentral/__init__.py:41
+msgid "Yes"
+msgstr "დიახ"
+
+#: ../komikku/servers/weebcentral/__init__.py:42
+msgid "No"
+msgstr "არა"
+
+#: ../komikku/servers/zenko/__init__.py:45
+msgid "Age Restriction"
+msgstr "ასაკის შეზღუდვა"
+
+#: ../komikku/servers/zenko/__init__.py:46
+msgid "Filter by Age Restrictions"
+msgstr "ასაკის შეზღუდვით გაფილტვრა"
+
+#: ../komikku/servers/zenko/__init__.py:73
+msgid "Manga UA"
+msgstr "მანგა UA"
+
+#: ../komikku/servers/zenko/__init__.py:77
+msgid "Western Comic"
+msgstr "დასავლური კომიქსი"
+
+#: ../komikku/trackers/__init__.py:67
+msgid "Reading"
+msgstr "კითხვა"
+
+#: ../komikku/trackers/__init__.py:69
+msgid "On Hold"
+msgstr "შეყოვნებულია"
+
+#: ../komikku/trackers/__init__.py:71
+msgid "Plan to Read"
+msgstr "იგეგმება წაკითხვა"
+
+#: ../komikku/trackers/__init__.py:72
+msgid "Rereading"
+msgstr "ხელახლა წაკითხვა"
+
+#: ../komikku/updater.py:93
+#, python-brace-format
+msgid "{0} seems down. Please try updating later"
+msgstr "{0} გათიშული ჩანს. გთხოვთ სცადოთ განახლება მოგვიანებით"
+
+#: ../komikku/updater.py:125
+msgid "Library update completed with errors"
+msgstr "ბიბლიოთეკის განახლება დასრულდა შეცდომებით"
+
+#: ../komikku/updater.py:127
+msgid "Library update completed"
+msgstr "ბიბლიოთეკის განახლება დასრულდა"
+
+#: ../komikku/updater.py:130
+msgid "Update completed with errors"
+msgstr "განახლება დასრულდა შეცდომებით"
+
+#: ../komikku/updater.py:132
+msgid "Update completed"
+msgstr "განახლება დასრულდა"
+
+#: ../komikku/updater.py:136
+#, python-brace-format
+msgid "{0} successful update"
+msgid_plural "{0} successful updates"
+msgstr[0] "{0} წარმატებული განახლება"
+msgstr[1] "{0} წარმატებული განახლებები"
+
+#: ../komikku/updater.py:137 ../komikku/updater.py:153
+#, python-brace-format
+msgid "{0} new chapter"
+msgid_plural "{0} new chapters"
+msgstr[0] "{0} ახალი თავი"
+msgstr[1] "{0} ახალი თავი"
+
+#: ../komikku/updater.py:139 ../komikku/updater.py:161
+msgid "No new chapters"
+msgstr "ახალი თავები არ არის"
+
+#: ../komikku/updater.py:142
+#, python-brace-format
+msgid "{0} update failed"
+msgid_plural "{0} updates failed"
+msgstr[0] "{0} განახლება ვერ მოხერხდა"
+msgstr[1] "{0} განახლება ვერ მოხერხდა"
+
+#: ../komikku/updater.py:180
+msgid "Oops, update has failed. Please try again."
+msgstr "უი, განახლება ვერ მოხერხდა. გთხოვთ სცადოთ მოგვიანებით."
+
+#: ../komikku/updater.py:198
+msgid "Library update started"
+msgstr "ბიბლიოთეკის განახლება დაიწყო"
+
+#: ../komikku/utils.py:364
+msgid "You are currently offline"
+msgstr "ამჟამად ხაზგარეშე ბრძანდებით"
+
+#: ../komikku/utils.py:392
+msgid "No Internet connection, timeout or server down"
+msgstr "ინტერნეტ კავშირი არ არის, კავშირი ვერ დამყარდა ან სერვერი გათიშულია"
+
+#: ../komikku/webview.py:441
+msgid "Please wait…"
+msgstr "გთხოვთ მოიცადოთ…"
+
+#: ../komikku/webview.py:496
+msgid "Please complete CAPTCHA"
+msgstr "გთხოვთ გაიაროთ CAPTCHA"
+
+#~ msgid "Releasing"
+#~ msgstr "გამოცემაში"
+
+#~ msgid "Discontinued"
+#~ msgstr "შეწყვეტილია"

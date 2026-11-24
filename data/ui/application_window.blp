@@ -1,0 +1,60 @@
+// SPDX-FileCopyrightText: 2019-2025 Valéry Febvre
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+using Gtk 4.0;
+using Adw 1;
+
+template $ApplicationWindow: Adw.ApplicationWindow {
+  Adw.Breakpoint breakpoint {
+    condition ("max-width: 720sp")
+  }
+
+  content: Overlay overlay {
+    child: Adw.NavigationView navigationview {};
+
+    [overlay]
+    Revealer pool_to_update_revealer {
+      can-target: false;
+      halign: center;
+      valign: start;
+
+      child: Adw.Spinner pool_to_update_spinner {
+        height-request: 48;
+        width-request: 48;
+
+        styles [
+          "pool-to-update-spinner",
+        ]
+      };
+    }
+
+    [overlay]
+    Revealer notification_revealer {
+      can-target: false;
+      halign: center;
+      valign: start;
+
+      child: Box {
+        halign: center;
+
+        Label notification_label {
+          label: "app notification message";
+          justify: center;
+          wrap: true;
+
+          styles [
+            "app-notification",
+            "heading",
+          ]
+        }
+      };
+    }
+
+    [overlay]
+    Adw.Banner banner {
+      button-label: _("Got it!");
+      valign: start;
+    }
+  };
+}

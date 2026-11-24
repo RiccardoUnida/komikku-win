@@ -1,0 +1,89 @@
+#!@PYTHON@
+
+# @prettyname@ -- @description@
+#
+# SPDX-FileCopyrightText: 2019-2025 @authorfullname@ <@authoremail@>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+import gettext
+import locale
+import os
+import sys
+
+sys.path.insert(1, '@pythondir@')
+
+builddir = os.environ.get('MESON_BUILD_ROOT')
+if builddir:
+    sys.dont_write_bytecode = True
+    sys.path.insert(1, os.environ['MESON_SOURCE_ROOT'])
+    xdg_data_dir = os.path.join(builddir, '@prefix@', '@datadir@')
+    os.putenv('XDG_DATA_DIRS', os.pathsep.join([xdg_data_dir, os.getenv('XDG_DATA_DIRS', os.pathsep.join(['/usr/local/share/', '/usr/share/']))]))
+
+
+def install_excepthook():
+    """ Make sure we exit when an unhandled exception occurs """
+    old_hook = sys.excepthook
+
+    def new_hook(etype, evalue, etb):
+        print('Error: An unhandled exception occurs')
+
+        old_hook(etype, evalue, etb)
+
+        if app := Gio.Application.get_default():
+            context = GLib.main_context_default()
+            while context.iteration():
+                if app.window:
+                    app.window.quit(force=True)
+                else:
+                    app.quit()
+                break
+
+        sys.exit()
+
+    sys.excepthook = new_hook
+
+
+if __name__ == '__main__':
+    import gi
+
+    gi.require_version('Gtk', '4.0')
+    gi.require_version('Adw', '1')
+
+    from gi.repository import Gio
+    from gi.repository import GLib
+    from gi.repository import Gtk
+
+    install_excepthook()
+
+    # Why both locale and gettext are needed?
+    # gettext works for the python part but not for XML UI files!
+    try:
+        locale.textdomain('@projectname@')
+        locale.bindtextdomain('@projectname@', '@localedir@')
+    except AttributeError as e:
+        # Python built without gettext support doesn't have bindtextdomain() and textdomain()
+        print('Could not bind the gettext translation domain. Some translations will not work.')
+        print('Error: {}'.format(e))
+    gettext.textdomain('@projectname@')
+    gettext.bindtextdomain('@projectname@', '@localedir@')
+
+    resource = Gio.Resource.load(os.path.join('@pkgdatadir@', '@appid@.gresource'))
+    resource._register()
+
+    from @projectname@.application import Application
+
+    Application.application_id = '@appid@'
+    Application.author = '@authorfullname@'
+    Application.description = '@description@'
+    Application.gitrepo = '@gitrepo@'
+    Application.profile = @PROFILE@
+    Application.version = '@VERSION@'
+    app = Application()
+
+    try:
+        status = app.run(sys.argv)
+    except SystemExit as e:
+        status = e.code
+
+    sys.exit(status)

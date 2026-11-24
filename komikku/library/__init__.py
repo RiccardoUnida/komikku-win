@@ -1,0 +1,884 @@
+# SPDX-FileCopyrightText: 2019-2026 Valéry Febvre
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Author: Valéry Febvre <vfebvre@easter-eggs.com>
+
+from gettext import gettext as _
+from gettext import ngettext
+import threading
+
+from gi.repository import Adw
+from gi.repository import Gdk
+from gi.repository import Gio
+from gi.repository import GLib
+from gi.repository import GObject
+from gi.repository import Gtk
+
+from komikku.library.categories_list import CategoriesList
+from komikku.library.flowbox_child import LibraryCompactFlowBoxChild
+from komikku.library.flowbox_child import LibraryFlowBoxChild
+from komikku.models import Category
+from komikku.models import CategoryVirtual
+from komikku.models import create_db_connection
+from komikku.models import Manga
+from komikku.models import Settings
+from komikku.models import update_rows
+
+
+@Gtk.Template.from_resource('/info/febvre/Komikku/ui/library.ui')
+class LibraryPage(Adw.NavigationPage):
+    __gtype_name__ = 'LibraryPage'
+
+    left_button = Gtk.Template.Child('left_button')
+    categories_togglebutton = Gtk.Template.Child('categories_togglebutton')
+    filters_button = Gtk.Template.Child('filters_button')
+    title = Gtk.Template.Child('title')
+    search_button = Gtk.Template.Child('search_button')
+    menu_button = Gtk.Template.Child('menu_button')
+
+    searchbar = Gtk.Template.Child('searchbar')
+    searchbar_separator = Gtk.Template.Child('searchbar_separator')
+    search_entry = Gtk.Template.Child('searchentry')
+    overlaysplitview = Gtk.Template.Child('overlaysplitview')
+    stack = Gtk.Template.Child('stack')
+
+    categories_stack = Gtk.Template.Child('categories_stack')
+    categories_listbox = Gtk.Template.Child('categories_listbox')
+    categories_edit_mode_buttonbox = Gtk.Template.Child('categories_edit_mode_buttonbox')
+    categories_edit_mode_cancel_button = Gtk.Template.Child('categories_edit_mode_cancel_button')
+    categories_edit_mode_ok_button = Gtk.Template.Child('categories_edit_mode_ok_button')
+
+    activity_progressbar = Gtk.Template.Child('activity_progressbar')
+    flowbox = Gtk.Template.Child('flowbox')
+    selection_mode_actionbar = Gtk.Template.Child('selection_mode_actionbar')
+    selection_mode_menubutton = Gtk.Template.Child('selection_mode_menubutton')
+
+    start_page_progressbar = Gtk.Template.Child('start_page_progressbar')
+    start_page_logo_image = Gtk.Template.Child('start_page_logo_image')
+    start_page_title_label = Gtk.Template.Child('start_page_title_label')
+    start_page_discover_button = Gtk.Template.Child('start_page_discover_button')
+
+    flowbox_child_cover_size = None
+    page = None
+    populating = False
+    selected_filters = []
+    selection_mode = False
+    selection_mode_range = False
+    selection_mode_last_flowbox_child_index = None
+
+    def __init__(self, window):
+        Adw.NavigationPage.__init__(self)
+
+        self.window = window
+        self.builder = window.builder
+        self.builder.add_from_resource('/info/febvre/Komikku/ui/menu/main.xml')
+        self.builder.add_from_resource('/info/febvre/Komikku/ui/menu/library_selection_mode.xml')
+
+        self.selected_filters = Settings.get_default().library_selected_filters
+
+        self.connect('shown', self.on_shown)
+
+        # Header bar
+        self.left_button.connect('clicked', self.on_left_button_clicked)
+        self.filters_button.connect('clicked', self.on_filters_button_clicked)
+        if self.selected_filters:
+            self.filters_button.add_css_class('accent')
+        self.menu_button.set_menu_model(self.builder.get_object('menu'))
+        # Focus is lost after showing popover submenu (bug?)
+        self.menu_button.get_popover().connect('closed', lambda _popover: self.menu_button.grab_focus())
+
+        # Search
+        self.search_entry.connect('activate', self.on_search_entry_activated)
+        self.search_entry.connect('changed', self.search)
+        self.searchbar.bind_property(
+            'search-mode-enabled', self.search_button, 'active',
+            GObject.BindingFlags.BIDIRECTIONAL | GObject.BindingFlags.SYNC_CREATE
+        )
+        self.searchbar.bind_property(
+            'search-mode-enabled', self.searchbar_separator, 'visible',
+            GObject.BindingFlags.BIDIRECTIONAL | GObject.BindingFlags.SYNC_CREATE
+        )
+        self.searchbar.connect_entry(self.search_entry)
+        self.searchbar.set_key_capture_widget(self.window)
+
+        # Filters dialog
+        self.filters_dialog = Adw.PreferencesDialog.new()
+        self.filters_dialog.set_title(_('Filters'))
+        self.filters_dialog.props.presentation_mode = Adw.DialogPresentationMode.BOTTOM_SHEET
+        self.init_filters_dialog()
+
+        # Overlay split view (provide overlay sidebar)
+        self.overlaysplitview.connect('notify::show-sidebar', self.on_overlaysplitview_revealed)
+        self.overlaysplitview.bind_property(
+            'show-sidebar', self.categories_togglebutton, 'active',
+            GObject.BindingFlags.BIDIRECTIONAL | GObject.BindingFlags.SYNC_CREATE
+        )
+
+        self.categories_list = CategoriesList(self)
+
+        # Flowbox
+        self.flowbox.set_valign(Gtk.Align.START)
+        self.flowbox.connect('child-activated', self.on_flowbox_child_activated)
+        self.flowbox.connect('selected-children-changed', self.update_title)
+        self.flowbox.connect('unselect-all', self.leave_selection_mode)
+
+        # Selection mode ActionBar
+        self.selection_mode_menubutton.set_menu_model(self.builder.get_object('menu-library-selection-mode'))
+
+        # Gestures for multi-selection mode
+        self.window.controller_key.connect('key-pressed', self.on_key_pressed)
+
+        self.gesture_click = Gtk.GestureClick.new()
+        self.gesture_click.set_propagation_phase(Gtk.PropagationPhase.CAPTURE)
+        self.gesture_click.set_button(3)
+        self.gesture_click.connect('released', self.on_flowbox_child_right_click)
+        self.flowbox.add_controller(self.gesture_click)
+
+        self.gesture_long_press = Gtk.GestureLongPress.new()
+        self.gesture_long_press.set_propagation_phase(Gtk.PropagationPhase.CAPTURE)
+        self.gesture_long_press.set_touch_only(False)
+        self.gesture_long_press.connect('pressed', self.on_gesture_long_press_activated)
+        self.flowbox.add_controller(self.gesture_long_press)
+
+        self.window.updater.connect('manga-update-end', self.on_manga_updated)
+
+        def _filter(flowbox_child):
+            manga = flowbox_child.manga
+            selected_category = Settings.get_default().selected_category
+
+            if selected_category != CategoryVirtual.ALL:
+                if selected_category == CategoryVirtual.UNCATEGORIZED:
+                    # Virtual category 'Uncategorized' is selected
+                    ret = not manga.categories
+                else:
+                    # Categorized
+                    ret = selected_category in manga.categories
+            else:
+                # All
+                ret = True
+
+            if ret:
+                term = self.search_entry.get_text().lower()
+
+                # Search in name
+                ret = term in manga.name.lower()
+
+                # Search in server name
+                ret = ret or term in manga.server.name.lower()
+
+                # Search in genres (exact match)
+                ret = ret or term in [genre.lower() for genre in manga.genres]
+
+                # Optional menu filters
+                if ret and 'downloaded' in self.selected_filters:
+                    ret = manga.nb_downloaded_chapters > 0
+                if ret and 'unread' in self.selected_filters:
+                    ret = manga.nb_unread_chapters > 0
+                if ret and 'recents' in self.selected_filters:
+                    ret = manga.nb_recent_chapters > 0
+
+            if not ret and flowbox_child._selected:
+                # Unselect flowbox child if it's selected
+                self.flowbox.unselect_child(flowbox_child)
+                flowbox_child._selected = False
+
+            flowbox_child._filtered = not ret
+
+            return ret
+
+        def _sort(flowbox_child1, flowbox_child2):
+            """
+            This function gets two children and has to return:
+            - a negative integer if the firstone should come before the second one
+            - zero if they are equal
+            - a positive integer if the second one should come before the firstone
+            """
+            manga1 = flowbox_child1.manga
+            manga2 = flowbox_child2.manga
+
+            sort_order = Settings.get_default().library_sort_order
+            if sort_order == 'latest-read-desc':
+                if manga1.last_read.timestamp() > manga2.last_read.timestamp():
+                    return -1
+
+                if manga1.last_read.timestamp() < manga2.last_read.timestamp():
+                    return 1
+
+            elif sort_order == 'latest-updated-desc':
+                if manga1.last_update is None or manga2.last_update is None:
+                    if manga1.last_update is not None and manga2.last_update is None:
+                        return -1
+                    if manga1.last_update is None and manga2.last_update is not None:
+                        return 1
+
+                    # Both are None, fall back on alphabetical sorting (ascendant)
+                    if manga1.name > manga2.name:
+                        return 1
+                    if manga1.name < manga2.name:
+                        return -1
+
+                    return 0
+
+                if manga1.last_update.timestamp() > manga2.last_update.timestamp():
+                    return -1
+
+                if manga1.last_update.timestamp() < manga2.last_update.timestamp():
+                    return 1
+
+            elif sort_order == 'alphanum-asc':
+                if manga1.name > manga2.name:
+                    return 1
+
+                if manga1.name < manga2.name:
+                    return -1
+
+            return 0
+
+        self.flowbox.set_filter_func(_filter)
+        self.flowbox.set_sort_func(_sort)
+
+        self.window.navigationview.add(self)
+
+    def add_accelerators(self):
+        self.window.application.set_accels_for_action('app.library.add', ['<Primary>plus'])
+        self.window.application.set_accels_for_action('app.library.toggle-categories', ['F9'])
+        self.window.application.set_accels_for_action('app.library.update', ['<Primary>r'])
+
+    def add_actions(self):
+        add_action = Gio.SimpleAction.new('library.add', None)
+        add_action.connect('activate', self.on_left_button_clicked)
+        self.window.application.add_action(add_action)
+
+        # Menu actions
+        update_action = Gio.SimpleAction.new('library.update', None)
+        update_action.connect('activate', self.update_all)
+        self.window.application.add_action(update_action)
+
+        variant = GLib.Variant.new_string(Settings.get_default().library_sort_order)
+        self.sort_order_action = Gio.SimpleAction.new_stateful('library.sort-order', variant.get_type(), variant)
+        self.sort_order_action.connect('activate', self.on_sort_order_changed)
+        self.window.application.add_action(self.sort_order_action)
+
+        download_manager_action = Gio.SimpleAction.new('library.download-manager', None)
+        download_manager_action.connect('activate', self.open_download_manager)
+        self.window.application.add_action(download_manager_action)
+
+        categories_editor_action = Gio.SimpleAction.new('library.categories-editor', None)
+        categories_editor_action.connect('activate', self.open_categories_editor)
+        self.window.application.add_action(categories_editor_action)
+
+        history_action = Gio.SimpleAction.new('library.history', None)
+        history_action.connect('activate', self.open_history)
+        self.window.application.add_action(history_action)
+
+        # ActionBar actions in selection mode
+        update_selected_action = Gio.SimpleAction.new('library.update-selected', None)
+        update_selected_action.connect('activate', self.update_selected)
+        self.window.application.add_action(update_selected_action)
+
+        clear_selected_action = Gio.SimpleAction.new('library.clear-selected', None)
+        clear_selected_action.connect('activate', self.clear_selected)
+        self.window.application.add_action(clear_selected_action)
+
+        delete_selected_action = Gio.SimpleAction.new('library.delete-selected', None)
+        delete_selected_action.connect('activate', self.delete_selected)
+        self.window.application.add_action(delete_selected_action)
+
+        download_selected_action = Gio.SimpleAction.new('library.download-selected', None)
+        download_selected_action.connect('activate', self.download_selected)
+        self.window.application.add_action(download_selected_action)
+
+        mark_selected_read_action = Gio.SimpleAction.new('library.mark-selected-read', None)
+        mark_selected_read_action.connect('activate', self.toggle_selected_read_status, 1)
+        self.window.application.add_action(mark_selected_read_action)
+
+        mark_selected_unread_action = Gio.SimpleAction.new('library.mark-selected-unread', None)
+        mark_selected_unread_action.connect('activate', self.toggle_selected_read_status, 0)
+        self.window.application.add_action(mark_selected_unread_action)
+
+        edit_categories_selected_action = Gio.SimpleAction.new('library.edit-categories-selected', None)
+        edit_categories_selected_action.connect('activate', self.edit_categories_selected)
+        self.window.application.add_action(edit_categories_selected_action)
+
+        # Shortcuts
+        toggle_categories_action = Gio.SimpleAction.new('library.toggle-categories', None)
+        toggle_categories_action.connect(
+            'activate', lambda _action, _param: self.overlaysplitview.set_show_sidebar(
+                not self.overlaysplitview.get_show_sidebar()
+            )
+        )
+        self.window.application.add_action(toggle_categories_action)
+
+    def clear_mangas(self, mangas):
+        def confirm_callback():
+            # Stop Downloader & Updater
+            self.window.downloader.stop()
+            self.window.updater.stop()
+
+            GLib.idle_add(do_clear)
+
+        def do_clear():
+            if self.window.downloader.running or self.window.updater.running:
+                return GLib.SOURCE_CONTINUE
+
+            db_conn = create_db_connection()
+            for manga in mangas:
+                manga.clear(db_conn=db_conn)
+                self.update_flowbox_child(manga)
+
+            # Update filtering if filters are selected
+            if self.selected_filters:
+                self.flowbox.invalidate_filter()
+
+            # Restart Downloader & Updater
+            self.window.downloader.start()
+            self.window.updater.start()
+
+            self.leave_selection_mode()
+
+        self.window.open_dialog(
+            _('Clear?'),
+            body=_('Are you sure you want to clear selected mangas?'),
+            confirm_label=_('Clear'),
+            confirm_callback=confirm_callback,
+            confirm_appearance=Adw.ResponseAppearance.DESTRUCTIVE
+        )
+
+    def clear_selected(self, _action, _param):
+        self.clear_mangas([child.manga for child in self.flowbox.get_selected_children()])
+
+    def compute_flowbox_child_cover_size(self):
+        default_width = LibraryFlowBoxChild.default_width
+        default_height = LibraryFlowBoxChild.default_height
+
+        container_width = self.window.get_width() or self.window.props.default_width
+
+        if container_width / default_width != container_width // default_width:
+            nb = container_width // default_width + 1
+            width = container_width // nb
+        else:
+            width = default_width
+        width -= LibraryFlowBoxChild.margins
+
+        height = (width * default_height) // default_width
+
+        self.flowbox_child_cover_size = (width, height)
+
+    def delete_mangas(self, mangas):
+        def confirm_callback():
+            # Stop Downloader & Updater
+            self.window.downloader.stop()
+            self.window.updater.stop()
+
+            GLib.idle_add(do_delete)
+
+        def do_delete():
+            if self.window.downloader.running or self.window.updater.running:
+                return GLib.SOURCE_CONTINUE
+
+            db_conn = create_db_connection()
+
+            # Safely delete mangas in DB
+            for manga in mangas:
+                manga.delete(db_conn=db_conn)
+
+            # Restart Downloader & Updater
+            self.window.downloader.start()
+            self.window.updater.start()
+
+            # Finally, update library
+            for manga in mangas:
+                self.remove_flowbox_child(manga)
+
+            if self.window.page == 'card':
+                self.window.navigationview.pop()
+            else:
+                self.leave_selection_mode()
+
+            if not self.flowbox.get_first_child():
+                # Library is now empty
+                self.populate()
+
+        if self.window.page == 'card':
+            message = _('Are you sure you want to delete this manga?')
+        else:
+            message = _('Are you sure you want to delete selected mangas?')
+        self.window.open_dialog(
+            _('Delete?'),
+            body=message,
+            confirm_label=_('Delete'),
+            confirm_callback=confirm_callback,
+            confirm_appearance=Adw.ResponseAppearance.DESTRUCTIVE
+        )
+
+    def delete_selected(self, _action, _param):
+        self.delete_mangas([child.manga for child in self.flowbox.get_selected_children()])
+
+    def download_selected(self, _action, _param):
+        def confirm_callback():
+            chapters = []
+            for child in self.flowbox.get_selected_children():
+                for chapter in child.manga.chapters:
+                    chapters.append(chapter)
+
+            self.leave_selection_mode()
+
+            self.window.downloader.add(chapters)
+            self.window.downloader.start()
+
+        message = _('Are you sure you want to download all chapters of selected mangas?')
+        self.window.open_dialog(
+            _('Download?'),
+            body=message,
+            confirm_label=_('Download'),
+            confirm_callback=confirm_callback,
+            confirm_appearance=Adw.ResponseAppearance.SUGGESTED
+        )
+
+    def edit_categories_selected(self, _action, _param):
+        # Edit categories of selected mangas
+        self.categories_list.set_edit_mode(True)
+        self.overlaysplitview.set_show_sidebar(True)
+
+    def enter_selection_mode(self):
+        self.selection_mode = True
+        self.update_headerbar_buttons()
+
+        self.flowbox.set_selection_mode(Gtk.SelectionMode.MULTIPLE)
+        self.selection_mode_actionbar.set_revealed(True)
+
+    def init_filters_dialog(self):
+        page = Adw.PreferencesPage(title=_('Filters'))
+        self.filters_dialog.add(page)
+
+        group = Adw.PreferencesGroup()
+
+        filters = {
+            'unread': {
+                'title': _('Unread'),
+                'subtitle': _('Series with unread chapters'),
+            },
+            'downloaded': {
+                'title': _('Downloaded'),
+                'subtitle': _('Series with downloaded chapters'),
+            },
+            'recents': {
+                'title': _('Recents'),
+                'subtitle': _('Series with new chapters'),
+            },
+        }
+
+        for name, filter in filters.items():
+            row = Adw.SwitchRow(title=filter['title'])
+            row.set_subtitle(filter['subtitle'])
+            row.set_use_markup(True)
+            row.set_active(name in self.selected_filters)
+            row.connect('notify::active', self.on_filter_changed, name)
+            group.add(row)
+
+        page.add(group)
+
+    def leave_selection_mode(self, _param=None):
+        self.selection_mode = False
+        self.update_headerbar_buttons()
+
+        self.flowbox.set_selection_mode(Gtk.SelectionMode.NONE)
+        for child in self.flowbox:
+            child._selected = False
+
+        self.selection_mode_actionbar.set_revealed(False)
+        self.overlaysplitview.set_show_sidebar(False)
+
+    def on_filter_changed(self, switch, _gparam, name):
+        if switch.get_active():
+            self.selected_filters.add(name)
+        else:
+            self.selected_filters.remove(name)
+        Settings.get_default().library_selected_filters = self.selected_filters
+
+        if self.selected_filters:
+            self.filters_button.add_css_class('accent')
+        else:
+            self.filters_button.remove_css_class('accent')
+
+        self.flowbox.invalidate_filter()
+
+    def on_filters_button_clicked(self, _button):
+        self.filters_dialog.present(self.window)
+
+    def on_flowbox_child_activated(self, _flowbox, child):
+        if self.selection_mode:
+            if self.selection_mode_range and self.selection_mode_last_flowbox_child_index is not None:
+                # Range selection mode: select all mangas between last selected manga and clicked manga
+                walk_index = self.selection_mode_last_flowbox_child_index
+                last_index = child.get_index()
+
+                while walk_index != last_index:
+                    walk_child = self.flowbox.get_child_at_index(walk_index)
+                    if walk_child and not walk_child._selected and not walk_child._filtered:
+                        self.flowbox.select_child(walk_child)
+                        walk_child._selected = True
+
+                    if walk_index < last_index:
+                        walk_index += 1
+                    else:
+                        walk_index -= 1
+
+            self.selection_mode_range = False
+
+            if child._selected:
+                self.flowbox.unselect_child(child)
+                self.selection_mode_last_flowbox_child_index = None
+                child._selected = False
+            else:
+                self.flowbox.select_child(child)
+                self.selection_mode_last_flowbox_child_index = child.get_index()
+                child._selected = True
+
+            if len(self.flowbox.get_selected_children()) == 0:
+                self.leave_selection_mode()
+        else:
+            self.window.card.init(child.manga)
+
+    def on_flowbox_child_right_click(self, _gesture, _n_press, x, y):
+        """Allow to enter in selection mode with a right click on a flowbox child"""
+        if self.selection_mode:
+            return Gdk.EVENT_PROPAGATE
+
+        child = self.flowbox.get_child_at_pos(x, y)
+        if child is not None:
+            self.enter_selection_mode()
+            self.on_flowbox_child_activated(None, child)
+            return Gdk.EVENT_STOP
+
+        return Gdk.EVENT_PROPAGATE
+
+    def on_gesture_long_press_activated(self, _gesture, x, y):
+        """Allow to enter in selection mode with a long press on a flowbox child"""
+        if not self.selection_mode:
+            self.enter_selection_mode()
+        else:
+            # Enter in 'Range' selection mode
+            # Long press on a manga then long press on another to select everything in between
+            self.selection_mode_range = True
+
+        selected_child = self.flowbox.get_child_at_pos(x, y)
+        self.on_flowbox_child_activated(None, selected_child)
+
+    def on_key_pressed(self, _controller, keyval, _keycode, state):
+        if self.window.page != self.props.tag:
+            return Gdk.EVENT_PROPAGATE
+
+        modifiers = state & Gtk.accelerator_get_default_mod_mask()
+        if not self.selection_mode and modifiers == Gdk.ModifierType.SHIFT_MASK:
+            # Allow to enter in selection mode with <SHIFT>+Arrow key
+            arrow_keys = (
+                Gdk.KEY_Up, Gdk.KEY_KP_Up,
+                Gdk.KEY_Down, Gdk.KEY_KP_Down,
+                Gdk.KEY_Left, Gdk.KEY_KP_Left,
+                Gdk.KEY_Right, Gdk.KEY_KP_Right
+            )
+            if keyval not in arrow_keys:
+                return Gdk.EVENT_PROPAGATE
+
+            child = self.flowbox.get_focus_child() or self.flowbox.get_first_child()
+            if child is not None:
+                self.enter_selection_mode()
+                self.on_flowbox_child_activated(None, child)
+        else:
+            if keyval == Gdk.KEY_Escape or (modifiers == Gdk.ModifierType.ALT_MASK and keyval in (Gdk.KEY_Left, Gdk.KEY_KP_Left)):
+                self.leave_selection_mode()
+
+        return Gdk.EVENT_PROPAGATE
+
+    def on_left_button_clicked(self, action_or_button=None, _param=None):
+        if self.window.page != self.props.tag:
+            return
+
+        if not self.selection_mode:
+            self.window.explorer.show()
+        else:
+            self.leave_selection_mode()
+
+    def on_manga_added(self, manga):
+        """Called from 'Card' when user clicks on `+ Add to Library` button"""
+        db_conn = create_db_connection()
+        nb_mangas = db_conn.execute('SELECT count(*) FROM mangas WHERE in_library = 1').fetchone()[0]
+
+        if nb_mangas == 1:
+            # Library was previously empty
+            self.populate()
+        else:
+            if Settings.get_default().library_display_mode == 'grid-compact':
+                flowbox_child = LibraryCompactFlowBoxChild(self, manga, *self.flowbox_child_cover_size)
+            else:
+                flowbox_child = LibraryFlowBoxChild(self, manga, *self.flowbox_child_cover_size)
+            self.flowbox.prepend(flowbox_child)
+
+    def on_manga_updated(self, _obj, manga, _chapters_changes, _synced):
+        self.refresh_on_manga_state_changed(manga)
+
+    def on_overlaysplitview_revealed(self, _overlaysplitview, _param):
+        if self.overlaysplitview.get_show_sidebar():
+            self.categories_list.populate()
+        else:
+            self.categories_list.set_edit_mode(False)
+
+    def on_resize(self):
+        def do_resize():
+            if self.populating:
+                return GLib.SOURCE_CONTINUE
+
+            self.compute_flowbox_child_cover_size()
+
+            for child in self.flowbox:
+                child.resize_cover(*self.flowbox_child_cover_size)
+
+        # Wait until there are no higher priority events pending to the default main loop
+        GLib.idle_add(do_resize)
+
+    def on_search_entry_activated(self, _entry):
+        """Open first manga in search when <Enter> is pressed"""
+        if child := self.flowbox.get_child_at_pos(0, 0):
+            self.on_flowbox_child_activated(None, child)
+
+    def on_shown(self, _page):
+        if self.searchbar.get_search_mode():
+            self.search_entry.grab_focus()
+
+        self.show_activity_indicator()
+
+    def on_sort_order_changed(self, _action, variant):
+        value = variant.get_string()
+        if value == Settings.get_default().library_sort_order:
+            return
+
+        Settings.get_default().library_sort_order = value
+        self.set_sort_order()
+
+    def open_categories_editor(self, _action, _gparam):
+        self.window.categories_editor.show()
+
+    def open_download_manager(self, _action, _gparam):
+        self.window.download_manager.show()
+
+    def open_history(self, _action, _gparam):
+        self.window.history.show()
+
+    def populate(self):
+        if self.populating:
+            return True
+
+        self.populating = True
+
+        self.show_page('start_page')
+
+        db_conn = create_db_connection()
+
+        self.update_title(db_conn=db_conn)
+
+        mangas_rows = db_conn.execute('SELECT id FROM mangas WHERE in_library = 1 ORDER BY last_read DESC').fetchall()
+
+        paintable = Gdk.Texture.new_from_resource('/info/febvre/Komikku/images/logo.png')
+        self.start_page_logo_image.set_from_paintable(paintable)
+
+        if len(mangas_rows) == 0:
+            self.start_page_title_label.set_markup('<span weight="bold">' + _('Welcome to Komikku') + '</span>')
+            self.start_page_progressbar.set_visible(False)
+            self.start_page_discover_button.set_visible(True)
+            self.filters_button.set_visible(False)
+
+            self.populating = False
+
+            return
+
+        self.start_page_progressbar.set_visible(True)
+        self.start_page_progressbar.set_fraction(0)
+
+        self.start_page_title_label.set_markup('<span weight="bold">' + _('Loading…') + '</span>')
+        self.start_page_discover_button.set_visible(False)
+
+        # Clear library flowbox
+        self.flowbox.remove_all()
+
+        def run():
+            db_conn = create_db_connection()
+
+            for index, row in enumerate(mangas_rows, start=1):
+                manga = Manga.get(row['id'], db_conn=db_conn)
+                if Settings.get_default().library_display_mode == 'grid-compact':
+                    flowbox_child = LibraryCompactFlowBoxChild(self, manga, *self.flowbox_child_cover_size)
+                else:
+                    flowbox_child = LibraryFlowBoxChild(self, manga, *self.flowbox_child_cover_size)
+                GLib.idle_add(on_progress, flowbox_child, index / len(mangas_rows))
+
+            GLib.idle_add(on_complete)
+
+        def on_complete():
+            self.populating = False
+            self.filters_button.set_visible(True)
+            self.show_page('flowbox')
+
+        def on_progress(flowbox_child, fraction):
+            self.start_page_progressbar.set_fraction(fraction)
+            self.flowbox.append(flowbox_child)
+
+        # Populate flowbox
+        self.compute_flowbox_child_cover_size()
+
+        thread = threading.Thread(target=run)
+        thread.daemon = True
+        thread.start()
+
+    def refresh_on_manga_state_changed(self, manga):
+        # Update flowbox child
+        self.update_flowbox_child(manga)
+
+        # Update filtering if filters are selected
+        if self.selected_filters:
+            self.flowbox.invalidate_filter()
+
+    def remove_flowbox_child(self, manga):
+        # Remove child in flowbox
+        child = self.flowbox.get_first_child()
+        while child:
+            if child.manga.id == manga.id:
+                self.flowbox.remove(child)
+                break
+            child = child.get_next_sibling()
+
+    def search(self, _search_entry):
+        self.flowbox.invalidate_filter()
+
+    def select_all(self, _action=None, _param=None):
+        if self.page != 'flowbox':
+            return
+
+        if not self.selection_mode:
+            self.enter_selection_mode()
+
+        if first_child := self.flowbox.get_first_child():
+            first_child.grab_focus()
+
+        for child in self.flowbox:
+            if not child._selected and not child._filtered:
+                child._selected = True
+                self.flowbox.select_child(child)
+
+    def set_sort_order(self, invalidate=True):
+        self.sort_order_action.set_state(GLib.Variant('s', Settings.get_default().library_sort_order))
+        if invalidate:
+            self.flowbox.invalidate_sort()
+
+    def show_activity_indicator(self):
+        def pulse():
+            if self.window.page != self.props.tag or self.window.updater.update_library_flag:
+                # Stop indicator
+                self.activity_progressbar.props.fraction = 0
+                return GLib.SOURCE_REMOVE
+
+            if self.window.updater.running:
+                self.activity_progressbar.pulse()
+                return GLib.SOURCE_CONTINUE
+
+            # Update is ended, stop indicator
+            self.activity_progressbar.props.fraction = 0
+            return GLib.SOURCE_REMOVE
+
+        GLib.timeout_add(250, pulse)
+
+    def show_page(self, name):
+        if self.page == name:
+            return
+
+        self.page = name
+
+        self.stack.set_visible_child_name(name)
+        self.update_headerbar_buttons()
+
+    def toggle_selected_read_status(self, _action, _param, read):
+        chapters_ids = []
+        chapters_data = []
+
+        self.window.activity_indicator.set_visible(True)
+
+        for child in self.flowbox.get_selected_children():
+            for chapter in child.manga.chapters:
+                chapters_ids.append(chapter.id)
+                chapters_data.append({
+                    'last_page_read_index': None,
+                    'read_progress': None,
+                    'read': read,
+                    'recent': False,
+                })
+
+        db_conn = create_db_connection()
+        with db_conn:
+            res = update_rows(db_conn, 'chapters', chapters_ids, chapters_data)
+
+        self.window.activity_indicator.set_visible(False)
+
+        if not res:
+            self.window.add_notification(_('Failed to update reading status'))
+        else:
+            if Settings.get_default().library_badges:
+                for child in self.flowbox.get_selected_children():
+                    child.update()
+
+            self.leave_selection_mode()
+
+            if self.selected_filters:
+                self.flowbox.invalidate_filter()
+
+    def update_all(self, _action, _param):
+        self.window.updater.update_library()
+
+    def update_flowbox_child(self, manga):
+        for child in self.flowbox:
+            if child.manga.id == manga.id:
+                child.update(manga)
+                break
+
+    def update_headerbar_buttons(self):
+        if self.page == 'flowbox':
+            if self.selection_mode:
+                self.left_button.set_label(_('Cancel'))
+                self.left_button.set_tooltip_text(_('Cancel'))
+                self.search_button.set_visible(False)
+                self.menu_button.set_visible(False)
+            else:
+                self.left_button.set_tooltip_text(_('Add New Comic'))
+                self.left_button.set_icon_name('list-add-symbolic')
+                self.search_button.set_visible(True)
+                self.menu_button.set_visible(True)
+
+            self.categories_togglebutton.set_visible(True)
+        else:
+            self.categories_togglebutton.set_visible(False)
+            self.search_button.set_visible(False)
+            self.menu_button.set_visible(True)
+
+    def update_selected(self, _action, _param):
+        self.window.updater.add([child.manga for child in self.flowbox.get_selected_children()])
+        if self.window.updater.start():
+            self.show_activity_indicator()
+
+        self.leave_selection_mode()
+
+    def update_title(self, *args, db_conn=None):
+        title = 'Komikku'
+
+        nb_selected = len(self.flowbox.get_selected_children()) if self.selection_mode else 0
+        if nb_selected > 0:
+            title = ngettext('{0} selected', '{0} selected', nb_selected).format(nb_selected)
+        else:
+            if (category_id := Settings.get_default().selected_category) != CategoryVirtual.ALL:
+                if category_id == CategoryVirtual.UNCATEGORIZED:
+                    title = _('Uncategorized')
+                elif category := Category.get(category_id, db_conn=db_conn):
+                    title = category.label
+                else:
+                    # Category saved in settings no longer exists!
+                    # This should never happen, but if it does, reset selected category
+                    Settings.get_default().selected_category = CategoryVirtual.ALL
+
+        self.title.set_title(title)

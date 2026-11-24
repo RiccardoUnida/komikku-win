@@ -1,0 +1,336 @@
+# SPDX-FileCopyrightText: 2019-2025 Contributors to Komikku
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+import logging
+import pytest
+from pytest_steps import test_steps
+
+from . import do_server_test
+from komikku.utils import log_error_traceback
+
+logging.basicConfig(level=logging.DEBUG)
+
+
+@pytest.fixture
+def allhentai_server():
+    from komikku.servers.readmanga import Allhentai
+
+    return Allhentai()
+
+
+@pytest.fixture
+def mintmanga_server():
+    from komikku.servers.readmanga import Mintmanga
+
+    return Mintmanga()
+
+
+@pytest.fixture
+def readmanga_server():
+    from komikku.servers.readmanga import Readmanga
+
+    return Readmanga()
+
+
+@pytest.fixture
+def selfmanga_server():
+    from komikku.servers.readmanga import Selfmanga
+
+    return Selfmanga()
+
+
+@do_server_test
+@test_steps('get_latest_updates', 'get_most_popular', 'search', 'get_manga_data', 'get_chapter_data', 'get_page_image')
+def test_allhentai(allhentai_server):
+    # Get latest updates
+    print('Get latest updates')
+    try:
+        response = allhentai_server.get_latest_updates()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Get most popular
+    print('Get most popular')
+    try:
+        response = allhentai_server.get_most_populars()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Search
+    print('Search')
+    try:
+        response = allhentai_server.search(response[0]['name'])
+        slug = response[0]['slug']
+    except Exception as e:
+        slug = None
+        log_error_traceback(e)
+
+    assert slug is not None
+    yield
+
+    # Get manga data
+    print('Get manga data')
+    try:
+        response = allhentai_server.get_manga_data(dict(slug=slug))
+        chapter_slug = response['chapters'][0]['slug']
+    except Exception as e:
+        chapter_slug = None
+        log_error_traceback(e)
+
+    assert chapter_slug is not None
+    assert len(response['chapters']) > 0
+    yield
+
+    # Get chapter data
+    print('Get chapter data')
+    try:
+        response = allhentai_server.get_manga_chapter_data(slug, None, chapter_slug, None)
+        page = response['pages'][0]
+    except Exception as e:
+        page = None
+        log_error_traceback(e)
+
+    assert page is not None
+    yield
+
+    # Get page image
+    print('Get page image')
+    try:
+        response = allhentai_server.get_manga_chapter_page_image(None, None, None, page)
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+
+@do_server_test
+@test_steps('get_latest_updates', 'get_most_popular', 'search', 'get_manga_data', 'get_chapter_data', 'get_page_image')
+def test_mintmanga(mintmanga_server):
+    # Get latest updates
+    print('Get latest updates')
+    try:
+        response = mintmanga_server.get_latest_updates()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Get most popular
+    print('Get most popular')
+    try:
+        response = mintmanga_server.get_most_populars()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Search
+    print('Search')
+    try:
+        response = mintmanga_server.search(response[0]['name'])
+        slug = response[0]['slug']
+    except Exception as e:
+        slug = None
+        log_error_traceback(e)
+
+    assert slug is not None
+    yield
+
+    # Get manga data
+    print('Get manga data')
+    try:
+        response = mintmanga_server.get_manga_data(dict(slug=slug))
+        chapter_slug = response['chapters'][0]['slug']
+    except Exception as e:
+        chapter_slug = None
+        log_error_traceback(e)
+
+    assert chapter_slug is not None
+    assert len(response['chapters']) > 0
+    yield
+
+    # Get chapter data
+    print('Get chapter data')
+    try:
+        response = mintmanga_server.get_manga_chapter_data(slug, None, chapter_slug, None)
+        page = response['pages'][0]
+    except Exception as e:
+        page = None
+        log_error_traceback(e)
+
+    assert page is not None
+    yield
+
+    # Get page image
+    print('Get page image')
+    try:
+        response = mintmanga_server.get_manga_chapter_page_image(None, None, None, page)
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+
+@do_server_test
+@test_steps('get_latest_updates', 'get_most_popular', 'search', 'get_manga_data', 'get_chapter_data', 'get_page_image')
+def test_readmanga(readmanga_server):
+    # Get latest updates
+    print('Get latest updates')
+    try:
+        response = readmanga_server.get_latest_updates()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Get most popular
+    print('Get most popular')
+    try:
+        response = readmanga_server.get_most_populars()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Search
+    print('Search')
+    try:
+        response = readmanga_server.search(response[0]['name'])
+        slug = response[0]['slug']
+    except Exception as e:
+        slug = None
+        log_error_traceback(e)
+
+    assert slug is not None
+    yield
+
+    # Get manga data
+    print('Get manga data')
+    try:
+        response = readmanga_server.get_manga_data(dict(slug=slug))
+        chapter_slug = response['chapters'][0]['slug']
+    except Exception as e:
+        chapter_slug = None
+        log_error_traceback(e)
+
+    assert chapter_slug is not None
+    assert len(response['chapters']) > 0
+    yield
+
+    # Get chapter data
+    print('Get chapter data')
+    try:
+        response = readmanga_server.get_manga_chapter_data(slug, None, chapter_slug, None)
+        page = response['pages'][0]
+    except Exception as e:
+        page = None
+        log_error_traceback(e)
+
+    assert page is not None
+    yield
+
+    # Get page image
+    print('Get page image')
+    try:
+        response = readmanga_server.get_manga_chapter_page_image(None, None, None, page)
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+
+@do_server_test
+@test_steps('get_latest_updates', 'get_most_popular', 'search', 'get_manga_data', 'get_chapter_data', 'get_page_image')
+def test_selfmanga(selfmanga_server):
+    # Get latest updates
+    print('Get latest updates')
+    try:
+        response = selfmanga_server.get_latest_updates()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Get most popular
+    print('Get most popular')
+    try:
+        response = selfmanga_server.get_most_populars()
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield
+
+    # Search
+    print('Search')
+    try:
+        response = selfmanga_server.search(response[0]['name'])
+        slug = response[0]['slug']
+    except Exception as e:
+        slug = None
+        log_error_traceback(e)
+
+    assert slug is not None
+    yield
+
+    # Get manga data
+    print('Get manga data')
+    try:
+        response = selfmanga_server.get_manga_data(dict(slug=slug))
+        chapter_slug = response['chapters'][0]['slug']
+    except Exception as e:
+        chapter_slug = None
+        log_error_traceback(e)
+
+    assert chapter_slug is not None
+    assert len(response['chapters']) > 0
+    yield
+
+    # Get chapter data
+    print('Get chapter data')
+    try:
+        response = selfmanga_server.get_manga_chapter_data(slug, None, chapter_slug, None)
+        page = response['pages'][0]
+    except Exception as e:
+        page = None
+        log_error_traceback(e)
+
+    assert page is not None
+    yield
+
+    # Get page image
+    print('Get page image')
+    try:
+        response = selfmanga_server.get_manga_chapter_page_image(None, None, None, page)
+    except Exception as e:
+        response = None
+        log_error_traceback(e)
+
+    assert response is not None
+    yield

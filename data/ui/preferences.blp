@@ -1,0 +1,541 @@
+// SPDX-FileCopyrightText: 2019-2026 Valéry Febvre
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+using Gtk 4.0;
+using Adw 1;
+
+template $PreferencesDialog : Adw.PreferencesDialog {
+  title: _("Preferences");
+  presentation-mode: bottom_sheet;
+
+  Adw.PreferencesPage {
+    name: "general";
+    title: _("General");
+    icon-name: "emblem-system-symbolic";
+
+    Adw.PreferencesGroup support_group {
+      Overlay {
+        Box {
+          orientation: vertical;
+          spacing: 6;
+
+          Label {
+            label: _("Support Komikku");
+            halign: start;
+            styles ["heading"]
+          }
+
+          Label {
+            label: _("Komikku is a free and open-source, and always will be. If you like it, backing me through donating would be great. This will not only help me maintain it, but also continue my work as a free software developer in general.");
+            halign: start;
+            xalign: 0;
+            yalign: 0;
+            margin-top: 12;
+            wrap: true;
+            styles ["caption"]
+          }
+
+          Button support_button {
+            label: _("Donate");
+            halign: end;
+            margin-top: 6;
+          }
+        }
+
+        [overlay]
+        Button support_close_button {
+          tooltip-text: _("Close");
+          icon-name: "window-close-symbolic";
+          halign: end;
+          valign: start;
+        }
+      }
+
+      styles ["card", "support-group"]
+    }
+
+    Adw.PreferencesGroup {
+      title: _("Appearance");
+
+      Adw.ComboRow color_scheme_row {
+        title: _("Theme");
+        model: StringList {
+          strings [
+            _("Light"),
+            _("Dark"),
+            _("Follow System"),
+          ]
+        };
+      }
+
+      Adw.SwitchRow night_light_switch {
+        title: _("Night Light");
+        subtitle: _("Automatically enable dark theme at night");
+      }
+
+      Adw.SwitchRow system_accent_colors_switch {
+        title: _("Accent Color");
+        subtitle: _("Use system accent colors");
+      }
+
+      Adw.ComboRow progressbar_theme_row {
+        title: _("Progress Bars Theme");
+        subtitle: _("Theme to use for progress bars");
+      }
+
+      Adw.ComboRow card_backdrop_method_row {
+        title: _("Backdrop in Details Page");
+        subtitle: _("Method used to recolor background to match cover");
+        model: StringList {
+          strings [
+            _("None"),
+            _("Linear gradient"),
+            _("Blurred cover"),
+          ]
+        };
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: 'Notifications';
+
+      Adw.SwitchRow desktop_notifications_switch {
+        title: _("Desktop Notifications");
+        subtitle: _("Use desktop notifications for downloads and library updates");
+      }
+    }
+
+    Adw.PreferencesGroup tracking_group {
+      title: _("Tracking");
+
+      Adw.SwitchRow tracking_switch {
+        title: _("Synchronize reading progress");
+      }
+    }
+  }
+
+  Adw.PreferencesPage {
+    name: "library";
+    title: _("Library");
+    icon-name: "library-symbolic";
+
+    Adw.PreferencesGroup {
+      title: _("Display");
+
+      Adw.ComboRow library_display_mode_row {
+        title: _("Display Mode");
+        model: StringList {
+          strings [
+            _("Grid"),
+            _("Compact Grid"),
+          ]
+        };
+      }
+
+      Adw.SwitchRow library_servers_logo_switch {
+        title: _("Servers Logo");
+        subtitle: _("Display servers logo");
+      }
+
+      Adw.ExpanderRow {
+        title: _("Badges");
+
+        Adw.ActionRow {
+          title: _("Number of Unread Chapters");
+          activatable-widget: library_badge_unread_chapters_switch;
+
+          [prefix]
+          Button {
+            valign: center;
+
+            styles [
+              "circular",
+              "library-thumbnail-badge-unread-chapters",
+            ]
+          }
+
+          Switch library_badge_unread_chapters_switch {
+            halign: center;
+            valign: center;
+          }
+        }
+
+        Adw.ActionRow {
+          title: _("Number of Downloaded Chapters");
+          activatable-widget: library_badge_downloaded_chapters_switch;
+
+          [prefix]
+          Button {
+            valign: center;
+
+            styles [
+              "circular",
+              "library-thumbnail-badge-downloaded-chapters",
+            ]
+          }
+
+          Switch library_badge_downloaded_chapters_switch {
+            halign: center;
+            valign: center;
+          }
+        }
+
+        Adw.ActionRow {
+          title: _("Number of Recent and Unread Chapters");
+          activatable-widget: library_badge_recent_chapters_switch;
+
+          [prefix]
+          Button {
+            valign: center;
+
+            styles [
+              "circular",
+              "library-thumbnail-badge-recent-chapters",
+            ]
+          }
+
+          Switch library_badge_recent_chapters_switch {
+            halign: center;
+            valign: center;
+          }
+        }
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: C_("Settings: noun", "Update");
+
+      Adw.SwitchRow update_at_startup_switch {
+        title: _("Update at Startup");
+        subtitle: _("Automatically update library at startup");
+      }
+
+      Adw.SwitchRow new_chapters_auto_download_switch {
+        title: _("Auto Download of New Chapters");
+        subtitle: _("Automatically download new chapters");
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("Servers");
+
+      Adw.ActionRow servers_languages_actionrow {
+        title: _("Languages");
+        subtitle: _("Restrict servers to selected languages");
+
+        Image {
+          icon-name: "go-next-symbolic";
+        }
+      }
+
+      Adw.ActionRow servers_settings_actionrow {
+        title: _("Settings");
+        subtitle: _("Enable/disable and configure servers");
+
+        Image {
+          icon-name: "go-next-symbolic";
+        }
+      }
+
+      Adw.SwitchRow long_strip_detection_switch {
+        title: _("Long Strip Detection");
+        subtitle: _("Automatically detect long vertical strip when possible");
+      }
+    }
+
+    Adw.PreferencesGroup {
+      Adw.SwitchRow nsfw_content_switch {
+        title: _("NSFW Content (18+)");
+        subtitle: _("Whether to enable servers with NSFW content");
+      }
+
+      Adw.SwitchRow nsfw_only_content_switch {
+        title: _("NSFW Only Content (18+)");
+        subtitle: _("Whether to enable servers with NSFW only content");
+      }
+
+      Label {
+        label: _("These settings do not prevent potentially incorrectly flagged servers from surfacing NSFW content.");
+        wrap: true;
+        margin-top: 6;
+        xalign: 0;
+
+        styles [
+          "caption",
+          "dimmed",
+        ]
+      }
+    }
+  }
+
+  Adw.PreferencesPage {
+    name: "reader";
+    title: _("Reader");
+    icon-name: "view-paged-symbolic";
+
+    Adw.PreferencesGroup {
+      Adw.ComboRow reading_mode_row {
+        title: _("Reading Mode");
+        model: StringList {
+          strings [
+            _("⬅ Right to Left"),
+            _("➡ Left to Right"),
+            _("⬇ Vertical"),
+            _("⬇ Webtoon"),
+          ]
+        };
+      }
+
+      Adw.SwitchRow double_page_switch {
+        title: _("Double Page");
+        subtitle: _("Use two pages side by side view");
+      }
+
+      Adw.ComboRow scaling_filter_row {
+        title: _("Scaling Filter");
+        subtitle: _("Interpolation method used when scaling images");
+        model: StringList {
+          strings [
+            _("Linear"),
+            _("Trilinear"),
+          ]
+        };
+      }
+
+      Adw.ComboRow background_color_row {
+        title: _("Background Color");
+        model: StringList {
+          strings [
+            _("White"),
+            _("Gray"),
+            _("Black"),
+            _("System Style"),
+          ]
+        };
+      }
+
+      Adw.SwitchRow page_numbering_switch {
+        title: _("Page Numbering");
+        subtitle: _("Hide the page numbering at the bottom of the screen while reading");
+      }
+
+      Adw.SwitchRow fullscreen_switch {
+        title: _("Fullscreen");
+        subtitle: _("Automatically enter fullscreen mode");
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("Paged Reading Modes");
+      description: _("Right to Left / Left to Right / Vertical");
+
+      Adw.ComboRow scaling_row {
+        title: _("Scaling");
+        subtitle: _("Type of scaling to adapt image");
+        model: StringList {
+          strings [
+            _("Adapt to Screen"),
+            _("Adapt to Width"),
+            _("Adapt to Height"),
+            _("Original Size"),
+          ]
+        };
+      }
+
+      Adw.SwitchRow landscape_zoom_switch {
+        title: _("Landscape Pages Zoom");
+        subtitle: _("Zoom page to fit height when page is landscape (Adapt to Screen scaling only)");
+      }
+
+      Adw.SwitchRow borders_crop_switch {
+        title: _("Borders Crop");
+        subtitle: _("Crop white borders of images\n\nNOTE: Requires more CPU usage and can cause rendering and animation slowdowns, especially on mobile devices.");
+      }
+
+      Adw.ComboRow borders_crop_threshold_row {
+        title: _("Borders Cropping Threshold");
+        subtitle: _("Control which pixels are classified as 'white' during borders detection");
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("Webtoon Reading Mode");
+      description: _("Long Strip aka Infinite Vertical Canvas");
+
+      [header-suffix]
+      Button webtoon_reading_mode_group_reset_button {
+        icon-name: "reset-symbolic";
+        tooltip-text: _("Reset to Default");
+        valign: center;
+        styles [
+          "flat"
+        ]
+      }
+
+      Adw.SpinRow {
+        title: _("Maximum Width");
+        subtitle: _("Constrain reader\'s width to a given maximum size");
+        adjustment: Adjustment clamp_size_adjustment {
+          lower: 360;
+          upper: 3840;
+          page-increment: 100;
+          step-increment: 10;
+        };
+      }
+
+      Adw.SpinRow {
+        title: _("Scroll Distance");
+        subtitle: _("Percentage of page height to scroll on click or Page Up/Down");
+        digits: 2;
+        adjustment: Adjustment scroll_click_percentage_adjustment {
+          lower: 0.10;
+          upper: 1.00;
+          page-increment: 0.10;
+          step-increment: 0.05;
+        };
+      }
+
+      Adw.SpinRow {
+        title: _("Drag Sensitivity");
+        subtitle: _("Multiplier for drag scrolling sensitivity");
+        digits: 1;
+        adjustment: Adjustment scroll_drag_factor_adjustment {
+          lower: 0.5;
+          upper: 5.0;
+          page-increment: 0.5;
+          step-increment: 0.1;
+        };
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("OCR Translator");
+
+      Adw.ComboRow ocr_lang_row {
+        title: _("OCR Language");
+        subtitle: _("Default language to use for OCR text recognitions");
+      }
+
+      Adw.ComboRow translator_row {
+        title: _("Translator");
+        subtitle: _("Service to use for translations");
+
+        Separator {
+          margin-start: 12;
+          margin-top: 12;
+          margin-bottom: 12;
+        }
+
+        Button translator_params_button {
+          icon-name: "server-settings-symbolic";
+          valign: center;
+          tooltip-text: _("Edit Translator Settings");
+
+          styles [
+            "flat"
+          ]
+        }
+      }
+    }
+  }
+
+  Adw.PreferencesPage {
+    name: "advanced";
+    title: _("Advanced");
+    icon-name: "applications-science-symbolic";
+
+    banner: Adw.Banner advanced_banner {
+        title: _("A setting has changed that requires a restart to take effect");
+        button-label: _("Got it!");
+        button-style: suggested;
+    };
+
+    Adw.PreferencesGroup {
+      title: _("Data");
+      description: _("Data not saved in the library");
+
+      Adw.ActionRow clear_cached_data_actionrow {
+        title: _("Clear Chapters Cache and Database");
+        activatable: false;
+
+        [suffix]
+        Button clear_cached_data_button {
+          icon-name: "user-trash-symbolic";
+          tooltip-text: _("Clear");
+          valign: center;
+          styles [
+            "flat"
+          ]
+        }
+      }
+
+      Adw.SwitchRow clear_cached_data_on_app_close_switch {
+        title: _("Clear Chapters Cache and Database on Exit");
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("WebView");
+
+      Adw.ActionRow clear_webview_data_actionrow {
+        title: _("Clear Data");
+        activatable: false;
+
+        [suffix]
+        Button clear_webview_data_button {
+          icon-name: "user-trash-symbolic";
+          tooltip-text: _("Clear");
+          valign: center;
+          styles [
+            "flat"
+          ]
+        }
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("Servers");
+
+      Adw.SwitchRow servers_external_modules_switch {
+        title: _("Use Up-to-date Servers Modules");
+        subtitle: _("An alternative version of the servers modules, installed from the source code repository and updated at each startup, is used instead of the one delivered with the application.");
+      }
+
+      Adw.SwitchRow servers_bug_report_switch {
+        title: _("Suggest Submitting a Bug Report in Case of Error");
+        subtitle: _("If an error occurs with a server (it has been updated or an unexpected case has arisen), you will be prompted to create a bug report using a pre-formatted text to copy/paste.");
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("Credentials Storage");
+
+      Adw.SwitchRow credentials_storage_plaintext_fallback_switch {
+        title: _("Allow Plaintext Storage as Fallback");
+        subtitle: _("Used when no keyring backends are found");
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: _("Tweaks");
+
+      Adw.SwitchRow disable_animations_switch {
+        title: _("Disable Animations");
+        subtitle: _("Useful with E Ink e-readers to avoid very choppy and unpleasant animations (due to the low refresh rate of the screen)");
+      }
+
+      Label {
+        label: _("This tweak is only intended for users who do not use the GNOME desktop environment and therefore cannot toggle reduced motion animations globally via GNOME Settings (Accessibility ⇨ Seeing ⇨ Reduced Motion).");
+        wrap: true;
+        xalign: 0;
+        margin-top: 12;
+
+        styles [
+          "caption",
+          "dimmed",
+        ]
+      }
+    }
+  }
+}

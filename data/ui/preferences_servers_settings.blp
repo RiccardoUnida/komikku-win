@@ -1,0 +1,27 @@
+// SPDX-FileCopyrightText: 2019-2025 Valéry Febvre
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+using Gtk 4.0;
+using Adw 1;
+
+template $PreferencesServersSettingsSubPage : Adw.NavigationPage {
+  tag: "preferences.servers_settings";
+  title: _("Servers Settings");
+
+  child: Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {
+      title-widget: Adw.WindowTitle {
+        title: _("Preferences");
+        subtitle: _("Servers Settings");
+      };
+    }
+
+    content: Adw.PreferencesPage {
+      Adw.PreferencesGroup group {
+        vexpand: true;
+      }
+    };
+  };
+}

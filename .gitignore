@@ -1,0 +1,15 @@
+**/__pycache__
+**/.pytest_cache
+**/*.*~
+data/#*#
+po/*.mo
+resources
+subprojects/.wraplock
+subprojects/blueprint-compiler
+_build/
+.buildconfig
+flatpak/*Devel*
+.venv/
+.flatpak/
+.flatpak-builder/
+.safety-policy.yml

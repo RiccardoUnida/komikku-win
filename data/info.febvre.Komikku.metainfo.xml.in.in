@@ -1,0 +1,3111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>@app_id@</id>
+    <translation type="gettext">@projectname@</translation>
+    <launchable type="desktop-id">@app_id@.desktop</launchable>
+    <project_license>@license@</project_license>
+    <metadata_license>CC-BY-4.0</metadata_license>
+    <content_rating type="oars-1.1" />
+
+    <name translate="no">@prettyname@</name>
+    <summary>Discover and read manga &amp; comics</summary>
+    <description>
+        <p>With its simple, elegant and adaptive interface, this reader lets you search, sort and read your series with ease.</p>
+
+        <p>Why you will love Komikku?</p>
+        <ul>
+            <li>Online and offline reading from dozens of servers</li>
+            <li>Support for locally stored series (in CBZ/CBR/CBT, EPUB and PDF formats)</li>
+            <li>RTL, LTR, Vertical and Webtoon reading modes</li>
+            <li>Double page view</li>
+            <li>Support several types of navigation: keyboard arrow keys, right and left navigation layout via mouse click or tapping (touchpad/touch screen), mouse wheel, 2-fingers swipe gesture (touchpad), swipe gesture (touch screen)</li>
+            <li>Categories to organize your library</li>
+            <li>OCR Translator</li>
+            <li>Automatic tracking of series with AniList, MangaUpdates and MyAnimeList</li>
+            <li>Automatic update of series</li>
+            <li>Automatic download of new chapters</li>
+            <li>Reading history</li>
+            <li>Light and dark themes</li>
+        </ul>
+    </description>
+
+    <keywords>
+        <keyword>reader</keyword>
+        <keyword>viewer</keyword>
+        <keyword>scanlation</keyword>
+        <keyword>comic</keyword>
+        <keyword>manga</keyword>
+        <keyword>manhwa</keyword>
+        <keyword>manhua</keyword>
+        <keyword>webtoon</keyword>
+        <keyword>webcomic</keyword>
+        <keyword>book</keyword>
+        <keyword>ebook</keyword>
+        <keyword>offline</keyword>
+    </keywords>
+
+    <branding>
+        <color type="primary" scheme_preference="light">#a6cea5</color>
+        <color type="primary" scheme_preference="dark">#62586b</color>
+    </branding>
+
+    <requires>
+        <display_length compare="ge">360</display_length>
+    </requires>
+
+    <supports>
+        <control>keyboard</control>
+        <control>pointing</control>
+        <control>touch</control>
+    </supports>
+
+    <screenshots>
+        <screenshot type="default">
+            <caption>The Library page</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/library.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Library page with the category sidebar open</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/library-with-categories.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Preferences page (General settings)</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/preferences.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Explorer page in mobile format (Servers list)</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/explorer.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Details page</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/card-info.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Details page (chapters list)</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/card-chapters.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Reader page</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/reader.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Reader double page view</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/reader-double-page.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Reader page in mobile format</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/reader-mobile.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Reader page with the OCR Translator in use</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/reader-ocr-translator.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Category editor page in mobile format</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/categories-editor.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>The Reading history page in mobile format</caption>
+            <image>https://codeberg.org/valos/Komikku/raw/branch/main/screenshots/history.png</image>
+        </screenshot>
+    </screenshots>
+
+    <developer id="info.febvre">
+        <name translate="no">@authorfullname@</name>
+    </developer>
+    <update_contact translate="no">@authoremail@</update_contact>
+
+    <url type="homepage">@website@</url>
+    <url type="contact">https://matrix.to/#/#komikku-gnome:matrix.org</url>
+    <url type="bugtracker">@gitrepo@/issues</url>
+    <url type="vcs-browser">@gitrepo@</url>
+    <url type="translate">https://hosted.weblate.org/projects/komikku</url>
+    <url type="contribute">https://welcome.gnome.org/app/Komikku/</url>
+    <url type="donation">https://febvre.info/donate.html</url>
+
+    <releases>
+        <release version="51.4.0" date="2026-11-15">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Fixed Pull-to-Update</li>
+                    <li>[Servers] Added Niadd (DE/ES/FR/IT/pt_BR/RU)</li>
+                    <li>[Servers] MangaHub (EN): Update</li>
+                    <li>[Servers] MangaWorld (IT): Update</li>
+                    <li>[Servers] Rawkuma (JA): Disabled</li>
+                    <li>[L10n] Updated Korean and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="51.3.0" date="2026-11-06">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] RTL/LTR/Vertical pager: Added double page view</li>
+                    <li>[Servers] BDplus (FR): Update</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] Kavita: Fixed wrong volume listing</li>
+                    <li>[Servers] LanorTrad (FR): Update</li>
+                    <li>[L10n] Updated French and Korean translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="51.2.1" date="2026-10-28">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] General settings: Added `Inversion` filter</li>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] Armoni Scans (TR): Disabled</li>
+                    <li>[Servers] Comix (EN): Disabled</li>
+                    <li>[Servers] Flame Comics (EN): Disabled</li>
+                    <li>[Servers] KaliScan (EN): Disabled</li>
+                    <li>[Servers] KomikLovers (ID): Disabled</li>
+                    <li>[Servers] LanorTrad (FR): Update</li>
+                    <li>[Servers] Manga Stop (pt_BR): Disabled</li>
+                    <li>[Servers] MangaReader (cc) (EN): Disabled</li>
+                    <li>[Servers] Perf Scan (FR): Disabled</li>
+                    <li>[Servers] Raijin Scan (FR): Disabled</li>
+                    <li>[Servers] Read Comic Online (EN): Disabled</li>
+                    <li>[Servers] Shadow Manga (ES): Added `Adult Content` filter</li>
+                    <li>[L10n] Updated Finnish and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="51.1.0" date="2026-10-03">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Tracking: Added warning message when automatic synchronization of reading progress is not possible</li>
+                    <li>[Reader] OCR Translator: Fixed calculation of the selection area's coordinates when white borders are cropped</li>
+                    <li>[Servers] Cartel De Manhwas (ES): Disabled</li>
+                    <li>[Servers] ComicHubFree (EN): Fixed search when no results</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] MangaBall (multi): Update</li>
+                    <li>[Servers] MangaKawaii (FR): Update</li>
+                    <li>[L10n] Updated French, Indonesian, Korean, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="51.0.1" date="2026-09-19">
+            <description translate="no">
+                <p>This is a bugfix version.</p>
+                <ul>
+                    <li>Back to GNOME 50 runtime until some OSK input regressions are fixed</li>
+                </ul>
+
+                <p>Changes in previous version 51.0.0</p>
+                <ul>
+                    <li>Updated to GNOME 51 runtime</li>
+                    <li>[Library/Explorer/History] Fixed search through typing on the keyboard</li>
+                    <li>[OCR Translator] Added OCR support for French and Spanish languages</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] MangaKawaii (FR): Update</li>
+                    <li>[Servers] Rncalation (ES): Update</li>
+                    <li>[Servers] SkyMangas (ES): Update</li>
+                    <li>[Servers] Kavita: Fixed an issue where series with no read history could not be opened</li>
+                    <li>[L10n] Updated Ukrainian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="51.0.0" date="2026-09-17">
+            <description translate="no">
+                <ul>
+                    <li>Updated to GNOME 51 runtime</li>
+                    <li>[Library/Explorer/History] Fixed search through typing on the keyboard</li>
+                    <li>[OCR Translator] Added OCR support for French and Spanish languages</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] MangaKawaii (FR): Update</li>
+                    <li>[Servers] Rncalation (ES): Update</li>
+                    <li>[Servers] SkyMangas (ES): Update</li>
+                    <li>[Servers] Kavita: Fixed an issue where series with no read history could not be opened</li>
+                    <li>[L10n] Updated Ukrainian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.15.0" date="2026-09-10">
+            <description translate="no">
+                <ul>
+                    <li>[Translators] DeepL: Small fix</li>
+                    <li>[Servers] MangaTown (EN): Update</li>
+                    <li>[Servers] Rawkuma (JA): Update</li>
+                    <li>[L10n] Updated Ukrainian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.14.0" date="2026-09-09">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] OCR Translator: Added DeepL provider</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] Mangas Origines (FR): Update</li>
+                    <li>[Servers] Nix of Nothing (EN): Disabled</li>
+                    <li>[Servers] Read Comics Online (EN): Update</li>
+                    <li>[L10n] Updated Bengali, French, Italian, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.13.0" date="2026-08-26">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] OCR Translator: Added default language to use as target language for translations</li>
+                    <li>[Reader] OCR Translator: Added a button to copy the source text</li>
+                    <li>[Reader] Webtoon pager: Fixed keyboard navigation</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] MangaFreak (EN): Update</li>
+                    <li>[L10n] Updated French, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.12.1" date="2026-08-18">
+            <description translate="no">
+                <p>This is a bugfix version.</p>
+                <ul>
+                    <li>[Reader] RTL/LTR/Vertical pager: Fixed keyboard/mouse navigation</li>
+                    <li>[Reader] OCR Translator: Improvements in Translator</li>
+                    <li>[L10n] Updated Russian and Ukrainian translations</li>
+                </ul>
+
+                <p>Changes in previous version 50.12.0</p>
+                <ul>
+                    <li>[Reader] Added an OCR translator</li>
+                    <li>[Reader] Moved settings from Menu to Settings dialog</li>
+                    <li>[Servers] Added MangaLivre (pt_BR)</li>
+                    <li>[Servers] Desu (RU): Update</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] MangaFire (EN/ES/FR/JA/PT/pt_BR): Update</li>
+                    <li>[Servers] Rncalation (ES): Update</li>
+                    <li>[Servers] Weeb Central (EN): Update</li>
+                    <li>[L10n] Updated Bengali, French, Korean, Polish, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.12.0" date="2026-08-18">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Added an OCR translator</li>
+                    <li>[Reader] Moved settings from Menu to Settings dialog</li>
+                    <li>[Servers] Added MangaLivre (pt_BR)</li>
+                    <li>[Servers] Desu (RU): Update</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] MangaFire (EN/ES/FR/JA/PT/pt_BR): Update</li>
+                    <li>[Servers] Rncalation (ES): Update</li>
+                    <li>[Servers] Weeb Central (EN): Update</li>
+                    <li>[L10n] Updated Bengali, French, Korean, Polish, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.11.0" date="2026-08-01">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Death Toll Reader (EN)</li>
+                    <li>[Servers] Added Juin Jutsu Team (IT)</li>
+                    <li>[Servers] Added NIF Team (IT)</li>
+                    <li>[Servers] JManga (JA): Update</li>
+                    <li>[Servers] MangaFire (EN/ES/FR/JA/PT/pt_BR): Update</li>
+                    <li>[L10n] Updated Georgian, Spanish and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.10.0" date="2026-07-20">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Reader: Added `White Borders Cropping Threshold`</li>
+                    <li>[Reader] Settings: Added `White Borders Cropping Threshold`</li>
+                    <li>[Servers] Added BDplus (FR)</li>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] JManga (JA): Re-enabled</li>
+                    <li>[Servers] MangaFire (multi): Disabled</li>
+                    <li>[Servers] Mangalek (AR): Update</li>
+                    <li>[Servers] Mangas Origines (FR): Update</li>
+                    <li>[Servers] RF Dragon Scan (pt_BR): Disabled</li>
+                    <li>[L10n] Added Bengali and Georgian translations</li>
+                    <li>[L10n] Updated Cornish, German and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.9.0" date="2026-07-09">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Chapters list: Improved ordering by Title</li>
+                    <li>[Trackers] Fixed authentication bug</li>
+                    <li>[Servers] Added Rncalation (ES)</li>
+                    <li>[Servers] 3asq (AR): Re-enabled</li>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] Dynasty Reader (EN): Update</li>
+                    <li>[Servers] MangaCrab (ES): Disabled</li>
+                    <li>[Servers] Raiki Scan (ES): Disabled</li>
+                    <li>[Servers] Webtoon TR (TR): Disabled</li>
+                    <li>[L10n] Updated German, Spanish, Swedish and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.8.0" date="2026-06-26">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added MangaK (EN)</li>
+                    <li>[Servers] Lovers Toon (pt_BR): Disabled</li>
+                    <li>[Servers] MangaBuddy (EN): Disabled</li>
+                    <li>[L10n] Updated Korean and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.7.0" date="2026-06-18">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] MangaDex (multi): Update</li>
+                    <li>[Servers] Nine Manga (multi): Disabled</li>
+                    <li>[Servers] Qi Scans (EN): Update</li>
+                    <li>[Servers] Raijin Scan (FR): Update</li>
+                    <li>[Servers] Read Comics Online (EN): Update</li>
+                    <li>Fixed memory leaks</li>
+                    <li>[L10n] Updated Ukrainian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.6.0" date="2026-06-10">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] General: Added `Random Colors` to Progress bars themes</li>
+                    <li>[Preferences] Advanced: Added a setting to be prompted to submit a bug report if a server error occurs</li>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] LanorTrad (FR): Update</li>
+                    <li>[Servers] MangaHub (EN): Update</li>
+                    <li>[L10n] Updated French, German, Portuguese, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.5.0" date="2026-06-03">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Info: Long Synopsis truncation With Show More/Less button</li>
+                    <li>[Preferences] General: Added `Progress Bars Theme` setting (Happy Pride Month!)</li>
+                    <li>[Servers] Added MangaTown (EN)</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] Raijin Scan (FR): Update</li>
+                    <li>[L10n] Updated French, German and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.4.0" date="2026-05-19">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Dango Scan (pt_BR): Disabled</li>
+                    <li>[Servers] Dragon Ball Multiverse (multi): Fixed pages not showing text on balloon speech bubbles</li>
+                    <li>[Servers] MangaFire (multi): Fixed chapter dates</li>
+                    <li>[Servers] Mangas Origines (FR): Disabled</li>
+                    <li>[Servers] Raijin Scan (FR): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Webtoon Hatti (TR): Update</li>
+                    <li>[Servers] Weeb Central (EN): Update</li>
+                    <li>[L10n] Updated Croatian, Russian, Ukrainian and Vietnamese translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.3.0" date="2026-05-01">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Selection mode: Added `Clear` action (clears cached pages)</li>
+                    <li>[Servers] Added Shadow Manga (ES)</li>
+                    <li>[Servers] Kenscans (EN): Update</li>
+                    <li>[Servers] Manga/in/ua (UK): Update</li>
+                    <li>[Servers] Pepper&amp;Carrot: Update miniFantasyTheater</li>
+                    <li>[Servers] ShadowMangas (ES): Disabled</li>
+                    <li>[L10n] Updated Finnish, French and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.2.0" date="2026-04-13">
+            <description translate="no">
+                <ul>
+                    <li>Fixed an issue with unidentified cover files</li>
+                    <li>[Servers] Added Kenscans (EN)</li>
+                    <li>[Servers] Hijala Scans (EN): Update</li>
+                    <li>[Servers] Hive Toons (EN): Update</li>
+                    <li>[Servers] WeebDex (EN): Disabled</li>
+                    <li>[L10n] Updated German, Korean, Ukrainian and Vietnamese translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.1.0" date="2026-04-05">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Improved `Blurred covers` backdrop</li>
+                    <li>[Card] Info: Added the time to `Last Update`</li>
+                    <li>[Reader] Improved notification message when an image fails to load (unidentified)</li>
+                    <li>[Reader] Improved saving of reading progress</li>
+                    <li>[Servers] Added Suwayomi</li>
+                    <li>[Servers] Comix (EN): Update</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] MangaDex: Get manga chapters regardless of content rating</li>
+                    <li>[Servers] MangaNato (EN): Update</li>
+                    <li>[Servers] Qi Scans (EN): Update</li>
+                    <li>[Servers] WeebDex (multi): Update</li>
+                    <li>[L10n] Updated Croatian, French, German, Korean and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.0.1" date="2026-03-23">
+            <description translate="no">
+                <p>This is a bugfix version.</p>
+                <ul>
+                    <li>[Card] Fixed crash on opening chapters filtering</li>
+                    <li>[L10n] Updated Tamil translation</li>
+                </ul>
+
+                <p>Changes in previous version 50.0.0</p>
+                <ul>
+                    <li>Update to GNOME 50</li>
+                    <li>[Database] Optimized disk accesses on queries</li>
+                    <li>[Servers] Added KaliScan (EN)</li>
+                    <li>[Servers] Added LanorTrad (FR)</li>
+                    <li>[Servers] Added MangaBuddy (EN)</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] Local: Fixed support for PDF files</li>
+                    <li>[Servers] MangaBall (multi): Update</li>
+                    <li>[Servers] Pepper &amp; Carrot (multi): Added MiniFantasyTheater webcomic</li>
+                    <li>[Servers] Qi Scans (EN): Update</li>
+                    <li>[L10n] Updated French, Italian, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="50.0.0" date="2026-03-20">
+            <description translate="no">
+                <ul>
+                    <li>Update to GNOME 50</li>
+                    <li>[Database] Optimize disk accesses on queries</li>
+                    <li>[Servers] Add KaliScan (EN)</li>
+                    <li>[Servers] Add LanorTrad (FR)</li>
+                    <li>[Servers] Add MangaBuddy (EN)</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] Local: Fix support for PDF files</li>
+                    <li>[Servers] MangaBall (multi): Update</li>
+                    <li>[Servers] Pepper &amp; Carrot (multi): Add MiniFantasyTheater webcomic</li>
+                    <li>[Servers] Qi Scans (EN): Update</li>
+                    <li>[L10n] Updated French, Italian, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.105.0" date="2026-03-08">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Used a dialog for filters</li>
+                    <li>[Card] Added a notification when there are no chapters</li>
+                    <li>[Servers] Added zero搬运网 (ZH)</li>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] Comix (EN): Update</li>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] Qi Scans (EN): Update</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.104.0" date="2026-02-27">
+            <description translate="no">
+                <ul>
+                    <li>Improved detection of window maximized state changes</li>
+                    <li>[Card] Added `Clear` action in menu</li>
+                    <li>[Reader] Added support for JPEG XL images</li>
+                    <li>[Servers] Added Point Zero Toons (pt_BR)</li>
+                    <li>[Servers] MangaLib (RU): Update</li>
+                    <li>[Servers] Noromax (ID): Update</li>
+                    <li>[Servers] Raijin Scan (FR): Update</li>
+                    <li>[L10n] Updated French, Italian, Portuguese (Brazil), Russian, Swedish, Turkish, Ukrainian and Vietnamese translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.103.0" date="2026-02-13">
+            <description translate="no">
+                <ul>
+                    <li>[In-app notifications] Fixed incorrect positioning of the message box</li>
+                    <li>[Reader] Webtoon mode: Added keyboard/mouse zoom</li>
+                    <li>[Servers] DocTruyen3Q (VI): Update</li>
+                    <li>[Servers] Dragon Ball Multiverse: Added 17 Webcomics and 9 languages</li>
+                    <li>[Servers] MangaReader(to): Disabled</li>
+                    <li>[L10n] Updated French, Portuguese (Brazil) and Vietnamese translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.102.0" date="2026-02-06">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] DocTruyen3Q (VI): Update</li>
+                    <li>[Servers] LegacyScans (FR): Disabled</li>
+                    <li>[Servers] MangaBin (EN): Disabled</li>
+                    <li>[Servers] Toonily (EN): Update</li>
+                    <li>[Servers] Added copyright information about content</li>
+                    <li>[L10n] Updated French, Portuguese (Brazil) and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.101.0" date="2026-01-28">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Webtoon pager: Added missing navigation with `Page Up` and `Page Down` of numeric keypad</li>
+                    <li>[Servers] Invincible ComicsVF (FR): Disabled</li>
+                    <li>[Servers] Lovers Toon (pt_BR): Re-enabled</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] Manganelo (EN): Update</li>
+                    <li>[Servers] Phenix Scans (FR): Update</li>
+                    <li>[Servers] Terco Scans (EN): Disabled</li>
+                    <li>[Servers] Disabled commercial platforms</li>
+                    <li>[L10n] Updated Turkish translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.100.0" date="2026-01-16">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Hijala (AR)</li>
+                    <li>[Servers] Local: Added EPUB format support</li>
+                    <li>[Servers] DocTruyen3Q (VI): Update</li>
+                    <li>[Servers] Mangas Origines (FR): Update</li>
+                    <li>[L10n] Updated Italian and Portuguese (Brazil) translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.99.0" date="2026-01-05">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] Cartel De Manhwas (ES): Re-enabled</li>
+                    <li>[Servers] Kavita: Fixed chapters recovery</li>
+                    <li>[Servers] Neko Scans (ES): Re-enabled</li>
+                    <li>[Servers] NHentai: Update</li>
+                    <li>[Servers] Rezo Scans (EN): Disabled</li>
+                    <li>[Servers] Rimu Scans (FR): Disabled</li>
+                    <li>[Servers] Team-X (AR): Update</li>
+                    <li>[L10n] Updated Indonesian and Spanish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.98.0" date="2025-12-21">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Hive Toon (EN)</li>
+                    <li>[Servers] Dragon Ball Multiverse: Update</li>
+                    <li>[Servers] Kavita: Fixed chapters recovery</li>
+                    <li>[Servers] Mangalek (AR): Update</li>
+                    <li>[Servers] Qi Scans (EN): Update</li>
+                    <li>[Servers] Raijin Scan (FR): Update</li>
+                    <li>[Servers] Scanvf (FR): Disabled</li>
+                    <li>[L10n] Updated Finnish translation</li>
+                </ul>
+                <p>Enjoy holiday season and Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.97.0" date="2025-12-13">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Added categories in `Info` page</li>
+                    <li>[Preferences] Advanced: Improved `Clear WebView Data`</li>
+                    <li>[Trackers] Improved MangaUpdates</li>
+                    <li>[Servers] Added DocTruyen3Q (VI)</li>
+                    <li>[Servers] Comix (EN): Update</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] Mangas Top (pt_BR): Update</li>
+                    <li>[L10n] Updated Croatian, Russian and Vietnamese translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.96.0" date="2025-12-06">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Reader: Split settings in 3 groups (Common, Paged Readings Modes, Webtoon Reading Mode)</li>
+                    <li>[Reader] Added two new scroll settings for Webtoon reading mode</li>
+                    <li>[Servers] Added Mangas Top (pt_BR)</li>
+                    <li>[Servers] Added Writers Scans (EN)</li>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] Anteiku Scans (FR): Disabled</li>
+                    <li>[Servers] ED Scanlation (FR): Disabled</li>
+                    <li>[Servers] WeebDex (EN): Update</li>
+                    <li>[L10n] Updated French, German, Russian, Ukrainian and Vietnamese translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.95.0" date="2025-11-28">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Advanced: Improved `Clear WebView Data`</li>
+                    <li>[Servers] Added WeebDex (EN)</li>
+                    <li>[Servers] Argos Comics (PT): Disabled</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] Comix (EN): Update</li>
+                    <li>[Servers] Invincible ComicsVF (FR): Update</li>
+                    <li>[Servers] Mangas Origines (FR): Re-enabled</li>
+                    <li>[Servers] Punk Records (FR): Update</li>
+                    <li>[Servers] Scylla Comics (EN): Disabled</li>
+                    <li>[Servers] Tres Daos (ES): Disabled</li>
+                    <li>[L10n] Updated Finnish, French, Italian, Russian, Ukrainian and Vietnamese translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.94.0" date="2025-11-21">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Zenko (UK)</li>
+                    <li>[Explorer] Servers: Kavita and Komga join Local in `Other` section</li>
+                    <li>[L10n] Updated French, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.93.0" date="2025-11-19">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Comix (EN)</li>
+                    <li>[Servers] Added Rimu Scans (FR)</li>
+                    <li>[Servers] MangaDex: Added `Data Saver Mode` parameter</li>
+                    <li>[L10n] Updated French, German, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.92.0" date="2025-11-13">
+            <description translate="no">
+                <ul>
+                    <li>[Downloader] Improved notifications</li>
+                    <li>[Preferences] Added Support (donation) banner on top of General page</li>
+                    <li>[Trackers] Improved handling of access tokens lifetime</li>
+                    <li>[Servers] Comic Book Plus (EN): Update</li>
+                    <li>[Servers] Punk Records (Little Garden): Update</li>
+                    <li>[L10n] Updated Croatian, Finnish, French, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.91.0" date="2025-11-02">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Selection mode: Fixed read/unread actions</li>
+                    <li>[Reader] Webtoon pager: Fixed high CPU usage</li>
+                    <li>[Servers] Added Kavita</li>
+                    <li>[Servers] Added MangaBall (23 languages)</li>
+                    <li>[Servers] Anime-Sama (FR): Update</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] Raijin Scan (FR): Update</li>
+                    <li>[L10n] Updated Croatian, Czech and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.90.0" date="2025-10-23">
+            <description translate="no">
+                <ul>
+                    <li>[Trackers] Added MangaUpdates</li>
+                    <li>[Servers] Aurora Scans (EN): Disabled</li>
+                    <li>[Servers] Local: Added PDF format support</li>
+                    <li>[Servers] Manga Demon (EN): Update</li>
+                    <li>[servers] Manga Koleji [TR]: Disabled</li>
+                    <li>[Servers] MANGA Plus (multi): Update</li>
+                    <li>[Servers] Nazarick Scan (pt_BR): Disabled</li>
+                    <li>[Servers] Starbound Scans (FR): Disabled</li>
+                    <li>[L10n] Updated French and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.89.0" date="2025-10-13">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Advanced: Add ability to clear WebView data</li>
+                    <li>[Servers] Added Anime-Sama (FR)</li>
+                    <li>[Servers] Added Aurora Scans (EN)</li>
+                    <li>[Servers] Added Hijala Scans (EN)</li>
+                    <li>[Servers] Added Rezo Scans (EN)</li>
+                    <li>[Servers] Cartel De Manhwas (ES): Disabled</li>
+                    <li>[Servers] ComicK: Disabled</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] MangaFire (EN/ES/ES_LA/FR/JA/PT/pt_BR): Update</li>
+                    <li>[Servers] Qi Scans (EN): Update</li>
+                    <li>[Servers] Raijin Scan (FR): Update</li>
+                    <li>[Servers] Rawkuma (JA): Update</li>
+                    <li>[Servers] Vortex Scans For Free (EN): Disabled</li>
+                    <li>[L10n] Updated Croatian, Persian, Polish, Portuguese, Portuguese (Brazil) and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.88.0" date="2025-09-18">
+            <description translate="no">
+                <ul>
+                    <li>[UX] Refined visuals taking advantage of the new capabilities of GNOME 49</li>
+                    <li>[UI] Switching to Glycin (image loading framework)</li>
+                    <li>[Reader] Webtoon pager: Fixed small gap between pages</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] Grise Bouille (FR): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] Neko Scans (ES): Disabled</li>
+                    <li>[Servers] Qi Scans (Night scans): Update</li>
+                    <li>[L10n] Updated French, Portuguese, Portuguese (Brazil) and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.87.0" date="2025-09-11">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Cartel De Manhwas (ES): Update</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Mangapill: Update</li>
+                    <li>[Servers] SCtoon (pt_BR): Disabled</li>
+                    <li>[Servers] Starbound Scans (FR): Update</li>
+                    <li>[L10n] Updated Arabic, Croatian, Finnish and  Portuguese (Brazil) translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.86.0" date="2025-08-23">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Annyo (FR)</li>
+                    <li>[Servers] Added Jen Sorensen Weekly Cartoon (EN)</li>
+                    <li>[Servers] Added SushiScan.net (FR)</li>
+                    <li>[Servers] EZManga (EN): Update</li>
+                    <li>[Servers] Reaper Scans (EN): Disabled</li>
+                    <li>[L10n] Updated German, Italian, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.85.0" date="2025-08-11">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Added `F9` shortcut to open `Categories` pane</li>
+                    <li>[Servers] Added Invincible ComicsVF (FR)</li>
+                    <li>[Servers] ComicHubFree (EN): Update</li>
+                    <li>[Servers] Desu (RU): Update</li>
+                    <li>[Servers] Perf Scan (FR): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[L10n] Updated Arabic, French and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.84.0" date="2025-08-03">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Added ability to apply filters to pages (brightness, contrast, grayscale, sepia, saturation)</li>
+                    <li>[Reader] RTL/LTR/Vertical pager: Added keyboard zoom</li>
+                    <li>[Reader] Webtoon pager: Fixed weird jumps during backward scrolling</li>
+                    <li>[Servers] MangaWorld (IT): Update</li>
+                    <li>[L10n] Updated Arabic and French translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.83.0" date="2025-07-28">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added MANGA Plus Creators by SHUEISHA (EN/ES)</li>
+                    <li>[Servers] Cartel De Manhwas (ES): Update</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Lectormanga (ES): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] MangaLib (RU): Update</li>
+                    <li>[Servers] Raw Manga (JA): Disabled</li>
+                    <li>[Servers] ToonGod (EN): Update</li>
+                    <li>[Servers] Webtoon Hatti (TR): Update</li>
+                    <li>[L10n] Updated Arabic and Bulgarian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.82.0" date="2025-07-14">
+            <description translate="no">
+                <ul>
+                    <li>Fixed app crash due to changes in AVIF image format support</li>
+                    <li>[Servers] MangaFire (EN/ES/ES_LA/FR/JA/PT/pt_BR): Update</li>
+                    <li>[L10n] Updated Portuguese and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.81.0" date="2025-07-03">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Improved interface refresh after an update</li>
+                    <li>[Updater] Added detection of downed servers (avoids unnecessary manga updates)</li>
+                    <li>[Servers] ComicK: Fixed covers in search results</li>
+                    <li>[Servers] Mangalek (AR): Update</li>
+                    <li>[Servers] NHentai (EN/JA/ZH): Update</li>
+                    <li>[Servers] Perf Scan (FR): Update</li>
+                    <li>[Servers] Rawkuma (JA): Update</li>
+                    <li>[Servers] Terco Scans (EN): Update</li>
+                    <li>[Servers] Tres Daos (ES): Update</li>
+                    <li>[Servers] WEBTOON: Update</li>
+                    <li>[L10n] Added Lithuanian translation</li>
+                    <li>[L10n] Updated French, Italian, Russian, Tamil and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.80.0" date="2025-06-16">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Pool-to-Update: Improved spinner visibility</li>
+                    <li>[Servers] Added ComicK (comick.io)</li>
+                    <li>[Servers] Added Raijin Scan (FR)</li>
+                    <li>[Servers] Pepper &amp; Carrot: Update</li>
+                    <li>[Servers] Phenix Scans (FR): Update</li>
+                    <li>[Servers] Mangalek (AR): Update</li>
+                    <li>[Servers] Tres Daos (ES): Update</li>
+                    <li>[Servers] WEBTOON (EN/ES/FR/ID/TH/ZH): Update</li>
+                    <li>[L10n] Updated French and Persian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.79.1" date="2025-06-07">
+            <description translate="no">
+                <p>This is a bugfix version.</p>
+                <ul>
+                    <li>[Card] Fixed Pull-to-Update</li>
+                </ul>
+
+                <p>Changes in previous version 1.79.0</p>
+                <ul>
+                    <li>[Card] Added new backdrop method: Blurred cover</li>
+                    <li>[Servers] Dragon Ball Multiverse: Update</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] MangaMana (FR): Update</li>
+                    <li>[Servers] MangaNato (EN): Update</li>
+                    <li>[Servers] Mangaowl (EN): Update</li>
+                    <li>[Servers] MangaReader (cc) (EN): Update</li>
+                    <li>[Servers] Neko Scans(ES): Update</li>
+                    <li>[Servers] Pepper&amp;Carrot: Added support of Persian language</li>
+                    <li>[Servers] Rawdevart (JA): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Senpai Ediciones (ES): Disabled</li>
+                    <li>[Servers] Terco Scans (EN): Update</li>
+                    <li>[Servers] Usagi (RU): Disabled</li>
+                    <li>[L10n] Updated Arabic and Persian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.79.0" date="2025-06-06">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Added new backdrop method: Blurred cover</li>
+                    <li>[Servers] Dragon Ball Multiverse: Update</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] MangaMana (FR): Update</li>
+                    <li>[Servers] MangaNato (EN): Update</li>
+                    <li>[Servers] Mangaowl (EN): Update</li>
+                    <li>[Servers] MangaReader (cc) (EN): Update</li>
+                    <li>[Servers] Neko Scans(ES): Update</li>
+                    <li>[Servers] Pepper&amp;Carrot: Added support of Persian language</li>
+                    <li>[Servers] Rawdevart (JA): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Senpai Ediciones (ES): Disabled</li>
+                    <li>[Servers] Terco Scans (EN): Update</li>
+                    <li>[Servers] Usagi (RU): Disabled</li>
+                    <li>[L10n] Updated Arabic and Persian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.78.0" date="2025-05-29">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Details page: Redesign</li>
+                    <li>[Servers] Local: Added support of CBT archive format (TAR)</li>
+                    <li>[Servers] Added Blue Solo (FR)</li>
+                    <li>[Servers] SMBC (EN): Re-enabled</li>
+                    <li>[Servers] Poseidon Scans (FR): Disabled</li>
+                    <li>[L10n] Updated Arabic, Bulgarian, Catalan and Portuguese (Brazil) translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.77.0" date="2025-05-17">
+            <description translate="no">
+                <ul>
+                    <li>[Webview] Fixed Cloudflare challenge detection</li>
+                    <li>[Servers] Manga-Scantrad (FR): Update</li>
+                    <li>[Servers] Night scans (EN): Update</li>
+                    <li>[Servers] Tres Daos (ES): Update</li>
+                    <li>[Servers] Mangapill (EN): Update</li>
+                    <li>[L10n] Updated Spanish translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.76.1" date="2025-05-09">
+            <description translate="no">
+                <p>This is a bugfix version.</p>
+                <ul>
+                    <li>[Reader] Webtoon mode: Fixed scrolling after a pages jump (using controls overlay)</li>
+                    <li>[L10n] Updated Portuguese (Brazil) translation</li>
+                </ul>
+
+                <p>Changes in previous version 1.76.0</p>
+                <ul>
+                    <li>[Servers] Added ComicHubFree (EN)</li>
+                    <li>[Servers] Asura Scans For Free (EN): Disabled</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Team-X (AR): Update</li>
+                    <li>[Servers] Terco Scans (EN):Update</li>
+                    <li>[L10n] Updated Bulgarian, German, Indonesian, Italian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.76.0" date="2025-05-08">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added ComicHubFree (EN)</li>
+                    <li>[Servers] Asura Scans For Free (EN): Disabled</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Team-X (AR): Update</li>
+                    <li>[Servers] Terco Scans (EN):Update</li>
+                    <li>[L10n] Updated Bulgarian, German, Indonesian, Italian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.75.0" date="2025-04-04">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] ريبر العربي (AR): Disabled</li>
+                    <li>[Servers] 3asq (AR): Disabled</li>
+                    <li>[Servers] Dango Scan (pt_BR): Update</li>
+                    <li>[Servers] DB New Hope (EN/ES/FR): Update</li>
+                    <li>[Servers] Dynasty Reader (EN): Update</li>
+                    <li>[Servers] EZmanga (EN): Ignored chapters with price</li>
+                    <li>[Servers] Mangago (EN): Update</li>
+                    <li>[Servers] Mangaowl (EN): Update</li>
+                    <li>[Servers] MangaReader (EN): Update</li>
+                    <li>[Servers] MangaWorld (IT): Update</li>
+                    <li>[Servers] Manhwa Hentai (EN): Disabled</li>
+                    <li>[Servers] Mint Manga (RU): Disabled</li>
+                    <li>[Servers] Nazarick Scan (pt_BR): Update</li>
+                    <li>[Servers] PhenixScans (FR): Update</li>
+                    <li>[Servers] Reaper Scans (EN): Update</li>
+                    <li>[Servers] Terco Scans (EN): Update</li>
+                    <li>[Servers] Tres Daos (ES): Update</li>
+                    <li>[Servers] View Comics (EN): Update</li>
+                    <li>[Servers] Xoxocomics (EN): Update</li>
+                    <li>[L10n] Updated French and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.74.0" date="2025-03-28">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Fixed inconsistent background color introduced in previous version</li>
+                    <li>[Servers] Aurora Scan (pt_BR): Disabled</li>
+                    <li>[Servers] Noromax (ID): Update</li>
+                    <li>[Servers] Tecno Scans (EN): Update</li>
+                    <li>[Servers] Wicked Witch Scan (pt_BR): Disabled</li>
+                    <li>[Servers] `Up-to-date modules` feature: an app restart is now required for a change to take effect (modules update or setting activation/deactivation)</li>
+                    <li>[L10n] Updated Bulgarian, Czech, French, Russian and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.73.0" date="2025-03-21">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Added ability to update with &lt;Ctrl+r&gt; shortcut</li>
+                    <li>[Card] Info: Improved display of Genres using badges</li>
+                    <li>[Servers] Added MangaBin (EN)</li>
+                    <li>[Servers] Added Vortex Scans For Free (EN)</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Manhuaus (EN): Update</li>
+                    <li>[Servers] Perf Scan (FR): Update</li>
+                    <li>[Servers] Remanga (RU): Update</li>
+                    <li>[L10n] Added Hungarian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.72.0" date="2025-03-09">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Nix of Nothing (EN)</li>
+                    <li>[Servers] Added Three Panel Soul (EN)</li>
+                    <li>[Servers] Added Wild Life (EN)</li>
+                    <li>[Servers] Cartel De Manhwas (ES): Update</li>
+                    <li>[Servers] MangaNato (EN): Update</li>
+                    <li>[Servers] Terco Scans (EN): Update</li>
+                    <li>[Servers] Tres Daos (ES): Update</li>
+                    <li>[Servers] Crunchyroll (EN): Disabled</li>
+                    <li>[Servers] Iris Scanlator (pt_BR): Disabled</li>
+                    <li>[Servers] ReaperScans (FR,ID,TR): Disabled</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.71.0" date="2025-03-03">
+            <description translate="no">
+                <ul>
+                    <li>[Explorer] Global search: Added ability to cancel search</li>
+                    <li>[Servers] Comic Fans (EN): Disabled</li>
+                    <li>[Servers] Perf Scan (FR): Re-enabled</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] TCB Scans (EN): Update</li>
+                    <li>[Servers] Terco Scans (EN): Update</li>
+                    <li>[Servers] Usagi (RU): Update</li>
+                    <li>[Servers] Webtoon: Fixed covers</li>
+                    <li>[L10n] Added Persian translation</li>
+                    <li>[L10n] Updated French and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.70.0" date="2025-02-13">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Chapters list: Added Scanlators filter</li>
+                    <li>[Servers] Desu (RU): Update</li>
+                    <li>[Servers] Lector manga: Re-enabled</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[L10n] Updated Dutch, French, Swedish and Tamil translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.69.0" date="2025-02-01">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] Manga Demon (EN): Update</li>
+                    <li>[Servers] MangaHub (EN): Update</li>
+                    <li>[Servers] MangaWorld (IT): Update</li>
+                    <li>[Servers] Neko Scans (ES): Update</li>
+                    <li>[Servers] Sinensistoon (pt_BR): Renamed SCtoon (fusion with Cerise Scan)</li>
+                    <li>[Servers] Cerise Scan (pt_BR): Disabled</li>
+                    <li>[Servers] MangaLife (EN): Disabled</li>
+                    <li>[Servers] MangaSee (EN): Disabled</li>
+                    <li>[L10n] Added Czech translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.68.0" date="2025-01-23">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Webtoon pager: Fixed pages jumping on initialization</li>
+                    <li>[Servers] Added Poseidon Scans (FR)</li>
+                    <li>[Servers] Mangago (EN): Update</li>
+                    <li>[L10n] Added Tamil translation</li>
+                    <li>[L10n] Updated Chinese (Simplified) and Finnish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.67.0" date="2025-01-03">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Paused pages animations when obscured</li>
+                    <li>[Servers] Anteiku Scans (FR): Update</li>
+                    <li>[Servers] Asura Scans For Free (EN): Update</li>
+                    <li>[Servers] ED Scanlation (FR): Update</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] Kewn Scans (EN): Update</li>
+                    <li>[Servers] MonkeyUser (EN): Update</li>
+                    <li>[Servers] Pepper&amp;Carrot: Update</li>
+                    <li>[Servers] Starbound Scans (FR): Update</li>
+                    <li>[Servers] Terco Scans (ES): Update</li>
+                    <li>[Servers] Webtoon Hatti (TR): Update</li>
+                    <li>[Servers] Rukav Inari (ES): Disabled</li>
+                    <li>[Servers] MangaWeebs (EN): Disabled</li>
+                    <li>[Servers] LSComic (EN): Disabled</li>
+                    <li>[Servers] Hunlight Scans (EN): Disabled</li>
+                    <li>[Servers] Mode Scanlator (pt_BR): Disabled</li>
+                    <li>[Servers] Best Manga (RU): Disabled</li>
+                    <li>[Servers] Atikrost (TR): Disabled</li>
+                    <li>[Servers] Perf Scan (FR): Disabled</li>
+                    <li>[L10n] Updated Bulgarian, German and Polish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.66.0" date="2024-12-18">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Asura Scans For Free (EN)</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] MangaDex: Ignored externals and empty chapters</li>
+                    <li>[Servers] MangaDex: Added Genres filter</li>
+                    <li>[Servers] MangaHub: Avoided exceeding API rate limiting</li>
+                    <li>[Servers] MangaLib (RU): Update</li>
+                    <li>[Servers] Mangareader (to): Fixed decoding of scrumbled images</li>
+                    <li>[L10n] Updated Finnish, Portuguese (Brazil), Russian, Spanish, Swedish and Ukrainian translations</li>
+                </ul>
+                <p>Enjoy holiday season and Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.65.0" date="2024-12-06">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Added `Unread chapters` badge</li>
+                    <li>[Card] Info: Updated Genres icon</li>
+                    <li>[Servers] Added Manga Koleji (TR)</li>
+                    <li>[Servers] Added Webtoon Hatti (TR)</li>
+                    <li>[Servers] ComicExtra (EN): Disabled</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Mangago (EN): Update</li>
+                    <li>[Servers] View Comics (EN): Update</li>
+                    <li>[Servers] Webtoon TR: Update</li>
+                    <li>[L10n] Updated French, Russian, Spanish and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.64.0" date="2024-11-25">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Weeb Central (EN)</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Manga Demon (EN): Update</li>
+                    <li>[Servers] Fr-Scan (FR): Disabled</li>
+                    <li>[Servers] Manga Scan (FR): Disabled</li>
+                    <li>[L10n] Updated French translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.63.0" date="2024-11-18">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Servers settings: Added language indicator</li>
+                    <li>[Reader] Fixed keyboard navigation bugs after changing reading mode</li>
+                    <li>[Reader] Webtoon pager: Extended scrollable zone to all viewport</li>
+                    <li>[Reader] Fixed unwanted display/hiding of cursor during keyboard navigation</li>
+                    <li>[Servers] MangaReader: Added ES/ES_LA/PT/pt_BR languages support</li>
+                    <li>[Servers] MangaReader (multi): Improved search by finally taking into account language</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[L10n] Updated Croatian and German translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.62.0" date="2024-11-11">
+            <description translate="no">
+                <ul>
+                    <li>[Tracking] Improved dialog size adjustment and handling of errors when query trackers</li>
+                    <li>[Servers] Terco Scans (ES): Update</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Team-X (AR): Update</li>
+                    <li>[Servers] SushiScan (FR): Update</li>
+                    <li>[L10n] Updated Bulgarian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.61.1" date="2024-11-07">
+            <description translate="no">
+                <p>This is a bugfix version.</p>
+                <ul>
+                    <li>Fixed bad chapter and volume numbers</li>
+                </ul>
+
+                <p>Changes in previous version 1.60.0</p>
+                <ul>
+                    <li>[Tracking] Improved search results</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] ComicExtra (EN): Update</li>
+                    <li>[Servers] Honey Manga (UK): Update</li>
+                    <li>[Servers] Kewn Scans (EN): Update</li>
+                    <li>[Servers] Manga-Tube (DE): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] Mint Manga (RU): Update</li>
+                    <li>[Servers] Read Manga (RU): Update</li>
+                    <li>[Servers] Reaper Scans (EN): Update</li>
+                    <li>[Servers] Self Manga (RU): Update</li>
+                    <li>[Servers] Tecno Scans (ES): Update</li>
+                    <li>[L10n] Updated Bulgarian, Finnish, Portuguese (Brazil), Spanish, Turkish and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.60.0" date="2024-10-18">
+            <description translate="no">
+                <ul>
+                    <li>Added Tracking support (AniList, MyAnimeList)</li>
+                    <li>[Servers] Anteiku Scans (FR): Update</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] Cerise Scan (pt_BR): Update</li>
+                    <li>[Servers] ED Scanlation (FR): Update</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] M440.in (ES): Update</li>
+                    <li>[Servers] Manga Demon (EN): Update</li>
+                    <li>[Servers] MangaFreak (EN): Update</li>
+                    <li>[Servers] Mangago (EN): Update</li>
+                    <li>[Servers] Manga-Tube (DE): Update</li>
+                    <li>[Servers] Scanvf (FR): Fixed search</li>
+                    <li>[Servers] Sinensistoon (pt_BR): Update</li>
+                    <li>[Servers] Starbound Scans (FR): Update</li>
+                    <li>[Servers] Tecno Scans (ES): Update</li>
+                    <li>[Servers] Colored Manga (EN): Disabled</li>
+                    <li>[Servers] Read Comics Free (EN): Disabled</li>
+                    <li>[L10n] Added Bulgarian translation</li>
+                    <li>[L10n] Updated Dutch, French, Portuguese, Russian, Spanish and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.59.0" date="2024-09-19">
+            <description translate="no">
+                <ul>
+                    <li>[UX] Added system accent colors support</li>
+                    <li>[Explorer] Fixed Global search</li>
+                    <li>[Servers] Bentoscan (FR): Disabled</li>
+                    <li>[Servers] VF Scan (FR): Disabled</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.58.0" date="2024-09-16">
+            <description translate="no">
+                <ul>
+                    <li>Fixed display of covers in animated GIF format</li>
+                    <li>Fixed memory leaks</li>
+                    <li>[Servers] Added Manga Mana (FR)</li>
+                    <li>[Servers] Tecno Scan (ES): Re-enabled</li>
+                    <li>[Servers] Anteiku Scans (FR): Update</li>
+                    <li>[Servers] ComicExtra (EN): Update</li>
+                    <li>[Servers] ED Scanlation (FR): Update</li>
+                    <li>[Servers] EZmanga (EN): Update</li>
+                    <li>[Servers] Kewn Scans (EN): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] MangaWeebs (EN): Update</li>
+                    <li>[Servers] Reaper Scans (EN): Update</li>
+                    <li>[Servers] Scylla Comics (EN): Update</li>
+                    <li>[Servers] Starbound Scans (FR): Update</li>
+                    <li>[L10n] Update Portuguese (Brazil) translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.57.0" date="2024-09-04">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] RTL/LTR/Vertical pager: Fixed &lt;Ctrl+mouse wheel&gt; zooming</li>
+                    <li>[Servers] Argos Comics (PT): Update</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] MangaHere (EN): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.56.0" date="2024-08-30">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Fixed display of long strip images</li>
+                    <li>[Servers] Improved webview CAPTCHAs detection</li>
+                    <li>[Servers] Improved webview Cloudflare challenges detection</li>
+                    <li>[Servers] Atikrost (TR): Update</li>
+                    <li>[Servers] Local: Improved cover generation</li>
+                    <li>[Servers] Manga Demon (EN): Update</li>
+                    <li>[Servers] MangaHere (EN): Update</li>
+                    <li>[Servers] Night scans (EN): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] SushiScan (FR): Update</li>
+                    <li>[Servers] VF Scan (FR): Update</li>
+                    <li>[Servers] Xoxocomics (EN): Update</li>
+                    <li>[L10n] Updated Croatian and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.55.0" date="2024-08-18">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Improved `Resume`</li>
+                    <li>[Servers] Argos Comics (PT): Update</li>
+                    <li>[Servers] Armoni Scans (TR): Update</li>
+                    <li>[Servers] KomikLovers (ID): Update</li>
+                    <li>[Servers] Manga Tube (DE): Update</li>
+                    <li>[Servers] MangaWeebs (EN): Update</li>
+                    <li>[Servers] Rawdevart (JA): Update</li>
+                    <li>[Servers] Tres Daos (ES): Update</li>
+                    <li>[Servers] View Comics (EN): Update</li>
+                    <li>[L10n] Updated Hindi and Spanish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.54.0" date="2024-08-16">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Reader: Added `Scaling Filter` parameter</li>
+                    <li>Fixed in-app notification position in fullscreen</li>
+                    <li>[Servers] Added Anteiku Scans (FR</li>
+                    <li>[Servers] Added ED Scanlation (FR)</li>
+                    <li>[Servers] Added EZmanga (EN)</li>
+                    <li>[Servers] Added Kewn Scans (EN)</li>
+                    <li>[Servers] Added Starbound Scans (FR)</li>
+                    <li>[L10n] Updated French translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.53.0" date="2024-08-10">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Disabled `Resume` on empty chapters list</li>
+                    <li>[Reader] Changed interpolation method used to resize images</li>
+                    <li>[Reader] Improved `Resume`</li>
+                    <li>[Servers] Asura Scans (EN): Re-enabled</li>
+                    <li>[Servers] Colored Manga (EN): Re-enabled</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] Hunlight Scans (EN): Update</li>
+                    <li>[Servers] Manga Scan (FR): Update</li>
+                    <li>[Servers] Reaper Scans (EN): Update</li>
+                    <li>[Servers] Team-X (AR): Update</li>
+                    <li>[Servers] Komga: Fixed synchronization</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.52.0" date="2024-08-02">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Improved webview to complete Cloudflare challenges</li>
+                    <li>[Servers] Improved webview to support Google ReCAPTCHA completion</li>
+                    <li>[Servers] ComicExtra (EN): Update</li>
+                    <li>[Servers] Manga-Scantrad (FR): Update</li>
+                    <li>[Servers] Mode Scanlator (pt_BR): Update</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Asura Scans (EN): Disabled</li>
+                    <li>[Servers] Mangas Origines (FR): Disabled</li>
+                    <li>[L10n] Updated French and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.51.1" date="2024-07-13">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Fixed the page to complete Cloudflare challenges</li>
+                    <li>[Servers] Japscan (FR): Disabled</li>
+                    <li>[Servers] Neko Scans (ES): Disabled</li>
+                    <li>[L10n] Updated Croatian, French and German translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.51.0" date="2024-07-10">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Senpai Ediciones (ES): Update</li>
+                    <li>[Servers] SushiScan (FR): Update</li>
+                    <li>[L10n] Added Croatian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.50.0" date="2024-07-02">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Perf Scan (FR): Update</li>
+                    <li>[Servers] Local: Several bug fixes and improvements</li>
+                    <li>[Servers] Manga Demon (EN): Update</li>
+                    <li>[Servers] MangaWorld (IT): Update</li>
+                    <li>[Servers] TCB Scans (EN): Update</li>
+                    <li>[Servers] FleksyScans (EN): Disabled</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.49.0" date="2024-06-24">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Fixed the page to complete Cloudflare challenges</li>
+                    <li>[Servers] Argos Comics (pt_BR): Update</li>
+                    <li>[Servers] MangaHub (EN): Update</li>
+                    <li>[Servers] PhenixScans (FR): Update</li>
+                    <li>[Servers] TCB Scans (EN): Update</li>
+                    <li>[Servers] Ragna Scan (ES): Disabled</li>
+                    <li>[Servers] Tecno Scan (ES): Disabled</li>
+                    <li>[L10n] Updated Turkish translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.48.1" date="2024-06-13">
+            <description translate="no">
+                <p>This is a bugfix version.</p>
+                <ul>
+                    <li>[Card] Fixed backdrop bug</li>
+                    <li>[Servers] Local: Fixed wrong location of cover files</li>
+                    <li>[Servers] Luratoon Scan (pt_BR): Disabled</li>
+                    <li>[L10n] Updated Dutch, Hindi and Russian translations</li>
+                </ul>
+
+                <p>Changes in previous version 1.48.0</p>
+                <ul>
+                    <li>New feature: Continuously updated servers modules</li>
+                    <li>[Servers] Added MangaFire (EN/ES/ES_LA/FR/JA/PT/pt_BR)</li>
+                    <li>[Servers] Re-enabled Argos Comics (PT)</li>
+                    <li>[Servers] Flame Comics (EN): Update</li>
+                    <li>[Servers] Fr-Scan (FR): Update</li>
+                    <li>[Servers] Luratoon Scan (pt_BR): Update</li>
+                    <li>[Servers] MangaCrab (ES): Update</li>
+                    <li>[Servers] MangaWorld (IT): Update</li>
+                    <li>[Servers] Manga/in/ua (UK): Update</li>
+                    <li>[L10n] Added Swedish translation</li>
+                    <li>[L10n] Updated Arabic, French, German, Portuguese (Brazil), Spanish and Ukrainian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.47.0" date="2024-05-22">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Added navigation with J and K keyboard keys</li>
+                    <li>[Servers] Added Aurora Scan (pt_BR)</li>
+                    <li>[Servers] Added Bentoscan (FR)</li>
+                    <li>[Servers] Added Cerise Scan (pt_BR)</li>
+                    <li>[Servers] Added Dango Scan (pt_BR)</li>
+                    <li>[Servers] Added Luratoon Scan (pt_BR)</li>
+                    <li>[Servers] Added Manga Reader (cc) [EN]</li>
+                    <li>[Servers] Added Manga Scan (FR)</li>
+                    <li>[Servers] Added Nazarick Scan (pt_BR)</li>
+                    <li>[Servers] Added RF Dragon Scan (pt_BR)</li>
+                    <li>[Servers] Added Scanvf (FR)</li>
+                    <li>[Servers] Added Sinensistoon (pt_BR)</li>
+                    <li>[Servers] Added Wicked Witch Scan (pt_BR)</li>
+                    <li>[Servers] Hunlight Scans (EN): Re-enabled</li>
+                    <li>[Servers] MangaDex: Improved Latest Updates fetching</li>
+                    <li>[Servers] Mangago (EN): Update</li>
+                    <li>[Servers] Manhwa Hentai (EN): Update</li>
+                    <li>[Servers] NHentai (EN/ZH/JA): Update</li>
+                    <li>[Servers] Night scans (EN): Update</li>
+                    <li>[Servers] Perf Scan (FR): Update</li>
+                    <li>[Servers] Tecno Scan (ES): Update</li>
+                    <li>[Servers] Tres Daos (ES): Update</li>
+                    <li>[Servers] Union Mangás (PT): Disabled</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.46.0" date="2024-05-13">
+            <description translate="no">
+                <ul>
+                    <li>[Webview] Fixed exiting when there is no Cloudflare challenge</li>
+                    <li>[Servers] Added MangaCrab (ES)</li>
+                    <li>[Servers] Comic Book Plus (EN): Update</li>
+                    <li>[Servers] Mode Scanlator (pt_BR): Update</li>
+                    <li>[Servers] Rawdevart (JA): Update</li>
+                    <li>[Servers] Reaper Scans (EN): Update</li>
+                    <li>[Servers] ShadowMangas (ES): Update</li>
+                    <li>[Servers] Tecno Scan (ES): Update</li>
+                    <li>[Servers] JManga (JA): Disabled</li>
+                    <li>[L10n] Updated Chinese (Traditional), Dutch, German, Hindi, Italian and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.45.1" date="2024-04-27">
+            <description translate="no">
+                <p>This version fixes a bug that prevented some server logos from being displayed.</p>
+
+                <p>Changes in version 1.45.0</p>
+                <ul>
+                    <li>[Webview] Improved Cloudflare user challenge completion</li>
+                    <li>[Servers] Added Existential Comics (EN)</li>
+                    <li>[Servers] Added Manga Demon (EN)</li>
+                    <li>[Servers] Added MangaWeebs (EN)</li>
+                    <li>[Servers] Added Webtoon TR</li>
+                    <li>[Servers] Armoni Scans (Asura Scans TR): Re-enabled</li>
+                    <li>[Servers] Atikrost (TR): Re-enabled</li>
+                    <li>[Servers] Mangago (EN): Update</li>
+                    <li>[Servers] MangaFreak (EN): Update</li>
+                    <li>[Servers] Nine Manga (EN/PT_BR/DE/ES/FR/IT/RU): Update</li>
+                    <li>[L10n] Added Vietnamese translation</li>
+                    <li>[L10n] Updated French, German, Portuguese, Spanish and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.44.0" date="2024-04-19">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Cartel De Manhwas (ES)</li>
+                    <li>[Servers] Added F/OSS Comics (EN)</li>
+                    <li>[Servers] Added Mode Scanlator (pt_BR)</li>
+                    <li>[Servers] Added Neko Scans (ES)</li>
+                    <li>[Servers] Added Ragna Scan (ES)</li>
+                    <li>[Servers] Added Raiki Scan (ES)</li>
+                    <li>[Servers] Added Rukav Inari (ES)</li>
+                    <li>[Servers] Added Ryujinmanga (ES)</li>
+                    <li>[Servers] Added Senpai Ediciones (ES)</li>
+                    <li>[Servers] Added ShadowMangas (ES)</li>
+                    <li>[Servers] Added SkyMangas (ES)</li>
+                    <li>[Servers] Added Tecno Scan (ES)</li>
+                    <li>[Servers] Added Tres Daos (ES)</li>
+                    <li>[Servers] Read Manga, Mint Manga, Self Manga (RU): Update</li>
+                    <li>[Servers] Tapas (EN): Update</li>
+                    <li>[L10n] Added translation using Weblate (Hindi)</li>
+                    <li>[L10n] Updated Dutch, French and Indonesian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.43.0" date="2024-04-12">
+            <description translate="no">
+                <ul>
+                    <li>Improved downloads and covers display speed</li>
+                    <li>[Servers] Added Comic Fans (EN)</li>
+                    <li>[Servers] Added FleksyScans (EN)</li>
+                    <li>[Servers] Added Iris Scanlator (pt_BR)</li>
+                    <li>[Servers] Added KomikLovers (ID)</li>
+                    <li>[Servers] Added Neromax (ID)</li>
+                    <li>[Servers] Added Scylla Comics (EN)</li>
+                    <li>[Servers] Added SushiScan (FR)</li>
+                    <li>[Servers] Added VF Scan (FR)</li>
+                    <li>[Servers] Legacy Scans (FR): Update</li>
+                    <li>[Servers] Lelscan-VF (FR): Update</li>
+                    <li>[Servers] TCB Scans (EN): Update</li>
+                    <li>[L10n] Updated French translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.42.0" date="2024-04-09">
+            <description translate="no">
+                <ul>
+                    <li>[Explorer] Search: Improved covers rendering</li>
+                    <li>[Updater] Don't attempt to auto-download chapters when a Local source has an update</li>
+                    <li>[Servers] Added DB New Hope (EN/ES/FR/RU/ZH_Hans)</li>
+                    <li>[Servers] Added JManga (JA)</li>
+                    <li>[Servers] Added MangaZin (EN)</li>
+                    <li>[Servers] Added Read Comics Free (EN)</li>
+                    <li>[Servers] Apoll Comics (ES): Update</li>
+                    <li>[Servers] Mangalek (AR): Update</li>
+                    <li>[Servers] View Comics (EN): Update</li>
+                    <li>[Servers] Xoxocomics (EN): Update (new site)</li>
+                    <li>[Servers] Bilibili Comics (EN/ES/FR/ID): Disabled</li>
+                    <li>[L10n] Updated Finnish, Russian, Spanish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.41.1" date="2024-03-30">
+            <description translate="no">
+                <p>This version fixes:</p>
+                <ul>
+                    <li>A regression in Explorer, pinned servers list was no longer cleared when it was refreshed</li>
+                    <li>Wrong chapters order in Perf Scan (FR) server</li>
+                </ul>
+
+                <p>Changes in previous version 1.41.0</p>
+                <ul>
+                    <li>[Servers] Added ComicExtra (EN)</li>
+                    <li>[Servers] Perf Scan (FR): Update</li>
+                    <li>[Servers] Mangas.in (ES: Update</li>
+                    <li>[Servers] Reaper Scans (EN): Update</li>
+                    <li>[L10n] Updated French, Russian, Spanish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.40.1" date="2024-03-21">
+            <description translate="no">
+                <p>This version fixes a bug in Preferences. Switching NFSW content switches caused the application to crash.</p>
+
+                <p>Changes in version 1.40.0</p>
+                <ul>
+                    <li>[UX] Refined visuals taking advantage of the new capabilities of GNOME 46</li>
+                    <li>[Servers] Added Lelmanga (FR)</li>
+                    <li>[Servers] Added Lelscan (FR)</li>
+                    <li>[Servers] Added Night scans (EN)</li>
+                    <li>[Servers] Comic Book Plus (EN): Fixed search</li>
+                    <li>[Servers] MANGA Plus by SHUEISHA: Update</li>
+                    <li>[Servers] MangaDex: Added Tags filter</li>
+                    <li>[Servers] MangaLib (RU): Update</li>
+                    <li>[Servers] Mangaowl (EN): Update</li>
+                    <li>[Servers] Jpmangas (FR): Disabled</li>
+                    <li>[Servers] Reaper Scans (pt_BR): Disabled</li>
+                    <li>[Servers] Scan FR: Disabled</li>
+                    <li>[Servers] Scan Manga (FR): Disabled</li>
+                    <li>[L10n] Updated French, Russian, Spanish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.39.0" date="2024-03-02">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Add an indicator when an partial update is in progress</li>
+                    <li>[Servers] Added Mangago (EN)</li>
+                    <li>[Serverd] Added Rawdevart (JA)</li>
+                    <li>[Servers] Asura Scans (EN): Update</li>
+                    <li>[Servers] Perf Scan (FR): Update</li>
+                    <li>[L10n] Updated Dutch, Spanish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.38.1" date="2024-02-17">
+            <description translate="no">
+                <p>This version fixes a regression in Updater. During batch updates, an unwanted "No new chapters" notification was sent for every manga without changes.</p>
+
+                <p>Changes in version 1.38.0</p>
+                <ul>
+                    <li>[Downloader] Improved error notification</li>
+                    <li>[Updater] Improved notifications</li>
+                    <li>[Updater] Prevent manga update from being scheduled while it's being updated</li>
+                    <li>[Servers] Armoni Scans (TR): Disable</li>
+                    <li>[Servers] Komga: Fixed missing covers in search</li>
+                    <li>[Servers] MangaHub (EN): Update</li>
+                    <li>[Servers] Manhuaus (EN): Update</li>
+                    <li>[Servers] Manhwa Hentai (EN): Update</li>
+                    <li>[Servers] Tapas (EN): Update</li>
+                    <li>[L10n] Updated Chinese (Traditional), French, Russian, Spanish, Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.37.1" date="2024-02-01">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Added an indicator when an update is in progress</li>
+                    <li>[Card] Added Pull-to-Update feature</li>
+                    <li>[Card] Updated disk usage when one or more chapters are reset</li>
+                    <li>[Webview] Fixed rare cases where pages loading end could not be detected</li>
+                    <li>[About] Fixed "Report an Issue" link</li>
+                    <li>[Servers] Some improvements to speed up HTML pages parsing</li>
+                    <li>[Servers] Manga-Scantrad (FR): Fix status CSS selector</li>
+                    <li>[L10n] Updated Russian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.36.0" date="2024-01-25">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] RTL/LTR/Vertical pager: Speed up white borders cropping</li>
+                    <li>[Servers] Izneo: Update</li>
+                    <li>[Servers] LegacyScans (FR): Update</li>
+                    <li>[Servers] Manhuaus (EN): Fixed manga statuses</li>
+                    <li>[Servers] MonkeyUser (EN): Update</li>
+                    <li>[Servers] NHentai (EN/JA/ZH): Added covers in searches results</li>
+                    <li>[Servers] Read Comic Online (EN): Update</li>
+                    <li>[Servers] Mangadoor (ES): Disable</li>
+                    <li>[L10n] Updated French translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.35.0" date="2024-01-17">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Comic Book Plus (EN): Update</li>
+                    <li>[Servers] Honey Manga (UK): Update</li>
+                    <li>[Servers] MangaHub (EN): Update</li>
+                    <li>[Servers] Mangalek (AR): Update</li>
+                    <li>[Servers] Manhwa Hentai (EN): Update</li>
+                    <li>[Servers] Remanga (RU): Update</li>
+                    <li>[Servers] Zero Scans (EN): Update</li>
+                    <li>[Servers] Colored Manga (EN): Disable</li>
+                    <li>[Servers] Lector Manga (ES): Disable</li>
+                    <li>[L10n] Updated Indonesian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.34.2" date="2024-01-13">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Used best image scaling filter based on zoom value</li>
+                    <li>[Reader] Fixed memory leaks</li>
+                    <li>[Reader] RTL/LTR/Vertical pager: Fixed unzoom by double tap/click</li>
+                    <li>[Reader] Webtoon pager: Improved detection when first or last chapter is reached</li>
+                    <li>[Servers] Grise Bouille [FR]: Update</li>
+                    <li>[Servers] Toonily [EN]: Fix</li>
+                    <li>[L10n] Updated Chinese (Simplified), Finnish, Portuguese, Portuguese (Brazil) and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.33.0" date="2023-12-27">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Fr-Scan: Update</li>
+                    <li>[Servers] WEBTOON: Update</li>
+                    <li>[Servers] Xoxocomics: Update</li>
+                    <li>[Servers] Golden Mangás [pt_BR]: Disable</li>
+                    <li>[L10n] Updated Portuguese (Brazil), Spanish and Turkish translations</li>
+                </ul>
+                <p>Enjoy holiday season and happy reading.</p>
+            </description>
+        </release>
+        <release version="1.32.0" date="2023-12-23">
+            <description translate="no">
+                <ul>
+                    <li>[Explorer] Search: Add comics covers (when available)</li>
+                    <li>[UI] Fix broken page navigation when animations are disabled</li>
+                    <li>[About] Add `Supporters` section</li>
+                    <li>[Servers] Asura Scans [EN/TR]: Update</li>
+                    <li>[Servers] Izneo [FR]: Update</li>
+                    <li>[Servers] Komga: Update</li>
+                    <li>[Servers] LSComic [EN]: Update (rebranded, previously LeviatanScans)</li>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] MangaWorld: Update</li>
+                    <li>[Servers] Mint Manga: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[Servers] Self Manga: Update</li>
+                    <li>[L10n] Updated Arabic, French and Turkish translations</li>
+                </ul>
+                <p>Happy Christmas and Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.31.0" date="2023-12-06">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Webtoon pager: Fixed scrolling to top and memory leaks</li>
+                    <li>[Reader] Webtoon pager: Saved reading progress when navigating with slider of controls overlay</li>
+                    <li>[Servers] Added Honey Manga [UK]</li>
+                    <li>[Servers] MangaDex: Added Ukrainian</li>
+                    <li>[L10n] Updated Spanish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.30.1" date="2023-12-01">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Avoided simultaneous redisplays (lead to thumbnails duplication otherwise)</li>
+                    <li>[Card] Each time page is redisplayed, scrolling position of subpages (Infos, Chapters, Categories) is now reset to top</li>
+                    <li>[Servers] MangaReader: Added shuffled images decoding</li>
+                    <li>[Support] Added a new page to promote donating</li>
+                    <li>[L10n] Updated French and Polish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.29.0" date="2023-11-25">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] RTL/LTR/Vertical pager: Improved initial positioning of images when pages are scrollable</li>
+                    <li>[Reader] RTL/LTR/Vertical pager: Fixed bug preventing swipe gesture navigation on some circumstance with touch screen devices</li>
+                    <li>[Reader] Webtoon pager: Improved scrolling smoothness</li>
+                    <li>[Reader] Pagers: Improved reading progress saving</li>
+                    <li>[Servers] Added MangaReader.to [EN/FR/JA/KO/ZH_HANS]</li>
+                    <li>[Servers] Local: Retrieved more info from ComicInfo.xml when available in the archive</li>
+                    <li>[Servers] WEBTOON: Update</li>
+                    <li>[L10n] Updated Spanish translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.28.0" date="2023-11-13">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Chapters list: Fixed "Reset" action not always available</li>
+                    <li>[Reader] Webtoon pager: Fixed scrolling with touchpad under Wayland</li>
+                    <li>[Servers] Added LegacyScans [FR]</li>
+                    <li>[Servers] Flame Comics: Update (rebranded previously Flame Scans)</li>
+                    <li>[Servers] Fr-Scan: Update</li>
+                    <li>[Servers] PhenixScans: Update</li>
+                    <li>[Servers] Yugen Scans: Update</li>
+                    <li>[L10n] Updated Catalan, Chinese (simplified) and French translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.27.1" date="2023-10-12">
+            <description translate="no">
+                <ul>
+                    <li>[Library] When filtered, it's now correctly updated when changes occur (additions, new chapters, reading progressions)</li>
+                    <li>[Card] Chapters list: Added missing icon</li>
+                    <li>[Reader] Fixed chapters ordering while reading</li>
+                    <li>[UX] In-app notifications: Update to fit GNOME 45 style</li>
+                    <li>[Webview] Some improvements</li>
+                    <li>[L10n] Updated Catalan, Polish, Spanish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.27.0" date="2023-10-12">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Kept badges in phase with reading status</li>
+                    <li>[Card] Chapters list: Added `Clear` action (deletes downloaded pages without affecting chapter(s) state)</li>
+                    <li>[Card] Added backdrop: Background recoloring to match cover</li>
+                    <li>[Downloader] Improved speed</li>
+                    <li>[Explorer] Global search: Added a progressbar</li>
+                    <li>[Explorer] Global search: Added a filter that allows restricting search to pinned servers only</li>
+                    <li>[Servers] Dragon Ball Multiverse: Update</li>
+                    <li>[Servers] Golden Mangás: Update</li>
+                    <li>[Servers] MANGA Plus by SHUEISHA: Update</li>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] Reaper Scans [PT-br]: Update (name change to `Yugen Scans`)</li>
+                    <li>[L10n] Updated French, Russian, Spanish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.26.0" date="2023-09-27">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Added sorting: Alphabetical, Latest Read First (default), Latest Updated First</li>
+                    <li>[Servers] Mangas Origines [FR]: Re-enabled</li>
+                    <li>[Servers] Bilibili Comics: Update</li>
+                    <li>[Servers] Mangalek: Update</li>
+                    <li>[Servers] Manhwa Hentai: Update</li>
+                    <li>[L10n] Updated Finnish, Polish and Spanish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.25.1" date="2023-09-24">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Categories sidebar: Added badges to display number of comics per category</li>
+                    <li>[Card] Fixed a bug that occurred during certain `Update` actions</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.25.0" date="2023-09-21">
+            <description translate="no">
+                <ul>
+                    <li>[UX] Refined visuals taking advantage of the new capabilities of GNOME 45</li>
+                    <li>[Explorer] Global search: Improved speed</li>
+                    <li>[Servers] Added Perf Scan [FR]</li>
+                    <li>[Servers] Added Reaper Scans [pt_BR]</li>
+                    <li>[Servers] Golden Mangás: Update</li>
+                    <li>[L10n] Updated French translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.24.2" date="2023-09-15">
+            <description translate="no">
+                <p>[Reader] Webtoon pager: Fixed a scrolling bug</p>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.24.1" date="2023-09-14">
+            <description translate="no">
+                <p>Bugfix release: A regression prevented detection of the SecretService backend used for the keyring</p>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.24.0" date="2023-09-13">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Manhwa Hentai (NSFW only) [EN]</li>
+                    <li>[Servers] Added Team-X [AR]</li>
+                    <li>[Servers] Asura Scans [EN]: Update</li>
+                    <li>[Servers] MangaFreak: Update</li>
+                    <li>[Servers] Mint Manga: Update</li>
+                    <li>[Servers] Read Ranga: Update</li>
+                    <li>[Servers] Self Manga: Update</li>
+                    <li>[Servers] ToonGod: Update</li>
+                    <li>[Servers] View Comics: Update</li>
+                    <li>[Servers] Webtoon: Update</li>
+                    <li>[Servers] ArazNovel: Disable</li>
+                    <li>[Servers] Phoenix Fansub: Disable</li>
+                    <li>[Servers] ReadManhwa: Disable</li>
+                    <li>[L10n] Updated Catalan, Italian, Polish and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.23.0" date="2023-08-16">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Full rewrite of the Webtoon pager</li>
+                    <li>[Servers] Adds PhenixScans [FR]</li>
+                    <li>[Servers] Adds ToonGod [EN] </li>
+                    <li>[Servers] Asura Scans [EN]: Update</li>
+                    <li>[Servers] FM Team: Update</li>
+                    <li>[Servers] FR-Scan: Update</li>
+                    <li>[Servers] Golden Mangás: Update</li>
+                    <li>[Servers] Grisebouille: Update</li>
+                    <li>[Servers] MANGA Plus by SHUEISHA: Update</li>
+                    <li>[Servers] Manga/in/ua: Update</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] Mangaowl: Update</li>
+                    <li>[Servers] Union Mangás: Update</li>
+                    <li>[Servers] Webtoon: Update</li>
+                    <li>[Servers] Le Cercle du Scan: Disable</li>
+                    <li>[L10n] Added Romanian translation</li>
+                    <li>[L10n] Updated Arabic, Catalan, Finnish, Russian and Spanish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.22.0" date="2023-06-15">
+            <description translate="no">
+                <ul>
+                    <li>RTL/LTR/Vertical pager: Added &lt;Crtl+Mouse Wheel&gt; zoom</li>
+                    <li>[Servers] JapScan: Update</li>
+                    <li>[Servers] MangaFreak: Update</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] Mangapill: Update</li>
+                    <li>[Servers] Xoxocomics: Update</li>
+                    <li>[L10n] Updated Arabic, French, Russian and Turkish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.21.1" date="2023-05-18">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] LTR/RTL/Vertical pager: Fixed double tap/click zoom</li>
+                    <li>[Servers] Jpmangas: Update</li>
+                    <li>[Servers] Mangaowl: Update</li>
+                    <li>[L10n] Updated Russian translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.21.0" date="2023-05-16">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] LTR/RTL/Vertical pager: Fixed zoom bugs</li>
+                    <li>[Reader] Fixed crashes caused by corrupted images</li>
+                    <li>[Servers] Added TCB Scans [EN]</li>
+                    <li>[Servers] MangaHere: Fixed duplicated pages</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[L10n] Added Arabic and Catalan translations</li>
+                    <li>[L10n] Updated Dutch and Russian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.20.0" date="2023-05-01">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Added Flame Scans [EN]</li>
+                    <li>[Servers] Added MangaHere [EN]</li>
+                    <li>[Servers] 3asq: Update</li>
+                    <li>[Servers] LeviatanScans: Update [EN/ES]</li>
+                    <li>[Servers] Manhuaus: Update</li>
+                    <li>[Servers] Phoenix Fansub: Update</li>
+                    <li>[Servers] Raw Manga: Update</li>
+                    <li>[Servers] ReadManhwa: Update</li>
+                    <li>[Servers] ReaperScansFR (GS): Update</li>
+                    <li>[Servers] Reaper Scans [PT]: Update</li>
+                    <li>[Servers] AkuManga: Disable</li>
+                    <li>[Servers] Atikrost: Disable</li>
+                    <li>[Servers] FR Scan: Disable</li>
+                    <li>[Servers] Hunlight Scans: Disable</li>
+                    <li>[Servers] Mangas Origines: Disable</li>
+                    <li>[Servers] The Nonames Scans: Disable</li>
+                    <li>[L10n] Updated Finnish and Indonesian translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.19.0" date="2023-04-22">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Disappearance of the `Dark Theme` setting in favor of a new `Theme` setting offering 3 choices (Light, Dark, Follow System)</li>
+                    <li>[Servers] Added Escaneos de Leviatan [ES]</li>
+                    <li>[Servers] Added Fr-Scan [FR]</li>
+                    <li>[Servers] Added MonkeyUser [EN]</li>
+                    <li>[Servers] Jpmangas: Update</li>
+                    <li>[Servers] Lelscan-VF: Update</li>
+                    <li>[L10n] Updated French, Indonesian, Portuguese (Brazil) and Spanish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.18.0" date="2023-04-11">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] RTL/LTR/Vertical pager: Fixed touchpad 2-fingers swipe gesture (Wayland only)</li>
+                    <li>[Updater] Slightly improves notifications</li>
+                    <li>[Servers] Added Little Garden [FR]</li>
+                    <li>[Servers] Desu: Update</li>
+                    <li>[Servers] Rawkuma: Update</li>
+                    <li>[Servers] View Comics: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[L10n] Added Portuguese and Ukrainian translations</li>
+                    <li>[L10n] Updated French, German, Portuguese (Brazil) and Spanish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.17.1" date="2023-03-31">
+            <description translate="no">
+                <ul>
+                    <li>Fixed search entries appearance</li>
+                    <li>Fixed webview</li>
+                    <li>[Servers] Manga Freak: Update</li>
+                    <li>[L10n] Updated Finnish translation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.17.0" date="2023-03-29">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] NHentai: Reactivation</li>
+                    <li>[Servers] 3asq: Update</li>
+                    <li>[Servers] Apoll Comics: Update</li>
+                    <li>[Servers] Asura Scans [EN/TR]: Update</li>
+                    <li>[Servers] Phoenix Fansub: Update</li>
+                    <li>[Servers] Rawkuma: Update</li>
+                    <li>[Servers] Remanga: Update</li>
+                    <li>[L10n] Update Dutch, Finnish, Indonesian, Portuguese (Brazil), Russian and Spanish translations</li>
+                    <li>Switch to GNOME 44 runtime: GTK 4.10.1, Adwaita 1.3.1, WebKitGTK 6.0</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.16.0" date="2023-03-24">
+            <description translate="no">
+                <ul>
+                    <li>[Explorer] Added ability to read from search results (new settings have been added in Preferences to manage cached data)</li>
+                    <li>[Reader] Fixed memory leaks</li>
+                    <li>[Servers] WEBTOON: Update</li>
+                    <li>[L10n] New Finnish and Indonesian translations</li>
+                    <li>[L10n] Update Portuguese (Brazil) and Spanish translations</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.15.0" date="2023-03-16">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Webtoon pager: Removed unwanted scrolling when clicking on 'Retry' button of a page</li>
+                    <li>[Servers] FMTEAM: Fixed logo</li>
+                    <li>[Servers] Komga: Update</li>
+                    <li>[Servers] Viz: Update</li>
+                    <li>[Servers] Zero Scans: Reactivation</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.14.0" date="2023-03-10">
+            <description translate="no">
+                <ul>
+                    <li>[UX] Added possibility to go back with mouse Back button</li>
+                    <li>[Library] Fixed range selection mode</li>
+                    <li>[Servers] Added FMTEAM [FR] (Scantrad France successor)</li>
+                    <li>[Servers] MangaDex: Added `Español (Latinoamérica)` language</li>
+                    <li>[Servers] Pepper&amp;Carrot: Added `Espéranto` language</li>
+                    <li>[Servers] JapScan: Update</li>
+                    <li>[Servers] Manga-Scantrad: Update</li>
+                    <li>[Servers] Scantrad France: Disable</li>
+                    <li>[Servers] Le Cercle du Scan: Added `Latest Updates`</li>
+                </ul>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.13.0" date="2023-03-03">
+            <description translate="no">
+                <ul>
+                    <li>[UX] Previous maximized state of window is now saved and restored when application starts</li>
+                    <li>[Library] Previous selected filters are now saved and restored when application starts</li>
+                    <li>[Preferences] Library: Added new `NSFW Only Content` setting</li>
+                    <li>[Reader] RTL/LTR/Vertical pager: Improved placement of pages when they are scrollable</li>
+                    <li>[Servers] Local: Added `Latest Updates`</li>
+                    <li>[Servers] Mangaowl: Update</li>
+                    <li>[L10n] Updated French translation</li>
+                </ul>
+                <p>Last week, Komikku joined GNOME Circle 🎉</p>
+                <p>Happy reading.</p>
+            </description>
+        </release>
+        <release version="1.12.1" date="2023-02-21">
+            <description translate="no">
+                <p>Bugfix release</p>
+                <p>Fixed a bug that caused the loss of some pinned servers in the explorer (it's certainly too late for those who have updated to version 1.12.0).</p>
+                <p>BEWARE, since 1.12.0, all servers that contain explicit sexual content or nudity, such as hentai, mature, ecchi or yaoi/yuri are now tagged NSFW (18+).</p>
+            </description>
+        </release>
+        <release version="1.12.0" date="2023-02-18">
+            <description translate="no">
+                <ul>
+                    <li>[UI] Added ability to go back with &lt;ALT+Left&gt; shortcut</li>
+                    <li>[Reader] Added ability to navigate forward with &lt;SPACE&gt; key</li>
+                    <li>[Servers] Guya.moe: Update</li>
+                    <li>[Servers] Manga/in/ua: Update</li>
+                    <li>[Servers] MangaFreak: Update</li>
+                    <li>[Servers] MangaHub: Update</li>
+                    <li>[Servers] MangaLib: Update</li>
+                    <li>[Servers] Mangas Origines: Update</li>
+                    <li>[Servers] Mangas.in: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[L10n] Updated French translation</li>
+                </ul>
+                <p>Beware, all servers that contain explicit sexual content or nudity, such as hentai, ecchi and yaoi/yuri are now tagged NSFW.</p>
+            </description>
+        </release>
+        <release version="1.11.1" date="2023-02-08">
+            <description translate="no">
+                <ul>
+                    <li>[UI] Use #f66151 color (orange) as app's accent color</li>
+                    <li>[Shortcuts] Add &lt;Ctrl+f&gt; in History and Explorer => Servers (toggles search entry)</li>
+                    <li>[Servers] Japscan: Update</li>
+                    <li>[Servers] Manga-Scantrad: Update</li>
+                    <li>[Servers] Raw Manga: Update</li>
+                    <li>[Servers] Read Comic Online: Update</li>
+                    <li>[L10n] Update French, German and Turkish translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.10.1" date="2023-01-27">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Improved thumbnails appearance</li>
+                    <li>[Explorer] Various improvements in search</li>
+                    <li>[Reader] LTR, RTL, vertical pager: Improved page transition animation</li>
+                    <li>[Servers] Read Manga, AllHentai, Mint Manga, Self Manga: Update</li>
+                    <li>[A11y] Fixed keyboard navigation and added missing buttons tooltips</li>
+                    <li>[L10n] Update French and German translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.9.0" date="2023-01-18">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] LTR, RTL, vertical pager: Added 2-finger zoom gesture</li>
+                    <li>[Reader] LTR, RTL, vertical pager: Improved double-tap zoom on touchscreens</li>
+                    <li>[Reader] LTR, RTL, vertical pager: Fixed page scrolling when scaling is `Original Size`</li>
+                    <li>[Servers] Add Toonily [EN]</li>
+                    <li>[Servers] Dynasty: Update</li>
+                    <li>[Servers] Golden Mangás: Update</li>
+                    <li>[Servers] Local: Repair</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.0" date="2023-01-05">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Add Bilibili Comics ES, FR, ID</li>
+                    <li>[Servers] Add Golden Mangás [pt_BR]</li>
+                    <li>[Servers] Add MangaWorld [IT]</li>
+                    <li>[Servers] Add Mangalek [AR]</li>
+                    <li>[Servers] 3asq: Update</li>
+                    <li>[Servers] Colored Manga: Update</li>
+                    <li>Brings new Brazilian Portuguese, French and German translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.7.0" date="2022-12-24">
+            <description translate="no">
+                <ul>
+                    <li>[Explorer] Add `Latest Updates` (not available for all compatible servers yet)</li>
+                    <li>[Servers] Add Reaper Scans AR, FR, ID and TR</li>
+                    <li>[Servers] Re-enables Tutto Anime Manga (TAM) [IT]</li>
+                    <li>[Servers] Atikrost: Update</li>
+                    <li>[Servers] LeviatanScans [EN]: Update</li>
+                    <li>[Servers] Manga-Scantrad: Update</li>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] Mangaowl: Update</li>
+                    <li>Brings new French and Brazilian Portuguese translations</li>
+                </ul>
+                <p>Happy reading and merry christmas.</p>
+            </description>
+        </release>
+        <release version="1.6.1" date="2022-12-14">
+            <description translate="no">
+                <p>Bug-fix release:</p>
+                <ul>
+                    <li>Missing database indexes</li>
+                    <li>Disappearance of the categories toggle button after leaving the library</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.6.0" date="2022-12-14">
+            <description translate="no">
+                <ul>
+                    <li>New icon 🎉 Thank you to its author Tobias Bernard</li>
+                    <li>[Card] Chapters are now downloaded in ascending order of chapter numbers</li>
+                    <li>[Servers] Add Manga Tube [DE]</li>
+                    <li>[Servers] Dragon Ball Multiverse: Update</li>
+                    <li>[Servers] Lector Manga (Leomanga): Update</li>
+                    <li>[Servers] Mangapill: Update</li>
+                    <li>[L10n] Update French and Simplified Chinese translations</li>
+                    <li>Bugs fixes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.5.0" date="2022-11-27">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Webtoon reading mode: Add scrolling with Page Up and Page Down keys</li>
+                    <li>[Explorer] Global search: Put servers without results at end</li>
+                    <li>[Preferences] Advanced: Add new option to disable GTK animations (useful with E Ink e-readers)</li>
+                    <li>[Servers] Add 3asq (مانجا العاش) [AR]</li>
+                    <li>[Servers] Apoll Comics: Update</li>
+                    <li>[Servers] Best Manga: Update</li>
+                    <li>[Servers] JapScan: Update</li>
+                    <li>[Servers] Lector Manga (Leomanga): Update</li>
+                    <li>[Servers] LeviatanScans: Update</li>
+                    <li>[Servers] Mangaowl: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[Servers] Remanga: Update</li>
+                    <li>[Servers] Xoxocomics: Update</li>
+                    <li>[Servers] Kirei Cake: Disable</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.4.1" date="2022-11-14">
+            <description translate="no">
+                <ul>
+                    <li>Fixed app not starting on SteamOS (Steam Deck)</li>
+                    <li>[Library] Improved thumbnails badges</li>
+                    <li>[Reader] Improved double tap zoom on touch screens</li>
+                    <li>[Downloader] Bug fix</li>
+                    <li>[Updater] Bug fix</li>
+                    <li>[Servers] Local: Fixed wrong pages order with some archives</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.4.0" date="2022-11-09">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Improved loading: Added a waiting page with a progress bar</li>
+                    <li>[Explorer] Fixed Global Search when several languages are enabled</li>
+                    <li>[Reader] Improved rendering of Page numbering</li>
+                    <li>[Servers] 24hRomance: Disable</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.0" date="2022-11-05">
+            <description translate="no">
+                <ul>
+                    <li>[Downloader] Improved download speed</li>
+                    <li>[Explorer] Add Global search</li>
+                    <li>[Servers] Aralos BD: Fixed search</li>
+                    <li>[Servers] Local: Fixed CBR archives reading bug (Flatpak only)</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.0" date="2022-10-26">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Improved Webtoon reading mode</li>
+                    <li>[Servers] Add Local server (CBZ/CBR archives)</li>
+                    <li>[Servers] Add Comic Book Plus [EN]</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] Reaper Scans [PT]: Update</li>
+                    <li>[Servers] Scan FR: Update</li>
+                    <li>[L10n] Update French and German translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.0" date="2022-10-06">
+            <description translate="no">
+                <ul>
+                    <li>Landscape covers (rare) are now converted to portrait</li>
+                    <li>[Reader] Webtoon reading mode: Bugfix</li>
+                    <li>[Reader] Fixed detection of 'read' chapters</li>
+                    <li>[Servers] MangaLife [EN]: Re-enabled</li>
+                    <li>[Servers] LeviatanScans [EN]: Re-enabled</li>
+                    <li>[Servers] Mangas Origines: Update</li>
+                    <li>[Servers] Reaper Scans [PT]: Update</li>
+                    <li>[Servers] Remanga: Update</li>
+                    <li>[Servers] Scan OP [FR]: Disable</li>
+                    <li>[Servers] Zero Scans: Disable</li>
+                    <li>[L10n] Add Simplified Chinese translations</li>
+                    <li>[L10n] Update Turkish translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.0" date="2022-09-25">
+            <description translate="no">
+                <p>After several months of effort, Komikku's port to GTK4 and libadwaita is ended.</p>
+                <p>The highlights of this new major version:</p>
+                <ul>
+                    <li>Refreshing of the UI to follow the GNOME HIG as much as possible</li>
+                    <li>Library has now two display modes: Grid and Compact grid</li>
+                    <li>Faster display of the chapters list, whether there are few or many chapters</li>
+                    <li>Full rewriting of the Webtoon reading mode</li>
+                    <li>Modern ‘About’ window</li>
+                </ul>
+                <p>Changes since 0.41.0:</p>
+                <ul>
+                    <li>[Preferences] Reader: Add 'Landscape Pages Zoom' setting</li>
+                    <li>[Preferences] Reader: Add 'Maximum Width' setting (Webtoon reading mode)</li>
+                    <li>[Servers] Add Grise Bouille [FR]</li>
+                    <li>[Servers] MangaNato (MangaNelo): Update</li>
+                    <li>[Servers] Mangaowl: Update</li>
+                    <li>[Servers] Read Comic Online: Update</li>
+                    <li>[L10n] Update French, German, Spanish and Turkish translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.41.0" date="2022-09-01">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Add Aralos BD [FR]</li>
+                    <li>[Servers] Add Manga-Scantrad [FR]</li>
+                    <li>[Servers] Add Mangas Origines [FR]</li>
+                    <li>[Servers] Add Mangaowl [EN]</li>
+                    <li>[Servers] Asura Scans: Update (EN+TR)</li>
+                    <li>[Servers] BILIBILI COMICS: Update</li>
+                    <li>[Servers] JapScan: Update</li>
+                    <li>[Servers] MangaHub: Update</li>
+                    <li>[Servers] Mangas.in: Fix `Most populars` order</li>
+                    <li>[Servers] Phoenix Fansub: Update</li>
+                    <li>[Servers] Rawkuma: Update</li>
+                    <li>[Servers] ReadManhwa: Update</li>
+                    <li>[Servers] Union Mangás: Update</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.40.0" date="2022-07-25">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Add Remanga [RU]</li>
+                    <li>[Servers] Add Manga.in.ua [UA]</li>
+                    <li>[Servers] FR Scan: Update</li>
+                    <li>[Servers] Lelscan-VF: Re-enabled</li>
+                    <li>[Servers] Leomanga: Update</li>
+                    <li>[Servers] Madara (multi): Added filter in search to ignore novels</li>
+                    <li>[Servers] Mangas.in: Update</li>
+                    <li>[Servers] MangaSee: Update</li>
+                    <li>[Servers] Rawkuma: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[Servers] Scan FR: Update</li>
+                    <li>[Servers] Submanga: Disabled</li>
+                    <li>[L10n] Update French translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.39.0" date="2022-06-01">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Add Mangapill [EN]</li>
+                    <li>[Servers] FR Scan: Update</li>
+                    <li>[Servers] Jpmangas: Update</li>
+                    <li>[Servers] MangaFreak: Update</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] Mangas.in: Update</li>
+                    <li>[Servers] Scan Manga: Update</li>
+                    <li>[Servers] NHentai: Disable</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.38.0" date="2022-04-19">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Add Manhuaus [EN]</li>
+                    <li>[Servers] Apoll Comics: Update</li>
+                    <li>[Servers] Bilibili: Filter paywalled chapters</li>
+                    <li>[Servers] Read Comic Online: Update</li>
+                    <li>[Servers] Manga Eden: Disable</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.37.0" date="2022-02-28">
+            <description translate="no">
+                <ul>
+                    <li>Add `Quit` shortcut action (Ctrl+Q)</li>
+                    <li>[Servers] Fixed loading of images in `webp` format</li>
+                    <li>[Servers] Add GTO TGS [IT]</li>
+                    <li>[Servers] Add Phoenix Scans [IT]</li>
+                    <li>[Servers] Dragon Ball Multiverse: Update</li>
+                    <li>[Servers] Edelgarde Scans: Disabled</li>
+                    <li>[Servers] Hatigarm Scans: Disabled</li>
+                    <li>[Servers] Leomanga: Update</li>
+                    <li>[Servers] LupiTeam: Update</li>
+                    <li>[Servers] Nine Manga: Improved images loading</li>
+                    <li>[Servers] Wakascan: Disabled</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.36.1" date="2022-01-14">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] NHentai: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[Servers] Webtoon: Update</li>
+                    <li>[L10n] Update German translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.36.0" date="2021-12-21">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Add keyboard navigation outside of selection mode</li>
+                    <li>[Servers] CatManga: Disable</li>
+                    <li>[Servers] ReaperScansFR: Disable</li>
+                    <li>[Servers] 24hRomance: Update</li>
+                    <li>[Servers] Asura Scans [EN/TR]: Update</li>
+                    <li>[Servers] Colored Manga (Colored Council): Update</li>
+                    <li>[Servers] Lelscan-VF: Disable</li>
+                    <li>[Servers] Phoenix Fansub [ES]: Update</li>
+                    <li>[Servers] Raw Manga [JA]: Update</li>
+                    <li>[Servers] Rawkuma [JA]: Update</li>
+                    <li>[Servers] Submanga: Update</li>
+                    <li>[L10n] Update French and Spanish translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.35.2" date="2021-10-29">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Faster rendering on category changes</li>
+                    <li>[Servers] Argos Scan: Disable</li>
+                    <li>[Servers] Bilibili: Detection of partially loaded pages</li>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] Phoenix Fansub: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.35.1" date="2021-10-14">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] MangaDex: Search now takes language into account</li>
+                    <li>[Servers] Under Flatpak, fixed problem with the HTML parser</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.35.0" date="2021-10-12">
+            <description translate="no">
+                <ul>
+                    <li>Add Reading History</li>
+                    <li>[Servers] Add Le Cercle du Scan [FR]</li>
+                    <li>[Servers] Add Raw Manga [JA]</li>
+                    <li>[Servers] Add Rawkuma [JA]</li>
+                    <li>[Servers] Add Reaper Scans [FR/PT]</li>
+                    <li>[Servers] MangaDex: Add rating filter</li>
+                    <li>[Servers] AllHentai: Update</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[Servers] ReadManhwa: Update</li>
+                    <li>[Servers] Reaper Scans: Update</li>
+                    <li>[Servers] Scan FR: Update</li>
+                    <li>[Servers] Scan Manga: Update</li>
+                    <li>[Servers] Aloalivn: Disable</li>
+                    <li>[Servers] Central de Mangás: Disable</li>
+                    <li>[Servers] TuttoAnimeManga: Disable</li>
+                    <li>[L10n] Update French, German and Polish translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.34.1" date="2021-10-02">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] MANGA Plus by SHUEISHA: Update</li>
+                    <li>[Servers] Mangahub: Fixed bug when summary is missing</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[L10n] Update French and Polish translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.34.0" date="2021-09-30">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Add Asura Scans [EN, TR]</li>
+                    <li>[Servers] Add FR Scan [FR]</li>
+                    <li>[Servers] Add Lelscan-VF [FR]</li>
+                    <li>[Servers] Add Leomanga [ES]</li>
+                    <li>[Servers] Add Phoenix Fansub [ES]</li>
+                    <li>[Servers] Add Mangadoor [ES]</li>
+                    <li>[Servers] Add Mangas.in [ES]</li>
+                    <li>[Servers] Add Scan FR [FR]</li>
+                    <li>[Servers] Add Scan OP [FR]</li>
+                    <li>[Servers] Bilibili: Update</li>
+                    <li>[Servers] Jpmangas: Update</li>
+                    <li>[L10n] Update French and German translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.33.1" date="2021-09-22">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Read Manga: Update</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.33.0" date="2021-09-22">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Controls overlay: Fix a bug in pages slider</li>
+                    <li>[Servers] Add MangaKawaii [EN]</li>
+                    <li>[Servers] Guya: Update</li>
+                    <li>[Servers] MangaFreak: Add notification to notify user when webview failed to solve Cloudflare JS challenge</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] Tapas: Get dates while resolving chapters</li>
+                    <li>[L10n] Update Polish translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.32.0" date="2021-09-17">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Thumbnails: Fix rendering of servers logos and badges on mobile devices</li>
+                    <li>[Card] Fixed synopsis display when it contains HTML</li>
+                    <li>[Reader] Add option to hide page numbering</li>
+                    <li>[Reader] Fixed pager jumps when page rendering is retried</li>
+                    <li>[Explorer] Servers: Don't show Pinned when empty</li>
+                    <li>[Servers] Add Best Manga [RU]</li>
+                    <li>[Servers] Add Bilibili [EN]</li>
+                    <li>[Servers] Add Tapas [EN]</li>
+                    <li>[Servers] MangaDex: Update</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.31.0" date="2021-09-10">
+            <description translate="no">
+                <ul>
+                    <li>[UI] Major redesign (except Library and Reader)</li>
+                    <li>[Card] Fixed chapters list scrolling on mobile devices</li>
+                    <li>[Reader] Fix fullscreen/unfullscreen on mobile devices</li>
+                    <li>[Reader] Fixed navigation between pages on mobile devices</li>
+                    <li>[Reader] Fixed zoom on mobile devices</li>
+                    <li>[Servers] Add Colored Council [EN]</li>
+                    <li>[Servers] Add Danke fürs Lesen [EN]</li>
+                    <li>[Servers] Add Guya [EN]</li>
+                    <li>[Servers] Add Hachirumi [EN]</li>
+                    <li>[Servers] Add Jpmangas [FR]</li>
+                    <li>[Servers] Add Magical Translators [EN/PL]</li>
+                    <li>[Servers] Read Manga server: Update</li>
+                    <li>[Servers] Read Comic Online: Update</li>
+                    <li>[Servers] Webtoon: Update</li>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] Dragon Ball Multiverse: Update</li>
+                    <li>[Servers] Pepper&amp;Carrot: Update</li>
+                    <li>[Servers] Komga: Fix crashes when viewing manga from offline</li>
+                    <li>[L10n] Add Polish translation</li>
+                    <li>[L10n] Add Spanish translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.30.0" date="2021-08-04">
+            <description translate="no">
+                <ul>
+                    <li>[Card] Chapters list: Add sorting by title (can be slow with long lists)</li>
+                    <li>[Reader] Improve touch screen support</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[Servers] ReadManhwa: Update</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.29.2" date="2021-06-12">
+            <description translate="no">
+                <ul>
+                    <li>[Servers] Mangadex: Update</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] MangaSee: Update</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.29.1" date="2021-06-05">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Fix bug preventing app startup (empty library only)</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.29.0" date="2021-06-03">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Displayed currently selected category in subtitle</li>
+                    <li>[Library] Add 'Uncategorized' category</li>
+                    <li>[Servers] Mangadex: The long-awaited comeback</li>
+                    <li>[Servers] MangaNato: Update (previously called MangaNelo). Previous manga and chapters won’t work after this
+update and need to be re-added.</li>
+                    <li>[Servers] JapScan: Update</li>
+                    <li>[Servers] MangaHub: Update</li>
+                    <li>[L10n] Update French and German translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.28.1" date="2021-05-15">
+            <description translate="no">
+                <ul>
+                    <li>Several UI changes to improve scaling on small devices screens</li>
+                    <li>[Library] Add categories edition in bulk (via multiple selection mode)</li>
+                    <li>[Reader] Fix memory leaks</li>
+                    <li>[Explorer] Allow search in servers list</li>
+                    <li>[Explorer] Added possibility to pin favorite servers</li>
+                    <li>[Updater] Prevents updating of comics whose server is disabled</li>
+                    <li>[Keyring] Improved SecretService detection</li>
+                    <li>[Servers] Add AllHentai (RU)</li>
+                    <li>[Servers] Add CatManga aka Black Cat Scanlations (EN)</li>
+                    <li>[Servers] Add Dongman Manhua (ZH Hans)</li>
+                    <li>[Servers] Add Madara (multi servers): Aloalivn (EN), Apoll Comics (ES), Wakascan (FR), 24hRomance (EN), AkuManga (AR), ArazNovel (TR), Argos Scan (PT), Atikrost (TR)</li>
+                    <li>[Servers] Add MangaFreak (EN)</li>
+                    <li>[Servers] MangaSee: Update</li>
+                    <li>[Servers] Pepper&amp;Carrot: Fix pages order</li>
+                    <li>[Servers] Scantrad France: Update</li>
+                    <li>[Servers] Webtoon: Improved details retrieval (both for originals and challenges)</li>
+                    <li>[L10n] Update French translation</li>
+                    <li>[L10n] Update German translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.27.0" date="2021-03-17">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Add Categories to organize the library</li>
+                    <li>[Servers] Add Read Comics Online (EN)</li>
+                    <li>[Servers] Komga: Add sync (read progress) with server</li>
+                    <li>[Servers] JapScan: Partial fix (Webtoons chapters in single page are not handled)</li>
+                    <li>[Servers] MangaDex: Update</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] MangaSee: Fix page download for chapters with decimals in name</li>
+                    <li>[Servers] Reaper Scans: Update</li>
+                    <li>[Servers] Scan Manga: Skip chapters coming from external servers</li>
+                    <li>[Servers] Tutto Anime Manga: Update</li>
+                    <li>[L10n] Add Italian translation</li>
+                    <li>[L10n] Update German translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.26.1" date="2021-02-08">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] Fixed a bug in saving logins credentials</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.26.0" date="2021-02-04">
+            <description translate="no">
+                <ul>
+                    <li>Refined the ability to add comics via the command line: more servers supported</li>
+                    <li>[Explorer] Search: Add button to open server's website in browser</li>
+                    <li>[Explorer] Servers list: Add a 'key' icon when a server requires a user account</li>
+                    <li>[Explorer] Manga card: Add last chapter</li>
+                    <li>[Servers] Add Komga (Free and open source comics/mangas media server)</li>
+                    <li>[Servers] Add View Comics (EN)</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] NineManga: Update</li>
+                    <li>[Servers] Scan Manga: Update</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.25.1" date="2021-01-20">
+            <description translate="no">
+                <ul>
+                    <li>Fixing manga addition</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.25.0" date="2021-01-18">
+            <description translate="no">
+                <ul>
+                    <li>Added ability to add comics via the command line</li>
+                    <li>[Servers] Add Scan Manga (FR)</li>
+                    <li>[Servers] Scantrad France: Update</li>
+                    <li>[Servers] Mangahub: Fixed pages wrong order</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.24.0" date="2020-12-17">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Allow Selection mode while in search and search in Selection mode</li>
+                    <li>[Card] The chapter `Reset` action is now proposed as soon as chapter pages are known</li>
+                    <li>[Card] Improve chapters multiple selection</li>
+                    <li>[Servers] Add Read Comic Online (EN)</li>
+                    <li>[Servers] Webtoon: Update</li>
+                    <li>[Servers] Submanga: Update</li>
+                    <li>[Servers] Hunlight Scans: Add logo</li>
+                    <li>[L10n] Update German translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.23.0" date="2020-11-20">
+            <description translate="no">
+                <ul>
+                    <li>[Add dialog] Add Back navigation between pages via Esc key</li>
+                    <li>[Add dialog] Search page: Give keyboard focus to search entry when a printable character is typed</li>
+                    <li>[Card] Add 'Resume read' button</li>
+                    <li>[Servers] Add Xoxocomics (EN)</li>
+                    <li>[Servers] MangaSee: Update</li>
+                    <li>[Servers] MangaDex: Update to API v2 (more stable)</li>
+                    <li>[Servers] Read Manga: Update</li>
+                    <li>[Servers] ScanOnePiece: Update</li>
+                    <li>[Servers] Self Manga: Update</li>
+                    <li>[Servers] Disable Leviatan Scans (ES)</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.22.1" date="2020-11-17">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Re-allow page scaling in Vertical reading mode (disabled by mistake in 0.22.0)</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.22.0" date="2020-11-15">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Allow bulk downloading of manga, as well as marking all chapters as (un)read</li>
+                    <li>[Card] Chapters list: Add sort by date</li>
+                    <li>[Reader] Add new pager for Webtoons: Vertical smooth/continuous scrolling (a.k.a. infinite canvas)</li>
+                    <li>[Download Manager] Adding downloads: Improve responsiveness</li>
+                    <li>[Preferences] Library: Add new option to allow user to enable/disable servers with NSFW only content</li>
+                    <li>[Servers] Add Mangahub</li>
+                    <li>[Servers] Add NHentai</li>
+                    <li>[Servers] Add Readmanhwa</li>
+                    <li>[Servers] Central de Mangás: Update</li>
+                    <li>[Servers] Crunchyroll: Update</li>
+                    <li>[Servers] Izneo: Update</li>
+                    <li>[Servers] MangaKawaii: Update</li>
+                    <li>[Servers] MangaNelo: Update</li>
+                    <li>[Servers] Dynasty: Improvements</li>
+                    <li>[L10n] Update French and German translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.21.1" date="2020-09-27">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Several bugs fixes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.21.0" date="2020-09-23">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Rounded mangas thumbnails</li>
+                    <li>[L10n] German translation update</li>
+                    <li>Fixed circular import error that prevented Komikku from starting (only on first launch, didn't affect Flatpak)</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.20.0" date="2020-09-15">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Search: Add filter options (Downloaded, Unread, Recent)</li>
+                    <li>[Preferences] The window and its subpages can now be closed with Esc key</li>
+                    <li>[Servers] Add Dynasty (EN)</li>
+                    <li>[Servers] Add 'Lupi Team' and 'Tutto Anime Manga' (IT)</li>
+                    <li>[Servers] Add VizManga (EN): an account is required</li>
+                    <li>[Servers] Disable Jaimini's Box (definitely closed)</li>
+                    <li>[L10n] Add German translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.19.0" date="2020-08-02">
+            <description translate="no">
+                <ul>
+                    <li>Add HiDPI display support</li>
+                    <li>[Preferences] Use Handy.PreferencesWindow subpages to display Servers Languages and Servers Settings</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.18.0" date="2020-07-28">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Press &lt;Enter&gt; opens first manga in search</li>
+                    <li>[Library] Disable range selection when in search mode</li>
+                    <li>[Library/Chapters/Download manager] Enter selection mode with Right click</li>
+                    <li>[Reader] Two new navigation types: mouse scroll, 2-fingers swipe gesture</li>
+                    <li>[Reader] New 'Save Page' action</li>
+                    <li>[Servers] Fix and improve credentials storage</li>
+                    <li>[Servers] Crunchyroll: Fix login</li>
+                    <li>[Servers] Re-enable Jaimini's Box</li>
+                    <li>[Servers] Manga Eden: Fix downloading of images</li>
+                    <li>[Servers] MangaSee: Update</li>
+                    <li>[Servers] Manga Plus: Add manga 'Status' info</li>
+                    <li>[Servers] Manga Plus: Can't get manga info of some manga</li>
+                    <li>[Servers] MangaDex: Fix new chapters not appearing</li>
+                    <li>[Servers] Webtoon: Fix search</li>
+                    <li>[Preferences] Add search</li>
+                    <li>Add Turkish translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.17.0" date="2020-05-29">
+            <description translate="no">
+                <ul>
+                    <li>[Preferences] New UI</li>
+                    <li>[Servers] MangaNelo: Fix images loading</li>
+                    <li>[Servers] Disable Jaimini's Box</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.16.1" date="2020-05-24">
+            <description translate="no">
+                <p>Fix 2 critical bugs (app crashes)</p>
+            </description>
+        </release>
+        <release version="0.16.0" date="2020-05-24">
+            <description translate="no">
+                <ul>
+                    <li>[Library/Readers] Add support of animated GIFs</li>
+                    <li>[Library] Add &lt;Control&gt;+F shortcut: Enter search mode</li>
+                    <li>[Library/Manga/Download Manager] Add &lt;Control&gt;+A shortcut: Select all</li>
+                    <li>[Library/Manga/Download Manager] Add &lt;Control&gt;+Click and &lt;Shift&gt;+Click shortcuts: Enter selection mode</li>
+                    <li>[Download Manager] Add range selection: long press on an item then long press on another to select everything in between</li>
+                    <li>[Manga] Add chapters scanlators support (MangaDex only)</li>
+                    <li>[Servers] Add Izneo (DE, EN and FR) and Yieha (NL): a account is required</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.15.1" date="2020-05-07">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Faster chapters list rendering</li>
+                    <li>[Library] Faster read/unread state toggling with long chapters selections</li>
+                    <li>[Library] Reduce memory used by covers</li>
+                    <li>[Servers] MangaSee: Fix manga with chapters grouped by seasons</li>
+                    <li>[Servers] Jaimini's Box: Several fixes</li>
+                    <li>[Servers] MangaLib: Several fixes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.15.0" date="2020-04-21">
+            <description translate="no">
+                <ul>
+                    <li>[Library] Add search by genre (exact match)</li>
+                    <li>[Library/Chapters] Add range selection: long press on an item then long press on another to select everything in between</li>
+                    <li>[Chapters] Fully cached/read chapters are now marked as "Downloaded"</li>
+                    <li>[Reader] Improve keyboard navigation</li>
+                    <li>[Reader] Improve pages transition</li>
+                    <li>[Servers] Add Crunchyroll (EN): a Premium account is required</li>
+                    <li>[Servers] Scantrad France: Add Most populars</li>
+                    <li>Improve manga update</li>
+                    <li>New icon</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.14.0" date="2020-04-01">
+            <description translate="no">
+                <ul>
+                    <li>[Reader] Add 'Original Size' scaling</li>
+                    <li>[Reader] Several fixes in keyboard navigation</li>
+                    <li>[Settings] Library: Add new option 'Auto Download of New Chapters'</li>
+                    <li>[Settings] Library: Add new option 'Long Strip Detection' (MangaDex, MangaNelo, Mangakawaii, JapScan and Union Mangás)</li>
+                    <li>[Servers] JapScan: Fix search and images loading</li>
+                    <li>[Servers] MangaLib: Fix images loading</li>
+                    <li>[Servers] Submanga: Update of domain</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.13.0" date="2020-03-12">
+            <description translate="no">
+                <p>[Reader] Fix crash with corrupt or empty images</p>
+                <p>[Settings] Add servers settings</p>
+                <p>[Servers] Add Union Mangás (PT)</p>
+                <p>[Servers] Add MangaLib and HentaiLib (RU)</p>
+                <p>[Servers] Add Edelgarde Scans, Hunlight Scans, One Shot Scans, Reaper Scans, The Nonames Scans, Zero Scans (EN)</p>
+                <p>[Servers] Add Leviatan Scans (EN, ES)</p>
+                <p>[Servers] Hatigarm Scans: new server version</p>
+                <p>[Servers] Scantrad France: Fix</p>
+                <p>[Servers] MangaDex: Added ability to log in</p>
+                <p>[Servers] Read Manga: Fixes</p>
+                <p>Improved manga update</p>
+            </description>
+        </release>
+        <release version="0.12.1" date="2020-02-29">
+            <description translate="no">
+                <p>[Servers] Mangakawaii: Fixed manga cover</p>
+                <p>Improved manga update</p>
+            </description>
+        </release>
+        <release version="0.12.0" date="2020-02-26">
+            <description translate="no">
+                <p>[Manga] Fixed the unread action of chapters</p>
+                <p>[Reader] Cursor hiding during keyboard navigation</p>
+                <p>[Reader] Arrow scrolling in every reading directions</p>
+                <p>[Reader] Added white borders crop</p>
+                <p>[Servers] Added Kirei Cake (EN)</p>
+                <p>[Servers] Added Read Manga, Mint Manga and Self Manga (RU)</p>
+                <p>[Servers] Updated Mangakawaii domain</p>
+                <p>[Servers] Fixed JapScan search (using DuckDuckGo Lite)</p>
+                <p>Added back navigation with Escape key</p>
+                <p>Added abilility to add manga by ID using keyword "id:&lt;id&gt;" (useful with MangaDex)</p>
+                <p>Various bugs fixes</p>
+            </description>
+        </release>
+        <release version="0.11.1" date="2020-02-14">
+            <description translate="no">
+                <p>Added the Dutch translation</p>
+            </description>
+        </release>
+        <release version="0.11.0" date="2020-02-11">
+            <description translate="no">
+                <p>Added Desu server (RU)</p>
+                <p>Added the Russian translation</p>
+                <p>Updated the Brazilian Portuguese translation</p>
+                <p>Fixed a bug in manga updater</p>
+            </description>
+        </release>
+        <release version="0.10.1" date="2020-02-06">
+            <description translate="no">
+                <p>Fixed a bug in Download Manager</p>
+            </description>
+        </release>
+        <release version="0.10.0" date="2020-02-05">
+            <description translate="no">
+                <p>Added a Download Manager</p>
+                <p>[Manga] Improved chapters download</p>
+                <p>[Reader] Vertical reading direction: Added scrolling with UP and DOWN keys</p>
+                <p>[Reader] Added a Retry button when a image load failed</p>
+                <p>[Servers] Removed Manga Rock (server has closed)</p>
+                <p>[Servers] Minor fix in xkcd</p>
+                <p>[Servers] MangaDex: Added 15 languages</p>
+            </description>
+        </release>
+        <release version="0.9.0" date="2020-01-17">
+            <description translate="no">
+                <p>[Library] Add an unread badge</p>
+                <p>[Library/Manga] Added "Select All" in selection mode</p>
+                <p>[Library/Manga] Now leaves selection mode when no mangas/chapters are selected</p>
+                <p>[Manga] Improved chapters list rendering</p>
+                <p>[Manga] Improved chapters download: add a progress bar and a "Stop" button</p>
+                <p>[Settings] General: New option to disable desktop notifications</p>
+                <p>[Servers] Minor fixes in xkcd</p>
+                <p>[Servers] Add MangaDex (EN, ES, FR)</p>
+            </description>
+        </release>
+        <release version="0.8.1" date="2020-01-09">
+            <description translate="no">
+                <p>Jaimini's Box server: Fixed mangas with an adult alert</p>
+            </description>
+        </release>
+        <release version="0.8.0" date="2020-01-09">
+            <description translate="no">
+                <p>Added MANGA Plus server (EN, ES)</p>
+                <p>Added Jaimini's Box</p>
+            </description>
+        </release>
+        <release version="0.7.2" date="2020-01-03">
+            <description translate="no">
+                <p>Fixed 'Night Light' preference</p>
+                <p>Fixed JapScan server search</p>
+            </description>
+        </release>
+        <release version="0.7.1" date="2019-12-31">
+            <description translate="no">
+                <p>Pager focus is now correctly restored when menu is closed (useful for keypad navigation).</p>
+                <p>Happy new year to everyone.</p>
+            </description>
+        </release>
+        <release version="0.7.0" date="2019-12-30">
+            <description translate="no">
+                <p>Added 'Vertical' reading direction</p>
+                <p>Added 'Night Light' preference</p>
+            </description>
+        </release>
+        <release version="0.6.2" date="2019-12-22">
+            <description translate="no">
+                <p>Fixed Manganelo and WEBTOON servers</p>
+            </description>
+        </release>
+        <release version="0.6.1" date="2019-12-18">
+            <description translate="no">
+                <p>Ninemanga: Fixed missing chapters issue (EN, BR, DE, ES, IT)</p>
+                <p>Pepper&amp;Carrot: Fixed chapters update</p>
+                <p>Pepper&amp;Carrot: Added missing Cover and Credits pages</p>
+            </description>
+        </release>
+        <release version="0.6.0" date="2019-12-17">
+            <description translate="no">
+                <p>New preference: Servers languages</p>
+                <p>Bug fixes in Scantrad France and DB Multiverse</p>
+            </description>
+        </release>
+        <release version="0.5.1" date="2019-12-11">
+            <description translate="no">
+                <p>A bug fix in change of reading direction</p>
+                <p>A bug fix in Pepper&amp;Carrot</p>
+            </description>
+        </release>
+        <release version="0.5.0" date="2019-12-11">
+            <description translate="no">
+                <p>Added Pepper&amp;Carrot server</p>
+                <p>A free(libre) and open-source webcomic supported directly by its patrons to change the comic book industry!</p>
+            </description>
+        </release>
+        <release version="0.4.0" date="2019-12-08">
+            <description translate="no">
+                <p>New preference: Automatically update library at startup</p>
+                <p>Fix in Mangakawaii server (Cloudflare problem)</p>
+            </description>
+        </release>
+        <release version="0.3.1" date="2019-11-29">
+            <description translate="no">
+                <p>Fixes in Mangakawaii server</p>
+            </description>
+        </release>
+        <release version="0.3.0" date="2019-11-28">
+            <description translate="no">
+                <p>Added Dragon Ball Multiverse (DBM) server</p>
+                <p>Fixes in Japscan server (search still broken)</p>
+            </description>
+        </release>
+        <release version="0.2.0" date="2019-11-23">
+            <description translate="no">
+                <p>New servers: NineManga Russian, Webtoon Indonesia and Webtoon Thai</p>
+                <p>For all servers that allow it, most popular mangas are now offered as starting search results.</p>
+            </description>
+        </release>
+        <release version="0.1.5" date="2019-11-20">
+            <description translate="no">
+                <p>Improve speed of dates parsing</p>
+                <p>Fixed order of manga chapters for Scantrad France and Central de Mangás</p>
+            </description>
+        </release>
+        <release version="0.1.4" date="2019-11-19">
+            <description translate="no">
+                <p>Fix keyboard navigation in reader</p>
+            </description>
+        </release>
+        <release version="0.1.3" date="2019-11-18">
+            <description translate="no">
+                <p>Add a new server: xkcd (English)</p>
+            </description>
+        </release>
+        <release version="0.1.2" date="2019-11-14">
+            <description translate="no">
+                <p>Add the Portuguese (Brazil) translation</p>
+                <p>Add a new server: Central de Mangas (Portuguese)</p>
+            </description>
+        </release>
+        <release version="0.1.1" date="2019-11-12">
+            <description translate="no">
+                <p>Bug fix: Change the location of the data storage</p>
+            </description>
+        </release>
+        <release version="0.1.0" date="2019-11-10">
+            <description translate="no">
+                <p>First release</p>
+            </description>
+        </release>
+    </releases>
+</component>
