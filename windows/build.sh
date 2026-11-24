@@ -46,7 +46,7 @@ if [[ "${SKIP_DEPS:-0}" != "1" ]]; then
         "$PKG-gdk-pixbuf2" "$PKG-librsvg" "$PKG-adwaita-icon-theme" \
         "$PKG-glib-networking" "$PKG-file" "$PKG-ca-certificates" \
         "$PKG-python" "$PKG-python-pip" "$PKG-python-gobject" "$PKG-python-cairo" \
-        "$PKG-blueprint-compiler"
+        "$PKG-blueprint-compiler" "$PKG-gcc"
 
     # Optional: more image formats for GdkPixbuf (webp is very common in manga sites)
     for opt in webp-pixbuf-loader libheif libjxl; do
@@ -64,9 +64,17 @@ if [[ "${SKIP_DEPS:-0}" != "1" ]]; then
             pacman -S --needed --noconfirm "$PKG-python-$1"
         else
             echo "no MSYS2 package for python-$1, using pip ($2)"
-            PIP_BREAK_SYSTEM_PACKAGES=1 python -m pip install --upgrade "$2"
+            PIP_BREAK_SYSTEM_PACKAGES=1 python -m pip install --upgrade --no-deps "$2"
         fi
     }
+    # helpers needed by packages that may come from pip (installed with --no-deps)
+    py_dep regex         regex
+    py_dep dateutil      python-dateutil
+    py_dep tzlocal       tzlocal
+    py_dep tzdata        tzdata
+    py_dep six           six
+    py_dep packaging     packaging
+    py_dep soupsieve     soupsieve
     py_dep pillow        pillow
     py_dep lxml          lxml
     py_dep cryptography  cryptography
@@ -91,8 +99,26 @@ if [[ "${SKIP_DEPS:-0}" != "1" ]]; then
 
     # python-magic (ctypes wrapper around libmagic). Always from pip: the module
     # shipped with the MSYS2 'file' package has a different, incompatible API.
-    PIP_BREAK_SYSTEM_PACKAGES=1 python -m pip install --upgrade python-magic
+    PIP_BREAK_SYSTEM_PACKAGES=1 python -m pip install --upgrade --no-deps python-magic
 fi
+
+# Fail early, with the full list, if a required Python module cannot be imported
+python - <<'PY'
+import importlib, sys
+required = ['PIL', 'bs4', 'brotli', 'cairo', 'colorlog', 'colorthief', 'cryptography', 'dateparser',
+            'ebooklib', 'emoji', 'gi', 'jwt', 'keyring', 'lxml.etree', 'magic', 'natsort', 'piexif',
+            'pypdf', 'pytesseract', 'pytz', 'rarfile', 'requests', 'unidecode', 'urllib3']
+missing = []
+for name in required:
+    try:
+        importlib.import_module(name)
+    except Exception as e:  # noqa: BLE001
+        missing.append(f'{name}: {type(e).__name__}: {e}')
+if missing:
+    print('ERROR: required Python modules cannot be imported:', *missing, sep='\n  ')
+    sys.exit(1)
+print('All required Python modules import correctly')
+PY
 
 PYVER="$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')"
 echo "Python $PYVER"
